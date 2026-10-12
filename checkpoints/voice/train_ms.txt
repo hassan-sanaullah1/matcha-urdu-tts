@@ -1,0 +1,1085 @@
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00400.wav|1|توپوں کے دائیں بائیں جوان گولہ انداز بادلے گلے پہنے ٹہل رہے تھے ۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01957.wav|1|aːʈoːmˈoːʈɪoː انجینیئرنگ کے موجد کی حیثیت sˈeː یہ ɖˈeːmələr کا ˈəzm hˈɛ اور ارادہ ہے kˈeː موبلٹی کے mʊstˈəqbɪl kˈoː محفوظ bənˈaːjaː ʤˈaːeː xˈətmə
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0072.wav|0|ʋˈɪɖɪoː کا ریشیو وغیرہ آپ یہاں سے sˈɛʈ کر سکتے ہیں اور بس اب ˈɛroː پر کلک کر دیں یہ دیکھیں اب ہمارے سامنے بلکل نئی ایمیجز ʤˈɛnəreːʈ ہو کر آ گئی ہیں اور آپ دیکھ سکتے ہیں اب
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0054.wav|0|تو یہ پہلے kənfˈərm کرے گا کہ آپ کو ʋˈɪɖɪoː fˈaːɪnəl fˈɔrm میں چاہیے یا پہلے ʃˈɔrʈ klˈɪps بنا دوں میں نے یہاں fˈaːɪnəl پہ klˈɪk کر دیا اب یہ ʋˈɪɖɪoː بنانا شروع کر دے گا اور اب اسے تھوڑا ʈˈaːɪm لگے گا اور یہ دیکھیں اس نے fˈaːɪnəl ʋˈɪɖɪoː rˈɛɖɪ کر دی ہے آپ یہ دیکھ سکتے ہیں
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0015.wav|0|لیکن اگر آپ کا ʈˈɔpɪk bˈɔrɪnɡ ہے یا آپ کی ʋˈɪɖɪoː میں ان کا ˈɪnʈrɛsʈ ہی ڈیولپ نہیں ہو رہا
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0046.wav|0|خیر اس کے بعد مجھے ای mˈeːl آئی اور اس میں مجھ سے کچھ ɪnfərmˈeːʃən مانگی کیونکہ انہوں نے میری ʋɛrɪfɪkˈeːʃən kəmplˈiːʈ کرنی تھی
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0021.wav|0|آپ کی ʋˈɪɖɪoː ɖˈaːʊnloːɖ ہونا شروع ہو جائے گی اب آپ نے یہاں سے ˈoːpən fˈoːlɖər پر کلک کرنا ہے اور
+data/3_training_lists/voice/wavs/_qZG68xJPag__0071.wav|0|جب تک آپ اسے نہیں بتائیں گے کہ اردو بلوانا ہے یہ اردو نہیں بولے گا لیکن مجھے اپنی کہانی کے لیے صرف ʋˈɪɖɪoːz چاہیے تھیں جس کے پیچھے nərˈeːʈər کہانی سنائے گا
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0053.wav|0|سچ کہوں تو flˈoː اے آئی سب سے بیسٹ ہے میں آپ لوگوں کو flˈoː اے آئی ہی ریکمینڈ کروں گی اور اگر کسی کو جی mˈeːl نہیں بنانا آتی تو وہ jˈuːʈjuːb سے کوئی ʋˈɪɖɪoː دیکھ کے سیکھ لے
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0045.wav|0|لیکن ایسا نہیں ہوتا ایسیو سب کچھ نہیں ہوتا ایسیو ایک برے kˈɔnʈɛnʈ کو اچھا نہیں بنا سکتا
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0043.wav|0|خیر میں نے سوچا میں jˈuːʈjuːb hˈɛlp ʈˈiːm سے بات کرتی ہوں کیونکہ وہ کافی hˈɛlp کرتے ہیں تو
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0062.wav|0|اور بہت سارے لوگ مجھ سے پوچھتے ہیں کہ آپ ʋˈɪɖɪoːz کیسے پوسٹ کرتی ہیں کوئی خاص ʈrˈɪk ہے تو بتائیں
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0062.wav|0|لیکن یہ دیکھیں اس نے صرف ایک ایمیج ʤˈɛnəreːʈ کی ہے اور باقی ایمیجز کو fˈeːlɖ کر دیا ہے حالانکہ اس مسئلے سے بچنے کے لیے میں نے وی پین بھی آن کیا ہوا تھا
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0061.wav|0|میں نے prˈɔmpʈ لکھ دیا ہے آپ اس کا skrˈiːn شاٹ لے سکتے ہیں اور اب جیسے ہی میں ایرو پہ کلک کروں گی تو ایمیجز ʤˈɛnəreːʈ ہونا شروع ہو جائیں گی
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00096.wav|1|پیرا ایس ایف کیپٹن کرن سنگھ ڈوگرہ کو چینی حکام نے اس وقت پکڑ لیا جب ان کا ہیلی کاپٹر معمول کی تربیتی مشق کے دوران چینی سرحد پر گر کر تباہ ہو گیا۔
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0024.wav|0|اور پھر یہاں سے ریوز prˈɔmpʈ پر کلک کروں گی تو آپ کا پہلے والا prˈɔmpʈ پھر سے لکھا ہوا آ جائے گا
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02228.wav|1|اس kˈeː مطابق سوسائٹی کے معا شرتی شعور kˈiː قطعی صورتیں ظہور پاتی ہیں ۔
+data/3_training_lists/voice/wavs/_qZG68xJPag__0038.wav|0|کہانی کے اکورڈنگ اب آپ نے نیچے ʤˈɛnəreːʈ spˈiːʧ پہ کلک کرنا ہے اور
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01287.wav|1|jˈuːɴ hˈɪndiː ʤˈɪs کا آغاز اردو میں عربی ˈoː fˈaːrsiː əlfˈaːz kˈiː جگہ sˈənskrɪt کے əlfˈaːz سے hˈuːaː تھا ۔
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0006.wav|0|اَسّلامُ علیکم میری jˈuːʈjuːb fˈɛmɪlɪ کیسے ہیں آپ سب
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0006.wav|0|کے بعد مجھے اپنی aːɪɖˈɛnʈɪʈɪ ʋˈɛrɪfaːɪ کرنی تھی جس کے لیے میں نے اپنا شناختی kˈaːrɖ استعمال کیا اور əɖrˈɛs ʋˈɛrɪfaːɪ کرنے کے لیے pˈɪn میتھرڈ سیلیکٹ کیا
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0044.wav|0|آپ یہاں سے ʋˈɪɖɪoː کو روک کر اس prˈɔmpʈ کو دیکھ سکتے ہیں prˈɔmpʈ لکھنے کے بعد اب میں نے یہاں ایروپا کلک کرنا ہے اور
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02451.wav|1|ان dɪnˈoːn ʋˈoː یوٹیوب pˈər کورین موسیقی بھی sˈiːkʰ rˈəhaː ہے۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00519.wav|1|آئیہولے کتبوں سے پتہ چلتا ہے کہ پُلکیشن نے پلّووں کے خلاف اپنی جدوجہد میں اپنے اتحادیوں کے طور پر چولا، چیرا اور پنڈیا بادشاہوں پر فتح حاصل کی۔
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0054.wav|0|مجھے لگا شاید میری نیچے ʧˈeːnʤ کرنے کی وجہ سے ایسا ہوا ہے کیونکہ میری ˈɔɖiːəns تو اسلامی pˈeːrənʈɪnɡ والی تھی
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00744.wav|1|وزیر اعلی نے افسروں کوکووڈ انیس سے بچاؤ ۔
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0065.wav|0|اور یہ دیکھیں یہ امیجز ʤˈɛnəreːʈɪɖ ہوئی ہیں اب اسی طرح اگلی امیجز ʤˈɛnəreːʈ کرواؤں گی اور یہ دیکھیں یہاں میں نے بہت ساری امیجز ʤˈɛnəreːʈ کروالی ہیں
+data/3_training_lists/voice/wavs/_qZG68xJPag__0050.wav|0|اب ان امیجز کو ʋˈɪɖɪoː میں کنورٹ کروانا ہے میں
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0010.wav|0|اس کے لیے آپ کو سب سے پہلے اپنا kˈɛrɪkʈər چاہیے جیسے میرے یہ کیریکٹرز ہیں اسی طرح کا kˈɛrɪkʈər آپ لوگوں نے بنانا ہے
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0062.wav|0|یہاں سے آپ اسے بڑا کر سکتے ہیں اب نیچے میں ɡrˈeːɖiːənʈ پہ جاؤں گی اور یہاں سے kˈələr ʧˈeːnʤ کروں گی تو یہ دیکھیں یہاں kˈələr ʧˈeːnʤ ہو جائے گا
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0027.wav|0|اب اگلی kˈɛʈɪɡərɪ کی بات کرتے ہیں اور وہ ہے اسلامی pˈeːrənʈɪnɡ اگر آپ بچوں کی تربیت اسلامی اخلاقیات اور fˈɛmɪlɪ ʋˈɛljuːz پر ʋˈɪɖɪoːz بنانا پسند کرتے ہیں تو یہ بھی ایک بہترین nˈiːʃ ہے اس
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0003.wav|0|prˈuːf کے لیے میں آپ کے ساتھ اپنے mˈoːbaːɪl کی skrˈiːn بھی ʃˈeːr کر دیتی ہوں تاکہ آپ خود دیکھ لیں یہ دیکھیں یہ ہے وہ اوفیشل mˈeːl جو مجھے jˈuːʈjuːb کی طرف سے آئی تھی ʋˈɛlkəm ʈuː دے jˈuːʈjuːb pˈaːrʈnər prˈoːɡrɛm
+data/3_training_lists/voice/wavs/od1gD9-brjk__0053.wav|0|امید کرتی ہوں آپ کو ہٹ پا کا ʋˈɪɖɪoː ʤˈɛnəreːʈər اور ʈˈɛks ʈə ʋˈɪɖɪoː والا fˈiːʧər سمجھ میں آ گیا ہوگا
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0006.wav|0|دوسری ایپ کا نام ہے ʈˈɛksʈ آن fˈoːʈoː flˈoː اے آئی تو ہمیں ɡˈuːɡəl پر مل جائے گا جبکہ ʈˈɛksʈ آن fˈoːʈoː والی ایپ ɖˈaːʊnloːɖ کرنے کے لیے ہمیں plˈeː sʈˈɔr پر جانا پڑے گا تو سب سے پہلے plˈeː sʈˈɔr پر جاتے ہیں
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0001.wav|0|جن سے آپ ایکشن ویڈیوز، ولوگنگ، sˈɛlf کیئر ruːʈˈiːn ʋˈɪɖɪoːz ، kˈʊkɪnɡ ʋˈɪɖɪoːz اور جس طرح کی ʋˈɪɖɪoːz آپ بنانا چاہتے ہیں ان ʈˈuːlz کی مدد سے بنا سکتے
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0002.wav|0|میں اپنی ʋˈɪɖɪoːz کیسے بناتی ہوں ان میں ʋˈɔɪs کیسے ایڈ کرتی ہوں اور ایک lˈɔnɡ ʋˈɪɖɪoː کیسے بناتی ہوں وہ بھی بالکل frˈiː میں تو اس کے لیے ʋˈɪɖɪoː کو اینڈ تک ضرور دیکھنا لیکن سب سے پہلے آپ یہ ʋˈɪɖɪoːz دیکھیں
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0042.wav|0|ہم نے یہاں سے اوپر hjˈuːmənaːɪz پہ جانا ہے اور یہاں کلک کرنا ہے اس سے آپ کے kˈɔpɪraːɪʈ کے ˈɪʃuːz بہت حد تک کم ہو جاتے ہیں اور یہ آپ کو ایک انسان کی طرح ایک rˈaːɪm لکھ کے دے دے گا
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0034.wav|0|چلتے ہیں اپنی اگلی kˈɛʈɪɡərɪ کی طرف جو ہے مسلمہ lˈaːɪf اسٹائل اور mˈɔrnɪnɡ ruːʈˈiːn ʋˈɪɖɪoːz
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01631.wav|1|ہیلو، کیا میں ڈاکٹر گوپی ناتھ سے بات کر رہی ہوں؟
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0047.wav|0|اس کے علاوہ جب آپ اپنی ʋˈɪɖɪoː ˈəploːɖ کریں تو ɖɪskrˈɪpʃən میں ʈˈaːɪm سٹیمز لازمی ایڈ کیا کریں
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01505.wav|1|سبزی خور مانتے ہیں انہیں بھی دبیر جلد والوں میں شامل کرتے ہیں ۔
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01282.wav|1|اتنے میں شام ہوگئی ، زور کی آندھی آنے گی ۔
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0061.wav|0|اب میں دوبارہ یہاں ˈɛɖɪʈ والے sˈaːɪn پہ جاؤں گی اور یہاں سے یہ ساری lˈaːɪn rɪmˈuːʋ کر دوں گی اور صرف یہاں بچوں لکھاوا رہنے دوں گی اور ʈˈɪk پہ klˈɪk کر دوں گی
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00574.wav|1|jˈeːh koːhˈiːmaː سے bˈaːrə کیلو میٹر dˈuːr ناگا ʋərˈaːstiː ɡaːˈoːn kəsˈaːmaː mˈeːɴ منایا ʤˈaːtaː hˈɛ
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0046.wav|0|اب جیسے مجھے یہ والا fˈɔnʈ sʈˈaːɪl پسند آیا ہے میں اس پہ یہاں ɖˈaːʊnloːɖ پہ klˈɪk کروں گی
+data/3_training_lists/voice/wavs/od1gD9-brjk__0045.wav|0|ʋˈɪɖɪoː بنانے کے لیے میں استعمال کروں گی ہٹ
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0014.wav|0|پر میں اس pˈeːmənʈ کو نہیں نکال سکتی تھی تو آخر کار مجھے jˈuːʈjuːb hˈɛlp ʈˈiːm سے رابطہ کرنا پڑا تو
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0045.wav|0|اگر آپ کو کوئی امیج پسند نہ آئے اور اس میں کچھ ʧˈeːnʤ کرنا ہو تو جو امیج ʤˈɛnəreːʈ ہو کر آئی ہے اس پر تھوڑی دیر دبا کر رکھیں اور یہاں ری یوز prˈɔmpʈ پر دو دفعہ klˈɪk kˈɛrən آپ کا پہلے والا prˈɔmpʈ دوبارہ لکھا ہوا آج
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0039.wav|0|آج کل یہ nˈiːʃ کافی ʈrˈɛnɖ میں ہے خاص طور پر ان لڑکیوں کے لیے جو اپنا چہرہ نہیں دکھانا چاہتے ہیں
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01277.wav|1|قندھار لے گیا جہاں وہ دو سال ذہنی اذیت کے بعد انتقال کر گئی ۔
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0002.wav|0|تو آج میں آپ لوگوں کو بتاؤں گی کہ میرے ساتھ یہ سب کچھ کیوں ہوا میں نے کونسی غلطیاں کی اور میں نے اس prˈɔbləm کو کیسے سولف کیا تو
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0001.wav|0|سب سے پہلے تو میں آپ سب کا دل سے شکریہ ادا کرنا چاہوں گی کہ آپ سب نے میری پچھلی ʋˈɪɖɪoː پر اتنا زیادہ پیار دکھایا اتنے پیارے پیارے kˈɔmɛnʈs کیے اور بہت کچھ نیا سیکھا
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0032.wav|0|اب یہاں سے آپ rˈeːʃɪoː sɪlˈɛkʈ کر سکتے ہیں اور پھر میں ʤˈɛnəreːʈ پر کلک کر دوں گی
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0009.wav|0|آگے چل کر ʋˈɪɖɪoː میں میں آپ کو یہ بھی بتاؤں گی کہ آپ ایک لمبی ʋˈɪɖɪoː کیسے kriːˈeːʈ کر سکتے ہیں اور آپ خود دیکھیں گے کہ الگ الگ klˈɪps ہونے کے باوجود میری لپسنگ ہر klˈɪp میں بلکل sˈeːm اور pˈərfɛkʈ رہے گی
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00629.wav|1|sˈərʊnɪ hˈəq rˈaː ʧˈuːn ʤənaːbˈeː مجتبےٰ ʧˈaːloːɴ kˈiː خودکار tərsˈiːl کو fˈaːl کرنے kˈeː lˈiːeː həsjˈaːtiː bˈoːrɖ تیار kˈiːeː ɡˈəeː hˈeːɴ
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0086.wav|0|اب اوپر plˈəs کے ˈaːɪkɔn پر کلک کریں ˈəploːɖ mˈiːɖiːə میں جائیں اور ɡˈɛlərɪ سے اپنی وہی امیج سیلیکٹ کر لیں جس کی آپ نے ʋˈɪɖɪoː بنانی ہے
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0045.wav|0|اوکے اب اگر میں اس لڑکی کو کوئی اور ابایا پہنانا چاہوں تو پر plˈəs پر کلک کر کے ˈəploːɖ mˈiːɖiːə پر جائیں سے وہ والا نیا ابایا لے آئیں جو ہمیں چاہیے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00190.wav|1|کیا ایسا کوئی کھلاڑی جسے میں جانتا ہوں جو اس ایوارڈ کا وصول کنندہ ہے؟
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0055.wav|0|کچھ دیر میں یہ کیریکٹرز یہاں ɖˈaːʊnloːɖɪɖ ہو جائیں گے اور یہی سے ہماری اصل ʋˈɪɖɪoː شروع ہوتی ہے کیونکہ کیریکٹرز تو ہم نے ایک بار ʤˈɛnəreːʈ کر لینے ہیں
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0033.wav|0|اب اس میں سے جو امیج آپ کو پسند ہو اسے ɖˈaːʊnloːɖ کر لیں تو یہ دیکھیں ہمارے کریکٹرز ʤˈɛnəreːʈɪɖ ہو چکے ہیں
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0016.wav|0|کچھ ہی دیر میں یہ آپ کے mˈoːbaːɪl fˈoːn میں نظر آنے لگے گی
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0013.wav|0|اور اپنی ʋˈɪɖɪoː میں مزید خوبصورتی ایڈ کرنے کے لیے ہم یوز کریں گے پنٹریسٹ
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0021.wav|0|آپ کے سامنے مختلف ɖrˈɛsɪz ہوں گے آپ نے ان میں سے کوئی بھی ɖrˈɛsɪz چوز کرنا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00154.wav|1|سجدے میں گر پڑا اور خدا کا شکر ادا kjˈaː xˈətmə
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0018.wav|0|اور یہاں سے اپنی ˈɪmɪʤ sɪlˈɛkʈ کروں گی اور ˈoːpən پر کلک کر دوں گی تو یہاں آپ کی ˈɪmɪʤ ɪmpˈɔrʈ ہو جائے گی
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0115.wav|0|بس شرط یہ ہے کہ آپ نے prˈɔmpʈ کو بہت دھیان سے دیکھنا اور پڑھنا ہے اور ہاں بہت سے لوگوں کا یہ سوال تھا کہ flˈoː اے آئی صرف انگلش ʋˈɔɪs ʤˈɛnəreːʈ کرتا ہے وہ اردو نہیں بولتا تو
+data/3_training_lists/voice/wavs/od1gD9-brjk__0044.wav|0|دیکھیں آپ کی امیجز ʤˈɛnəreːʈɪɖ ہو گئی ہیں اسی طرح سے آپ نے ہر بار rˈɛfrəns امیج دینی ہے اور یہ آپ کو امیجز ʤˈɛnəreːʈ کر کے دے دے گا اب باری آتی ہے ʋˈɪɖɪoː ʤˈɛnəreːʈ کرنے کی تو
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0001.wav|0|آج میں آپ سب کو بتاؤں گی کہ میں اپنی ʋˈɪɖɪoːz کیسے بناتی ہوں
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0059.wav|0|میں فوراں اپنے وائٹی sʈjˈuːɖɪoː پہ گئی اور وہاں مجھے ɖˈɔlər دوبارہ شو ہو گئے اور ˈərn sˈɛkʃən میں بھی سب ٹھیک ہو گیا اور
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0054.wav|0|جس میں پورا گاؤں شو ہو جہاں طوفان آ رہا ہے سب سبزیاں چھت پر سو رہی ہیں
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0072.wav|0|لیکن اس کی وجہ سے مجھے مسئلہ آ گیا تو خیر آپ سب نے بھی یہ کام نہیں کرنا اور
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00891.wav|1|حمزہ علی عباسی پاکستانی اداکار ہیں جو اپنے ڈرامے پیارے افضل کے لیے جانے جاتے ہیں جِس میں انہوں نے افضل کا کِردار نبھایا تھا۔
+data/3_training_lists/voice/wavs/od1gD9-brjk__0025.wav|0|اور یہاں sˈərʧ کرنا ہے ابایاز فور امرا یہاں پہ آپ کے سامنے اختلف ابایاز آ جائیں گے اب آپ کو جو ابایا پسند ہو آپ نے اس پہ کلک کرنا ہے
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0079.wav|0|kˈɔmɛnʈs کو ˈɔn ہی رکھوں گی اور sˈeːʋ کر دینا ہے اور یہاں سے یہی sˈɛʈɪnɡz تھی اس کے علاوہ آپ نے یہاں سے کچھ نہیں کرنا ایسے ہی چھوڑ دینا ہے
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0013.wav|0|تو چلیے پہلے مدر کا kˈɛrɪkʈər ʤˈɛnəreːʈ کرتے ہیں اس کے لیے آپ نے سب سے پہلے plˈeː sʈˈɔr پر آنا ہے
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0025.wav|0|اس سے آپ خود اندازہ لگا سکتے ہیں کہ ˈɪnɡlɪʃ lˈərnɪnɡ kˈɛʈɪɡərɪ کی کتنی زیادہ ڈیمانڈ ہے اور اس کی ایک اور اچھی بات یہ ہے کہ
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0015.wav|0|لیکن میں sˈɛkənɖz والے پر کلک کروں گی اور نیکسٹ پر کلک کر دوں گی اب یہاں آپ نے اپنا pˈaːsʋərɖ ڈالنا ہے اور نیکسٹ پر کلک کر دینا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02057.wav|1|ʋəbˈaːiː مرض kˈeː dərmjˈaːn ہم əqˈiːdət mˈəndoːɴ کی tˈaːdaːd میں ɪzˈaːfə dˈeːkʰ رہے hˈeːɴ
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00372.wav|1|جان عالم نے کہا بہتر ہے ۔
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0055.wav|0|کیونکہ مجھے بس اپنے عمرہ کے لیے پیسے جمع کرنے تھے اور کوئی بات نہیں تھی اور نہ ہی ایسا تھا
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0043.wav|0|اب دیکھیں میں یہاں اپنا prˈɔmpʈ کس طرح لکھتی ہوں اب میں یہاں پہ کچھ اس طرح کا prˈɔmpʈ لکھوں گی
+data/3_training_lists/voice/wavs/_qZG68xJPag__0032.wav|0|میں یہاں اس پہ کلک کروں گی اور اپنی fˈɪnɡər کو نیچے کی طرف سوائپ ڈاؤن کروں گی اب
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0008.wav|0|اور یہاں پر اگر وہ آپ سے pˈeːʈrən مانگے تو آپ اپنی لوگ skrˈiːn والا پیٹرن یہاں ڈال سکتے ہیں اب
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0043.wav|0|پھر ʤˈɛmɪnaːɪ پر جانا ہے اور وہاں سے اپنا پہلا prˈɔmpʈ کپی کر لینا ہے اور flˈoː پر آ کے pˈeːsʈ کر دینا ہے ان امیجز کے نیچے اور ایرو پر کلک کر دینا ہے تو یہ امیجز ʤˈɛnəreːʈ کرنا شروع کر دے گا اور یہ دیکھیں اس
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00634.wav|1|آج بادشاہ سلامت سے وطن جانے کی اجازت چاہوں گا ۔
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0052.wav|0|یہ آپ دیکھ سکتے ہیں اور یہ دیکھیں اس نے اور بھی ˈɪmɪʤɪz ʤˈɛnəreːʈ کر دی ہیں یہ دیکھیں
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00746.wav|1|fˈəʃər نے keːnɖiːɖˈiːʈs kˈeː مقابلوں mˈeːɴ اپنے مخالفین kˈoː ɣˈɛr سنے hˈuːeː مارجن سے شکست دی اور ɪspˈaːskiː kˈoː عالمی ʧˈeːmpən شپ کے lˈiːeː qˈaːɪl طور پر شکست dˈiː
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0004.wav|0|آج کی ʋˈɪɖɪoː صرف آپ کے لیے ہے کیونکہ آج میں آپ کے ساتھ ایسی اے آئی ʋˈɪɖɪoː kˈɛʈɪɡərɪz ʃˈeːr کرنے والی ہوں جن پر آپ اپنا jˈuːʈjuːb ʧˈɛnəl شروع کر سکتے ہیں تو چلیے ʋˈɪɖɪoː شروع کرتے ہیں سب سے پہلے بات کرتے ہیں ʋˈɛʤɪʈəbəl kˈɛrɪkʈər sʈˈɔrɪz کی
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0025.wav|0|تو ہے نا یہ ایک زبردست ʈˈuːl تو اب چلتے ہیں اپنے sˈɛkənɖ sʈˈɛp کی طرف
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0017.wav|0|اور اس نے مجھے اپیل fˈɔrm فلنے کا prˈoːsɛs prˈoːsɛs بتایا میں نے fˈɔrm فل کیا تو
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0028.wav|0|اور اگر آپ چاہتے ہیں کہ آپ کی ʋˈɪɖɪoːz کو زیادہ سے زیادہ لوگ دیکھیں باہر کے ملکوں سے بھی لوگ آپ کی ʋˈɪɖɪoːz دیکھیں کیونکہ باہر کے ملک سے لوگ دیکھیں گے تو اچھا rˈɛʋənjuː ملے گا نا
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00211.wav|1|آگرہ محفوظ سیٹ سے نو ۔
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0022.wav|0|تو یہ آپ کے لیے امیج ʤˈɛnəreːʈ کرنا شروع کر دے گا اور یہ دیکھیں اس نے مجھے یہ والی امیجز ʤˈɛnəreːʈ کر کے دی ہیں
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0075.wav|0|تو دیکھیں اور ری یوز prˈɔmpʈ کروں گی تو ہمارا پہلے والا prˈɔmpʈ لکھا ہوا آ جائے گا اب میں یہاں سے صرف یہ اردو lˈaːɪnz کٹ کر دوں گی باقی یہ ہی رہنے دوں گی اور
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00379.wav|1|بھارت ˈɔr پاکستان نے ˈɪbtɪdaː mˈeːɴ mˈəɣrɪbiː bənɡˈaːl kˈiː ملوں kˈeː لیے مشرقی bənɡˈaːl سے xˈaːm pˈəʈ sˈʊn درآمد kˈərneː kˈeː تجارتی معاہدے پر اتفاق کیا۔
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0047.wav|0|ایسے ہی رہنے دینا ہے کچھ نہیں کرنا اس کو پھر آپ نے یہاں ʧˈɛnəl پہ klˈɪk کرنا ہے تو یہاں آپ کے سامنے لکھا ہوا ہے kˈənʈrɪ ɔʋ rˈɛzɪɖəns آپ
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00439.wav|1|درباریوں kˈoː حکم dˈiːaː kˈeː جلد ʤˈaːoː اور جس طرح bˈən pˈəɽeː ˈɪs نوجوان kˈoː lˈeː کے ˈaːoː xˈətmə
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01334.wav|1|مجھے آپ کا نمبر میری ایک ریسرچ کی ساتھی سریجا سے ملا۔
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00462.wav|1|کیوں موت کے fərˈɪʃteː کو ʧʰˈeːʈərtaː hˈɛ ˈɔr کیوں zɪndˈəɡiː sˈeː mˈuːn پھیرتا ہے ۔
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0004.wav|0|سب سے پہلے یہ جان لیں کہ spˈɔnsərʃɪp کیا ہے تو آسان لفظوں میں spˈɔnsərʃɪp کا مطلب یہ ہے کہ کوئی brˈɛnɖ یا kˈəmpənɪ آپ لوگوں کو کہتی ہے کہ ہمارے prˈɔɖəkʈ ایپ یا کسی اے آئی ʈˈuːl کو اپنی ʋˈɪɖɪoː میں استعمال کر کے دکھائیں
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0007.wav|0|میں یہاں prˈɔmpʈ لکھوں گی مجھے ایک امیج بنا کے دو جیسے چھوٹے بچوں کی nˈərsərɪ رائمز ہوتی ہیں ایک lˈɪʈəl بوائی کی امیج شو کرو
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00865.wav|1|بڑا فکر مند ہوا ۔
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00488.wav|1|اس موقع پر وزیراعلی xˈətmə
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0037.wav|0|تو میں نے وہ ʧˈɛnəl بھی چھوڑ دیا اس کے بعد میں نے یہ والا ʧˈɛnəl لولابی lˈərnərz کے نام سے بنایا
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01321.wav|1|اکتیس نس سو اکیاون اس کے مرنے سے نہ صرف ساسانی سلسلہ ختم ہوا بلکہ ایران قدیمی دور سے منہ موڑ کر اسلامی دور میں داخل ہوگیا۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00464.wav|1|تلنگانہ ہندوستان کی سرفہرست آئی ٹی برآمد کرنے والی ریاستوں میں سے ایک ہے۔
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0005.wav|0|آج میں آپ کو یہی بتاؤں گی کہ میں اپنا تھامنیل کیسے بناتی ہوں تو چلیے sʈˈaːrʈ کرتے ہیں اس کے لیے آپ کو دو چیزوں کی ضرورت ہوگی ایک flˈoː اے آئی اور
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0000.wav|0|اَسّلامُ علیکم میری jˈuːʈjuːb fˈɛmɪlɪ کیسے ہیں آپ سب آج کی ʋˈɪɖɪoː میں بتاؤں گی کہ میں اپنا اے آئی ˈɛʋəʈaːr کیسے بناتی ہوں
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0015.wav|0|یہ kˈɛʈɪɡərɪ مجھے پرسنلی بہت پسند ہے کیونکہ اس میں بچوں کے لیے خوبصورت اور دلچسپ رائمز بنائی جاتی ہیں جنہیں بچے بہت شوق سے دیکھتے
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0046.wav|0|اس لیے میں چاہتی ہوں آپ واش ʈˈaːɪm سے زیادہ اس چیز پر fˈoːkəs کریں کہ آپ نے kˈɔnʈɛnʈ کونسا چوز کرنا ہے کیا ایسا بنائیں جسے لوگ شوق سے دیکھیں دھونڈیں sˈərʧ کریں
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00693.wav|1|امتحان کی آئندہ تاریخ کا جلد اعلان کیا جاۓ گا ۔
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01325.wav|1|اس عرصہ میں میرا کوئی وارث ادھر آ نکلا تو اچھا ہے ورنہ تیرے اختیار میں ہوں ۔
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0003.wav|0|کس قسم کی ʋˈɪɖɪoːz بنائیں اور کون سی nˈiːʃ منتخب کریں اگر آپ بھی انہی لوگوں میں سے ہیں تو
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0048.wav|0|jˈuːʈjuːb پر ہزاروں ʋˈɪɖɪoːz ہیں ˈɛɖɪʈɪnɡ سے ریلیٹڈ میں بھی وہی سے سیکھ رہی ہوں مجھے پراپر طریقے سے ˈɛɖɪʈɪnɡ نہیں آتی لیکن کوشش کرتی ہوں میں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01025.wav|1|کوئی بھی لائف سرٹیفکیٹ کب حاصل کر پائے گا؟
+data/3_training_lists/voice/wavs/_qZG68xJPag__0061.wav|0|جس سے یہ ایمیج یہاں rˈɛfrəns ایمیج کے طور پر لگ جائے گی اب آپ نے واپس ʧˈɛʈ جی پی پہ جانا ہے جہاں سے ہم نے ایمیجز کے لیے اس کے لیے prˈɔmpʈs لکھوائے تھے اسی ʧˈɛʈ میں جانا ہے اور اسے کہنا ہے کہ گیو miː ʋˈɪɖɪoː prˈɔmpʈ تو وہ آپ کو ʋˈɪɖɪoː prˈɔmpʈs دے دے گا
+data/3_training_lists/voice/wavs/_qZG68xJPag__0009.wav|0|آپ لوگوں کو پہلے ہی بتا دوں کہ یہ ایک pˈeːɖ ʈˈuːl ہے لیکن اس میں کچھ آوازیں بلکل frˈiː میں بھی مل جاتی ہیں اور میں نے وہی frˈiː آواز استعمال کر کے اپنی prəfˈɛʃənəl آواز ʤˈɛnəreːʈ کی تھی تو
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01685.wav|1|taːhˈəm البم کی ˈəsl گانے ʋˈaːliː kˈaːpiːoːɴ کو بازاروں سے nəhˈiːn həʈˈaːjaː گیا ۔
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0023.wav|0|اور یہ دیکھیں اس نے یہ کچھ تھامنیلز نکالے ہیں بٹ مجھے یہ تھامنیلز əʈrˈɛkʈɪʋ نہیں لگ رہے تو میں واپس اسی امیج پر lˈɔnɡ پریس کروں گی
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0051.wav|0|سپانسرشپس کے لیے تو مجھے ای میلز آنے لگیں لیکن یہاں ایک بہت ɪmpˈɔrʈənʈ بات یہ ہے کہ آپ کو کیسے پتا چلے گا کہ کونسی ای mˈeːl fˈeːk ہے اور کونسی ریل کیونکہ
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02259.wav|1|کیا آپ ان کی وضاحت کر سکتی ہیں؟
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02121.wav|1|ˈɪs میں میرا ʈrˈeːkɪnɡ kˈaː سارا سامان tʰˈaː
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0038.wav|0|اب میں یہاں اپنے حساب سے prˈɔmpʈs لکھوں گی کیونکہ ہمیں سب سے پہلے اپنے kˈɛrɪkʈər ʤˈɛnəreːʈ کرنے ہیں آپ یہاں skrˈiːn پر میرا prˈɔmpʈ دیکھ سکتے ہیں آپ اپنی مرضی سے اردو یا ˈɪnɡlɪʃ جس میں چاہیں prˈɔmpʈ لکھ سکتے ہیں
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0026.wav|0|اور یہ دیکھیں اس نے آپ کے سامنے یہ والی امیج نکال دی ہے اب مجھے اصل میں سائیڈ پر اپنا ہی کوئی تھامنیل چاہیے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01937.wav|1|اتھترچھ سو ستینوے عیسوی میں عبد اللہ بن بکرۃ عبید بن بکرۃ بامیان کے راستے کابل پر حملہ آور ہوا۔
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0025.wav|0|کرنا ہے یعنی گرل کا fˈeːs کرپ کر دینا ہے اور یہ والی امیج جس میں گرل کا fˈeːs ہے اسے ڈیلیٹ کر دینا ہے اب آپ نے ɡˈuːɡəl پہ جانا ہے اور وہاں sˈərʧ کرنا ہے flˈoː اے آئی
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0054.wav|0|نیچے kˈɔmɛnʈ sˈɛkʃən میں مجھے ضرور بتائیں میں آپ کے سارے kˈɔmɛnʈs پڑھتی ہوں اور جیسے جیسے میری مزید ʋˈɪɖɪoːz آئیں گے میں ان میں آپ کے ایک ایک سوال کا تفصیلی جواب دوں گی تاکہ آپ کا کام نہ رکے
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0084.wav|0|اب ʧˈɛnəl تو بن گیا لیکن اس پہ کام کیسے کرنا ہے میں تو یہی کہوں گی کہ سب سے زیادہ جو چیز ɪmpˈɔrʈənʈ ہے وہ ہے kənsˈɪsʈənsɪ اور
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0018.wav|0|آگے آپ نے ɪnʋˈərʈɪɖ kˈɔməz لگا دینے ہیں اور پھر اپنی وہ lˈaːɪn لکھنی ہے جو
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0031.wav|0|سب سے پہلے میں نے ایک pˈeːnʈɪnɡ کا ʧˈɛnəl بنایا جس پر میں اپنی pˈeːnʈɪnɡ کی ʋˈɪɖɪoːz ˈəploːɖ کرتی تھی لیکن میں نے وہ ʧˈɛnəl بہت جلد چھوڑ دیا کیونکہ روزانہ pˈeːnʈɪnɡ کرنا اور پھر اس کی ʋˈɪɖɪoː بنانا کافی محنت والا کام تھا
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0021.wav|0|لیے ہمیشہ کوشش کیا کریں کہ ایسا kʋˈɔlɪʈɪ kˈɔnʈɛnʈ بنائیں جس سے واقعی لوگوں کو فائدہ ہو اور انہیں آپ کی ʋˈɪɖɪoː دیکھنے کے بعد لگے کہ ہاں اس ʋˈɪɖɪoː سے مجھے کچھ سیکھنے کو ملا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02052.wav|1|ہیلو میم۔ میں نریش بول رہا ہوں۔
+data/3_training_lists/voice/wavs/_qZG68xJPag__0028.wav|0|اب آپ نے اس جگہ پہ جانا ہے اور یہاں کلک کرنا ہے تو آپ کے سامنے بہت ساری ʋˈɔɪsɪz جائیں گی
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0006.wav|0|تو سب سے پہلے چلتے ہیں ɡˈuːɡəl krˈoːm پہ اور وہاں sˈərʧ کرنا ہے ہکس اے آئی تو آپ نے یہاں ʈˈaːɪp کرنا ہے ہکس اے آئی
+data/3_training_lists/voice/wavs/od1gD9-brjk__0010.wav|0|لیکن آپ نے تھوڑا نیچے سکرول کرنا ہے اور آپ کے سامنے یہاں بہت سارے ایکسپیرمنٹنٹس آ جائیں گے آپ نے ان میں سے میوزک والا ˈɔpʃən ڈھونڈنا ہے تو
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0026.wav|0|اب آپ نے مولی کا kˈɛrɪkʈər نکالنا ہے یعنی rˈɛɖɪʃ ˈɪnɡlɪʃ میں مولی کو rˈɛɖɪʃ کہتے ہیں تو
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0099.wav|0|ہماری اگلی ʋˈɪɖɪoː بھی ʤˈɛnəreːʈɪɖ ہو گئی ہے اس کو بلکل بھی مشکل نہیں ہے بس سارا کھیل ایک بہترین prˈɔmpʈ کا ہے اگر آپ کا prˈɔmpʈ اچھا ہے تو ˈɛʋəʈaːr بھی pˈərfɛkʈ بنے گا آگے چل کر ʋˈɪɖɪoː میں میں آپ کو یہ بھی بتاؤں گی
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0014.wav|0|اور یہ کچھ ہی دیر میں lˈoːɖɪɖ ہو جائے گی اب اس امیج پر تھوڑی دیر پریس کر کے رکھیں گے تو کچھ آپشنز آئیں گے
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0109.wav|0|لیں جی یہی وہ زبردست طریقہ تھا جس سے میں اپنی lˈɔnɡ ʋˈɪɖɪoːz بناتی ہوں اب ʋˈɪɖɪoː کو fˈaːɪnəlaːɪz کرنے کے لیے ہم جائیں گے کیپ
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0032.wav|0|جتنا مرضی zˈuːm کریں بہت اچھی امیج ʤˈɛnəreːʈ کر کے دی ہے اب ہم ʋˈɪɖɪoː کو دیکھتے ہیں تو
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0015.wav|0|خیر جب میں نے jˈuːʈjuːb ʈˈiːm سے بات کی تو انہوں نے مجھے ایک fˈɔrm فل کرنے کو کہا
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00684.wav|1|بادشاہ کی بے قراری شہزادی شہزادے کی گریہ وزاری کسی سے دیکھی نہ جاتی تھی ۔
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0046.wav|0|ہاں وہ ایک اچھے kˈɔnʈɛnʈ کو پوش کر سکتا ہے صحیح ˈɔɖiːəns تک پہنچا سکتا ہے لیکن اس کے لیے سب سے پہلے آپ کو ضرورت ہے ایک اچھا kˈɔnʈɛnʈ بنانے کی
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0000.wav|0|اَسّلامُ علیکم میری jˈuːʈjuːb fˈɛmɪlɪ کیسے ہیں آپ سب لوگ
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0002.wav|0|کو jˈuːʈjuːb پر کام شروع کرنے یا اپنا کام جاری رکھنے کا حوصلہ دیں اس لئے ʋˈɪɖɪoː کو آخر تک ضرور دیکھنا تو خیر
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00256.wav|1|موت کے بعد ان کی پازیٹیو کورونا رپورٹ موصول ہوئی ۔
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0007.wav|0|اب آپ نے اپنی جی mˈeːl پر کلک کرنا ہے تو آپ کی ساری جی mˈeːl آئی ڈیز یہاں نظر آنے لگیں گی اب یہاں پر نیچے لکھا ہوا ہے ایڈ ənˈədər əkˈaːʊnʈ آپ نے اس پر کلک کرنا ہے
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0061.wav|0|بس اب دیر کس بات کی آپ بھی جلدی سے اپنا jˈuːʈjuːb ʧˈɛnəl بنائیں محنت کریں اور ʋˈɪɖɪoːz ˈəploːɖ کرنا شروع کریں
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0028.wav|0|تو سب سے پہلے ہم لوگ چلتے ہیں امیج جنریشن کی طرف یہاں سے آپ نے امیجز سیلیکٹ کر لینی ہے اور یہاں آپ اپنا prˈɔmpʈ لکھیں جیسے میں prˈɔmpʈ لکھ رہی ہوں
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0004.wav|0|آپ خود دیکھ سکتے ہیں کہ ʧˈɛnəl بقاعدہ mˈɔnɪʈaːɪzɖ ہو چکا ہے تو اب اپنے دل سے یہ ڈر بلکل نکال دیں کہ اے آئی ʋˈɪɖɪoːz mˈɔnɪʈaːɪzɖ نہیں ہوتی آپ کا یہ ڈر بلکل سچا ہے کیونکہ آج کل ہمیں ہر جگہ
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0006.wav|0|نے بھی jˈuːʈjuːb پر اس سے ریلیٹڈ بہت ساری ʋˈɪɖɪoːz دیکھیں جہاں یہی بتایا جاتا ہے کہ آپ اے آئی کی نہیں بلکہ اپنی اصلی آواز استعمال کریں تب ہی آپ کا ʧˈɛnəl mˈɔnɪʈaːɪzɖ ہوگا
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00949.wav|1|پینتالیس ہزار میٹر یک ٹن گیہوں کی ریکارڈخرید کی جا چکی ہے ۔
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0002.wav|0|لیکن ہماری fˈɛmɪlɪ کے کچھ ʋjˈuːərz ایسے بھی تھے جنہیں ابھی بھی flˈoː اے آئی کو استعمال کرنے میں کچھ ایشوز آ رہے تھے
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00448.wav|1|ʃˈɛhzaːdeː nˈeː سارے سوالوں kˈaː ادب sˈeː ʤˈəʋaːb دیا xˈətmə
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0049.wav|0|کیونکہ جس ʈˈuːl کی عادت ہو جاتی تھی وہ کچھ عرصے بعد pˈeːɖ ہو جاتا تھا
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0054.wav|0|میں ان میں سے کوئی بھی ʧˈuːz کر لوں گی یہاں سے آپ لوگ اپنے ʈˈɛksʈ میں ɛnɪmˈeːʃən دے سکتے ہیں اور یہاں بہت سارے طریقے ہیں ˈɛɖɪʈɪnɡ کے آپ اپنی مرضی سے جیسے چاہیں ˈɛɖɪʈɪnɡ کر سکتے ہیں اب
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00386.wav|1|مودی کے مطابق کسانوں کی آمدنی میں اضافے افزائش مویشیاں اور دیگر تجارتوں کا بڑا رول ہوتا ہے ۔
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0074.wav|0|یعنی جو لوگ ابھی مونیٹائزیشن کے لیے اپلائے کر رہے ہیں تو ان کے sˈɛkənɖ sʈˈɛp پہ یہ مسئلہ آ رہا ہے لیکن یہ میں نے صرف سنا ہے باقی اللہ بہتر جانتا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01751.wav|1|میپ بھی مہیا کرتا ہے ساتھ ہی صارف کے مقام کے لحاظ سے مضامین کی فہرست بھی دکھاتا اس خصوصیت کو نقشہ کی صورت میں بھی پیش کرتا ہے ۔
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0010.wav|0|اس پوری ʋˈɪɖɪoː میں کسی ایک kˈəmpənɪ کے prˈɔɖəkʈ کا ذکر کرتے ہو اور اس ʈˈuːl کو استعمال کرنا سکھاتے ہو
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00574.wav|1|یہ کوہیما سے بارہ کیلو میٹر دور ناگا وراثتی گاؤں، کساما میں منایا جاتا ہے
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0009.wav|0|اب بات کرتے ہیں ɖˈɛɖɪkeːʈɪɖ spˈɔnsərʃɪp کی تو ɖˈɛɖɪkeːʈɪɖ spˈɔnsərʃɪp میں آپ ایک lˈɔnɡ ʋˈɪɖɪoː بناتے ہو جیسے چھے سے دس mˈɪnɪʈs کی اور
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0045.wav|0|اب یہ دیکھیں اس نے مجھے یہ ˈɪmɪʤɪz ʤˈɛnəreːʈ کروا کے دے دی ہیں پوری rˈaːɪm کی ˈɪmɪʤɪz ایک ہی بار میں ʤˈɛnəreːʈ کر دی ہیں
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0058.wav|0|گائز جہاں سے میں نے امید چھوڑ دی تھی اللہ تعالیٰ نے وہیں سے میری ʋˈɪɖɪoː کو پوش کر دیا اس
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0044.wav|0|یہاں پر کلک کر کے آپ اپنی spˈiːʧ کے əkˈɔrɖɪnɡ ʧˈuːz کر سکتے
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0020.wav|0|آپ کے سامنے پنٹریسٹ ایپ ˈoːpən ہو جائے گی اب آپ نے اوپر sˈərʧ bˈaːr پہ لکھنا ہے bjˈuːʈɪfəl پاکستانی ɖrˈɛsɪz تو
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0042.wav|0|شروع میں اتنی اچھی نہیں تھی لیکن آہستہ آہستہ نئی چیزیں سیکھتی گئی اور ہر ʋˈɪɖɪoː کے ساتھ اپنی ˈɛɖɪʈɪnɡ اور kʋˈɔlɪʈɪ امپروف کرتی گئی
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0053.wav|0|تو وہ عام طور پر سب سے پہلے اپنے بارے میں بتائے گا کہ وہ کون ہیں کیا کام کرتے ہیں اور آپ سے کس طرح کی کلابریشن چاہتے ہیں اس
+data/3_training_lists/voice/wavs/_qZG68xJPag__0031.wav|0|مجھے یہ والی پسند ہے ʤˈɛnʈəl sʈˈɔrɪ ٹیلر کیونکہ اس کے بولنے کا انداز مجھے بہت پسند ہے تو
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0025.wav|0|اب آپ خود سوچیں کہ اگر آپ کی ˈɛɖɪʈɪnɡ اچھی نہ ہو تو کیا لوگ آپ کی ʋˈɪɖɪoː دیکھنا پسند کریں گے
+data/3_training_lists/voice/wavs/_qZG68xJPag__0076.wav|0|اس پہ کلک کرتے ہی آپ کے fˈoːn کی ساری ɡˈuːɡəl آئیڈیز سامنے آ جائیں گی آپ نے کسی بھی دوسری آئیڈی پہ کلک کرنا ہے پھر
+data/3_training_lists/voice/wavs/od1gD9-brjk__0033.wav|0|اب جیسے ہی ایرو پہ کلک کریں گے تو آپ کے سامنے امیجز ʤˈɛnəreːʈ ہونا شروع ہو جائیں گی اور یہ دیکھیں
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0053.wav|0|جہاں سے ہم نے ɖɪskrˈɪpʃən لکھوایا تھا اور میں وہاں لکھوں گی مجھے میرے ʧˈɛnəl سے rɪlˈeːʈɪɖ kˈiːʋərɖz لکھ کر دو وہ
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0041.wav|0|اور اوپر ʈˈɪk پہ klˈɪk کر دوں گی تو یہ دیکھیں آپ کے سامنے یہ ʈˈɛksʈ لکھا ہوا آ گیا ہے اب میں نیچے یہاں ɡrˈeːɖiːənʈ پہ klˈɪk کروں گی اور یہاں سے آپ دیکھ سکتے ہیں کہ ان میں سے کسی بھی kˈələr پہ klˈɪk کروں گی تو آپ کا ʈˈɛksʈ جو پہلے صرف blˈɛk تھا
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0060.wav|0|میں یہاں nˈoː پہ klˈɪk کروں گی یعنی ہم نے اپنا ʧˈɛnəl بچوں کے لیے sˈɛʈ نہیں کرنا کیونکہ kˈɪɖz ʧˈɛnəl پہ ˈərnɪnɡ تھوڑی کم ہوتی ہے اس لیے ہم nˈoː کریں گے
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0091.wav|0|لیں جی یہ تھا kəmplˈiːʈ ʈjuːʈˈɔrɪəl جس میں میں نے آپ لوگوں کو سکھایا کہ fˈeːməs ʋˈɛʤɪʈəbəl ʋˈɪɖɪoːz آپ کیسے بنا سکتے ہیں امید کرتی ہوں آپ کو یہ ʈjuːʈˈɔrɪəl پسند آیا ہوگا اور سمجھ بھی آگئی ہوگی
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0023.wav|0|یہ امیج آپ کی ɡˈɛlərɪ میں چلی جائے گی اب آپ نے یہاں سے اپنی مرضی سے کوئی بھی ɖrˈɛsɪz ɖˈaːʊnloːɖ کر لینا ہے جو آپ کو پسند ہو اب
+data/3_training_lists/voice/wavs/od1gD9-brjk__0032.wav|0|اب یہاں نیچے میں نے prˈɔmpʈ لکھنا ہے تو یہاں میں نے prˈɔmpʈ لکھ دیا ہے آپ یہاں سے دیکھ سکتے ہیں
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0007.wav|0|اب آپ نے یہاں اوپر plˈəs کے نشان پر کلک کرنا ہے اور ɡˈɛlərɪ سے وہ تصویر ɪmpˈɔrʈɪɖ کر لینی ہے جسے ʋˈɪɖɪoː میں تبدیل کرنا ہے
+data/3_training_lists/voice/wavs/od1gD9-brjk__0031.wav|0|اب آپ نے اس ɖrˈɛs والی امیجز پہ پریس کر کے رکھنا ہے اور یہاں ایڈ ʈə prˈɔmpʈ پہ دو بار کلک کرنا ہے تو یہ امیجز rˈɛfrəns امیجز کے طور پہ لگ جائے گی
+data/3_training_lists/voice/wavs/_qZG68xJPag__0052.wav|0|تو دیکھیں اب میں آپ کے سامنے آپ کو ʋˈɪɖɪoːz بنا کے دکھاؤں گی ایک اور ɪmpˈɔrʈənʈ چیز میں
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0045.wav|0|اس نے بلکل اسی حساب سے ہمیں ʋˈɪɖɪoː بنا کر دے دی ہے اس
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0049.wav|0|میں یہاں آپ کو ایک بات بتانا چاہتی ہوں میں دو تین دن سے ɡˈuːɡəl ʤˈɛmɪnaːɪ سے ʋˈɪɖɪoːz بنا رہی ہوں اور آج صبح بھی میں نے ʤˈɛmɪnaːɪ سے ایک ʋˈɪɖɪoː ʤˈɛnəreːʈ کی
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_01081.wav|1|اور انہیں مختلف دوا خانوں سے ڈسچارج کر دیا گیا ہے ۔
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0033.wav|0|میرے əkˈaːʊnʈ پہ ɪnʋˈɛlɪɖ klˈɪks کا ایشو تھا اب ɪnʋˈɛlɪɖ klˈɪks کیا ہوتے ہیں
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0041.wav|0|اور یہ دیکھیں اس نے مجھے پوری طرح سے یہاں ایک ˈɪnɡlɪʃ rˈaːɪm بنا کے دے دی ہے یہ آپ دیکھ سکتے ہیں اب
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0030.wav|0|اس سے ان لوگوں کو بھی آپ کی ʋˈɪɖɪoː سمجھنے میں آسانی ہوگی جو آپ کی زبان نہیں سمجھتے اس
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0053.wav|0|اچھا اب ہم ʋˈɪɖɪoː ʤˈɛnəreːʈ کرتے ہیں اور یہاں میں prˈɔmpʈ لکھوں گی کہ ʋˈɪɖɪoː بنا دو
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0049.wav|0|اب آپ نے کیا کرنا ہے جو پہلے ɖrˈɛs یہاں ایڈ تھا اس پہ کلک کریں گے تو وہ ɖrˈɛs یہاں سے کٹ ہو جائے گا اور اس گرل کی لازمی دینی ہے جو ہم نے پہلے ɖˈaːʊnloːɖ کی تھی
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02931.wav|1|sˈəɽkoːɴ پر ہونے والی چار dɪnˈoːn کی xoːnrˈiːz ləɽˈaːiː میں کئی həzˈaːr چیک mˈaːreː ɡˈəeː دونوں طرف سے bˈəhʊt سے مظالم ڈھائے ɡˈəeː
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0024.wav|0|ہم نے ɡˈɛlərɪ میں جانا ہے اور اس امیج کو کرپ
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0102.wav|0|آپ ایک لمبی ʋˈɪɖɪoː کیسے kriːˈeːʈ کر سکتے ہیں اور آپ خود دیکھیں گے کہ الگ الگ klˈɪps ہونے کے باوجود میری لپسنگ ہر klˈɪp میں بلکل sˈeːm اور pˈərfɛkʈ رہے گی
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01350.wav|1|ʤˈəʋaːn ˈaːləm nˈeː təfsˈiːl پوچھی تو ˈɪs nˈeː ʃˈʊruː سے ˈaːxɪr tˈək ساری داستان سنادی ۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00776.wav|1|سر، بات یہ ہے، جیسا کہ آپ جانتے ہیں ہمارا کالج فیسٹ پچھلے دو سالوں سے کوویڈ کے کیسوں کی وجہ سے منسوخ کر دیا گیا
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0003.wav|0|ʋˈɪɖɪoː ʤˈɛnəreːʈ کرنا ہم ایک ہی ʈˈuːl کی مدد سے کر سکتے ہیں
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0041.wav|0|ایکچولی میں تھوڑی چوزی ہوں اور مجھے جلدی سے کوئی ایمیج پسند نہیں آتی لیکن اگر آپ میری طرح چوزی نہیں ہیں تو آپ پہلے والی ایمیجز بھی ɖˈaːʊnloːɖ کر سکتے ہیں خیر مجھے یہ والی کچھ بہتر لگی ہے تو میں اس کی skˈɪn کو تھوڑا مزید امپروف کرنا چاہوں گی میں اس ایمیج پر پریس کروں گی
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0029.wav|0|frˈɛnɖlɪ تو یہ آپ کے لئے ایک ɖɪskrˈɪpʃən لکھ دے گا لیکن یہاں لکھتے ہوئے آپ لوگوں نے ضرور mˈɛnʃən کرنا ہے کہ آپ اپنے ʧˈɛnəl پر کس طرح کی ʋˈɪɖɪoːz بنائیں گے
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0031.wav|0|اس نے یہ والی امیجز ʤˈɛnəreːʈ کی ہیں اب اسی طرح میں لیمو کا kˈɛrɪkʈər ʤˈɛnəreːʈ کرواؤں گی اور یہ والا prˈɔmpʈ لکھوں گی آپ یہاں سے دیکھ سکتے ہیں
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0027.wav|0|اور یاد رکھیں کہ آپ کے bˈɛnk əkˈaːʊnʈ کا نام بلکل وہی ہونا چاہیے جو آپ کے ایڈسنس اور شناختی kˈaːrɖ پر ہے
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0003.wav|0|کا تھامنیل جتنا زیادہ زبردست اور پرکشش ہوگا لوگ اتنا ہی زیادہ آپ کی ʋˈɪɖɪoː پر کلک کریں گے آپ کا سی ٹی آر امپروو ہوگا اور jˈuːʈjuːb آپ کی ʋˈɪɖɪoː کو مزید نئے لوگوں تک بھیجے گا
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00978.wav|1|maːrəbʰɡˈaːjaː bˈeːroːɴ nˈeː ان sˈəkʰoːɴ kˈiː تمام جاگیریں zˈəbt کر lˈeːɴ xˈətmə
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0040.wav|0|سب سے پہلے جو ویب سائٹ آئے گی آپ نے اس پہ کلک کرنا ہے اور آپ کے سامنے اس طرح کا ˈɪnʈərfeːs آ جائے گا
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0001.wav|0|اور میرے ایڈسنس əkˈaːʊnʈ کو səspˈɛnɖ کر دیا تھا جس کی وجہ سے نہ میری ʋˈɪɖɪoːz پر ɖˈɔlər بن رہے تھے اور نہ ہی ایڈز چل رہی تھی
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0005.wav|0|سب سے پہلے آپ نے اپنی ˈɔɖiːəns کے mˈaːɪnɖ کو ریڈ کرنا ہے کہ وہ کیا چاہتی ہے وہ کس طرح کی ʋˈɪɖɪoːz دیکھنا چاہتی ہے
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0002.wav|0|جانتی ہوں کہ آج کل بہت سے لوگ jˈuːʈjuːb ʧˈɛnəl شروع کرنا چاہتے ہیں لیکن وہ اس بات پر کنفیوز ہوتے ہیں کہ آخر jˈuːʈjuːb پر کس ʈˈaːɪp کی ʋˈɪɖɪoːz ˈəploːɖ کریں
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0076.wav|0|ہم نے ساتھویں ʋˈɪɖɪoː ʤˈɛnəreːʈ کرنی ہے ایڈ ʈə prˈɔmpʈ کرنا ہے اور اگر آپ چاہتے ہیں کہ آپ کے kˈɛrɪkʈər اردو بولیں تو
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0024.wav|0|اور آوازوں میں جا کر ایلس ʤˈɛnʈəl sʈˈɔrɪʈɛlər sˈərʧ کرنا ہے کیونکہ میں خود بھی اپنی ʋˈɪɖɪoːz کے لیے یہی آواز یوز کرتی ہوں
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0016.wav|0|تو سب سے پہلے آپ نے اپنا kˈɛrɪkʈər ʤˈɛnəreːʈ کرنا ہے
+data/3_training_lists/voice/wavs/_qZG68xJPag__0079.wav|0|ʧˈɛʈ جی پی ٹی سے sˈiːn فور کا prˈɔmpʈ لیں یہاں pˈeːsʈ کریں اور ایرو پہ کلک کر دیں آپ کی fˈɔrtʰ ʋˈɪɖɪoː ʤˈɛnəreːʈ ہونا شروع ہو جائے گی اور یہ دیکھیں
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0036.wav|0|یہاں kˈɛmrə والی جگہ پہ klˈɪk کرنا ہے اور ɡˈɛlərɪ سے bˈɛnər sɪlˈɛkʈ کر لینا ہے اور پھر اسے یہاں سے əʤˈəsʈ کرنا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01755.wav|1|مسلمانوں کے سیاسی حقوق کا تحفظ اور حکومت میں صحیح نماٸندے بھیج سکیں ۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00804.wav|1|ʃˈeːkʰər ʤˈiː کا تذکرہ پارشواناتھ kəriːˈət mˈeːɴ بھی ملتا hˈɛ جو پارشوا کی بارہویں sˈədiː کی سوانح عمری hˈɛ
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01321.wav|1|əktˈiːs nˈəs sˈoː اکیاون ˈɪs کے مرنے sˈeː نہ sˈɪrf saːsˈaːniː سلسلہ ختم hˈuːaː bəlkˈeːh iːrˈaːn قدیمی دور سے منہ mˈoːɽ kˈər ɪslˈaːmiː دور میں dˈaːxɪl hˈoːɡjaː
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00026.wav|1|bərtaːnˈiːə میں یہ kʰˈeːl ˈaːm طور پر پبوں میں کھیلا ʤˈaːtaː ہے، ˈɔr یہ bˈɛhɛr ˈoːqjaːnoːs kˈeː دونوں tərˈəf lˈeːɡoːɴ mˈeːɴ məsˈaːbəqtiː tˈɔr pˈər کھیلا جاتا ہے۔
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0008.wav|0|sˈərʧ کرنے کے بعد سب سے اوپر ہمیں ایک ویب سائٹ شو ہوگی یہ والی اس پہ کلک کرنا ہے تو آپ کے mˈeːn ہکس اے آئی کا mˈeːn ʋˈərk پلیس ˈoːpən ہو جائے گا
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0005.wav|0|اپنی ʋˈɪɖɪoː پر ایڈ چلانے کی کوشش کی میں نے سوچا میں فلحال تھاؤزن rˈuːpiːz انویسٹ کرتی ہوں
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0019.wav|0|مولی ایک ماں کا kˈɛrɪkʈər ہوگی ٹامارٹر ایک چھوٹے لڑکے کا kˈɛrɪkʈər ہوگا اور lˈɛmən ایک چھوٹی لڑکی کا kˈɛrɪkʈər ہوگی اب
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00401.wav|1|کیا اس سہولت کے کچھ نقصانات بھی ہیں؟
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0048.wav|0|نے یہاں klˈɪk کرنا ہے اور جس kˈənʈrɪ سے آپ ہیں وہ kˈənʈrɪ sɪlˈɛkʈ کرنی ہے آپ کوئی اور kˈənʈrɪ بھی ʧˈuːz کر سکتے ہیں اگر کوئی چاہتا ہے کہ وہ یہ دکھائے کہ اس کا یو ایس اے کا ʧˈɛnəl ہے
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0051.wav|0|اصل میں jˈuːʈjuːb کی pˈeːmənʈ کا sˈɪsʈəm یہ ہوتا ہے کہ اگر جولائی کی pˈeːmənʈ ہے تو وہ ˈɔɡəsʈ میں ملتی ہے اور ˈɔɡəsʈ کی pˈeːmənʈ sɛpʈˈɛmbər میں تو
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00544.wav|1|jˈeːh تجویز کیا ʤˈaːtaː ہے kˈeː آٹھ سو pənʧˈiːs عیسوی میں کولم دور، کیرالہ کیلنڈر، kˈeː aːɣˈaːz نے pˈaːnɖjaː kˈeː qˈəbzeː sˈeː ویناڈو kˈiː آزادی kˈoː نشان زد کیا۔
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0027.wav|0|یہاں پہ جا کے دیکھیں آپ کو کافی سارے فیچرز ملیں گے جیسے آپ یہاں سے امیج بھی ʤˈɛnəreːʈ کر سکتے ہیں اور ʋˈɪɖɪoːz بھی ʤˈɛnəreːʈ کر سکتے ہیں
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0026.wav|0|آپ کے سامنے یہ والی ویب سائٹ آ جائے گی ɡˈuːɡəl flˈoː آپ نے اس پہ کلک کرنا ہے باقی اس کا lˈɪnk میں آپ کو ɖɪskrˈɪpʃən میں بھی دیں تو
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0006.wav|0|میں نے صرف flˈoː اے آئی کو ایک sˈɪmpəl prˈɔmpʈ دیا تو flˈoː اے آئی نے مجھے یہ ʋˈɪɖɪoː بنا کے دے دی میں نے اپنی ʋˈɔɪs کو sˈɛprəʈlɪ ایڈ نہیں کیا
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0046.wav|0|جیسے یہ ابایا آ گیا ہے اب ہم نے rˈɛfrəns پر جو پرانا ابایا دیا ہوا تھا اسے ہٹانا ہے کیونکہ اب ہم نے نیا ابایا پہنانا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02152.wav|1|نہیں، میرا ماننا ہے کہ وہ تو صرف آپ کو اپنا بیج دینے کے لیے بلا رہے ہیں۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00219.wav|1|ٹھیک ہے، hˈəm اپنی پوری kˈoːʃɪʃ kˈər سکتے hˈeːɴ جناب۔
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0015.wav|0|لیکن frˈiː krˈɛɖɪʈs میں میں نے اتنی لمبی ʋˈɪɖɪoː کیسے تیار کی ہیں یہ ساری ɖˈiːʈeːlz میں آپ کو آگے چل کر بتاؤں گی
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01102.wav|1|bˈəʧpən سے hˈiː bˈərq صاحب کی طبیعت ʃaːˈaːɪriː kˈiː tərˈəf mˈaːɪl تھی ۔
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0044.wav|0|اور امیج پر پھر سے دبا کر رکھیں اور ɖˈaːʊnloːɖ امیج پر klˈɪk kˈɛrən
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0033.wav|0|اب ˈɛʋəʈaːr بننا شروع ہو جائے گا اور یہ دیکھیں ˈɛʋəʈaːr بن چکا ہے اور دیکھیں میں اسے zˈuːm کر کے بھی دکھاؤں گی skˈɪn بھی بہت smˈuːd ہے
+data/3_training_lists/voice/wavs/od1gD9-brjk__0034.wav|0|یہ امیجز ʤˈɛnəreːʈɪɖ ہوئی ہیں ان میں سے مجھے یہ والی لڑکی پسند آئی ہے میں
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0025.wav|0|اب آپ نے نیچے جا کے پھر سے ایڈ کرنا ہے جیسے میں یہاں لکھتی ہوں سائیڈ پر ایک تھامنیل بھی شو کرو گرل اس تھامنیل کی طرف اشارہ کر رہی ہے اور پھر سے ایرو پر کلک کرنا ہے اور یہ امیج نکالنا شروع کر دے گا
+data/3_training_lists/voice/wavs/od1gD9-brjk__0037.wav|0|جو پسند آئے اسے ɖˈaːʊnloːɖ کر لیں اب ہم نے بوائی کا kˈɛrɪkʈər ʤˈɛnəreːʈ کروانا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00058.wav|1|تو آپ کا نام سرویش ہے۔
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00402.wav|1|جان عالم نے ایک سوار سے پوچھا ۔
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0038.wav|0|مثال کے طور پر آپ ان سے پوچھ سکتے ہیں کہ آپ کو اس ʋˈɪɖɪoː میں سب سے زیادہ یوزفل چیز کون سی لگی اس طرح آپ کی ˈɔɖiːəns بھی ɪnɡˈeːʤɖ ہوگی اور kˈɔmɛnʈs بھی آئیں گے
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0011.wav|0|اور جب آپ pərsˈoːnə میتھرڈ یوز کرتے ہوئے تو آپ کو pˈɪn kˈoːɖ کی ضرورت نہیں ہوتی لیکن اس وقت مجھے pərsˈoːnə میتھرڈ کے بارے میں پتا نہیں تھا
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01412.wav|1|mˈaːh təlˈaːt شرمندہ hˈuːiː مگر دروازے تک استقبال کو ˈaːiː xˈətmə
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00689.wav|1|ˈaːtoːɴ ˈɔr məɣlˈaːnjaːɴ rˈətʰoːɴ mˈeːɴ bˈeːʈʰiː چلی ʤˈaːtiː تھیں ۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00234.wav|1|jˈɔɡ ʋˈəsɪʃəʈʰə ایک baːˈaːsər ادویت mˈətən ہے ʤˈɪs mˈeːɴ خیالات کو ʋˈaːzɛh kˈərneː کے لیے مختصر کہانیوں ˈɔr əfsˈaːnoːɴ kˈaː ɪsteːmˈaːl کیا گیا ہے۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02115.wav|1|ʤˈəb ˈaːp ˈɪs ɡˈərʤaː ɡʰˈər kˈeː لیے روانہ ہوئے تو میں تنہا ہوٹل kˈiː طرف ʋˈaːpəs ʤˈaː رہا tʰˈaː ˈɔr rˈaːsteː میں کسی جگہ ˈəpnaː bˈeːɡ چھوڑ دیا۔
+data/3_training_lists/voice/wavs/od1gD9-brjk__0061.wav|0|lˈaːɪn وائز کرنی ہے klˈɪp آگے پیچھے نہیں کرنے اور اب یہ ایڈ ہو جائیں گی اب آپ نے ان klˈɪps کی sˈaːʊnɖ کو بند کر دینا ہے یعنی وولیم زیرو کر دینا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_01025.wav|1|ʤˈəɡən موہن ریڈی نے məzˈiːd کہا کہ ɪsʈərˈaːnɡ rˈuːs جہاں pˈər ای وی ایم mˈʊflɪs rˈəkʰeː ɡˈəeː ہیں ʋˈəhaːɴ پرسخت نگرانی کی ضرورت hˈɛ ۔
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0050.wav|0|جس سے جو prˈɔmpʈ ہم نے پہلے لکھا تھا وہ آپ لوگوں کے سامنے دوبارہ آ جائے گا اب
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0040.wav|0|اب یہاں آپ نے وہ ʈˈɛksʈ لکھنا ہے جو آپ اپنے tʰˈəmneːl پہ لکھوانا چاہتے ہیں تو خیر میں یہاں ʈˈaːɪp کروں گی بچوں کی تربیت کیسے کریں
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0041.wav|0|میرا دل پھر بھی سکون میں تھا اور مجھے ʤˈɛmɪnaːɪ نے کہا کہ اس طرح کی ʋɛrɪfɪkˈeːʃən میں اکثر تیس دن لگ جاتے ہیں میں
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0058.wav|0|اور اب میں آپ کو اپنی بات بتاؤں تو شروع میں مجھے بھی نہیں پتا تھا کہ میں کونسی nˈiːʃ sɪlˈɛkʈ کروں اور کس طرح کی ʋˈɪɖɪoːz بناوں
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0037.wav|0|میں ایرو پہ کلک کر دوں گی تو امیجز ʤˈɛnəreːʈ ہونا شروع ہو جائیں گی اور یہ دیکھیں
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0012.wav|0|آپ لوگ flˈoː اے آئی سے ڈائریکٹ بھی بنا سکتے ہیں لیکن اگر آپ چاہتے ہیں کہ آپ کے kˈɛrɪkʈər نے ایک اچھا ɖrˈɛs پہنا ہو جس میں وہ دکھنے میں bjˈuːʈɪfəl لگے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02087.wav|1|jˈeːh hˈeːrət انگیز معلوم ہوتا hˈɛ
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0017.wav|0|اور وہاں لکھنا ہے ʋˈɛʤɪʈəbəl nˈeːm وہ آپ کو بہت سارے سبزیوں کے نام لکھ کر دے دے گا آپ
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0012.wav|0|اور میں نے pˈɪn میتھرڈ ہی یوز کیا لیکن اکیس دن گزر گئے لیکن میرا pˈɪn kˈoːɖ آیا ہی نہیں میں
+data/3_training_lists/voice/wavs/od1gD9-brjk__0041.wav|0|اور انہیں ʤˈɛmɪnaːɪ کو بھیج کر کہنا ہے کہ مجھے ان کے مطابق prˈɔmpʈs دے دو
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01082.wav|1|وہاں ملکہ مہر نگار پنجرہ لیے بیٹھی ۔لوگوں کو پاس سے سرکا دیا ۔
+data/3_training_lists/voice/wavs/_qZG68xJPag__0042.wav|0|اور یہ دیکھیں یہ ɖˈaːʊnloːɖɪɖ ہو چکی ہے جیسے ہی آپ اسے ˈoːpən کریں گے یہ ایزیلی آپ کے fˈoːn کی ɡˈɛlərɪ یا fˈaːɪlz میں شو ہو جائے گی
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0027.wav|0|جنہوں نے ʈˈɔpɪk کو زیادہ اچھے طریقے سے کور کیا ہو
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0001.wav|0|مجھے بہت سارے kˈɔmɛnʈs آ رہے تھے کہ آپ اپنے jˈuːʈjuːb کا تھامنیل کیسے بناتی ہیں تو آپ سب کی فرمائش پر آج میں یہ ʋˈɪɖɪoː لے کر آئی ہوں
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0064.wav|0|اور یہ دیکھیں اور یہ دیکھیں ɡˈaːɪz اب اسے slˈaːɪɖz کون کہے گا یہ تو hˈɪks eːˈaːɪ نے ہمارے لئے پوری کی پوری ʧˈɪlɖrənz sʈˈɔrɪ bˈʊk تیار کر کے دے دی ہے یہ
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0033.wav|0|یہ کافی اچھا کام کرتا ہے اب چلتے ہیں ʈˈuːl nˈəmbər فور کی طرف اور وہ ہے kʋˈiːn اے آئی اس
+data/3_training_lists/voice/wavs/_qZG68xJPag__0075.wav|0|پھر سے جی کے ˈaːɪkɔn پہ کلک کریں تو نیچے sˈaːɪn ان لکھا ہوا آئے گا
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0045.wav|0|باتوں باتوں میں میں نے ہٹ پا کی ایک اور ɪnʈɪɡrˈeːʃən spˈɔnsərʃɪp کر دی اس کے بعد چلتے ہیں ɖˈɛɖɪkeːʈɪɖ ʋˈɪɖɪoː پہ جو
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00303.wav|1|گھر سے دور ہیں اور آرام و آسائش سے محروم ۔
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0007.wav|0|اس کے بعد مجھے گوجل کی طرف سے pˈɪn کا انتظار کرنا تھا لیکن یہاں سے میری مشکل شروع ہوئی
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0078.wav|0|ˈɪnɡlɪʃ juːnˈaːɪʈɪɖ kˈɪnɡɖəm ʧˈuːz کروں گی اب یہاں لکھا ہوا ہے kˈɛpʃən sərʈɪfɪkˈeːʃən یہاں پہ میں یہ fˈərsʈ والا ʧˈuːz کروں گی dɪs kˈɔnʈɛnʈ həz nˈɛʋər ˈeːrɖ ɔn ʈˈɛlɪʋɪʒən ɪndə یو ایس میں
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0048.wav|0|لوگ ʧˈɛʈ جی پی ٹی یا ʤˈɛmɪnaːɪ سے اپنے لئے prˈɔmpʈ لے کر یہاں لگا سکتے ہیں اور ʋˈɪɖɪoːz بنا سکتے ہیں یا پھر خود بھی اپنا prˈɔmpʈ لکھ سکتے ہیں
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01815.wav|1|یہ وہ مرحلہ تھا جب تحریک جعفریہ نے انقلاب اسلامی ایران کے عالمگیر اور آفاقی پیغام سے استفادہ کیا ۔
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0049.wav|0|میں اپنی بات کروں تو مجھے بھی اسی nˈiːʃ کی وجہ سے کچھ kˈəmpənɪz نے سپانسرشپز دی ہیں یعنی انہوں نے مجھ سے رابطہ کیا اپنے ʈˈuːl پر ʋˈɪɖɪoːz بنوائیں اور اس کے بدلے
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00671.wav|1|وزیراعلی یوگی آدتیہ ناتھ نے اس حادثے پر گہرے رنج کا اظہار کیا ہے ۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02052.wav|1|hˈeːloː mˈeːm mˈeːɴ نریش بول rˈəhaː hˈuːn
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0065.wav|0|اب plˈəs پر جانا ہے ˈəploːɖ mˈiːɖiːə پر کلک کرنا ہے اور ɡˈɛlərɪ سے اپنی پہلی امیج سیلیکٹ کر لینا ہے جس کو ʋˈɪɖɪoː میں کنورٹ کروانا ہے اب
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00202.wav|1|ناندیڑ ، بیڑ ۔
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0012.wav|0|سب سے پہلے ہمیں ایک مدر کا kˈɛrɪkʈər چاہیے جنہوں نے ابایا اور ہجاب پہناوا ہو اور دوسرا ہمیں ایک چھوٹے بچے کا kˈɛrɪkʈər چاہیے جو ان کا بیٹا ہو
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0016.wav|0|ˈɛɖɪʈɪnɡ کرتے وقت میں کچھ smˈaːrʈ چینجز کرتی تھی جیسے اے آئی آواز کا وولیم تھوڑا بڑھا دیتی تھی اور بیک گراؤنڈ میں خوبصورت سا نو کاپی رائٹ اسلامک sˈaːʊnɖ ایڈ کر دیتی تھی بس یہی میرا ʋˈɪɖɪoː بنانے کا طریقہ تھا جسے میں jˈuːʈjuːb پر pˈoːsʈ کرتی تھی اور اللہ کا شکر ہے کہ مجھے کبھی نہ تو کوئی کاپی رائٹ klˈeːm آیا
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0014.wav|0|اس میں آپ نے صرف وہ lˈaːɪn کاپی کرنی ہوتی ہے جو وہ آپ کو دیتے ہیں اور اس میں ان کا lˈɪnk بھی ہوتا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02479.wav|1|مالوہ کا سلطان بھی مطلق العنان ہوا کرتا تھا، اپنی مشاورت کے لیے امرا و وزرا کا تقرر کرتا، جو امور سلطنت میں اس کے معاون ہوتے۔
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01260.wav|1|phˈɪr pˈətə چلا kˈeː یہ sˈɪlsɪlə دور tˈək ʧˈəlaː گیا hˈɛ xˈətmə
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0058.wav|0|اب یہاں ہم اپنا mˈeːn prˈɔmpʈ لکھیں گے جس سے یہ لڑکی آپ کو میری طرح ایک sʈjˈuːɖɪoː میں بیٹھی ہوئی گر نظر آئے گی
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00012.wav|1|وزیر اعلی نے دعوی کیا کہ دہائیوں سے پچڑے پن کا شکار اورترقی کی دوڑ میں کوسوں دور ہو چکے امیٹھی کو ترقی کی نئی رفتار دی جاۓ گی ۔
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0052.wav|0|اب مجھے یہاں سے جیسے یہ fˈɔnʈ sʈˈaːɪl پسند آیا ہے میں ɖˈaːʊnloːɖ پہ klˈɪk کروں گی یہاں سے ˈɛɖ کو klˈoːs کر دوں گی
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0071.wav|0|تاکہ ڈھونڈنے میں آسانی ہو اب میں یہاں sˈərʧ کرتی ہوں ʋˈɪɖɪoː ʈjuːʈˈɔrɪəl تو یہ دیکھیں ہماری آواز یہاں ایڈ ہو چکی ہے اب جہاں کہانی کے حساب سے nərˈeːʈər کی ضرورت ہو وہاں آپ یہ sˈaːʊnɖ sˈɛʈ کر لیں بچوں کو نماز
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0012.wav|0|دیکھیں بہت پیاری امیجز ہیں اور ہر امیج میں kˈɛrɪkʈərz sˈeːm ہیں اب چلتے ہیں ہم اگلے fˈiːʧər کی طرف جو ہے ʋˈɪɖɪoː ʤɛnərˈeːʃən اس کے لئے آپ نے یہاں اے آئی ʋˈɪɖɪoː ʤˈɛnəreːʈər پر کلک کرنا ہے تو
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0012.wav|0|ایک ˈɪnʈrɛsʈɪnɡ sʈˈɔrɪ بنانا بہت ضروری ہے تاکہ لوگ انٹ تک جڑے رہیں تو sʈˈɔrɪ بنوانے سے پہلے آپ نے اپنے کریکٹرز ʤˈɛnəreːʈ کر لینے ہیں تاکہ ʋˈɪɖɪoː بنانے میں آسانی ہو
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02321.wav|1|ʈʰˈiːk hˈɛ ˈɪs suːrˈət mˈeːɴ mˈeːɴ چار mˈəiː کو جیسلمیر ʤaːˈoːn ɡˈaː
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0037.wav|0|اب آپ نے دوبارہ flˈoː اے آئی پر واپس آ جانا ہے اب دیکھیں مجھ سے تو یہ mɪsʈˈeːk ہوئی کہ میں نے پہلے آن نہیں کیا تھا
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00737.wav|1|اسی کمپلیکس میں دو متعلقہ ونگز طالب علموں کو دوسرے اینٹرنسوں کے لیے تیار کرتی ہیں۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00565.wav|1|تاہم، ˈaːneː ʋˈaːliː dəhˈaːiːoːɴ mˈeːɴ jˈeːh bʊniːˈaːdiː tˈɔr پر کھیلوں کی təfrˈiːh کی ایک شکل بن ɡˈəjaː جہاں tʰˈeːʈər kˈeː ənˈaːsɪr kˈiː ایتھلیٹزم pˈər ترجیح rˈəhiː
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00604.wav|1|baːdʃˈaːh bˈaːrə ہزار ہاتھیوں kˈeː sˈaːtʰ بارات kˈeː پیچھے آتا تھا xˈətmə
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0050.wav|0|تو اگر آپ کے ساتھ بھی یہ prˈɔbləm آئے بس اپنے mˈoːbaːɪl کے fˈaːɪlz میں جائیں پھر ɖˈaːʊnloːɖz fˈoːlɖər ˈoːpən کریں
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02166.wav|1|انہوں نے ˈɪn میں شادی kˈərliː اوراس kˈaː بیٹا bˈaːbɪk təqriːbˈənaː ایک sˈoː پچپن میں یا ˈɪs سے pˈɛhleː mʊtəʋˈəllɪd ہوا xˈətmə
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0043.wav|0|اور ʈˈɛksʈ sʈˈaːɪl بھی bjˈuːʈɪfəl نہیں ہے تو اس کے لئے میں کیا کروں گی اب اگر میں یہاں sʈˈaːɪl پہ klˈɪk کروں تو
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0005.wav|0|کے بعد اپنا jˈuːʈjuːb ʧˈɛnəl کرنا ہے اور اس کے بعد اس ʧˈɛnəl کی sˈɛʈɪnɡz کرنی ہے تو چلتے اپنے پہلے sʈˈɛp کی طرف جو ہے جی mˈeːl əkˈaːʊnʈ بنانا اس
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0051.wav|0|ʈˈɔpɪk sɪlˈɛkʃən میں آپ نے kˈɔnʈɛnʈ کونسا چوز کرنا ہے کیا ایسا بنائیں جسے لوگ شوق سے دیکھیں ڈھونڈیں sˈərʧ کریں
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0023.wav|0|لیکن مجھے ان میں تھوڑی چینجنگ کرنی ہے تو میں اس امیج پر پریس کروں گی اور یہاں سے ریوز prˈɔmpʈ پر کلک کروں گی تو آپ کا پہلے والا prˈɔmpʈ دوبارہ لکھاوا آ جائے گا اب یہاں سے آپ نے جو چیز ایڈ کرنی ہے اس کے لیے prˈɔmpʈ لکھ دیں اور میں əɡˈɛn ایرو پر کلک کروں گی
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0051.wav|0|اب میں یہاں سب سے پہلے اپنے ʧˈɛnəl کا نام لکھتی ہوں də lˈɪʈəl kˈɔrnər اور نیچے ɡˈoː پہ klˈɪk کروں گی
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0047.wav|0|مجھے بھی کئی بار ʋˈɪɖɪoːz بناتے بناتے اتنی تھکن ہوتی تھی کہ میں سوچتی تھی کہ jˈuːʈjuːb چھوڑ دوں
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00208.wav|1|اس کے جانے کے بعد جان عالم اپنی قسمت کو روتا رہا اور اپنے کیے پر کڑھتا رہا کہ میں نے کیوں نادانی سے کام لیا اور کیوں حوض میں کودا ۔
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0044.wav|0|دوسرے rˈɛlɪʋənʈ ایلیمنٹ کے اندر کیسے ایسیو کرتے ہیں بہت سے لوگ مجھ سے کوئسن کرتے ہیں کہ آپ اپنی ایسیو کیسے کرتی ہیں ان کو لگتا ہے کہ بس ایسیو کر لی اور ʋˈɪɖɪoː ʋˈaːɪərəl
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00036.wav|1|ناول میں جن بھوت اور جادوگر نیاں نہیں ہوتیں ، وہ لوگ ہوتے ہیں جنھیں ہم روز اپنے چاروں طرف دیکھتے ہیں ۔
+data/3_training_lists/voice/wavs/od1gD9-brjk__0040.wav|0|تو اس کے لیے آپ نے کرنا یہ ہے کہ اپنے وہی lˈɪrɪks کاپی کر لینے ہیں جو sˈaːʊnɖ کے نیچے آئے تھے
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0084.wav|0|اب یہ ساری ʋˈɪɖɪoːz یہاں ایڈ ہو چکی ہیں آپ نے ان ʋˈɪɖɪoːz کے ʋˈɔljuːm کو بڑھا دینا ہے اور
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0117.wav|0|تو چلیے سیکھتے ہیں کہ یہ سب کیسے کرنا ہے سو lˈeːʈɪsʈ sʈˈaːrʈ تو
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0043.wav|0|اگلے دن آپ کو ان تمام آئی ڈیز پر دوبارہ سے frˈiː krˈɛɖɪʈs مل جائیں گے کچھ لوگوں کو اگلے دن fˈɔrən krˈɛɖɪʈs شو نہیں ہوتے تو پانک مت ہوا کریں
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0046.wav|0|اس میں سپانسرشپز آنے کے چانس بھی کافی زیادہ ہوتے ہیں اگر آپ نہیں جانتے کہ spˈɔnsərʃɪp کیا ہوتی ہے تو میں آپ کو بتاتی ہوں
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0030.wav|0|اور ری یوز prˈɔmpʈ پہ دو بار کلک کرنا ہے اور اب جو میں نے njˈuː تھامنیل ɡˈɛlərɪ سے لیا تھا اس
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0051.wav|0|تو یہاں آپ کا fˈɔnʈ ənzˈɪp ہو کے sˈeːʋ ہو جائے گا جسے آپ آسانی سے jˈuːs کر سکتے ہیں میں آپ کی آسانی کے لیے ایک اور fˈɔnʈ sʈˈaːɪl ɖˈaːʊnloːɖ کروں گی
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02444.wav|1|ʋˈaːldə kˈeː nˈaːm معلوم نہیں،اتنا پتہ چلتا hˈɛ کہ mˈaːtəb بن əbˈiːd ˈɔr jˈeːh دونوں اخیافی بھائی تھے xˈətmə
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0025.wav|0|اب اپنی ʋˈɔɪs میں مزید ایموشنز ڈالنے کے لیے آپ نے ɪnhˈaːns پر klˈɪk کرنا ہے
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0076.wav|0|کے لئے آپ نے کچھ نہیں کرنا بس نیچے kˈɔmɛnʈ sˈɛkʃən میں جا کر پیارا سا kˈɔmɛnʈ کرنا ہے اور میں کوئی بھی دو لوگ ʧˈuːz کروں گی اور ان کے لئے hˈɪks اے آئی ایک mˈəntʰ کے لئے frˈiː کر دوں گی ونرز کا ənˈaːʊnsmənʈ میں اپنی اگلی ʋˈɪɖɪoː میں کروں گی
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0072.wav|0|تو بس یہ تھا ہمارا آج کا مکمل ʈjuːʈˈɔrɪəl امید ہے اب آپ لوگوں کو flˈoː اے آئی سے کریکٹرز اور امیجز ʤˈɛnəreːʈ کرنا بلکل اچھے سے سمجھ آ گیا ہوگا
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02004.wav|1|ہیلو، کیا یہ آندھرا پردیش ریاستی سیاحت ہے؟
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02070.wav|1|یونین کے اثر ˈoː rəsˈoːx mˈeːɴ اس نے əfrˈiːqiː عوام کی səmˈaːʤiː و ɪqtɪsˈaːdiː اور سیاسی zɪndˈəɡiː kˈaː ˈeːk نیا باب کھولا۔
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0039.wav|0|جسے آپ کی ہر نئی ʋˈɪɖɪoː کا انتظار رہے اسے کہتے ہیں اصل kriːˈeːʈər کہ آپ نے jˈuːʈjuːb پر اپنا نام بنا لیا ہے اب لوگ آپ کو جانتے ہیں اور آپ کے kˈɔnʈɛnʈ سے پیار کرتے ہیں تب
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0024.wav|0|کچھ ʋˈɪɖɪoːz کی ˈɛɖɪʈɪnɡ اتنی اچھی ہوتی ہے کہ میں خود ان سے ɪmprˈɛsʈ ہو جاتی ہوں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02627.wav|1|کیا ˈaːp مجھے bˈətaː سکتے ہیں کہ ˈaːp həmˈaːreː mˈʊlk kˈeː ʧˈənd معروف دریاؤں kˈeː bˈaːreː میں kjˈaː جانتے ہیں، جن kˈiː kˈʊʧʰ mʊnfˈərɪd xʊsˈuːsiːaːt hˈeːɴ
+data/3_training_lists/voice/wavs/od1gD9-brjk__0059.wav|0|اب آپ نے اپنی ساری ʋˈɪɖɪoːz ایسے ہی بنا لینی ہے آپ کو جیسی ʋˈɪɖɪoːz چاہیے بس اسی حساب سے prˈɔmpʈ لکھ لینا ہے اور ʋˈɪɖɪoː بن جائے گی اب باری آتی ہے ان ʋˈɪɖɪoːz کو ایک ساتھ جوڑنے کی
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00415.wav|1|میں دراصل ایک امتحان کے لیے تیاری کر رہا ہوں۔
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0061.wav|0|jˈuːʈjuːb اب لو ایفرٹ kˈɔpɪ pˈeːsʈ kˈɔnʈɛnʈ کو فلٹر کر رہا ہے اور ان kriːˈeːʈərz کو ریوارڈ کر رہا ہے جو kənsˈɪsʈənʈ اور اوریجنل کام کرتے ہیں اگر آپ rˈɛɡjʊlər ˈəploːɖ کرتے رہیں گے اور
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02251.wav|1|یہ ٹکرائو اتنا زور دار تھا کہ اس کے نتیجہ میں پاکستان میں کوہ ہمالیہ و کوہ قراقرم کا سلسلہ اور پنجاب میں پوٹھوہار کا بلند علاقہ معرض وجود میں آیا ۔
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0026.wav|0|اب یہاں آپ دیکھیں آپ کو plˈəs کا sˈaːɪn نظر آرہا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01751.wav|1|کچھ ممالک احتیاط کے طور پر اسے بھی چیک کرتے ہیں تاکہ آپ اپنے قیام کو بڑھا نہ لیں۔
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0027.wav|0|سکون بھی رہے گا اب چلتے ہیں اپنے اگلے سوال کی طرف
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0073.wav|0|سننے میں آیا ہے کہ یہ مسئلہ بہت سے لوگوں کے ساتھ آ رہا ہے
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0069.wav|0|دوبارہ اوپر plˈəs کے ˈaːɪkɔn پر کلک کریں ˈəploːɖ mˈiːɖiːə میں جائیں اور ɡˈɛlərɪ سے وہی ایمیج سیلیکٹ کریں جو ہم نے پہلے ɖˈaːʊnloːɖ کی تھی
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_03049.wav|1|رامپال ˈaːxriː məzbˈuːt پال شہنشاہ تھا، حالانکہ اس کا bˈeːʈaː کمارپال، اپنے بیشتر علاقوں کوباقی رکھنے میں کامیاب رہا۔
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0052.wav|0|یہ sˈɪsʈəm ہوتا ہے خیر میری pˈeːmənʈ نہیں نکلی میں نے سوچا اگر یہ اگلے مہینے بھی ٹھیک نہیں ہوا
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0026.wav|0|یہاں آپ لوگوں کے پاس دو طریقے ہیں سب سے پہلے آپ نے ɪmpˈɔrʈ پر کلک کرنا ہے پھر ɪmpˈɔrʈ ˈɪmɪʤ پر کلک کرنا ہے اور ɡˈɛlərɪ سے اپنی ˈɪmɪʤ sɪlˈɛkʈ کرنی ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01948.wav|1|مولوی کفایت علی صاحب صدرِ شریعت بنائے گئے۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00753.wav|1|zɪrˈɪʃk جھاڑی پر ˈʊɡneː ʋˈaːlaː ایک کشمش کی tərˈəh kˈaː مگر کشمش سے ʧʰˈoːʈaː کھٹ mˈiːʈʰaː pʰˈəl ʤˈoː dˈaːfeː sˈəfraː hˈɛ
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01223.wav|1|اس نے خط پایا تو بھائی کی محبت نے جوش مارا ۔
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01134.wav|1|یہ تمھارا احمق شہزادہ ہے اور یہ بکری کا بچہ نہیں وزیر زادہ ہے ۔
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00202.wav|1|nˈaːndiːɽ ، بیڑ ۔
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0055.wav|0|لیکن پھر میں نے سوچا کہ نہیں مجھے یہ کرنا ہے مجھے jˈuːʈjuːb سے اچھی ˈərnɪnɡ کرنی ہے اور میرا ایک خواب بھی ہے کہ میں اپنی jˈuːʈjuːb ˈərnɪnɡz سے عمرہ کروں
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0004.wav|0|یہاں آپ کو بہت سارے فیچرز ملیں گے لیکن ہم چلتے ہیں اپنے امیج جنریشن کی طرف تو سب سے پہلے آپ نے njˈuː prˈɔʤɛkʈ پر لکھے ہوئے kriːˈeːʈ پر کلک کرنا ہے تو
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01025.wav|1|ˈɪseː bˈəɽiː ˈəʧʰiː طرح rˈəkʰneː لگا مگر نرالی چیز ہاتھ ˈaːiː tʰˈiː ۔
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0048.wav|0|اور کبھی کبھی وہ آپ سے اپنے ʈˈuːl پر پوری ʋˈɪɖɪoː بنانے کے لیے بھی کہتے ہیں اگر
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0009.wav|0|لیکن اگلے دن میں نے دیکھا تو میری ʋˈɪɖɪoː پر ایڈ بھی نہیں چلا میں
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0096.wav|0|اب آپ نے باقی سب کچھ ویسے ہی رہنے دینا ہے بس درمیان سے پرانی اردو lˈaːɪnz کو ریموف کر دینا ہے
+data/3_training_lists/voice/wavs/_qZG68xJPag__0055.wav|0|تو سب سے پہلے آپ نے ɡˈuːɡəl پہ جانا ہے اور وہاں sˈərʧ کرنا ہے flˈoː اے آئی تو
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0013.wav|0|ایسی ʋˈɪɖɪoːz بھی mˈɔnɪʈaːɪzɖ ہو سکتی ہیں اب چلتے ہیں اپنی دوسری kˈɛʈɪɡərɪ کی طرف
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0035.wav|0|ہو اس لئے ہمیشہ کوشش کریں کہ لڑکی کا fˈeːs ہمارا اپنا اے آئی سے ʤˈɛnəreːʈ کیا ہوا ہو تاکہ کوئی بھی مسئلہ نہ ہو اب
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00702.wav|1|عدالت نے متاثرہ کنبے کو دس لاکھ روپے معاوضہ دینے اور اس پر چپیں لاکھ روپے کا جرمانے کا بھی حکم دیا ہے۔
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0000.wav|0|تو fˈaːɪnəlɪ دوہزار پچیس میں اے آئی کے ذریعے jˈuːʈjuːb پر کام شروع کرنے کے بعد میری fˈərsʈ pˈeːmənʈ بھی آ ہی گئی ویسے تو میری fˈərsʈ pˈeːmənʈ fˈɛbruːərɪ دوہزار چھبیس میں ہی آ گئی تھی
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0068.wav|0|جیسے میں نے اپنا skrˈɪpʈ خود لکھ کر ʤˈɛmɪnaːɪ کو دیا اور اس نے اسے مزید بہترین طریقے سے بنا دیا اب
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0006.wav|0|پر یہ نئی pˈɔlɪsɪ لاغو نہیں ہوگی اگر آپ کا ʧˈɛnəl mˈɔnɪʈaːɪzɖ ہے تو آپ کو دوبارہ سے آٹھ ہزار گھنٹے پورے نہیں کرنے ہوں گے
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0064.wav|0|لیکن لوگ ˈaːʊʈ کرنے سے پہلے آپ نے جو prˈɔmpʈ یہاں لکھا ہے اسے کاپی لازمی کر لیں تاکہ دوبارہ prˈɔmpʈ نہ لکھنا پڑے
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0048.wav|0|جیسے یہ ایک ʈˈaːɪm سٹیمز ہے مطلب ʋˈɪɖɪoː کے شروع کے زیرو sˈɛkənɖz میں کیا بتایا گیا میں
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0029.wav|0|ˈɛkʃənz یہ سب لکھ سکتے ہیں اور آپ نے ʤˈɛnəreːʈ پر کلک کر دینا ہے اور آپ کے ʈˈɔkɪnɡ ˈɛʋəʈaːr کی ʋˈɪɖɪoː بننے لگے گی یہ دیکھیں ʋˈɪɖɪoː بن گئی ہے
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0015.wav|0|sʈˈɛp nˈəmbər fˈɔr ہے ʋˈɪɖɪoː ʤˈɛnəreːʈ کرنا یعنی ان پکچرز کو ʋˈɪɖɪoː klˈɪps میں بدلنا اور sʈˈɛp nˈəmbər فائیو ہے ان سب چیزوں کو ایک ساتھ جوڑنا
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00549.wav|1|دو həzˈaːr چودہ کی hˈɪndiː zəbˈaːn kˈiː səʋˈaːnhiː فلم ہے ʤˈɪs kˈiː hɪdˈaːjət کاری əkʰlˈiːʃ جیسوال nˈeː kˈiː hˈɛ اور ˈɪs mˈeːɴ raːhˈoːl بگا ˈɔr تارا əlˈiːʃaː بیری نے ədaːkˈaːriː kˈiː hˈɛ
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0112.wav|0|آج کی اس ʋˈɪɖɪoː میں میں آپ کو سکھانے والی ہوں کہ آپ بالکل میری طرح کا ایک شاندار اے آئی ˈɛʋəʈaːr کیسے تیار کر سکتے ہیں اس
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0014.wav|0|اسی طرح ˈɪmɪʤ ʈə ʋˈɪɖɪoː یعنی آپ اپنی ˈɪmɪʤ دیں گے اور یہ اسے ʋˈɪɖɪoː میں بدل دے گا
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0041.wav|0|اب آپ نے یہاں سے اپنے کسی بھی جی mˈeːl əkˈaːʊnʈs سے sˈaːɪn اپ کر لینا ہے
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0046.wav|0|اب اس میں اپنی مرضی سے کچھ ایڈ کر ɖˈɛn اور جو چیز نہیں چاہیے اسے rɪmˈuːʋ کر ɖˈɛn اب
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0021.wav|0|اور نہ ہی میں نے اپنے ɖɪskrˈɪpʃən میں ˈiː mˈeːl دیا تھا جس کی وجہ سے مجھے ابھی تک کوئی spˈɔnsərʃɪp نہیں ملی تھی
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00083.wav|1|آپ نے جو کیا ہے اس کے نتائج سے آپ واقف ہیں، ہے نا؟
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0060.wav|0|اگر ابھی تک آپ نے ہمارے ʧˈɛnəl کو səbskrˈaːɪb نہیں کیا تو ابھی səbskrˈaːɪb کریں اور بیل ˈaːɪkɔn کو بھی دبا دیں تاکہ آنے والی ہر نئی اور اہم ʋˈɪɖɪoː کا نوٹفیکیشن آپ تک سب سے پہلے پہنچے تو
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01608.wav|1|ٹھیک ہے، میں اس بابت ایک مضمون لکھنے کا منصوبہ بنا رہی ہوں۔
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0070.wav|0|اب اسی طرح سے چوتھی ʋˈɪɖɪoː نکال لیں گے اور یہ rɪzˈəlʈs ہیں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00040.wav|1|مجھے تیل کے بارے میں شروع کرنے پر مت کہو، اوہ۔
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0074.wav|0|ɖɪskrˈɪpʃən میں دیئے گئے lˈɪnk سے اسے ضرور ʧˈɛk کریں اور ہاں ایک اور ضروری بات جیسا کہ میں نے ʋˈɪɖɪoː کے شروع میں بھی کہا تھا کہ
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01723.wav|1|ʋˈoː ˈəb səʋˈaːl بھی nəhˈiːn kˈərteː
+data/3_training_lists/voice/wavs/_qZG68xJPag__0060.wav|0|وہاں سے اپنی پہلی ایمیجز سیلیکٹ کر لینا ہے یہ دیکھیں کچھ ہی دیر میں یہ ایمیجز یہاں lˈoːɖɪɖ ہو کر آ جائے گی اب آپ نے اس ایمیجز پہ پریس کر کے رکھنا ہے تو آپ کے سامنے کچھ آپشنز آئیں گے آپ نے ایڈ ʈə prˈɔmpʈ کر دینا ہے
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0025.wav|0|اب یہ دیکھیں یہ تصاویر ہماری ɡˈɛlərɪ میں شو ہو چکی ہیں لیکن یاد رکھیں پنٹرس سے کبھی بھی کوئی تصویر یا ʋˈɪɖɪoː ɖaːɪrˈɛkʈlɪ اٹھا کر اپنے jˈuːʈjuːb پر پوسٹ نہیں کرنی ورنہ آپ کو کاپی رائٹ کا ایشو آ سکتا ہے تو
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0040.wav|0|اور ɡˈɛlərɪ سے اپنے وہی kˈɛrɪkʈər یہاں سیلیکٹ کر لینے ہیں اب یہ کچھ دیر میں یہاں lˈoːɖɪɖ ہو جائیں گے اب میں اس امیج پر تھوڑی دیر پریس کروں گی تو
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0032.wav|0|کا əkˈaːʊnʈ ʈɛmpərˈɛrɪlɪ طور پر səspˈɛnɖɪɖ ہوا ہے ɖɪsˈeːbəlɖ نہیں ہوا اس لیے آپ کا ایشو سولو ہو سکتا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01128.wav|1|ملکہ نے ɡˈoːd میں لیا sˈəktə pjˈaːr کیا ، اس نے tˈoː سوچا تھا کہ ذرا سی دیر میں ملکہ kˈaː دل bˈɛhɛl جاۓ tˈoː phˈɪr اپنے بدن میں lˈoːʈ آؤں گا ۔
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0038.wav|0|خیر آپ کو سچ بتاؤں تو سب سو رہے تھے اور میں دل ہی دل میں تھوڑا سا ہنس رہی تھی
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00912.wav|1|ʤənˈaːb mˈoːdiː nˈeː کہا کہ tˈəʋaːnaːiː اسکیم nˈaːfɪz kˈər nˈeː میں sˈəb kˈeː sˈaːtʰ پہل əpnˈaːiː ʤˈaːeː گی ۔
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0051.wav|0|جیسے جیسے آپ کا ʧˈɛnəl گروہ ہوتا ہے ویسے ویسے مختلف kˈəmpənɪz آپ سے رابطہ کرنا شروع کر دیتی ہیں اس لیے اگر آپ کو ٹیکنالوجی اور اے آئی میں دلچسپی ہے تو یہ بھی ایک بہت بہترین nˈiːʃ ہے تو یہ تھیں کچھ ایسی اے آئی nˈiːʃɪz جو آج کل کافی زیادہ ʈrˈɛnɖ میں ہیں
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0073.wav|0|یہ دیکھیں اس نے مجھے aːɪɖˈiːəz دے دیئے ہیں یہ تھا hˈɪks اے آئی اگر آپ اپنی prɔɖəkʈˈɪʋɪʈɪ اور kˈɔnʈɛnʈ کو nˈɛksʈ lˈɛʋəl پر لے جانا چاہتے ہیں تو
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00935.wav|1|mˈərkəziː اطلاعات و نشریات کی ʋəzˈiːr mʊhtˈərmə اسمرتی ایرانی تیرہ اپریل سے امیٹھی kˈeː دو روزہ dˈoːreː pˈər ˈaː رہی ہیں xˈətmə
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01789.wav|1|جو لوگ اس میں شامل ہیں، انہیں جہاں تک چھٹی کے دن اسکول آنے میں کوئی پریشانی نہ ہو وہاں تک یہ ترتیب کارآمد ہونی چاہیے۔
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0006.wav|0|کے لیے آپ نے سب سے پہلے ɡˈuːɡəl پر جانا ہے اور اوپر بنے اس prˈoːfaːɪl ˈaːɪkɔn پر کلک کرنا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01276.wav|1|ˈɛhməd شاہ əbdˈaːliː نے ˈəpneː hˈʊsn و ʤəmˈaːl mˈeːɴ mˈaːruːf ایک انیس sˈaːlə mˈəɣəl ʃˈɛhzaːdiː حضرت بیگم کو zəbˈərdəstiː ˈəpniː bˈiːʋiː بنایا ۔
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0080.wav|0|کیونکہ اب آپ کے krˈɛɖɪʈs ختم ہو چکے ہیں اب آپ نے یہاں klˈɪk کرنا ہے sˈaːɪn ˈaːʊʈ پر کلک کرنا ہے اور اپنی کسی اور جی mˈeːl آئی ڈی سے اسے لوگن کر لینا ہے اب یہاں sˈeːm وہی prˈoːsɛs fˈɔloː کرنا ہے اور اپنی fˈɔrtʰ ʋˈɪɖɪoː ʤˈɛnəreːʈ کر لینا ہے اور یہ دیکھیں ہماری ʋˈɪɖɪoː ʤˈɛnəreːʈɪɖ ہو چکی ہے
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0078.wav|0|میں نے صرف flˈoː اے آئی کو ایک sˈɪmpəl prˈɔmpʈ دیا تو flˈoː اے آئی نے مجھے یہ ʋˈɪɖɪoː بنا کے دے دی
+data/3_training_lists/voice/wavs/_qZG68xJPag__0046.wav|0|وہاں اپنی sʈˈɔrɪ دینی ہے اور اس سے prˈɔmpʈs لکھوا لینے ہیں میں اپنے prˈɔmpʈ خود لکھتی ہوں
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0073.wav|0|اور نیچے یہ اورنج نشان بھی ہے اس کا مطلب ہے آپ کے krˈɛɖɪʈs ختم ہو گئے ہیں اب آپ اس آئیڈی پر مزید ʋˈɪɖɪoːz نہیں بنا سکتے klˈɪk کرنا ہے sˈaːɪn ˈaːʊʈ پر klˈɪk کرنا ہے
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0064.wav|0|اب ˈɛroː پہ klˈɪk کریں گے تو ʋˈɪɖɪoː ʤˈɛnəreːʈ ہونا شروع ہو جائے گی یہ دیکھیں ʤˈɛnəreːʈ ہوئی ہے یہ
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0066.wav|0|یعنی آپ کو الگ سے ˈɪmɪʤɪz بنانے اور ان پر ʈˈɛksʈ sˈɛʈ کرنے کی کوئی جھنجھٹ ہی نہیں آپ
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00944.wav|1|براہ کرم اس بارے میں دوسری طرح مت سوچو۔
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0001.wav|0|سب سے پہلے تو مجھ سے یہ سوال بہت زیادہ پوچھا جاتا ہے کہ کیا آپ کا ʧˈɛnəl mˈɔnɪʈaːɪzɖ ہے؟
+data/3_training_lists/voice/wavs/_qZG68xJPag__0030.wav|0|یہاں میں وہ آواز sˈərʧ کروں گی جو میں خود یوز کرتی تھی تو میں یہاں لکھوں گی ایلس کچھ ہی دیر بعد یہاں آلیس کی بہت ساری آوازیں آ جائیں گی
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0079.wav|0|اور یہاں میں ایک بات کہنا چاہتی ہوں اس سارے مسئلے کو سولف کرنے کے لیے jˈuːʈjuːb hˈɛlp ʈˈiːm نے میری بہت مدد کی خیر یہ تھی آج کی ʋˈɪɖɪoː امید کرتی ہوں آپ سب کو پسند آئی ہوگی
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0019.wav|0|جیسے مثال کے طور پر اگر آپ کو اسلامک pˈeːrənʈɪnɡ کا کوئی ʈˈɔpɪk sɪlˈɛkʈ کرنا ہے بچوں کو جھوٹ بولنے سے کیسے روکیں گھر میں سکون کا ماحول کیسے بنائیں
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0063.wav|0|اب آپ نے اس امیج پہ پریس کرنا ہے اور یوز prˈɔmpʈ کرنا ہے
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0019.wav|0|لیے وہ دو تین مہینے کے جمع ہو کر دو سو سولہ ڈالرز ہو چکی تھی جو کہ پاکستان کے ساٹھ ہزار بنتے ہیں
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0059.wav|0|چونکہ ہم نے rˈɛfrəns ایمیج کو پہلے ہی ایڈ کر لیا ہے تو اب اسی ایمیج کے بالکل نیچے ہم اپنا prˈɔmpʈ ʈˈaːɪp کریں گے آپ لوگ یہاں skrˈiːn سے prˈɔmpʈ دیکھ سکتے ہیں یا
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0060.wav|0|اگر آپ ˈɪnstəɡrəm یا ٹک ٹاک یوز کرتے ہیں تو وہاں sˈərʧ کریں لوگوں نے ˈɛɖɪʈɪnɡ کو بہت آسان طریقے سے سمجھایا ہوا ہے ایک بات klˈiːər ہے
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0040.wav|0|خیر میں نے اپنی ایمیجز کو دوبارہ نکال لیا تھا اب مجھے یہ ایمیجز بھی پسند نہیں آئیں تو میں پھر سے ریوز prˈɔmpʈ پر کلک کروں گی اور دوبارہ ایمیجز نکالنا شروع کروں گی
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00398.wav|1|ʃˈɛhzaːdə شہر pənˈaːh کے دروازہ میں داخل ہوا xˈətmə
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02868.wav|1|انیس سو انتیس ضلع بہاولنگر میں واقع مدرسہ تعلیم الاسلام جس کے بانی حافظ غلام حسین تھے کی شہرت انہیں وہاں لے گئی۔
+data/3_training_lists/voice/wavs/_qZG68xJPag__0016.wav|0|تو آپ نے اپنا کوئی بھی نام لکھ دینا ہے جیسے میں اپنے ʧˈɛnəl کا نام لکھ دیتی ہوں اور
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0022.wav|0|لیکن اس کے بعد میں نے دو ʋˈɪɖɪoːz پوسٹ کی جن میں میں نے اے آئی کو استعمال کرنا سکھایا
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0047.wav|0|اب یہاں اس جگہ پر آپ اپنا ʈˈɛksʈ لکھ سکتے ہیں جیسے میں یہاں ایک lˈaːɪn لکھتی ہوں یہاں سے نیچے سے آپ ɪmˈoːʃənz ʧˈuːz کر سکتے ہیں جیسے hˈɛpɪ ، sˈɛɖ یا پھر ɪksˈaːɪʈɪɖ اور یہاں سے ʤˈɛnəreːʈ پر کلک کر دینا ہے تو آپ کی spˈiːʧ ʤˈɛnəreːʈ ہونا شروع ہو جائے گی
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0012.wav|0|یہاں پہ آپ لوگ دیکھ سکتے ہیں کہ یہاں پہ لکھا ہوا ہے انسٹنٹ آپ نے یہاں klˈɪk کرنا ہے اور یہاں سے tʰˈɪnkɪnɡ mˈoːɖ آن کریں گے یہ mˈoːɖ عام اے آئی کی طرح تکہ نہیں مارتا
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0000.wav|0|اَسّلامُ علیکم میری jˈuːʈjuːb fˈɛmɪlɪ کیسے ہیں آپ سب؟
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01678.wav|1|kˈoːiː paːbˈəndiː nəhˈiːn bˈəs ایسا لباس pˈɛhneːɴ جس میں آپ aːrˈaːm محسوس kˈəreːɴ!
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0019.wav|0|لیکن پورا کا پورا اس پر ریلائے مت کریں اپنے سکرپ میں hjˈuːmən ʈˈəʧ یعنی انسانی دماغ لازمی شامل کریں اور
+data/3_training_lists/voice/wavs/od1gD9-brjk__0056.wav|0|ہم بالکل یہی ʋˈɪɖɪoːz flˈoː اے آئی سے بھی ʤˈɛnəreːʈ کر سکتے ہیں اور مزے کی بات یہ ہے کہ میں نے اپنی یہ ʋˈɪɖɪoː بھی بالکل frˈiː میں flˈoː اے آئی سے ہی بنائی ہے اب
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00740.wav|1|زور دیتے ہوئے کہا کہ کووڈ انیس سے بچاؤ کے لئے لوگوں کو مسلسل بیدار کیا جانا چاہئے ۔
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0000.wav|0|آج کی ʋˈɪɖɪoː میں میں آپ لوگوں کو ایسے frˈiː اے آئی ʈˈuːlz کے بارے میں بتانے والی ہوں
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0026.wav|0|اس کی ˈɔɖiːəns صرف پاکستان تک محدود نہیں ہوتی بلکہ دوسرے ممالک سے بھی لوگ ایسی ʋˈɪɖɪoːz دیکھتے ہیں
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0050.wav|0|اس کے بعد ایک اور چیز جب آپ اپنی ʋˈɪɖɪoː کو ایڈٹ کرتے ہیں اور
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0041.wav|0|دیکھیں یہ آپ دیکھ سکتے ہیں ہر طرح کی ʋˈɔɪs موجود ہے اس میں mˈeːl ʋˈɔɪs بھی ہیں اور fˈiːmeːl بھی
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0016.wav|0|جیسے ʋˈɪɖɪoː ، ˈɔɖɪoː ، ˈɪmɪʤ ، ʈˈɛksʈ ، اے آئی ʈˈuːlz لیکن میں یہاں ʋˈɪɖɪoː پر کلک کروں گی تو آپ لوگ یہاں سے ˈɪmɪʤ ʈə ʋˈɪɖɪoː بھی بنا سکتے ہیں اور ʈˈɛksʈ ʈə ʋˈɪɖɪoː بھی یعنی صرف اپنا ʈˈɛksʈ لکھیں گے اور ʋˈɪɖɪoː بن جائے گی
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0040.wav|0|اب میں اسی طرح سے امیجز نکالوں گی جب تک مجھے کوئی امیج پسند نہیں آ جاتی میں تب تک امیجز نکالتی رہتی ہوں
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0029.wav|0|تو خیر اب میں آپ لوگوں بتاتی ہوں کہ میں نے اپنا jˈuːʈjuːb ʧˈɛnəl کیسے شروع کیا
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02228.wav|1|اس کے مطابق سوسائٹی کے معا شرتی شعور کی قطعی صورتیں ظہور پاتی ہیں ۔
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0063.wav|0|تو اس fˈeːlɖ والے ایشو کو سولف کرنے کا طریقہ یہ ہے کہ آپ کو اپنی جی mˈeːl آئی ڈی ʧˈeːnʤ کرنی پڑے گی
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0024.wav|0|اور ɖˈaːʊnloːɖ امیج پہ کلک کرتے ہی یہ آپ کی ɡˈɛlərɪ میں سیو ہو جائے گا اسی طرح آپ کچھ ابایاز بھی sˈərʧ کر سکتے ہیں جیسے آپ کو پسند ہوں اور ان کو بھی ɖˈaːʊnloːɖ کر لیں
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0025.wav|0|ایک اور اہم بات دوبارہ سمجھ لیں کہ پہلے pˈɪn kˈoːɖ کے لیے لوگوں کو بہت زیادہ انتظار کرنا پڑتا تھا کبھی وہ پوسٹ ˈɔfɪs میں آ جاتا تھا اور کبھی نہیں جس کی وجہ سے rˈɛʋənjuː hˈoːlɖ پر رہتا تھا
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0066.wav|0|اسی طرح آگے بھی لکھ لینا ہے اور یہ دیکھیں اب یہاں آپ ˈɪnɡlɪʃ بھی لکھ سکتے ہیں آپ əɡˈɛn ایڈٹ والے ˈɔpʃən پہ جائیں وہاں لکھیں ɪslˈaːmɪk
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0014.wav|0|ɡˈuːɡəl lˈɛbz اس کا lˈɪnk میں نے ʋˈɪɖɪoː کے ɖɪskrˈɪpʃən میں بھی دے دیا ہے آپ وہاں سے بھی ˈoːpən کر سکتے ہیں تو
+data/3_training_lists/voice/wavs/od1gD9-brjk__0039.wav|0|اور یہ طریقہ میں آپ لوگوں کو بہت بار بتا چکی ہوں اب تو آپ کو یہ طریقہ زبانی یاد ہو جانا چاہیے لیکن جو نئے دیکھنے والے ہیں ان کے لیے بار بار بتاتی ہوں اب ہم نے اپنی ʋˈɪɖɪoː کی کہانی کے حساب سے تصاویر نکالنی ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01937.wav|1|اتھترچھ sˈoː sətˈiːnʋeː عیسوی میں ˈəbəd ˈəllaːh بن بکرۃ عبید bˈən بکرۃ بامیان کے rˈaːsteː کابل pˈər hˈəmlə aːʋˈər ہوا۔
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0036.wav|0|اس کا جواب ہے کہ نہیں یہ بلکل frˈiː نہیں ہے لیکن یہ آپ کو روزانہ ففٹی frˈiː krˈɛɖɪʈs دیتا ہے اگر آپ آٹھ sˈɛkənɖz کی ʋˈɪɖɪoː بنائیں گے تو ایک جی mˈeːl آئی ڈی سے فور ʋˈɪɖɪoːz بنیں گی اور اگر دس sˈɛkənɖz کی ʋˈɪɖɪoː بنائیں گے تو تین ʋˈɪɖɪoːz ʤˈɛnəreːʈɪɖ ہوں گی
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0044.wav|0|میں اپنے وائٹی sʈjˈuːɖɪoː میں گئی اور jˈuːʈjuːb ʈˈiːm سے بات کی انہوں نے مجھے ایک fˈɔrm فل کرنے کو کہا
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0029.wav|0|جب میں نے اپنا jˈuːʈjuːb ʧˈɛnəl شروع کیا تھا تو شروع میں میں نے اسلامی pˈeːrənʈɪnɡ پر ʋˈɪɖɪoːz بنائی تھی اور صرف دو مہینوں کے اندر میرا ʧˈɛnəl mˈɔnɪʈaːɪzɖ ہو گیا تھا
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00820.wav|1|وزیر زادے نے خود اپنے کپڑوں کو تار تار کیا ۔
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0049.wav|0|اب آپ نے اپنے kˈɛrɪkʈər والی امیج پر دبا کے رکھنا ہے اور ایڈ ʈə prˈɔmpʈ پر دو دفعہ klˈɪk کرنا ہے جس سے آپ کی rˈɛfrəns امیج ایڈ ہو جائے گی دوسری امیج کو بھی اسی طرح ایڈ کر لیں اب آپ نے یہاں وہ prˈɔmpʈ لکھنا ہے جو کام آتے ہیں اب
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01912.wav|1|اس میں تمام عربی حروف موجود ہے ۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01684.wav|1|تو ہمیں ایک جوڑی کپڑے زائد لانے ہوں گے۔
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0052.wav|0|چینجز کرنے کے بعد دوبارہ سے ایرو پر ڈلک کر دینا ہے اور آپ کی بلکل njˈuː ایمیجز ʤˈɛnəreːʈ ہونا شروع ہو جائے اب دیکھیں ہمارے سامنے کچھ اس طرح کی شاندار ایمیجز ʤˈɛnəreːʈ ہو کر آ گئی ہیں اور
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01190.wav|1|میں جا کے انھیں لاتا ہوں ۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01922.wav|1|مجھے بتانے کے لیے ʃʊkrˈiːə
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00562.wav|1|əɡˈər bərˈaːh mɛhɛrbˈaːniː آپ mˈeːriː mˈədəd کریں تو mˈʊʤʰeː kˈʊʧʰ mˈaːluːmaːt کی ضرورت ہوگی۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00036.wav|1|اگر hˈəm ˈɪseː پکانے kˈeː tˈiːs منٹ کے ˈəndər اندر nəhˈiːn kʰˈaːteː تو میری dˈaːdiː hˈəm سب کو ɖˈaːnʈaː کرتی تھی
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00036.wav|1|nˈaːʋəl mˈeːɴ ʤˈɪn بھوت ˈɔr ʤaːduːɡˈər نیاں nəhˈiːn ہوتیں ، وہ lˈoːɡ hˈoːteː ہیں جنھیں hˈəm روز ˈəpneː ʧˈaːroːɴ tərˈəf دیکھتے ہیں ۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01425.wav|1|اس دور سے ˈɪs حویلی میں məʤˈaːlɪs محرم منعقد kərʋˈaːneː kˈaː sˈɪlsɪlə آج bʰˈiː جاری hˈɛ ۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02819.wav|1|حضرت عبدالواحد بن زیدؒ کی سنِ وفات میں اختلاف پایا جاتا ہے ۔
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0043.wav|0|جب میں نے اس ʈˈuːl کو ٹیسٹ کیا تو میں نے دیکھا کہ یہاں ہم ɡˈɛlərɪ سے تصویر ɪmpˈɔrʈɪɖ نہیں کر سکتے لیکن آپ یہاں اپنا prˈɔmpʈ لکھ کر ʋˈɪɖɪoː بنا سکتے ہیں
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0016.wav|0|پھر میں ʤˈɛmɪnaːɪ پر گئی اور اسے اپنی prˈɔbləm بتائی تو اس نے مجھے کہا کہ آپ ایک əpˈiːl fˈɔrm فل کریں
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0007.wav|0|میں یہ نہیں کہہ رہی کہ وہ سب غلط ہیں بلکہ ہر کوئی اپنے ɪkspˈiːərɪəns کے مطابق بات کرتا ہے آج میں آپ کو وہی بتاؤں گی جو میں نے اپنی pˈərsənəl lˈaːɪf میں خود ɪkspˈiːərɪəns کیا ہے
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0017.wav|0|بلکہ lˈɔnɡ ʋˈɪɖɪoːz یعنی لمبی ʋˈɪɖɪoːz بنانا شروع کریں
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0031.wav|0|یہ ہماری ʋˈɪɖɪoː کی kʋˈɔlɪʈɪ کو پہلے سے زیادہ بہتر کر دے گا ʋˈɪɖɪoː کی kʋˈɔlɪʈɪ پہلے کی نسبت کتنی بہتر ہو گئی ہے
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0038.wav|0|rˈɛɡjʊlər ہونا ہر ہفتے دو تری ʋˈɪɖɪoːz پوسٹ کرنا ہر دفعہ اچھی ˈɛɖɪʈɪnɡ کرنا اور ہر دفعہ ایک kʋˈɔlɪʈɪ ʋˈɪɖɪoː پوسٹ کرنا تاکہ آپ کے ساتھ ایک اچھی ˈɔɖiːəns جڑیں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00838.wav|1|kjuːnkˈɛh تین tˈaːlɪb علم səmˈaːət سے mɛhrˈuːm ہیں۔
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0044.wav|0|دیکھیں اس نے امیج کو کتنا nˈiːʈ اور klˈiːn کر دیا ہے اور یہ دیکھیں
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0014.wav|0|لیکن پھر رات کو ابھی بیٹھ کر میں بس نارملی سوچ رہی تھی کہ کیا مسئلہ ہے تو اچانک مجھے ای mˈeːl آئی کہ
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0072.wav|0|اگر کچھ سمجھ نہ آئے تو آپ kˈɔmɛnʈ sˈɛkʃən میں kˈɔmɛnʈ کر سکتے ہیں اگر ʋˈɪɖɪoː اچھی لگی ہو تو اسے لائک اور ʃˈeːr ضرور کیجئے گا اور مزید ایسی ɪnfˈɔrməʈɪʋ ʋˈɪɖɪoːz کے لیے ʧˈɛnəl کو səbskrˈaːɪb کرنا مت بھولیے گا
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0059.wav|0|ہم چلتے ہیں اس کے ایک اور کمال کے fˈiːʧər کی طرف نیچے آپ کو یہ slˈaːɪɖz کا ˈɔpʃən نظر آرہا ہوگا اس پر klˈɪk کرتے ہیں
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02198.wav|1|عبدالرب نشتر نے ابتدائی تعلیم مشن اسکول اور بعد میں سناتن دھرم ہائی اسکول ممبئی سے حاصل کی ۔
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0003.wav|0|تو اسی لئے میں نے سوچا کیوں نہ آج کی ʋˈɪɖɪoː میں میں آپ لوگوں کو بلکل شروع سے صرف اور صرف flˈoː اے آئی کا مکمل استعمال سکھاؤں
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0056.wav|0|ˈɛɖɪʈɪnɡ یا ʋˈɔɪs آور میں آپ کی اپنی محنت نظر آنی چاہیے تاکہ jˈuːʈjuːb اسے riːjˈuːzɖ kˈɔnʈɛnʈ نہ سمجھے
+data/3_training_lists/voice/wavs/_qZG68xJPag__0056.wav|0|آپ کے سامنے یہ ویب سائٹ آئے گی جس پہ لکھا ہوگا ɡˈuːɡəl lˈɛbz آپ نے اس پہ klˈɪk کرنا ہے تو آپ کے سامنے کچھ اس طرح کا ˈɪnʈərfeːs آ جائے گا
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01454.wav|1|علی گڑھ ہی میں آپ نے میاں جی عبدالرحمن صاحب مرحوم سے فارسی کی تعلیم حاصل کی۔
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0005.wav|0|یا اپنی ʋˈɪɖɪoː میں اس کا ذکر کریں اس کے بدلے میں ہم آپ لوگوں کو پیسے دیں گے اب میں آپ لوگوں کو بتا دوں کہ spˈɔnsərʃɪp
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0032.wav|0|اب یہ ɖrˈɛs کچھ دیر میں یہاں ɪmpˈɔrʈɪɖ ہو جائے گا
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0007.wav|0|اور آپ یہ کام mˈoːbaːɪl پہ بھی کر سکتے ہیں اب
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0035.wav|0|ʧˈɛnəl تو کبھی کبھی کسی ایک ʋˈɪɖɪoː کے ʋˈaːɪərəl ہونے سے بھی ہو جاتا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01979.wav|1|جی، یہ ایک بڑا تہوار ہے۔
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0048.wav|0|یہ دیکھیں میں نے یہاں ایک prˈɔmpʈ لکھ دیا ہے اور یہاں ˈɛroː پہ klˈɪk کر دوں گی اب یہ ˈɪmɪʤɪz نکالنا شروع کر دے گا اور یہ دیکھیں اس
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0062.wav|0|اور ہاں جب آپ اپنی ʋˈɪɖɪoː ˈəploːɖ کر لیں تو اس ʋˈɪɖɪoː کے kˈɔmɛnʈ sˈɛkʃən میں اپنے ʧˈɛnəl یا ʋˈɪɖɪoː کا lˈɪnk ضرور ʃˈeːr کیجئے گا
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0029.wav|0|جو کہ پاکستان کے تقریباً تیس ہزار روپے بنتے ہیں اسی طرح سے ہٹ پاو والوں نے مجھے سے تین ɪnʈɪɡrˈeːʃən ʋˈɪɖɪoːz بنوائی اور ہر ʋˈɪɖɪoː کے ایٹی فائیو ڈالرز دیئے
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00902.wav|1|انہوں نے rjaːsˈət mˈeːɴ سودن میں pəʧˈaːs جلسے منعقد کر نے کا اعلان کیا ہے ۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02783.wav|1|تیرہ سو بیس کے دوران ، انہوں نے پشتو سوسائٹی کے ڈپٹی ڈائریکٹر جنرل کی حیثیت سے خدمات انجام دیں ۔
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0057.wav|0|اور ایرو پر کلک کر دینا ہے تو اس نے یہ والی ایمیجز ʤˈɛnəreːʈ کر کے دے دی ہیں اب میں نے یہاں سے یہ مزید امیجز بھی ʤˈɛnəreːʈ کروا لی ہیں یہ
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00254.wav|1|ناندیڑ ضلع میں کل سات مریضوں کے انکشاف کے بعد کورونا متاثرین کی مجموعی تعداد پینتالیس ہوگئی ہے ۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00814.wav|1|گیند پر موجود چھوٹے رنگین نقطے اس کی متحرک سطح کی نشاندہی کرتے ہیں۔
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0070.wav|0|ویسے یہ پلیٹ fˈɔrm مکمل frˈiː تو نہیں ہے لیکن
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0065.wav|0|اچھا sʈjˈuːɖɪoː ہوگا تب ہی ہم ʋˈɪɖɪoːz بنائیں گے لیکن آج کل اے آئی نے یہ کام بہت آسان کر دیا آپ اے آئی سے ˈɛɖɪʈɪnɡ کر سکتے ہیں اے آئی سے sʈjˈuːɖɪoː بنا سکتے ہیں اب تو بہت سا کام اے آئی ہی کر دیتا ہے
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0061.wav|0|تو میں نے اسی پہ کام کرنا شروع کر دیا اور اب میں ٹیکنیکل ʋˈɪɖɪoːz بنا رہی ہوں کیونکہ مجھے اس nˈiːʃ میں زیادہ فائدہ ہو رہا ہے
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0055.wav|0|اور ایک بہت ɪmpˈɔrʈənʈ بات یاد رکھیں کوئی بھی جینوین spˈɔnsər آپ سے pˈaːsʋərɖ وغیرہ نہیں مانگے گا اب اگر کوئی brˈɛnɖ آپ کو اپنی ویب سائٹ کا lˈɪnk بھیجتا ہے تو صرف اس lˈɪnk پر کلک کر کے فوراں ٹرسٹ نہ کریں پہلے خود اس brˈɛnɖ کے بارے میں انویسٹیگیشن کریں اگر آپ کو پھر بھی سمجھ نہ آئے تو
+data/3_training_lists/voice/wavs/od1gD9-brjk__0055.wav|0|لیکن آپ نے بالکل پریشان نہیں ہونا اگر آپ یہ ʈˈuːl استعمال نہیں کرنا چاہتے تو کوئی مسئلہ نہیں ہے
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0059.wav|0|اور یہ میرا پہلا ʧˈɛnəl بھی نہیں تھا اس سے پہلے بھی میں نے ایک دو ʧˈɛnəlz بنائے تھے لیکن میں انہیں چلا نہیں سکی اس لئے میں نے وہ چھوڑ دیئے
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0052.wav|0|تو یہ kˈiːʋərɖz ایک ʈˈɛɡ کی شکل میں ˈɛɖ ہو جائے گا اب میں ʧˈɛʈ جی پی ٹی پہ جاؤں گی
+data/3_training_lists/voice/wavs/od1gD9-brjk__0002.wav|0|تو ان کو دیکھتے ہوئے میں نے بھی ایک اسلامی نظم بنائی تو
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0106.wav|0|اور پھر ʤˈɛmɪnaːɪ سے اگلا اردو skrˈɪpʈ لاکر pˈeːsʈ کر دیں ایرو پر کلک کرتے ہی ہماری fˈɔrtʰ ʋˈɪɖɪoː بھی ʤˈɛnəreːʈ ہو جائے گی یہ دیکھیں یہ rˈɛɖɪ ہو گئی ہے
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0025.wav|0|ہے اس لیے ان تمام سستے شارٹ کٹس کو آج ہی چھوڑ دیں اگر jˈuːʈjuːb پر واقعی اپنا نام بنانا ہے اور lˈaːɪf ʈˈaːɪm کمانا ہے تو اپنا اوریجنل kˈɔnʈɛnʈ بنائیں
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_03379.wav|1|مندر شیویت اور ویشنو دونوں فرقوں کی مجسمہ سازی کے لیے منفرد ہے۔
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0083.wav|0|اب ہمارا اگلا sʈˈɛp ہے ʋˈɪɖɪoː بنانا اس کے لیے ہم جائیں گے flˈoː اے آئی پر
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0071.wav|0|امید کرتی ہوں آپ کو اندازہ ہو گیا ہوگا کہ میں اپنا تھامنیل کیسے بناتی ہوں
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0039.wav|0|جب آپ کے ایک آئی ڈی کے krˈɛɖɪʈs ختم ہو جائیں تو آپ نے کرنا یہ ہے کہ اپنے mˈoːbaːɪl میں سات سے آٹھ ɡˈuːɡəl جی mˈeːl آئی ڈیز بنا کر رکھ لیں
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0021.wav|0|پہلے تو مجھے لگا کہ میرا ʧˈɛnəl ڈی mˈɔnɪʈaːɪzɖ ہو گیا ہے لیکن پھر میں اپنے وائٹی sʈjˈuːɖɪoː کے ˈərn sˈɛkʃən میں گئی
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0079.wav|0|اسی طرح میں اپنی tʰˈərɖ ʋˈɪɖɪoː بنا لوں گی اور یہ دیکھیں اب یہاں آپ کو اورنج کلر کا sˈaːɪn شو ہوگا
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00722.wav|1|hˈeːloː کیا یہی پر xˈaːn اکیڈمی hˈɛ
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00274.wav|1|ˈɪbtɪdaːiː ʋəʈrˈeːkʈoːmiː xˈaːs tˈɔr pˈər انسولین پر منحصر ذیابیطس ʋˈaːleː لوگوں میں مؤثر ہے، ʤˈənheːɴ ˈaːnkʰ میں nəksˈiːr آنے sˈeː ˈəndʰeː پن kˈaː زیادہ xˈətrə hˈoː sˈəktaː ہے۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00858.wav|1|hʊkuːmˈət نے bˈəhʊt سے افسران kˈiː لاشیں قبول kˈərneː sˈeː ɪnkˈaːr kˈər دیا، یہ ایک ˈeːsaː مسئلہ تھا جس نے ʃəmˈaːliː علاقوں میں غم و غصے اور مظاہروں kˈoː بھڑکا dˈiːaː
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0005.wav|0|یہ والا ˈɪnʈərfeːs آ جائے گا اب آپ نے یہاں سے اے آئی امیج پر کلک کرنا ہے اور پھر یہاں سے امیج جنریشن پر کلک کرنا ہے تو آپ کے سامنے اس طرح کا ˈɪnʈərfeːs آ جائے گا اب آپ نے یہاں اس جگہ پر اپنا prˈɔmpʈ لکھنا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01317.wav|1|اس sˈeː تمہارے məqˈaːleː kˈoː نا اہل قرار dˈeː dˈiːaː ʤˈaːeː ɡˈaː
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0023.wav|0|اور میں نے ایک frˈɛʃ جی mˈeːl بنائی اور اسے اپنے ʧˈɛnəl کی ɖɪskrˈɪpʃən میں ڈال دیا کچھ دن بعد ہی مجھے brˈɛnɖ کی طرف سے ˈiː mˈeːl آئی جو تھی ہٹ پاو کی طرف سے جس میں انہوں نے کہا کہ ہم نے آپ سے آپ کی ʋˈɪɖɪoː نیچے اپنا lˈɪnk لگوانا ہے یہ
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0065.wav|0|میرے خیال سے یہ ایمیجز اس لیے بھی فیل ہو جاتی ہیں کیونکہ جب ہم بار بار ایک ہی جیسی ایمیج ʤˈɛnəreːʈ کرنے کی کوشش کرتے ہیں تو sˈɪsʈəm میں یہ prˈɔbləm آ جاتی ہے اس
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0065.wav|0|kˈɔmɛnʈ sˈɛkʃən میں مجھے ضرور بتائیے گا کہ آپ اگلی ʋˈɪɖɪoː کس ʈˈɔpɪk پر دیکھنا چاہتے ہیں اگر ʋˈɪɖɪoː اچھی لگی ہو تو اسے لائک کریں ʧˈɛnəl کو səbskrˈaːɪb کریں ملتے ہیں اپنی اگلی ʋˈɪɖɪoː میں تب تک کے لئے اللہ حافظ
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0049.wav|0|اب اس نئی نیلے ابایا والی ایمیج پر پریس کر دو بار ایڈ ʈə prˈɔmpʈ پر کلک کرنا ہے تو یہ blˈuː ابایا یہاں rˈɛfrəns کے طور پر لگ جائے گا اب بس
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00634.wav|1|اگر تم مجھے بتاؤ کہ تم لوگ اپنے شہر میں یہ جشن کیسے مناتے ہو تو یہ میرے خوشی کی بات ہوگی۔
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0014.wav|0|اب یہاں وہ آپ کو دو ایمیلز دے گا آپ ان میں سے کوئی بھی چوز کر سکتے ہیں اور tʰˈərɖ پر کریٹ یور اون جی mˈeːl پر جا کر اپنی مرضی کی ˈiː mˈeːl بنا سکتے ہیں
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0023.wav|0|جیسے مجھے یہ والا ɖrˈɛs پسند آیا ہے تو اسے ɖˈaːʊnloːɖ کرنے کے لیے میں یہاں tʰrˈiː ɖˈɔʈs پہ کلک کروں گی
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0065.wav|0|یہاں سے fˈɔnʈ sʈˈaːɪl sɪlˈɛkʈ کروں گی اور یہاں اسے əʤˈəsʈ کروں گی اور کلر چوز کروں گی
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01622.wav|1|ˈɪs کے pˈaːs hˈɪnduː ں kˈiː mˈaːɽjaːɴ کوٹھیاں tʰˈiːɴ xˈətmə
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00777.wav|1|لیکن مجھے nəhˈiːn pˈətə کہ اس پر سرکاری حکام کا کیا rˈəd ˈəməl ہوگا۔
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0046.wav|0|ˈəploːɖ ɖɪfˈɔlʈs ہم نے ان سب کی sˈɛʈɪnɡ کرنی ہے اچھا اب سب سے اوپر لکھا ہوا ہے ʤˈɛnrəl اس کو آپ نے
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0044.wav|0|مثلا میں یہاں کوئی بھی prˈɔmpʈ لکھ دوں گی اور تیر والے نشان پر کلک کر دوں گی تو یہ ʋˈɪɖɪoː بنانا شروع کر دے گا اور یہ دیکھیں ہم نے اسے جس طرح کا prˈɔmpʈ دیا تھا
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0034.wav|0|لیکن وہ ˈərnɪnɡ نہیں کر پاتے کیونکہ ان کی تین چار ʋˈɪɖɪoːz ʋˈaːɪərəl ہو گئی تھی اور ʧˈɛnəl mˈɔnɪʈaːɪzɖ ہو گیا تھا
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0051.wav|0|دیکھیں میں نے پہلے اس پہ ʋˈɪɖɪoːz بنائی ہوئی ہیں لیکن اب یہاں ˈɔpʃən نہیں مل رہا کبھی کبھی جب kˈəmpənɪ اپنے ʈˈuːlz میں کوئی چینجنگز کر رہی ہوتی ہے تو وہ یہ فیچرز آرزی طور پر بند کر دیتی ہے
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0060.wav|0|اگر آپ یہ والا ʧˈɛnəl دیکھیں تو اس پر بھی شروع میں میں نے ʈʋˈɪnkəl ʈʋˈɪnkəl lˈɪʈəl sʈˈaːr والی ʋˈɪɖɪoː ˈəploːɖ کی ہوئی ہے لیکن پھر میں نے اسلامی pˈeːrənʈɪnɡ پر ʋˈɪɖɪoːz بنائیں اور وہ اچھی چل گئیں
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0030.wav|0|تاکہ ʧˈɛʈ جی پی ٹی اسی کے əkˈɔrɖɪnɡ ɖɪskrˈɪpʃən دے خیر آپ نے یہاں سے ɖɪskrˈɪpʃən kˈɔpɪ کرنا ہے اور اپنے ʧˈɛnəl پر آنا ہے اور یہاں سے ɖɪskrˈɪpʃən پر جا کے اپنا ɖɪskrˈɪpʃən pˈeːsʈ کر دینا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01222.wav|1|ٹھیک hˈɛ lˈeːkɪn ان lˈoːɡoːɴ kˈaː kjˈaː ʤˈoː ʋeːksˈiːn ləɡʋˈaːneː kˈeː bˈaːd بیمار hˈoː جاتے hˈeːɴ
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0082.wav|0|تو چلیے ʋˈɪɖɪoː شروع کرتے ہیں اب آپ نے اپنی باقی ʋˈɪɖɪoːz بھی اسی طرح ʤˈɛnəreːʈ کروا لینی ہے اب آپ نے
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0014.wav|0|pˈərfɛkʈ rɪzˈəlʈ تیار کرتا ہے تو سب سے پہلے اس کو ʧˈɛk کرتے ہیں یہاں آپ لوگوں کو sˈərʧ bˈaːr نظر آرہا ہوگا
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0045.wav|0|ہیں اگر آپ sʈˈɔrɪ nərˈeːʈ کرنا چاہتے ہیں تو nˈɛrəʈɪʋ ɛnɖ sʈˈɔrɪ پر کلک کر سکتے ہیں sˈoːʃəl mˈiːɖiːə سے rɪlˈeːʈɪɖ ہے تو sˈoːʃəl mˈiːɖiːə پر کلک کر سکتے ہیں یہاں سے آپ اپنا ʤˈɛnɖər sɪlˈɛkʈ کر سکتے ہیں mˈeːl یا fˈiːmeːl اور
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0082.wav|0|اپنے klˈɪps سیلیکٹ کریں آپ جو بہتر لگیں خود سے سوچا کریں کہ کونسا klˈɪp پہلے ٹھیک رہے گا اور کونسا بعد میں تو میں اسی حساب سے klˈɪps سیلیکٹ کر رہی ہوں اور یہ یہاں ɪmpˈɔrʈɪɖ ہو جائیں گے
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0050.wav|0|پھر اس امیج پر پریس کریں اور ɖˈaːʊnloːɖ امیج پر کلک کر دیں تو یہ ɖˈaːʊnloːɖɪɖ ہو جائے گی اچھا اب دو sˈiːnz تو kriːˈeːʈɪɖ ہو چکے ہیں
+data/3_training_lists/voice/wavs/_qZG68xJPag__0025.wav|0|اب پہلے ہم اپنا skrˈɪpʈ لکھوا لیتے ہیں میں بس آپ کو ɖˈɛmoː دکھانے کے لیے ɡˈuːɡəl جیمنیپا جاؤں گی اور یہاں اسے بولوں گی کہ مجھے ایک sʈˈɔrɪ لکھ دو تو یہ کوئی بھی کہانی لکھ دے گا
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0038.wav|0|اور میری طرح لمبی ʋˈɪɖɪoːz کیسے بنائیں تو دیکھیں میں پہلے بھی بتا چکی ہوں آج پھر سے بتا رہی ہوں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02321.wav|1|ٹھیک ہے اس صورت میں، میں چار مئی کو جیسلمیر جاؤں گا
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0063.wav|0|kriːˈeːʈ ə fˈaːɪʋ slˈaːɪɖ prɛzənʈˈeːʃən ɔn ɪslˈaːmɪk bˈɛɖʈaːɪm sʈˈɔrɪz fɔr kˈɪɖz اور اب ہم یہاں ˈɛroː پر klˈɪk کر دیں گے
+data/3_training_lists/voice/wavs/od1gD9-brjk__0015.wav|0|اور آپ نے ایرو پہ کلک کر دینا ہے تو اب یہ کچھ دیر تک آپ کے lˈɪrɪks کو کرافٹ کرے گا اور اب یہاں نیچے آپ کی rˈaːɪm ʤˈɛnəreːʈ ہونا شروع ہو جائے گی
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0013.wav|0|نے پھر دوبارہ pˈɪn kˈoːɖ کے لیے اپلائی کیا لیکن پھر اکیس دن گزر گئے لیکن میرا pˈɪn kˈoːɖ نہیں آیا اور ادھر میرے وائٹی sʈjˈuːɖɪoː میں ہنڈرڈ ɖˈɔlər kəmplˈiːʈɪɖ ہو چکے تھے
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0060.wav|0|اب ہماری tʰˈərɖ ایمیج کے لیے میں یہ والا prˈɔmpʈ لکھوں گی جس میں ماں کچن میں کام کر رہی ہے ایرو پہ کلک کر دیں اور
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0030.wav|0|میں نے شروع سے لے اب تک کوئی ایک بھی pˈeːɖ ʈˈuːl استعمال نہیں کیا
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00713.wav|1|آج اس شان سے نظر آیا تو اور بھی حسین لگا ۔
+data/3_training_lists/voice/wavs/_qZG68xJPag__0053.wav|0|ʋˈɪɖɪoː میں آگے چل کر آپ کو یہ بھی بتاؤں گی کہ جب آپ کی ایک آئیڈی کے frˈiː krˈɛɖɪʈs ختم ہو جائیں تو
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0013.wav|0|یہاں آپ کو بہت سارے ˈɔpʃənz ملیں گے جیسے sʈˈɔrɪ ʈə ʋˈɪɖɪoː aːɪɖˈiːə ʈə ʋˈɪɖɪoː یہاں آپ aːɪɖˈiːə لکھیں گے اور ʋˈɪɖɪoː بن جائے گی skrˈɪpʈ ʈə ʋˈɪɖɪoː یہاں آپ اپنا lˈɔnɡ skrˈɪpʈ لکھیں گے اور skrˈɪpʈ کے əkˈɔrɖɪnɡ ʋˈɪɖɪoː بن جائے گی
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02070.wav|1|یونین کے اثر و رسوخ میں اس نے افریقی عوام کی سماجی و اقتصادی اور سیاسی زندگی کا ایک نیا باب کھولا۔
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0032.wav|0|میری صرف ایک ہی ایڈوائز ہے کہ ʋˈɪɖɪoː کی kʋˈɔlɪʈɪ پر کبھی سمجھوتا نہ کریں
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0004.wav|0|جس میں مجھے اپنی aːɪɖˈɛnʈɪʈɪ اور əɖrˈɛs ʋˈɛrɪfaːɪ کرنے کے لیے کہا گیا اس
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0001.wav|0|امید کرتی ہوں آپ سب خیریت سے ہوں گے آج میں آپ لوگوں کو بتاؤں گی کہ
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02931.wav|1|سڑکوں پر ہونے والی چار دنوں کی خونریز لڑائی میں کئی ہزار چیک مارے گئے، دونوں طرف سے بہت سے مظالم ڈھائے گئے۔
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01249.wav|1|dˈeːkʰaː tˈoː نے ، xˈʊdaː چاہے tˈoː بچھڑے ˈɪs tərˈəh mˈɪlteː ہیں ۔
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0056.wav|0|اب یہاں سے ɖˈaːʊnloːɖ والے fˈoːlɖər پہ جانا ہے اب دیکھیں آپ کے سامنے fˈɔnʈ sʈˈaːɪlz آ جائیں گے
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0057.wav|0|کچھ sʈˈaːɪlz میں نے پہلے سے ɖˈaːʊnloːɖ کیے ہوئے تھے خیر میں یہاں klˈɪk کروں گی پھر یہاں klˈɪk کروں گی
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0019.wav|0|ہیں اور سب سے بڑی بات اس نے آئیڈیاز بھی دیئے ہیں کہ آپ اپنے ʧˈɛnəl کو کس طرح əʈrˈɛkʈɪʋ بنا سکتے ہیں
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0057.wav|0|کیونکہ jˈuːʈjuːb پر کامیابی ایک یا دو ʋˈɪɖɪoːz سے نہیں بلکہ مسلسل محنت کرنے سے ملتی ہے
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0041.wav|0|شروع سے ہی مجھے ʋˈɪɖɪoː ˈɛɖɪʈɪnɡ کا شوق تھا اس لیے میں اپنی ʋˈɪɖɪoːz کی kʋˈɔlɪʈɪ بہتر کرنے کی کوشش کرتی رہتی تھی
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0027.wav|0|آپ کے سامنے کچھ اس طرح کا ˈɪnʈərfeːs آ جائے گا اب آپ نے یہاں prˈɔʤɛkʈ پہ کلک کرنا ہے تو آپ کے سامنے flˈoː اے آئی کا ورکسپیس ˈoːpən ہو جائے گا
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0016.wav|0|تو اب ان پانچ sʈˈɛps کو ɖˈiːʈeːl سے سمجھتے ہیں تو
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00391.wav|1|وائپار دریا کا ˈeːk zəxˈiːrə آب ʋˈeːmbaːkoːʈaːiː ɖˈeːm pˈər hˈɛ
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0030.wav|0|اصل میں دوہزار پچیس میں یونیورسٹی سے گریجویشن کرنے کے بعد میں frˈiː تھی تو میں نے سوچا کہ کیوں نہ jˈuːʈjuːb ʧˈɛnəl بنایا جائے
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0055.wav|0|آپ کی ایمیج ڈائریک mˈoːbaːɪl کی ɡˈɛlərɪ میں ɖˈaːʊnloːɖ ہو جائے گی
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0024.wav|0|اب میں یہاں اردو میں اپنی prˈɔmpʈ لکھوں گی ایک bjˈuːʈɪfəl پاکستانی گرل ہے جس نے یہ والا ابایا پہنا ہوا ہے گرل کی skˈɪn بہت bjˈuːʈɪfəl اور
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0026.wav|0|زیادہ چانسز یہ ہی ہیں کہ وہ ایسی ʋˈɪɖɪoːz کو پریفر کریں گے جن کی پریزنٹیشن اور ˈɛɖɪʈɪnɡ اچھی ہو اور
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02350.wav|1|ʊnˈiːs sˈoː ˈəkjaːoːn mˈeːɴ ˈɪbn الکردبوس pənʤˈaːb پولیس میں بھرتی hˈuːeː ،آئی جی پولیس رہے xˈətmə
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0032.wav|0|وہاں لکھنا ہے مجھے اپنے jˈuːʈjuːb کے لئے ایک lˈoːɡoː بنانا ہے جس کے اوپر لکھا ہو də lˈɪʈəl kˈɔrnər bjˈuːʈɪfəl سا lˈoːɡoː بنا دو
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0052.wav|0|میں نہیں چاہتی تھی میں آپ لوگوں سے کوئی غلط چیز ʃˈeːr کروں ایکچولی میں اپنی ʋˈɪɖɪoː بنا چکی تھی مجھے lˈaːsʈ پہ جا کے پتا چلا لیکن کوئی بات نہیں ہم flˈoː سے ابھی بھی ʋˈɪɖɪoːz ʤˈɛnəreːʈ کروا سکتے ہیں اور
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02993.wav|1|رائے طلبی کے لیے واشنگٹن میں ان کے دفتر پر آنے والی کالز کو ایک وائس میل پر بھیج دیا جاتا جس سے یہ ظاہر ہوتا کہ ان کا دفتر بند ہے ۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01406.wav|1|چنانچہ دہلی کے ترکوں نے بدایوں کے حاکم یزید بن معاویہ کی موت کے بعد لوگوں کے ابن زیاد کے خلاف اٹھ کھڑے ہونے میں اس کا کردار تھا ۔
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0068.wav|0|اور بہت سے لوگ جو jˈuːʈjuːb سے پیسے کمانا چاہتے تھے انہوں نے صرف اس وجہ سے ʋˈɪɖɪoːz بنانا شروع ہی نہیں کیا کہ
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01931.wav|1|اسے پہلی بار دو ہزار چودہ میں شام اور عراق کے درمیان میں سرحدی رکاوٹوں کو ختم کرنے والے داعش کے ارکان کی وڈیو میں دیکھا گیا ۔
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0053.wav|0|اور اچھی ʋˈɪɖɪoːz بنائیں اب یہ دیکھیں یہ ایک ʧˈɛnəl ہے حافظ حسن بھائی کا ان
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01478.wav|1|جی ہاں، سر، میں آپ کی کس طرح مدد کر سکتی ہوں؟
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0046.wav|0|یہاں سے آپ ˈɛʤ sɪlˈɛkʈ کر سکتے ہیں ʧˈaːɪlɖ ، jˈənɡ جو آپ کا دل کرے
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00158.wav|1|pjˈaːs sˈeː زبان میں kˈaːnʈeː پڑ گئے məɡˈər pˈaːniː ناپید تھا ۔
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0007.wav|0|لیکن جیسے ہی میں نے pˈeːmənʈ کی مجھے ایک ˈiː mˈeːl آئی کہ آپ کا ایڈسنس əkˈaːʊnʈ səspˈɛnɖɪɖ کر دیا گیا ہے
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0058.wav|0|اور دوبارہ سے کرنی پڑتی ہے تو آپ نے ساتھ ساتھ sˈeːʋ کرتے رہنا ہے خیر اب ہم نے klˈɪk کرنا ہے əɖʋˈɛnsʈ sˈɛʈɪnɡ پہ اب
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0048.wav|0|آپ نے یہاں سے ری یوز prˈɔmpʈ پہ کلک کرنا ہے اور دوبارہ ایرو دبا دینا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00476.wav|1|اس کا nəfərˈəns میں ˈeːk sˈoː تیس mʊmˈaːlɪk kˈeː تقریبا چھ ہزار mˈənd و bˈeːn ʃɪrkˈət kˈər سکتے hˈeːɴ جو کہ heːdraːbaːdaːnʈərnˈeːʃnəl کنونشن سنٹر پر mʊnˈaːqɪd hˈoːɡiː xˈətmə
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00047.wav|1|ان گنت لونڈی غلام آزاد کیے۔شاہی خزانہ ایسا کھلا کہ ملک میں کوئی محتاج نہ رہے ۔
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0051.wav|0|آپ نے اس prˈɔmpʈ میں جو کچھ بھی ایڈ کرنا ہے یا جس ʈˈaːɪp کی امیج آپ چاہتے ہیں وہ یہاں ʈˈaːɪp کر کے کچھ چینجز کر سکتے ہیں
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01292.wav|1|دن نکلنے لگا تو اس nˈeː ɡʊldˈaːn sˈeː سرخ phˈuːl lˈeː کے اسے سنگھا jˈaː سر پھر ˈɪsiː طرح dʰˈəɽeː sˈeː ˈələɡ hˈoː کے ʧʰˈiːnkeː میں lˈəʈək ɡˈəjaː xˈətmə
+data/3_training_lists/voice/wavs/od1gD9-brjk__0038.wav|0|prˈɔmpʈ آپ یہاں سے دیکھ سکتے ہیں اور لڑکے کی امیجز بھی ʤˈɛnəreːʈɪɖ ہو گئی ہیں اب ہمارے کیریکٹرز ʤˈɛnəreːʈɪɖ ہو چکے ہیں
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0034.wav|0|مجھے ایک bjˈuːʈɪfəl گرل کی امیج دو جس نے یہ والا ɖrˈɛs پہنا ہوا ہے جو میں نے امیج میں آپ کو دیا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01005.wav|1|mˈʊʤʰeː kjˈaː غرض جو kˈəhoːɴ kˈeː bˈəndər بولتا hˈɛ ۔
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0042.wav|0|اب آپ نے باقی امیجز کو بھی ایسے ہی ایڈ ʈə prˈɔmpʈ کر دینا ہے اور
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_03378.wav|1|ˈɪs انداز کا تذکرہ tˈəməl sˈənəɡəm ادب mˈeːɴ mˈɪltaː ہے ورلڈ سلمبم ایسوسی ˈeːʃən سلمبم kˈaː سرکاری بین الاقوامی ادارہ hˈɛ
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00431.wav|1|یہ kərˈiːk kˈiːeː جانے والے سب سے mˈʊʃkɪl ɪmtɪhˈaːnaːt میں سے ایک ہے۔
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0054.wav|0|تو چند دن بعد آپ bˈɔrɖ ہو جائیں گے اور ʋˈɪɖɪoːz بنانا چھوڑ دیں گے اور ایک غلطی جو زیادہ تر نئے لوگ کرتے ہیں وہ یہ ہے کہ آج ایک nˈiːʃ پر ʋˈɪɖɪoː بنا لیتے ہیں کل دوسری پر اور پرسوں تیسری پر
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00021.wav|1|مطلب یہ kˈeː ایسی نثر لکھنے mˈeːɴ بہت محنت kˈərniː پڑتی hˈɛ اور اب lˈoːɡ اسے pəsˈənd nəhˈiːn کرتے xˈətmə
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00437.wav|1|انٹرمیڈیٹ اور فائنل ɪmtɪhˈaːnaːt سال میں sˈɪrf ˈeːk بار hˈoːteː hˈeːɴ
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0039.wav|0|چلتے ہیں اپنے اگلے ʈˈuːl کی طرف جس کا نام ہے ویڈز اے آئی اس کے لیے آپ نے ɡˈuːɡəl پر جانا ہے اور وہاں ɡˈuːɡəl ویڈز sˈərʧ کرنا ہے
+data/3_training_lists/voice/wavs/_qZG68xJPag__0036.wav|0|mˈɔɖəl میں یہ اردو ایفریکانز ایربک یہ سب زبانیں بول سکتا ہے اب آپ نے نیچے انہینز پہ کلک کرنا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00606.wav|1|تمام مذاہب کے lˈoːɡ گوا کارنیول منانے kˈeː lˈiːeː ʤˈəmaː hˈoːteː hˈeːɴ
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0067.wav|0|sˈaːɪn ˈaːʊʈ پر کلک کرتے ہی آپ کے سامنے ایسا ˈɪnʈərfeːs آ جائے گا یہاں آپ نے ٹرائٹ ناؤ پر کلک کرنا ہے اور پھر kriːˈeːʈ ʋɪd ɡˈuːɡəl flˈoː کو سیلیکٹ کرنا ہے اب
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0010.wav|0|تو سب سے پہلے ہمیں اپنی ʋˈɪɖɪoː کے لیے کیریکٹرز ʤˈɛnəreːʈ کرنے ہوتے ہیں جیسے کہ یہ کچھ کیریکٹرز میں نے پہلے سے ʤˈɛnəreːʈ کر رکھے ہیں اب
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0011.wav|0|میں آپ کو بتاؤں گی کہ یہ کیریکٹرز میں نے کیسے ʤˈɛnəreːʈ کیے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02093.wav|1|ٹھیک ہے۔ یہ کافی مہنگا ہے۔
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0041.wav|0|اب بات کرتے ہیں اپنی آخری kˈɛʈɪɡərɪ کی جو ہے اے آئی kˈʊkɪnɡ ʋˈɪɖɪoːz
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0049.wav|0|اور یہ دیکھیں آپ کے سامنے آپ کا fˈɔnʈ ɖˈaːʊnloːɖ ہو چکا ہے ہم اس کو ˈoːpən کریں گے لیکن اس میں تھوڑی prˈɔbləmz ہوتی ہے کہ
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0022.wav|0|اب آپ نے نیچے دیئے گئے آپشنز میں سے چار پر کلک کر لینا ہے کیونکہ ہمیں ایک ہی وقت میں چار امیجز ʤˈɛnəreːʈ کروانی ہے اور اپنی مرضی کے مطابق
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0033.wav|0|لیکن اس وقت مجھے نہ ʋˈɪɖɪoː بنانا آتا تھا نہ یہ پتا تھا کہ jˈuːʈjuːb سے ˈərnɪnɡ کیسے ہوتی ہے یا کتنا rˈɛʋənjuː ملتا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00029.wav|1|ہر طرف شہزادے شہزادیاں نظر آتے ہیں اور وہ بھی سب کے سب ایسے حسین کہ چاند سورج کہ انھیں دیکھ کے شرمائیں ۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00414.wav|1|کیا تم نے کسی کالج میں درخواست نہیں دی؟
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0043.wav|0|اس امیج کو ɖˈaːʊnloːɖ کرنے کے لیے اس پر prˈɛs کر کے رکھیں یعنی دبا کر رکھیں اور ʃˈeːr پر دو bˈaːr klˈɪk kˈɛrən
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0024.wav|0|اور اس نے مجھے یہ والی امیجز ʤˈɛnəreːʈ کر کے دے دی ہیں اب یہاں سے آپ کو جو امیج پسند ہو اس پر پریس کریں اور یہاں سے ʃˈeːr پر کلک کریں اور ɖˈaːʊnloːɖ امیج پر کلک کر دیں
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0018.wav|0|ان میں سے اپنی پسند کے کیریکٹرز چوز کر سکتے ہیں جیسے میں نے یہاں سے یہ سبزیاں سیلیکٹ کی ہیں آلو جو ایک باپ کا kˈɛrɪkʈər ہے
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0055.wav|0|تو یہ لیں اس نے مجھے یہ والے دو prˈɔmpʈ نکال کے دے دیئے ہیں اب یہاں سے ہم نے پہلا prˈɔmpʈ کافی کر لینا ہے اور flˈoː اے آئی پر جا کے pˈeːsʈ کر دینا ہے اور
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00014.wav|1|مدورائی ہوائی ˈəɖə ریاست کا واحد کسٹم həʋˈaːiː ˈəɖə hˈɛ
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00829.wav|1|ہرنی میرا راستہ کاٹ گئی تھی اور آج میری آنکھ بھی پھڑک رہی تھی ۔
+data/3_training_lists/voice/wavs/_qZG68xJPag__0011.wav|0|تو آپ کے سامنے یہ ویب سائٹ ˈoːpən ہو جائے گی
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0028.wav|0|جو مجھ سے بہت زیادہ پوچھا جاتا ہے اور وہ یہ ہے کہ کیا میں کوئی pˈeːɖ ʈˈuːl استعمال کرتی ہوں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01656.wav|1|خصوصی ضروریات کی کلاس میں طلباء کو کلاس یا اسکول کے دوسرے بچوں سے متعلق مسائل ہو سکتے ہیں۔
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0037.wav|0|جیسی آپ اس پر کلک کریں گے آپ کے سامنے mˈoːbaːɪl کی ɡˈɛlərɪ ˈoːpən ہو جائے گی اگر آپ نے کسی سپیسفک fˈoːlɖər میں جانا ہو تو
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0025.wav|0|تو یہ امیج ɖˈaːʊnloːɖɪɖ ہو جائے گی اس امیج کا prˈɔmpʈ آپ کو ʋˈɪɖɪoː کے ɖɪskrˈɪpʃən میں مل جائے گا
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0031.wav|0|اب ہم نے یہاں وہ ɖrˈɛs یا ابایا ˈəploːɖ کرنا ہے جو ہم نے پنٹرس سے ɖˈaːʊnloːɖ کیا تھا لیکن یہاں ایک بہت ضروری بات یاد رکھیں
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01406.wav|1|چنانچہ دہلی kˈeː tˈərkoːɴ nˈeː bədaːˈeːoːɴ کے حاکم یزید بن معاویہ کی mˈoːt کے bˈaːd lˈoːɡoːɴ kˈeː ˈɪbn زیاد kˈeː xɪlˈaːf اٹھ کھڑے ہونے mˈeːɴ ˈɪs کا kɪrdˈaːr تھا ۔
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0017.wav|0|بات کرتے ہیں əfˈɪlɪeːʈ spˈɔnsərʃɪp کی تو اس میں یہ ہوتا ہے کہ brˈɛnɖ کہتا ہے کہ ہماری prˈɔɖəkʈ کا lˈɪnk پلیس کرنا اس prˈɔɖəkʈ کو اپنی ʋˈɪɖɪoː کے نیچے لگاؤ تو جو اس lˈɪnk پر کلک کر کے ان کی وہ prˈɔɖəkʈ پرچیز کر لیتا ہے یعنی خرید لیتا ہے تو اس کے بدلے میں آپ کو کچھ pərsˈɛnʈ kəmˈɪʃən ملتا ہے تو
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0017.wav|0|یہ دیکھیں اس نے آپ لوگوں کو دس ʧˈɛnəl کے آئیڈیاز دے دیئے ہیں یعنی آپ کس طرح کا ʧˈɛnəl کر سکتے ہیں جیسے اسلامی bˈɛɖʈaːɪm ʈˈaːɪm sʈˈɔrɪz ɖˈeːlɪ ruːʈˈiːn رائمز یا mˈɪnɪ prˈɔfɪʈ sʈˈɔrɪz اور اگر آپ نیچے جائیں تو اس نے آپ کو jˈuːʈjuːb ʧˈɛnəl کے پندرہ نام بھی بتا دیئے ہیں
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00313.wav|1|اس آبی منصوبے سے کل شب پچہتر ہزار گھن فٹ فی سیکینڈ کی رفتار سے پانی ندیوں میں چھوڑا گیا ۔
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00622.wav|1|لوکیش راہل مرلی و جئے اور کپتان وراٹ کوہلی کے جلدی جلدی آؤٹ ہو جانے کے بعد روہت شرمااور چیتیشور پجارا نے ٹیم کو سہارا دیا ۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02497.wav|1|علاوہ ازیں، hɪnduːstˈaːniː ʤəɣraːfˈiːə həmˈaːreː nɪsˈaːb kˈaː hˈɪsə hˈɛ اور ˈaːp lˈoːɡ غالباً dʊnˈiːaː kˈiː bˈɛhtəriːn جگہوں kˈeː bˈaːreː mˈeːɴ پڑھتے hˈeːɴ!
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00072.wav|1|بوڑھا جواب دینے ہی kˈoː tʰˈaː kˈeː tˈoː تا ʤʰˈəʈ سے bˈoːl pˈəɽaː ɣərˈiːb کے مال kˈaː مول کون dˈeːtaː hˈɛ xˈətmə
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01063.wav|1|jˈəhaːɴ تک کہ یہ جلوس mˈələkə کے ʤʰərˈoːkeː kˈeː tˈəleː ˈaː پہنچا xˈətmə
+data/3_training_lists/voice/wavs/_qZG68xJPag__0026.wav|0|آپ اپنے حساب سے جو کہانی لکھوانا چاہیں لکھوا سکتے ہیں تو میں اسے یہاں سے kˈɔpɪ کروں گی
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0022.wav|0|تو یہ آپ کے لیے تھامنیل والی امیج نکالنا شروع کر دے گا
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00096.wav|1|پیرا ˈeːs ایف kˈeːpəʈən kɪrˈən سنگھ ڈوگرہ کو ʧˈiːniː حکام nˈeː اس ʋˈəqt پکڑ lˈiːaː ʤˈəb ان kˈaː hˈeːliː kˈaːpʈər mˈaːmuːl kˈiː tˈərbiːətiː mˈəʃq کے doːrˈaːn چینی سرحد pˈər گر kˈər تباہ ہو گیا۔
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0011.wav|0|اس ʋˈɪɖɪoː میں آپ کسی اور brˈɛnɖ یا ʈˈuːl کا ذکر نہیں کر سکتے صرف اسی prˈɔɖəkʈ کا ذکر کرتے ہو جس کے لیے آپ یہ ʋˈɪɖɪoː بنا رہے ہو میں نے ہکس اے آئی والوں کے لیے ایک ɖˈɛɖɪkeːʈɪɖ ʋˈɪɖɪoː بنائی تھی
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0009.wav|0|تو یہ ساری ʋˈɪɖɪoːz میں نے اسی اے آئی ʈˈuːl کی مدد سے بنائی ہیں اور وہ بھی بالکل frˈiː میں چلیں یہ سب باتیں تو ہم ساتھ ساتھ کرتے رہیں گے لیکن سب سے پہلے میں آپ لوگوں کو یہ شاندار ʋˈɪɖɪoːz بنانا سکھاتی ہوں
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0040.wav|0|تو اتنا ہی ملے گا اس سے زیادہ یا کم نہیں تو
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01617.wav|1|əɡˈər kˈoːiː بچہ həraːsˈaːniː کے mˈaːmleː کی ˈɪtlaː دیتا ہے tˈoː ہمیں کیا کرنا ʧˈaːhjeː
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0013.wav|0|اب ایک لمبی ʋˈɪɖɪoː کیسے تیار کرنی ہے اس کا حل یہ ہے کہ جب آپ کے ایک آئی ڈی کے krˈɛɖɪʈs ختم ہو جائیں تو یہاں سے lˈɔɡ ˈaːʊʈ کریں اور اپنی دوسری جی mˈeːl آئی ڈی لوگن کریں
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0018.wav|0|یہ تو ہو گئی spˈɔnsərʃɪp کی ɖˈiːʈeːl جس میں میں نے آپ لوگوں کو بتایا کہ spˈɔnsərʃɪp کیا ہوتی ہے اور کس قسم کی ہوتی ہیں اب
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0002.wav|0|ہم اس کے ذریعے کیسے پیسے کما سکتے ہیں تو آج میں آپ لوگوں کو بتاؤں گی کہ spˈɔnsərʃɪp کیا ہے آپ
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0010.wav|0|کیونکہ سب سے پہلے ˈɔɖiːəns کو آپ کی ʋˈɪɖɪoː کا تھم نیل ہی نظر آتا ہے تیسری چیز ہے ʋˈɪɖɪoː kʋˈɔlɪʈɪ آپ
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0005.wav|0|لیکن میرے کہنے پہ آپ ایک بار اس ʈˈuːl کو ضرور دیکھ کر جانا کہ یہ کیسے کام کرتا ہے کیونکہ گوڈ نیوز یہ ہے کہ دو lˈəkɪ ʋˈɪnərz کو اس ʈˈuːl کا mˈəntʰlɪ frˈiː səbskrˈɪpʃən ملنے والا ہے اس کی ɖˈiːʈeːlz میں آپ کو ʋˈɪɖɪoː کے انڈ میں بتاؤں گی
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01525.wav|1|hˈaːɴ mˈʊʤʰeː ʋˈoː pˈətə hˈɛ
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0037.wav|0|لئے کوشش کریں کہ اپنی ʋˈɪɖɪoː میں ˈɔɖiːəns سے ایسا سوال ضرور کریں جس کا جواب وہ kˈɔmɛnʈs میں دے سکیں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00850.wav|1|راجو، آپ نے کے جی ایف چیپٹر ٹو کے بارے میں کیا سوچا؟
+data/3_training_lists/voice/wavs/od1gD9-brjk__0028.wav|0|آپ نے njˈuː prˈɔʤɛkʈ پہ کلک کرنا ہے اور یہاں سے ریشیو رو سلیکٹ کر لینا ہے
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0085.wav|0|سامنے ایسا ˈɪnʈərfeːs آ جائے گا یہاں آپ نے njˈuː prˈɔʤɛkʈ پر کلک کرنا ہے اور اپنی ʋˈɪɖɪoː کا ریشو وغیرہ سیلیکٹ کر لینا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00269.wav|1|ہندوستان mˈeːɴ ٹیکس kˈaː نظام aːsˈaːniː ˈɔr səhuːlˈət kˈeː lˈiːeː بنایا ɡˈəjaː ہے۔
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00929.wav|1|اور پانچ سو چھ کے تحت پاکسوا یکٹ لگایا گیا ہے ۔
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00782.wav|1|ˈɪndɪraː ɡˈaːndʰiː ˈoːpən یو neːoːrˈəsʈiː کا بتیس واں kˈaː noːkeːʃˈən پندرہ mˈaːrʧ tˈaː pˈəndərə əprˈeːl کے dərmjˈaːn mʊnˈaːqɪd ہوگا ۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02569.wav|1|بینک کی پالیسی ہے کہ اگر اکاؤنٹ اٹھارہ ماہ سے زیادہ استعمال نہیں کیا گیا ہے تو بیلنس منجمد کر دیا جاتا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01906.wav|1|حضرت سیّدناعلی کے حقیقی بھائی عقیل تھے جن کےفرزند حضرت مسلم تھے ۔
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0060.wav|0|یہاں اوپر آپ کو prəfˈɛʃənəl اور kriːˈeːʈɪʋ mˈoːɖz ملتے ہیں اور
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0018.wav|0|اور پھر ɖˈaːʊnloːɖ ایمیج پر ٹیپ کر کے اسے ɖˈaːʊnloːɖ کر لینا ہے اب دیکھیں یہ ایمیج آپ کی ɡˈɛlərɪ میں آ چکی ہے
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0011.wav|0|سب سے پہلے بات کرتے ہیں skrˈɪpʈ کی میں اپنا skrˈɪpʈ ڈائریکٹ kˈɔpɪ pˈeːsʈ نہیں کرتی تھی
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0040.wav|0|کوشش کرتی تھی کہ ʋˈɪɖɪoː میں ایسی چیزیں بتاؤں جو والدین کے لیے نئی اور فائدہ مند ہوں میری کوشش ہوتی تھی کہ صرف وہی چیزیں دوبارہ نہ بتاؤں جو پہلے ہی jˈuːʈjuːb پر موجود ہیں بلکہ اپنی ʋˈɪɖɪoːz میں کچھ نیا اور jˈuːsfəl ایڈ کروں
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02608.wav|1|ʋˈoː تلنگانہ ریاست mˈeːɴ ˈʊrduː zəbˈaːn اور tˈaːliːm کے فروغ kˈeː مقصد sˈeː qˈaːɪm tənzˈiːm تحریک ˈʊrduː tələnɡˈaːnə kˈeː بانی ˈɔr rjˈaːstiː صدر ہیں ۔
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0029.wav|0|یہ یہاں lˈoːɖ ہو جائے گا اب میں نے کرنا یہ ہے کہ اپنے اس تھامنیل پہ جو پہلے نکالا تھا اس پہ lˈɔnɡ پریس کرنا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00469.wav|1|ششی دھر ریڈی نے کہا کہ کانگریس ورکنگ کمیٹی کو پوری طریقہ سے از سرنو تشکیل دینے کی ضرورت ہے ۔
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0047.wav|0|کہ مجھے یہ ˈɪmɪʤɪz پسند نہیں آئیں تو جو جو چیز مجھے چاہیے میں یہاں ˈɛɖ کر دوں گی لکھ دوں گی
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0014.wav|0|اور وہاں بھی آپ کو پچاس krˈɛɖɪʈs مل جائیں گے اب چلتے ہیں اپنے دوسرے ʈˈuːl کی طرف جو ہے ɡˈuːɡəl ʤˈɛmɪnaːɪ
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0010.wav|0|الحمدللہ صرف دو مہینوں کے اندر میرا ʧˈɛnəl mˈɔnɪʈaːɪzɖ ہو گیا جس کا lˈaːɪf prˈuːf میں آپ کو ʋˈɪɖɪoː کے شروع میں دکھا چکی ہوں اب سوال یہ پیدا ہوتا ہے کہ آخر میں نے ایسا کیا کیا تھا جو میرا ʧˈɛnəl mˈɔnɪʈaːɪzɖ ہو گیا تو
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0022.wav|0|اب آپ نے یہاں sˈərʧ bˈaːr میں ʈˈaːɪp کرنا ہے bjˈuːʈɪfəl پاکستانی ɖrˈɛsɪz آپ کے سامنے بہت سے ɖrˈɛsɪz آ جائیں گے ان میں سے کوئی اچھا سا ڈیزائن سیلیکٹ کر لیں
+data/3_training_lists/voice/wavs/od1gD9-brjk__0024.wav|0|ایک چھوٹا لڑکا یعنی یہ تینوں بہن بھائی ہیں تو سب سے پہلے ہم نے جانا ہے پنٹرسٹ پہ
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00032.wav|1|جھارکھنڈ کی رجدھانی رانچی میں منعقدہ یو گا کیمپ میں وزیر اعظم نریندر مودی بھی شرکت کر رہے ہیں ۔
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0071.wav|0|اس کے بعد جو prˈɔmpʈ ہم نے پہلے kˈɔpɪ کیا تھا اسے یہاں pˈeːsʈ کر دیں
+data/3_training_lists/voice/wavs/_qZG68xJPag__0049.wav|0|ہماری امیج ʤˈɛnəreːʈɪɖ ہو چکی ہے اور یہ میں نے اپنی باقی کی امیجز بھی ʤˈɛnəreːʈ کروا لی ہیں
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0001.wav|0|تو آج میں آپ لوگوں کو ایک زبردست ʈˈuːl کے بارے میں بتانے والی ہوں جس کا نام ہے ہکس اے آئی تو ہکس اے آئی ایک ایسا زبردست ʈˈuːl ہے
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0039.wav|0|اس کے علاوہ بہت سے لوگ لو ˈɛfərʈ kˈɔnʈɛnʈ ڈالتے ہیں ان
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0011.wav|0|نے جسٹ آپ لوگوں کو سکھانے کے لیے یہ نام رکھا ہے آپ نے کوئی juːnˈiːk اور اچھا سا نام رکھنا ہے اب آپ نے یہاں نیکسٹ پر کلک کر دینا ہے
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0060.wav|0|دوسرے والے fˈɔnʈ پہ klˈɪk کرنا ہے پھر یہاں klˈɪk کروں گی اور یہ والا fˈɔnʈ بھی یہاں ˈɛɖ ہو جائے گا اب جیسے میں اس fˈɔnʈ پہ klˈɪk کروں گی تو اوپر دیکھیں ہمارا fˈɔnʈ sʈˈaːɪl ʧˈeːnʤ ہوا ہے یہ دیکھیں اب تھوڑا bˈɛʈər لگ رہا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02139.wav|1|تمدن عرب kˈiː həqˈiːqiː صبح sˈaːdɪq قرآن məʤˈiːd ˈɔr ˈaːnəhəzərət صل ˈəllaːh əlˈiːə ʋˈaːlə وسلم کی ذات baːbərəkˈaːt سے tˈʊluː ہوئی ۔
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01342.wav|1|مجھے نجومیوں نے بتایا ہے کہ سب کے مقدر میں مصیبتیں ضرور ہیں مگر سب خیریت سے ہیں ۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02829.wav|1|zəbˈaːniː روایت کے mʊtˈaːbɪq زون kˈoː یوسف ʃˈaːh چک کی rˈaːniː sˈaːtʰiː kˈiː heːsiːˈət sˈeː bəjˈaːn kjˈaː ɡˈəjaː ہے۔
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0061.wav|0|پھر ʤˈɛnəreːʈ پر تو آپ لوگوں کی ˈɪmɪʤ کے əkˈɔrɖɪnɡ bˈɛkɡraːʊnɖ ʤˈɛnəreːʈ ہونے لگے گا اور یہ دیکھیں bˈɛkɡraːʊnɖ لگ چکا ہے اور کافی اچھا لگ رہا ہے
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0031.wav|0|یہاں آپ اپنے kˈɛrɪkʈər کا نام لکھیں گے جیسے آئیشہ پھر یہاں مجھے جس طرح کا kˈɛrɪkʈər چاہیے اس کے لیے prˈɔmpʈ لکھوں گی ʧˈuːz ə ʋˈɔɪs پہ کلک کر کے ʋˈɔɪs ʧˈuːz کروں گی اور kənfˈərm کر دوں گی
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0004.wav|0|تو میں نے سوچا کیوں نہ میں اپنی ʋˈɪɖɪoːz پر ایڈ چلاؤں اور اپنی ʋˈɪɖɪoː کو پروموٹ کروں اس کے لیے میں ɡˈuːɡəl ایڈز پر گئی اور
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00870.wav|1|گہرماتھا بیچ اور میرین سینکچری مشرق میں ہیں، جو دلدل کے علاقے اور چَمرَنگوں کو خلیج بنگال سے الگ کرتے ہیں۔
+data/3_training_lists/voice/wavs/_qZG68xJPag__0059.wav|0|اب ہم نے اوپر plˈəs پہ کلک کرنا ہے پھر ˈəploːɖ mˈiːɖiːə پہ کلک کر کے brˈaːʊz میں جانا ہے اور جس fˈoːlɖər میں آپ کی ایمیجز ہیں
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0014.wav|0|اور یہاں sˈərʧ کرنا ہے پنٹریسٹ اس کے بعد ɪnsʈˈɔl کے bˈəʈən کو دبا دیں اور
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0067.wav|0|اب اپنی امیجز کو ʋˈɪɖɪoːz میں بدلنے کے لیے ہم flˈoː اے آئی کا استعمال کریں گے لیکن اس سے پہلے آپ نے ʤˈɛmɪnaːɪ سے اپنا skrˈɪpʈ لکھوا لینا ہے
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0047.wav|0|اور ɡˈɛlərɪ سے اپنے دوسرے ɖrˈɛs سیلیکٹ کر لینے ہیں اب وہ یہاں ɪmpˈɔrʈɪɖ ہو جائیں گے اب آپ نے اسی امیج پہ پریس کرنا ہے اور ریوز prˈɔmpʈ پہ کلک کرنا ہے تو
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00531.wav|1|ʤənˈaːb چودھری nˈeː bʰaːrtˈiːə جنتا pˈaːrʈiː پر mˈaːʃreː kˈoː təqsˈiːm kˈərneː کا الزام aːˈɪd کیا xˈətmə
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00547.wav|1|پجاری ˈaːm طور سے səfˈeːd پوشاک پہنتے ہیں ˈɔr ˈəpneː kˈəndʰoːɴ کے ˈuːpər ʧʰˈoːʈeː ˈoː nˈərm تولیہ جیسی چیز رکھتے ہیں۔
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0069.wav|0|یہاں ʈˈaːɪʈəl میں آپ نے اپنے ʧˈɛnəl کا nˈeːm لکھنا ہے میں اپنے ʧˈɛnəl کا نام لکھ دیتی ہوں اور نیچے ɖɪskrˈɪpʃən میں آپ نے آپ کے جتنے بھی sˈoːʃəl lˈɪnks ہیں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00857.wav|1|یہ fˈɪlm ان lˈoːɡoːɴ kˈoː pəsˈənd آئے گی ʤˈoː ایکشن فلمیں pəsˈənd کرتے ہیں۔
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0036.wav|0|امیج ˈəploːɖ کرنے کے لئے آپ نے اوپر یہاں plˈəs کے ˈaːɪkɔn پہ کلک کرنا ہے اور پھر ˈəploːɖ mˈiːɖiːə کو سیلیکٹ کرنا ہے
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0013.wav|0|اگر آپ کی ʋˈɪɖɪoː کی kʋˈɔlɪʈɪ اچھی نہیں ہوگی تو لوگ آپ کی ʋˈɪɖɪoː میں اتنا ˈɪnʈrɛsʈ نہیں لیں گے اس لیے kʋˈɔlɪʈɪ بہت زیادہ میٹر کرتی ہے اس
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00413.wav|1|آچار یدونو بھ بھاوے کے ایک سو پنچیس میں یوم پیدائش کے موقع پر آج گاندھی بھون میں انھیں بھر پور خراج پیش کیا گیا ۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_03292.wav|1|امام عبداللہ بن سعود الکبیر کو درعیہ کے چھ ماہ کے محاصرے کے بعد گرفتار کر کے قسطنطنیہ بھیج دیا گیا۔
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0062.wav|0|تو ہم چلتے ہیں اپنے ʋˈɪɖɪoː prˈoːsɛs کی طرف تو آپ نے ʤˈɛmɪnaːɪ پر جانا ہے اور اسے کہنا ہے ʋˈɪɖɪoː prˈɔmpʈ دو تو
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00670.wav|1|یہ سب bˈəhʊt مزیدار لگتا hˈɛ
+data/3_training_lists/voice/wavs/od1gD9-brjk__0062.wav|0|اب آپ نے sˈaːʊnɖ پہ جانا ہے اور پھر میں ڈیوائز پہ جا کے وہ sˈaːʊnɖ sˈərʧ کرنی ہے جو flˈoː ایسے ʤˈɛnəreːʈ کروائی تھی plˈəs پہ کلک کرنا ہے sˈaːʊnɖ ایڈ ہو جائے گی
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0007.wav|0|آج کی اس ʋˈɪɖɪoː میں میں آپ کو سکھانے والی ہوں کہ آپ بلکل میری طرح کا ایک شاندار اے آئی ˈɛʋəʈaːr کیسے تیار کر سکتے ہیں اس
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00451.wav|1|وزارت ʊmˈuːr xˈaːrəʤə نے کہا kˈeː ɪmrˈaːn xˈaːn nˈeː nərˈiːndərmoːdiː kˈeː انتخابات میں ʃˈaːndaːr کامیابی pˈər بذریعہ ٹیلی fˈoːn مبار کبا dˈiː xˈətmə
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0023.wav|0|میں نے سوچا چلو بھائی جیسے بہت سے لوگوں کا ʧˈɛnəl ڈی mˈɔnɪʈaːɪzɖ ہوتا ہے آج میرا بھی ہو گیا میں بھی انہی کی lˈaːɪn میں کھڑی ہو گئی
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0045.wav|0|میں نے fˈɔrm فل کیا اور اپنا شناختی kˈaːrɖ ˈəploːɖ کیا
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00588.wav|1|نوجوان ملازمتوں کے چکر میں نہ پڑتے ہوئے کاروبار کا انتخاب کر میں ایسا مشورہ رکن اسمبلی روہیت پوار نے دیا ہے ۔
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0053.wav|0|وہ nˈiːʃ سیلیکٹ کریں جس میں آپ کا ˈɪnʈrɛsʈɪɖ بھی ہو کیونکہ اگر آپ کو اپنا کام ہی پسند نہیں ہوگا
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0035.wav|0|اور یہاں سے ɡˈuːɡəl ʤˈɛmɪnaːɪ ˈoːpən کر لیں گے
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0011.wav|0|سب سے پہلے ہم نے اپنا mˈɔɖəl سیلیکٹ کرنا ہے تو
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00776.wav|1|zəmˈaːneː کی گردش نے hˈəmeːɴ اپنے دوست sˈeː جدا kˈər دیا tʰˈaː آخر mˈɪlaː bʰˈiː دیا xˈətmə
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0036.wav|0|اور یہاں سے آپ نے rɪmˈuːʋ bˈɛkɡraːʊnɖ پر کلک کرنا ہے ɪmpˈɔrʈ پر کلک کرنا ہے اور اپنا bˈɛkɡraːʊnɖ sɪlˈɛkʈ کر لینا ہے
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0082.wav|0|اور اسے رومن اردو میں اپنا skrˈɪpʈ دیا کہ لڑکی ʋˈɪɖɪoː میں یہ یہ بولے تو ʤˈɛmɪnaːɪ نے مجھے وہ skrˈɪpʈ اردو ʈˈɛksʈ میں کنورٹ کر کے دے دیا
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0000.wav|0|jˈuːʈjuːb دوہزار ستائیس سے اپنے مونیٹائزیشن کے kraːɪʈˈiːərɪə میں ایک بڑی تبدیلی کرنے جا رہا ہے
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0063.wav|0|ہیں میں کوشش کرتی ہوں کہ سب کے kˈɔmɛnʈs کا جواب دوں
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0085.wav|0|ہفتے میں دو سے تری ʋˈɪɖɪoːz ضرور ˈəploːɖ کریں اور اپنی ʋˈɪɖɪoːz کی kʋˈɔlɪʈɪ اچھی رکھیں تو
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00864.wav|1|اور کیمرہ ورک بھی بہترین طریقے سے کیا گیا۔
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0003.wav|0|اس لیے اس سے ملتا جلتا بنانا سکھاؤں گی ویسے بھی اگر سب لوگ بلکل ایک جیسا کام کریں گے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00416.wav|1|raːʤˈəndər ثالث کی ˈaːxriː ریکارڈ شدہ taːrˈiːx bˈaːrə sˈoː اناسی ہے۔
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00479.wav|1|آخر کار شہزادے نے lˈoːh کے xˈaːnoːɴ پر نظر دوڑائی ، ایک xˈaːneː mˈeːɴ لکھا tʰˈaː ۔
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0003.wav|0|اَسّلامُ علیکم میری jˈuːʈjuːb fˈɛmɪlɪ کیسے ہیں آپ سب
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00698.wav|1|آپ مجھے ˈɪs kˈeː بارے ʋˈoː sˈəb kˈʊʧʰ بتا sˈəkteː ہیں جو ʤˈaːnneː کے لائق hˈɛ
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0002.wav|0|جس میں ہم اپنے سارے کام ایک ہی جگہ پر کر سکتے ہیں ہمیں کسی دوسرے اے آئی ʈˈuːl کی ضرورت ہی نہیں یعنی skrˈɪpʈ لکھنا، امیج ʤˈɛnəreːʈ کرنا،
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0020.wav|0|انڈ پر پھر سے ɪnʋˈərʈɪɖ kˈɔməz لگا کے یہ lˈaːɪn بند کر دینی ہے تاکہ flˈoː اے آئی کو پتا رہے کہ آپ نے کونسی lˈaːɪn تھامنیل پر لکھانی ہے خیر
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0035.wav|0|آج کل اس طرح کی ʋˈɪɖɪoːz بھی بہت زیادہ ʈrˈɛnɖ میں ہیں اگر آپ نے اس طرح کی ʋˈɪɖɪoːz دیکھی ہوں تو ان میں صرف ایک دن کا ruːʈˈiːn ہی نہیں دکھایا جاتا
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0009.wav|0|اس پر اسلامک pˈeːrənʈɪnɡ سے ریلیٹڈ ʋˈɪɖɪoːz ˈəploːɖ کرنا شروع کی
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00629.wav|1|سرٌِ حق را چوں جنابِ مجتبےٰ چالوں کی خودکار ترسیل کو فعال کرنے کے لیے حسیاتی بورڈ تیار کیے گئے ہیں۔
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0064.wav|0|اور یہاں سے اپنی پرانی امیج کو کٹ کر دینا ہے اور njˈuː امیج کو ایڈ کر دینا ہے اور ایرو پہ کلک کر دینا ہے یہ آپ کے سامنے امیجز ʤˈɛnəreːʈ کرنا شروع کر دے گا
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0064.wav|0|اور پھر اپنی ʋˈɪɖɪoː jˈuːʈjuːb پر ˈəploːɖ کر دیتی ہوں تو یہ تھی میری jˈuːʈjuːb ʤˈərnɪ اور اگر آپ کی کوئی ʋˈɪɖɪoː اچھا پرفارم نہیں کر رہی تو پریشان نہ ہوں
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0075.wav|0|یہاں سے اسے sʈˈɛnɖərɖ jˈuːʈjuːb lˈaːɪsəns ہی رکھنا ہے سوگری میں آپ نے دیکھنا ہے کہ آپ کا ʧˈɛnəl کس چیز سے rˈɛlɪʋənʈ ہے
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0063.wav|0|ہو kˈəsʈəm tʰˈəmneːl لگا سکتے ہو اور lˈaːɪʋ sʈrˈiːmɪnɡ کر سکتے ہیں آپ نے یہاں ʋˈɛrɪfaːɪ nˈəmbər پہ klˈɪk کرنا ہے آپ
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01392.wav|1|ˈɪs ɪlˈaːqə میں mʊqˈiːm tˈərk qəbˈiːloːɴ کا قومی rˈənɡ hˈuːaː kˈərtaː tʰˈaː sˈəbz لمحات sˈeː مراد اسلام kˈiː ʋˈoː امن pəsˈənd sˈədjaːɴ hˈoː sˈəktiː hˈɛ
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0053.wav|0|میں خود ایڈ کروں گی تو اس طرح اس ʋˈɪɖɪoː میں hjˈuːmən hjˈuːmən ʈˈəʧ بھی ایڈ ہو گیا تو میں اسے کہوں گی مجھے ایک ایسا امیج prˈɔmpʈ دو
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0011.wav|0|اور میں اس بات کو بھی بھول گئی کہ میری ʋɛrɪfɪkˈeːʃən ابھی prˈoːɡrɛs میں ہے
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0028.wav|0|جو میں نے پہلے کبھی اپنی ʋˈɪɖɪoːz کے لیے یوز کیا تھا تو میں یہ والا تھامنیل سیلیکٹ کر لیتی ہوں اب
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0051.wav|0|لیکن sˈiːn tʰrˈiː میں اس نے بتایا ہوا ہے کہ جو آلو ہے وہ اپنے دو چھوٹے بچوں کو اٹھا کے کمرے میں بھاگ رہا ہے بارش کی وجہ سے
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0045.wav|0|جو امیج آپ کو پسند ہو اس پر پریس کریں اور یہاں ɖˈaːʊnloːɖ پر دو بار کلک کریں تو یہ ɖˈaːʊnloːɖ ہو جائے گی
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01815.wav|1|jˈeːh وہ مرحلہ tʰˈaː ʤˈəb تحریک جعفریہ نے انقلاب ɪslˈaːmiː ایران کے عالمگیر ˈɔr آفاقی peːɣˈaːm سے استفادہ کیا ۔
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0036.wav|0|گرل سامنے دے گرل ہجاب کرتی ہیں ویسا ہجاب کیا ہو گرل کے fˈeːs فیچرز bjˈuːʈɪfəl ہیں اب
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0015.wav|0|وہاں sˈərʧ کرنا ہے پنٹریسٹ تو آپ کے سامنے پنٹریسٹ کی ایپ آ جائے گی اب آپ نے ɪnsʈˈɔl پہ کلک کر دینا ہے تو یہ ɪnsʈˈɔl ہونا شروع ہو جائے گی
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0012.wav|0|اب یہاں آپ نے کچھ bˈeːsɪk ɪnfərmˈeːʃən دینی ہے جیسے ڈے میں اپنی ɖˈeːʈ ɔʋ bˈərtʰ لکھوں گی پھر منتھ پر جا کر جس منتھ میں آپ پیدا ہوئے تھے وہ منتھ سیلیکٹ کرنا ہے
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0037.wav|0|اپنے دن کو زیادہ prəɖˈəkʈɪʋ کیسے بنائیں عبادت کے لیے وقت کیسے نکالیں ہر کے کاموں کو کیسے مینج کریں اور اپنی روز مرہ کی ruːʈˈiːn کو کیسے بہتر بنائیں اس طرح کی ʋˈɪɖɪoːz خاص طور پر خواتین بہت شوق سے دیکھتی ہیں کیونکہ انہیں ان سے نئے آئیڈیاز اور موٹیویشن ملتی ہے
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00879.wav|1|محکمہ موسمیات کے عہدیداروں نے بتایا کہ اگر چہ مانسون کا ابھی اختتام نہیں ہوا ہے لیکن شہر اور اس کے مضافات میں رطوبت بڑھ گئی ہے ۔
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0042.wav|0|اب اس پہ ɖˈɪfrənʈ kˈələrz لگ جائیں گے لیکن nˈoːʈɪs کریں کہ یہ kˈələrz کوئی خاص نظر بھی نہیں آ رہے
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0056.wav|0|وہ سوچ رہے ہیں کہ میں ɪmprˈuːʋmənʈ کرتا ہوں اپنی ʋˈɪɖɪoːz پر وہ اپنی ˈɛɖɪʈɪnɡ بہتر کر رہے ہیں
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0085.wav|0|میں نے تو یہ تھوڑی سی ʋˈɪɖɪoːz ɖˈɛmoː کے لیے ایڈ کر کے دکھائی ہیں آپ اپنی مرضی سے باقی ʋˈɪɖɪoːz ایڈ کر سکتے ہیں اور اپنی مرضی سے ˈɛɖɪʈɪnɡ کر سکتے
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0113.wav|0|کو بنانا بالکل بھی مشکل نہیں ہے بس سارا کھیل ایک بہترین prˈɔmpʈ کا ہے اگر آپ کا prˈɔmpʈ اچھا ہے تو ˈɛʋəʈaːr بھی pˈərfɛkʈ بنے گا
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0039.wav|0|یہاں سے آپ نے تھامنیل کا سائز سیلیکٹ کرنا ہے جو کہ ہے سکسٹین نائن اب آپ نے یہاں سے ایڈ ʈˈɛksʈ پہ کلک کرنا ہے اور اوپر یہاں ˈɛɖɪʈ والے sˈaːɪn پہ klˈɪk کرنا ہے تو آپ کے سامنے یہ جگہ آ جائے گی
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0067.wav|0|یہاں سے پوری bˈʊk کا ɖɪzˈaːɪn اور aːɪɖˈiːə لے کر اپنی اگلی ʋˈɪɖɪoː کے لئے استعمال کر سکتے ہیں slˈaːɪɖz کے بعد اب
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02569.wav|1|بینک کی پالیسی ہے کہ əɡˈər اکاؤنٹ əʈʰˈaːrə mˈaːh sˈeː زیادہ استعمال نہیں kjˈaː گیا ہے tˈoː بیلنس منجمد kˈər دیا جاتا hˈɛ
+data/3_training_lists/voice/wavs/od1gD9-brjk__0036.wav|0|اب آپ نے دوسری لڑکی کی امیج بھی ایسے ہی نکلوا لینی ہے یہاں سے آپ prˈɔmpʈ دیکھ سکتے ہیں اور یہ جو امیجز ʤˈɛnəreːʈɪɖ ہوئی ہیں
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0047.wav|0|تو اس پرانی ابایا والی ایمیج پر دو بار کلک کرنا ہے تو وہ ایمیج یہاں سے ہٹ جائے گی اب
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01618.wav|1|اگر کسی بچے کو تنگ کیا جا رہا ہے تو اسے یاد دلائیں کہ یہ اس کی غلطی نہیں ہے۔
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0002.wav|0|لیکن سب سے پہلے یہ ʋˈɪɖɪoːz دیکھیں اَسّلامُ علیکم امی جان والیکم اسلام bˈiːʈə چلو تھوڑی دیر ریسٹ kərˈoː
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0036.wav|0|یہ اس بات کا سگنل ہو سکتا ہے کہ ˈɔɖiːəns آپ کی ʋˈɪɖɪoː میں انٹرسٹڈ ہے اس
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00322.wav|1|نائب میئر کے عہدے پر بی جے پی کے باغی امید وار چندر کانت براج دار کا انتخاب عمل میں آیا ۔
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00767.wav|1|ɪbraːhˈiːm pˈəʈənəm kˈeː ایمی نیڈ وگاؤں kˈaː اکم بارم نامی نو جان پولیس کی جسمانی ٹریننگ کے lˈiːeː کالج آیا تھا xˈətmə
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0027.wav|0|جو میں اپنی ʋˈɪɖɪoːz کے لیے بناتی ہوں تو میں plˈəs پر کلک کروں گی اور ˈəploːɖ mˈiːɖiːə پر کلک کروں گی اور ɡˈɛlərɪ سے اپنا کوئی بھی تھامنیل سیلیکٹ کر لوں گی
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0015.wav|0|آپ نے یہاں klˈɪk کرنا ہے جس کے بعد آپ کے سامنے کچھ اس طرح کا ˈɪnʈərfeːs آ جائے گا آپ نے یہاں njˈuː prˈɔʤɛkʈ پر کلک کرنا ہے
+data/3_training_lists/voice/wavs/_qZG68xJPag__0051.wav|0|نے آپ لوگوں کے بہت سارے kˈɔmɛnʈs دیکھے اور تقریباً سب نے یہی کہا کہ امیجز تو بن جاتی ہیں لیکن ʋˈɪɖɪoː بنانے میں ایشو آرہا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_03323.wav|1|əlʤəzˈiːrə nˈeː jˈeːh کہتے hˈoːeː ˈeːk nˈəjaː aːɖˈeːoː ʈˈeːp نشر کیا hˈɛ کہ ˈɪs میں القاعدہ کے rˈɛhnəmaː ʊsˈaːmə بن لادن kˈiː آواز hˈɛ
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01181.wav|1|مجھے bˈaːkəl نہیں پتہ، یار۔
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0052.wav|0|آج کل لوگ کیا دیکھ رہے ہیں کیا sˈərʧ کر رہے ہیں پھر اس پر ʋˈɪɖɪoːz بنائیں ɪmprˈuːʋmənʈ لائیں
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0074.wav|0|یہاں pˈeːsʈ کر دینے ہیں اور sˈeːʋ پہ klˈɪk کر دینا ہے اب آپ نے əɖʋˈɛns sˈɛʈɪnɡ پہ جانا ہے
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0077.wav|0|ʋˈɪɖɪoː lˈɛnɡʋɪʤ یہاں آپ نے دیکھنا ہے کہ آپ نے اپنی ʋˈɪɖɪoː کی lˈɛnɡʋɪʤ کونسی رکھنی ہے تو میری اردو ہے تو میں اردو ʧˈuːz کروں گی ʈˈaːɪʈəl ɛnɖ ɖɪskrˈɪpʃən lˈɛnɡʋɪʤ میں
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0031.wav|0|اور sˈeːʋ پر klˈɪk کر دینا ہے اب ہم نے lˈoːɡoː لگانا ہے اور bˈɛnər اس کے لئے ہم نے جانا ہے flˈoː eːˈaːɪ پہ اور
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01817.wav|1|baːjˈəs کامیابیاں اور امتحانات kˈaː یہ sˈɪlsɪlə ˈəbʰiː təsˈəlsʊl kˈeː sˈaːtʰ جاری وساری ہے ʤˈɪs کی ɪntɪhˈaːiː mʊxtəsˈər تفصیل کچھ ˈɪs tərˈəh hˈɛ ۔
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0042.wav|0|جیسے مجھے یہ والی امیج پسند آئی ہے تو میں اس امیج پہ پریس کروں گی
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0062.wav|0|آپ کی pˈeːmənʈ بھیج دی گئی ہے یعنی ستائیس کو ایڈسنس نے میری pˈeːmənʈ بھی bˈɛnk میں بھیج دی تھی لیکن یہاں یہ بات یاد رکھنا کہ
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0075.wav|0|اب یہاں سے plˈəs پر کلک کرنا ہے ˈəploːɖ mˈiːɖiːə اور ɡˈɛlərɪ سے اپنی نیکسٹ امیج سیلیکٹ کر لینی ہے اور ʤˈɛmɪnaːɪ سے اپنا prˈɔmpʈ کاپی کرنا ہے یہاں pˈeːsʈ کر دینا ہے اور ایرو پر کلک کر دینا ہے اور یہ ʋˈɪɖɪoː ʤˈɛnəreːʈɪɖ ہو کے آئی ہے پہلی والی یہ تھوڑی غلط ہو گئی تھی اب
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0048.wav|0|چونکہ ہمیں یہ لڑکی وہی چاہیے تاکہ ہمارا kˈɛrɪkʈər پوری ʋˈɪɖɪoː میں sˈeːm رہے اس لیے ہم لڑکی کو یہاں سے نہیں ہٹائیں گے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02721.wav|1|sˈəʧ تو jˈeːh hˈɛ کہ ابو məsˈaːb əlzərqˈaːʋiː nˈeː مشرق ʋˈəstaː mˈeːɴ مسلمانوں کے ساتھ ہونے ʋˈaːliː ناانصافیوں کی کوکھ sˈeː ʤˈənəm لیا۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00620.wav|1|sˈər یہ مزیدار mˈaːluːm hˈoːtaː hˈɛ
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0000.wav|0|مجھے ɖˈeːlɪ بہت سارے kˈɔmɛnʈs آتے ہیں کہ آپ اپنی اے آئی ʋˈɪɖɪoːz کیسے بناتی ہیں تو
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0008.wav|0|اس کے لیے میرے پاس کوئی خاص ʈrˈɪk نہیں ہے بس میں flˈoː اے آئی کو اپنی یہی sˈeːm امیج دیتی ہوں اور وہ ہر بار مجھے تقریباً sˈeːm ʋˈɔɪs نکال کے دے دیتا ہے
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0032.wav|0|اسی دوران مجھے اے آئی کے بارے میں پتا چلا کہ اے آئی کی مدد سے ʋˈɪɖɪoːz بھی بنائی جا سکتی ہیں
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02215.wav|1|ایس ایم خوجا روڈ، səkərˈənɖ روڈ، عید ɡˈaːh قاضی احمد روڈ اور ɡˈaːʤraː rˈoːɖ سمیت ہر گلی میں درخت hˈoːteː تھے xˈətmə
+data/3_training_lists/voice/wavs/od1gD9-brjk__0029.wav|0|اور فور ایکس پہ کلک کرنا ہے کیونکہ ہم نے ایک ʈˈaːɪm میں فور امیجز ʤˈɛnəreːʈ کرنی ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00288.wav|1|انڈیکسیشن لمبی مدت کو دیکھتے ہوئے افراطِ زر کا فائدہ اٹھانے کی اجازت دیتی ہے، اس طرح ٹیکس کی ذمہ داری کم ہو جاتی ہے۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00288.wav|1|ˈənɖiːkseːʃən lˈəmbiː mʊdˈət کو دیکھتے ہوئے افراطِ zˈər کا fˈaːɪdə اٹھانے کی اجازت دیتی ہے، اس tərˈəh ٹیکس کی zˈɪmə dˈaːriː kˈəm ہو ʤˈaːtiː ہے۔
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0056.wav|0|اچھا اب mˈeːn چیزیں تو میں نے آپ لوگوں کو سکھا دی ہیں لیکن اس میں بہت سارے fˈiːʧərz ہیں میں یہاں ʈˈuːlbɔks پر کلک کروں گی
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0015.wav|0|کچھ ہی دیر میں یہ ایپ آپ کے mˈoːbaːɪl fˈoːn میں ɖˈaːʊnloːɖ ہو جائے گی اب ہم پنٹریسٹ ایپ کو ˈoːpən کریں گے اب آپ نے اپنے کسی ɡˈuːɡəl əkˈaːʊnʈ سے پنٹریسٹ کو لوگن کر لینے اب ہم پنٹریسٹ ایپ کو ˈoːpən کریں گے اور اس کے sˈərʧ bˈaːr میں ʈˈaːɪp کریں گے bjˈuːʈɪfəl sˈɪmpəl ابایا اب
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0004.wav|0|لیکن میں آپ کو پہلے بتا دوں کہ یہ ایک spˈɔnsərʃɪp ʋˈɪɖɪoː ہے جو مجھے ہکس اے آئی والوں کی طرف سے آئی ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01765.wav|1|اُنھوں نے اُن کے بقول زندگی کی بو قلمونیوں کو زیرِ بحث لایا ہے ۔
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0028.wav|0|لیکن میری ʋˈɪɖɪoː پر تو ایک ایڈ بھی نہیں چلا تھا پھر یہ سب کیوں ہوا لیکن پھر مجھے یاد آیا میں نے تو اپنے بھائی کا əkˈaːʊnʈ بھی ایڈ کیا تھا
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01834.wav|1|ʤˈeː pˈaːl اور ˈɪs کا خاندان اجمیر میں pənˈaːh گزین ہوا ۔
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0012.wav|0|اس میں میں نے صرف hˈɪks اے آئی والوں کا ذکر کیا ہے اور یہ ایک ɖˈɛɖɪkeːʈɪɖ ʋˈɪɖɪoː ہے اور ɖˈɛɖɪkeːʈɪɖ ʋˈɪɖɪoː کے ذریعے آپ اچھی خاصی ˈərnɪnɡ کر سکتے
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00250.wav|1|وہیں ریاست بھر میں اب تک تین ہزار آٹھ سو افراداس پیاری سے نجات حاصل کر چکے ہیں ۔
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0056.wav|0|لیکن اگر کافی عرصے تک آپ کا ʧˈɛnəl گرونا کرے تو آپ nˈiːʃ ʧˈeːnʤ کر سکتے ہیں
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0044.wav|0|اگر آپ rˈɛɡjʊlərlɪ محنت کریں گے تو چار ہزار تو کیا آٹھ ہزار گھنٹے بھی پورے ہوں گے اور آٹھ ہزار گھنٹے پورے کرنا بھی پھر مشکل نہیں لگے گا کیونکہ لوگ اب آپ کا ʧˈɛnəl پہچانتے ہیں وہ
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01686.wav|1|ˈəreː نہیں! ورنہ سارے klˈaːs rˈoːmoːɴ کو صاف کرنے mˈeːɴ bˈəhʊt محنت lˈəɡ ʤˈaːeː گی!
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0053.wav|0|اگر آپ کو اس کے علاوہ اور بھی کوئی prˈɔbləm یا کوئی بھی مسئلہ آ رہا ہے تو
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0066.wav|0|بس sˈɛkənɖz sʈˈɛp پہ ایڈسنس کا مسئلہ تھا
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0029.wav|0|اصل میں ہوتا یہ ہے کہ ہمارا سارا fˈoːkəs اس چیز پر ہوتا ہے کہ بس ایک دفعہ ʧˈɛnəl mˈɔnɪʈaːɪzɖ ہو جائے آپ لوگ سوچتے ہیں کہ mˈɔnɪʈaːɪzɖ ہو گیا تو سب بدل جائے گا ˈərnɪnɡ آنا شروع ہو جائے گی لیکن دیکھیں ایسا نہیں ہوتا
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0022.wav|0|اور دیکھا کہ یہاں سے ɖˈɔlər غائب ہو چکے ہیں حالانکہ پہلے اس جگہ پر ɖˈɔlər شو ہوتے تھے
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0058.wav|0|میں نے سوچا کہ پہلے آپ کے ان اہم سوالوں کے جواب دے دوں کیونکہ اگر یہ چیزیں klˈiːər نہ ہوں تو آگے کام کرنا مشکل ہو جاتا ہے اب امید ہے کہ مونیٹائزیشن اور دوسرے ضروری معاملات سے مطالق آپ کے تمام ڈاؤٹس ختم ہو گئے ہوں گے
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0093.wav|0|یہ آپ کی اپنی ʧˈɔɪs ہے نہ بھی لکھیں تو کوئی ایشو نہیں ہے اب sˈɪmplɪ ایرو پر کلک کر دیں اور ہماری ʋˈɪɖɪoː ʤˈɛnəreːʈ ہونا شروع ہو جائے گی اور یہ دیکھیں ہماری پہلی ʋˈɪɖɪoː ʤˈɛnəreːʈɪɖ ہو چکی ہے اب اس پر کلک کریں
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0051.wav|0|اگر میں اس میں کچھ ʧˈeːnʤ کرنا ری یوز prˈɔmpʈ پر ɖˈəbəl klˈɪk کر کے جو چاہوں ʧˈeːnʤ کر سکتی ہوں
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00911.wav|1|جناب مودی نے کہا کہ حکومت ماحولیاتی تبدیلی سے نمٹنے اور روشن مستقبل کو یقین کرنے کے لئے پر عہد ہے ۔
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0018.wav|0|jˈuːʈjuːb زیادہ لوگوں تک ریکمینڈ نہیں کرے گا اس لیے ہمیشہ اپنی ʋˈɪɖɪoː میں ایسی چیزیں دکھائیں جو لوگ واقعی شوق سے دیکھیں
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0020.wav|0|jˈuːʈjuːb ʧˈɛnəl کریں گے اس کے لیے آپ نے jˈuːʈjuːb پر آنا ہے اور یہاں سے اوپر əkˈaːʊnʈs پر کلک کرنا ہے
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0006.wav|0|ایکس ون پر کلک کرنا ہے کیونکہ ہم نے ایک وقت میں ایک ہی ʋˈɪɖɪoː بنوانی ہے یہاں سے آپ نے اپنی مرضی کے مطابق جتنے sˈɛkənɖz کی ʋˈɪɖɪoː بنانی ہو اس پر کلک کر دینا ہے
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0003.wav|0|اس کے لیے ʋˈɪɖɪoː کو انڈ تک ضرور دیکھنا تو jˈuːʈjuːb ʧˈɛnəl بنانے کے لیے ہمیں تین چیزوں کی ضرورت ہوتی ہے
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0016.wav|0|تو آپ کے mˈeːn flˈoː اے آئی کا mˈeːn ورکسپیس ˈoːpən ہو جائے گا اب یہاں آپ نے اپنا اصل کام کرنا ہے اگر آپ کو سمجھنا آئے کہ آپ نے کون کون سے کریکٹرز رکھنے ہیں تو آپ نے ʤˈɛmɪnaːɪ پر جانا ہے
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0033.wav|0|یہاں آپ کو ʋˈɪɖɪoː کا ˈɔpʃən نظر آرہا ہوگا اس پہ کلک کرنا ہے اور یہاں اب آپ نے prˈɔmpʈ لکھنا ہے جیسے میں اب prˈɔmpʈ لکھتی
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0076.wav|0|جب آپ کی ʋˈɪɖɪoː بالکل kəmplˈiːʈ ہو جائے تو اوپر bˈeːn ہوئے ایرو یعنی تیر والے نشان پہ klˈɪk کر کے کو ɖˈaːʊnloːɖ کر لیں
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00050.wav|1|اٹھارہ سو ساٹھ میں چیکرڈ گیم آف لائف نے کھلاڑیوں کو دنیا بھر کی سرگرمیوں جیسے کالج جانا، شادی کرنا، اور امیر ہونے کےلئے انعام سے نوازا۔
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0021.wav|0|اور یہاں آپ نے جو اپنا əkˈaːʊnʈ بنایا تھا وہ سیلیکٹ کرنا ہے اب
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_03228.wav|1|نیز الیکٹرانک اور سوشل میڈیا کے ذریعے کروڑوں لوگوں تک پیغام حق کا ابلاغ علامہ ثاقب کا بہت بڑا اعزاز ہے۔
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0029.wav|0|تو اس کے لیے تو آپ اپنی ʋˈɪɖɪoːz میں انگلش کیپشنز لازمی لگایا کریں
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0060.wav|0|اور nˈɛksʈ پر کلک کر دوں گی اور یہاں سے آپ لوگوں کا bˈɛkɡraːʊnɖ rɪmˈuːʋ ہو جائے گا اب میں نے یہاں سے ˈɔʈoː پر کلک کرنا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00696.wav|1|sˈətərə ویں sˈədiː کے dˈuːsreː nˈɪsf میں pərˈaːɡ کی آبادی phˈɪr sˈeː بڑھنے لگی۔
+data/3_training_lists/voice/wavs/_qZG68xJPag__0029.wav|0|یہاں زیادہ تر آوازیں pˈeːɖ ہیں لیکن کچھ frˈiː میں بھی مل جاتی ہیں اب
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0023.wav|0|jˈuːʈjuːb اب صرف ان sˈiːərɪəs kriːˈeːʈərz کو آگے لانا چاہتا ہے جو واقعی sˈiːərɪəs ہیں اور لمبی اچھی kʋˈɔlɪʈɪ والی ʋˈɪɖɪoːz بنا سکتے
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0031.wav|0|اور یہ دیکھیں امیج ʤˈɛnəreːʈ ہو چکی ہے اور مجھے اس کے rɪzˈəlʈs واقعی بہت پسند آئے ہیں یہ آپ دیکھیں
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0001.wav|0|امید کرتی ہوں آپ سب خیریت سے ہوں گے آج میں آپ لوگوں کو ایک زبردست ʈˈuːl کے بارے میں بتانے والی ہوں
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02341.wav|1|ارجن nˈeː ʃaːˈaːɪriː کی ابتدا ʊnˈiːs سو ʧʰˈəpən mˈeːɴ kˈiː جلد hˈiː ان کی ʃaːˈaːɪriː چوٹی کے ʤərˈaːɪd mˈeːɴ شائع hˈoːneː لگی xˈətmə
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0011.wav|0|کیونکہ kɔmpəʈˈɪʃən بہت زیادہ ہو گیا ہے اور لوگ بہت اچھی اچھی sʈˈɔrɪz لے آ رہے ہیں اگر آپ چاہتے ہیں کہ آپ کی ʋˈɪɖɪoː ʋˈaːɪərəl ہو تو
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0030.wav|0|باقی یہ prˈɔmpʈ آپ کو ʋˈɪɖɪoː کے دسکرپشن میں بھی مل جائے گا اور ایرو پر کلک کروں گی تو یہ دیکھیں
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0030.wav|0|کے ساتھ ہی یہاں ون ایکس کی بجائے فور ایکس پہ کلک کرنا ہے کیونکہ ہمیں ایک ہی وقت میں چار تصاویر ʤˈɛnəreːʈ کرنی ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02012.wav|1|چند ایک کے نام تروپتی، اہوبیلم، سریکلاہستی، سری سیلم اور بہت کچھ
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0000.wav|0|اَسّلامُ علیکم میری jˈuːʈjuːb fˈɛmɪlɪ کیسے ہیں آپ سب؟
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_03409.wav|1|ʒˈəɽiː ضلع əfɣaːnɪstˈaːn kˈaː ایک ضلع جو صوبہ qəndəhˈaːr میں ʋˈaːqeː hˈɛ
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0046.wav|0|دیکھیں وی پی این سے frˈiː krˈɛɖɪʈs نہیں ملتے وی پی این اس لئے استعمال کرتے ہیں تاکہ جب flˈoː اے آئی میں امیج یا ʋˈɪɖɪoː ʤˈɛnəreːʈɪɖ کرتے وقت fˈeːlɖ کا prˈɔbləm آتا ہے تو وی پی این لگانے سے وہ prˈɔbləm کافی حد تک سولو ہو جاتا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00879.wav|1|meːhˈeːkmə موسمیات کے عہدیداروں nˈeː bətˈaːjaː کہ اگر چہ مانسون کا ˈəbʰiː ɪxtɪtˈaːm نہیں hˈuːaː hˈɛ لیکن شہر اور ˈɪs kˈeː məzaːfˈaːt mˈeːɴ رطوبت بڑھ گئی ہے xˈətmə
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00101.wav|1|ʤˈəʋaːn عالم نے کہا tˈʊm bʰˈiː kəmˈaːl کرتی hˈoː xˈətmə
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0092.wav|0|اینڈ پر kˈɔməz بند کرنا مت بھولیے گا اس کے بعد میں آخر میں کچھ مزید کی ورڈز لکھوں گی
+data/3_training_lists/voice/wavs/od1gD9-brjk__0020.wav|0|یہ دیکھیں اور سب سے بڑی بات یہ آپ کو نیچے آپ کے ʋˈoːkəlz کے لیے lˈɪrɪks بھی لکھ کے دے دے گا جس کی مدد سے آپ آسانی سے امیجز ʤˈɛnəreːʈ کر سکتے ہیں اب آپ نے یہاں تین ɖˈɔʈs پہ کلک کرنا ہے اور
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0054.wav|0|تو اب یہ دیکھیں ɡˈɛlərɪ میں میں نے یہ ساری امیجز ɖˈaːʊnloːɖ کر لی تھی fˈeːs sˈeːm ہے لیکن ɖrˈɛs ʧˈeːnʤ ہے
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00713.wav|1|آج اس شان sˈeː nəzˈər آیا tˈoː ˈɔr بھی حسین لگا xˈətmə
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0038.wav|0|میرا ارادہ تھا کہ اس پر چھوٹے بچوں کی لولابیز وغیرہ کی ʋˈɪɖɪoːz ˈəploːɖ کروں لیکن میں صرف ایک دو ʋˈɪɖɪoːz ہی بنا پائی اس
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0027.wav|0|اب آپ نے یہاں سے kənfˈərm پر کلک کر دینا ہے اب یہاں آپ اپنا وہ skrˈɪpʈ لکھیں گے جو آپ ˈɛʋəʈaːr سے بلوانا چاہتے ہیں یہاں سے آپ ˈɛʋəʈaːr کی ʋˈɔɪs sɪlˈɛkʈ کر سکتے ہیں
+data/3_training_lists/voice/wavs/od1gD9-brjk__0016.wav|0|کچھ ہی دیر میں rˈaːɪm ʤˈɛnəreːʈ ہو جائے گی یہ دیکھیں اب اگر آپ کو پسند نہیں آئی تو آپ نیچے لکھ سکتے ہیں مجھے پسند نہیں آئی کوئی اور دو
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0066.wav|0|اب جو امیجز اچھی لگیں ان کو ہم ɖˈaːʊnloːɖ کر لیں گے مجھے یہ والی امیجز پسند آئی تھی تو میں نے یہ ɖˈaːʊnloːɖ کر لی ہیں اب ہم نے ان امیجز کو ʋˈɪɖɪoːz میں کنورٹ کرنا ہے
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0083.wav|0|خیر بس اوپر آپ نے یہاں pˈəblɪʃ پہ klˈɪk کر دینا ہے اور آپ کا jˈuːʈjuːb ʧˈɛnəl kəmplˈiːʈ بن چکا ہے یہاں آپ دیکھ سکتے ہیں سب کچھ kəmplˈiːʈ ہے خیر
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0058.wav|0|اگر آپ ایک ɪnʈɪɡrˈeːʃən ʋˈɪɖɪoː کر رہے ہیں ساٹھ سے نوے sˈɛkənɖz کی تو آپ ایک سو پچاس سے دو سو ɖˈɔlər تک ڈیمانڈ کر سکتے ہیں
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0020.wav|0|یا بچوں کو نماز کا عادی کیسے بنائیں آپ بس یہ ʈˈɔpɪk ʧˈɛʈ جی پی ٹی پر لکھیں اور
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00796.wav|1|ʊnhˈoːn nˈeː kˈəhaː کہ ہزاروں fˈaːɪleːɴ ˈɪltɪʋaː میں hˈeːɴ ۔
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0038.wav|0|ہمیں بھی پتا چلے ʈˈuːl کتنا زبردست ہے اب ہم نے یہاں sˈərʧ bˈaːr میں جانا ہے اور یہاں ʈˈaːɪp کرنا ہے مجھے اپنے jˈuːʈjuːb کے لیے
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00985.wav|1|سی sˈiː ʈˈiː وی کیمرے ləɡˈaːeː ʤˈaːnaː بھی شامل hˈɛ ۔
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0041.wav|0|اور نیچے prˈɔmpʈ لکھوں گی اور یہاں سے اپنا ریشو وغیرہ سیلیکٹ کروں گی اور ʤˈɛnəreːʈ پہ کلک کر دوں گی تو ʋˈɪɖɪoː بننا شروع ہو جائے گی اور یہ دیکھیں ʋˈɪɖɪoː بن گئی ہے اس
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0009.wav|0|آپ نے اسے اپنے کسی بھی جی mˈeːl آئی ڈی سے لوگن کر لینا ہے اور اگر آپ mˈoːbaːɪl پہ یوز کر رہے ہیں تو آپ نے اوپر بنے tʰrˈiː ɖˈɔʈs پہ کلک کرنا ہے
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0055.wav|0|وہاں آ کے kˈiːʋərɖz میں pˈeːsʈ کر دینا ہے اب ان میں سے ایک kˈiːʋərɖ کے آگے یہ lˈaːɪn رکھنی ہے اور ɡˈoː کر دینا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02441.wav|1|تمام طلبہ kˈoː ایک sərɡˈərmiː ضرور منتخب کرنی ہوگی۔
+data/3_training_lists/voice/wavs/_qZG68xJPag__0063.wav|0|اور اس نے بہت ہی کمال کی ʋˈɪɖɪoː بنا کے دی ہے میں نے اپنی دوسری ایمیج بھی بلکل اسی طرح ʋˈɪɖɪoː میں کنورٹ کروا لی تھی
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00593.wav|1|ہمارے بارے میں سوچنے کے لیے آپ کا شکریہ۔
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0004.wav|0|ہاں لیکن کچھ چیزیں ایسی ہیں جو میں آپ لوگوں کے ساتھ ʃˈeːr کر سکتی ہوں
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0047.wav|0|اور یہاں سے تھوڑا نیچے skrˈoːl کروں گی اب یہ یہاں ʋˈɛrɪfaːɪɪnɡ لکھا ہوا نظر آ رہا ہے
+data/3_training_lists/voice/wavs/od1gD9-brjk__0023.wav|0|تو سب سے پہلے ہم نے kˈɛrɪkʈər ʤˈɛnəreːʈ کرنا ہے میں نے سوچا ہے کہ میں اپنی ʋˈɪɖɪoː میں دو لڑکیاں رکھوں گی جنہوں نے ابایا پہنا ہو اور
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0039.wav|0|آپ جو کام کر رہے تھے وہ بیک ہو سکتا ہے اس لیے آپ پہلے سے ہی وی پین kənˈɛkʈɪɖ کر لیا کریں
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0032.wav|0|لیکن یہاں ایک بات بتا دوں کہ ہٹ پاو ایک pˈeːɖ ʈˈuːl ہے لیکن اگر آپ کو اچھی kʋˈɔlɪʈɪ کی ʋˈɪɖɪoːz بنانی ہیں تو
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00962.wav|1|سہارنپور کے گورنر بھرون نپت تانیتا سے وعدہ کیا کہ وہ اپنے ہم مذہبوں کو سہارنپور کے صوبے میں فتنہ برپا کرنے سے روکنے کے ذمہ دار ہوں گے ۔
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0058.wav|0|یہ گرل ایک ʧˈeːr پہ بیٹھی ہوئی ہے سامنے ʈˈeːbəl ہے جس پہ ایک لیپ ٹاپ رکھا ہے اور ایک mˈoːbaːɪl fˈoːn رکھا ہے
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0047.wav|0|ʧˈeːnʤ نہ ہو اور یہاں سے sˈiːn ʈuː کاپی کر لینا ہے اور flˈoː اے آئی پر جا کے pˈeːsʈ کر دینا ہے
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0035.wav|0|جس سے آپ لوگ تقریباً میری طرحاں کا اے آئی ˈɛʋəʈaːr بنا سکتے ہیں تو اے آئی ˈɛʋəʈaːr بنانے کے لیے میں یوز کروں گی ہٹ پا آپ نے یہاں آنا ہے اور جہاں لکھا ہے ʋˈɪɖɪoː جنریشن یہاں کلک کرنا ہے
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0033.wav|0|اصل کہانی ʧˈɛnəl mˈɔnɪʈaːɪzɖ ہونے کے بعد شروع ہوتی ہے کہ آپ نے جو ʧˈɛnəl mˈɔnɪʈaːɪzɖ کیا اس سے آپ ہر مہینے ˈərnɪnɡ کر بھی رہے ہو یا نہیں بہت سے ایسے ʧˈɛnəlz ہیں جنہوں نے چار ہزار گھنٹے پورے کر کے اپنا ʧˈɛnəl mˈɔnɪʈaːɪzɖ کروایا ہوا ہے
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0029.wav|0|تو دیکھیں اس کا صاف اور سیدھا جواب یہی ہے کہ نہیں جس طریقے سے میں نے آپ سب کو flˈoː اے آئی استعمال کرنا سکھایا ہے بلکل اسی طریقے سے میں خود بھی اپنی ʋˈɪɖɪoːz بناتی ہوں
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0001.wav|0|امید کرتی ہوں آپ سب خیریت سے ہوں گے آپ لوگوں نے بہت زیادہ ریکویسٹ کی تھی کہ ہمیں jˈuːʈjuːb ʧˈɛnəl بنانا سکھا دیں
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01447.wav|1|xˈaːndaːn میں انگریزی tˈaːliːm کا ʧˈərʧə وغلبہ ہونے kˈiː وجہ sˈeː ənɡrˈeːziː اسکول میں dˈaːxələ کرادیا گیا xˈətmə
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_03220.wav|1|مترجم کے مطابق لفظی tˈərʤʊmə کے بہ جائے kˈəheːɴ kˈəheːɴ ɪbaːrˈət میں حسبِ zəruːrˈət təbdˈiːliː کی گئی ˈoːrəkheːɴ kˈəheːɴ qˈələm انداز بھی kjˈaː گیا hˈɛ xˈətmə
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0030.wav|0|اب آپ نے یہاں سے ایرو پہ کلک کرنا ہے تو آپ کی امیج ʤˈɛnəreːʈ ہونا شروع ہو جائے گی
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02053.wav|1|میں ویشنو dˈeːʋiː ʃərˈaːɪn bˈoːrɖ میں ٹور ɡaːˈiːɖ hˈuːn
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00478.wav|1|خواتین کے لیکروس کے قوانین مردوں کے لیکروس سے نمایاں طور پر مختلف ہیں، خاص طور پر آلات اور قابل اجازت جسمانی رابطے کی ڈگری کے لحاظ سے۔
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0002.wav|0|آج کی ʋˈɪɖɪoː میں میں آپ سب کو بتاؤں گی کہ ʈˈɔkɪnɡ frˈuːʈs یا ویجیٹیبلز کی ʋˈɪɖɪoːz کیسے بناتے ہیں جیسے آج کل سبزیوں والی ʋˈɪɖɪoːz ʋˈaːɪərəl ہو رہی ہیں اور لوگوں نے بہت ہی ˈɪnʈrɛsʈɪnɡ sʈˈɔrɪz بنای ہوئی ہیں تو
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0016.wav|0|تو وہ آپ کی ʋˈɪɖɪoː کو شروع میں ہی چھوڑ دیں گے اس سے کیا ہوگا آپ کی ایوریج ʋjˈuː ɖjɔrˈeːʃən کم ہو جائے گی
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0007.wav|0|اب آپ لوگوں کا سوال ہوگا کہ میری ʋˈɔɪs ہر klˈɪp میں sˈeːm کیسے رہتی ہے تو
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02035.wav|1|آپ خواجہ عبدالواحد بن زید کے خلفاء میں فضیل بن عیاض کو بطور صوفی خوب شہرت ملی اور امام اعظم کے شاگردتھے ۔
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0029.wav|0|آپ بھی اپنے kˈɛrɪkʈər کی خوبصورتی بڑھانے کے لیے جو چیزیں ایڈ کرنا چاہیں وہ یہاں لکھ سکتے ہیں اس کے بعد پھر سے ایرو پر کلک کریں
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0023.wav|0|لیکن افسوس کی بات یہ ہے کہ یہ شارٹ کٹ ڈھونڈنے کے چکر میں بہت بڑی غلطیاں کر بیٹھتے ہیں لوگ دوسروں کے ʧˈɛnəl سے پوری کی پوری ʋˈɪɖɪoːz اٹھا کر اپنے ʧˈɛnəl پر ˈəploːɖ کریں پنٹریسٹ یا ɡˈuːɡəl سے تصویریں ɖˈaːʊnloːɖ کر کے ان میں ہلکی پھلکی ˈɛɖɪʈɪnɡ کر کے ʋˈɪɖɪoː بنا دیتے ہیں یہ سب سے غلط طریقہ
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01895.wav|1|پی سی آر نے خود کو کی ایک انتہائی مفید اور کارآمد پیش رفتگی ثابت کر دیا ہے۔
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0048.wav|0|اگر آپ کو کسی spəsˈɪfɪk fˈoːlɖər میں جانا ہے تو اوپر tʰrˈiː ɖˈɔʈs پر klˈɪk کر کے brˈaːʊz پر جائیں اور یہاں سے اپنے ɖˈaːʊnloːɖ کیے ہوئے kˈɛrɪkʈər کو sɪlˈɛkʈ کر لیں اب یہ kˈɛrɪkʈər کچھ ہی دیر میں یہاں ɖˈaːʊnloːɖ ہو جائیں گے
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0033.wav|0|اور ہمیشہ ایسی ʋˈɪɖɪoːz بنائیں جن سے بچوں اور والدین دونوں کو کچھ نیا سیکھنے کو ملے اب
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0055.wav|0|تو اے آئی ʋˈɪɖɪoːz mˈɔnɪʈaːɪzɖ ہو جاتی ہیں لیکن اس کے لیے ضروری ہے کہ آپ ʋˈɪɖɪoː میں اپنا hjˈuːmən ʈˈəʧ ضرور شامل کریں یعنی سکرپٹ،
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0000.wav|0|اَسّلامُ علیکم میری jˈuːʈjuːb fˈɛmɪlɪ کیسے ہیں آپ سب لوگ امید کرتی ہوں آپ سب خیریت سے ہوں گے
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0008.wav|0|کو بنانا بلکل بھی مشکل نہیں ہے بس سارا کھیل ایک بہترین prˈɔmpʈ کا ہے اگر آپ کا prˈɔmpʈ اچھا ہے تو ˈɛʋəʈaːr بھی pˈərfɛkʈ بنے گا
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01641.wav|1|میں sˈəməʤʰ گیا، kjˈaː kˈoːiː ˈeːsiː ʧˈiːz ہے جس mˈeːɴ mˈeːɴ ˈaːp kˈiː مدد کر sˈəktaː hˈuːn
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0005.wav|0|کے بعد مجھے پتا چلا کہ ایڈسنس سے pˈeːmənʈ لینے کے لیے کچھ ویریفیکیشنز اور sʈˈɛps مکمل کرنے پڑتے ہیں اور یہی سے میری fˈərsʈ pˈeːmənʈ کی اصل ʤˈərnɪ شروع ہوئی تو گائز اس
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0011.wav|0|لیکن میں آپ لوگوں کو اپنے kˈɛrɪkʈər کا sˈeːm fˈeːs تو نہیں دوں گی لیکن ہم اس سے ملتا جلتا kˈɛrɪkʈər بنائیں گے
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0022.wav|0|اگر آپ اے آئی کی مدد سے ˈɪnɡlɪʃ سکھانے والی ʋˈɪɖɪoːz بناتے ہیں تو یہ بھی ایک بہت اچھی nˈiːʃ ہے کیونکہ آج کل ہر کوئی ˈɪnɡlɪʃ سیکھنا چاہتا ہے چاہے بچے ہوں یا بڑے تو
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01503.wav|1|میوزک ˈɔr ڈانس کا kjˈaː
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00317.wav|1|اس موقعے pˈər hˈeːliː kˈaːpʈər kˈeː ذریعے کانفرنس کے ʃˈər kˈaː hˈəmzəh پر پھول bərsˈaːeː گئے ۔
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0064.wav|0|اور چیز میں نے nˈoːʈɪsʈ کی ہے بہت سے لوگ یہ سوچتے ہیں کہ اگر ہمارے پاس اچھا mˈoːbaːɪl ہوگا تو ہم اچھی ˈɛɖɪʈɪnɡ کر سکتے ہیں اگر اچھا kˈɛmrə ہوگا تو ہی ہم اچھی ʋˈɪɖɪoːz بنا سکتے ہیں ہمارے پاس تو ایک اچھا sʈjˈuːɖɪoː ہی نہیں ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01113.wav|1|اس جیسے وقت میں اس طرح کی ریلی نکالنا بالکل غیر معقول بات تھی۔
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0051.wav|0|اب اوپر یہاں سے آپ sˈaːʊnɖ کا ʋˈɔljuːm بڑھا سکتے ہیں اور یہاں سے spˈiːɖ پر کلک کر کے spˈiːɖ بھی بڑھا سکتے ہیں یا کم کر سکتے ہیں اب یہاں سے آپ لوگوں نے ˈɔʈoː sˈəbʈaːɪʈəl پر کلک کرنا ہے اور یہ آپ کی sˈaːʊnɖ کے əkˈɔrɖɪnɡ sˈaːɪɖ پر sˈəbʈaːɪʈəlz لکھنا شروع کر دے گا
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0069.wav|0|ہمارے پاس تو sʈjˈuːɖɪoː نہیں ہے اچھا mˈoːbaːɪl نہیں ہے تو اگر آپ کے پاس بھی یہ چیزیں نہیں ہیں تو اس وجہ سے اپنا کام شروع نہ کرنا کوئی سلوشن نہیں ہے
+data/3_training_lists/voice/wavs/od1gD9-brjk__0035.wav|0|اس پہ کلک کر کے رکھوں گی اور ʃˈeːr پہ دو بار کلک کروں گی اور پھر دوبارہ پریس کر کے ɖˈaːʊnloːɖ امیج کر دوں گی تو یہ امیج ɖˈaːʊnloːɖɪɖ ہو جائے گی
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0018.wav|0|یہاں آپ کا جی mˈeːl əkˈaːʊnʈ شو ہو رہا ہے آپ اس پر کلک کریں گے تو یہ آپ کا جی mˈeːl əkˈaːʊnʈ ˈoːpən ہو جائے گا تو چلیں یہ
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0016.wav|0|وہ آپ لوگوں کو ساتھ میں یہ بھی بتا دیتے ہیں کہ کس ʋˈɪɖɪoː میں آپ نے lˈɪnk پلیس کرنا ہے اب
+data/3_training_lists/voice/wavs/_qZG68xJPag__0054.wav|0|پھر آپ نے کیا کرنا ہے امیجز والا prˈoːsɛs میں نے بہت fˈaːsʈ دکھایا ہے کیونکہ تقریباً سب کو امیجز ʤˈɛnəreːʈ کرنا تو آتا ہے لیکن ʋˈɪɖɪoːz میں سب کو مسئلہ آرہا تھا تو میں اب آپ کو بالکل kəmplˈiːʈ طریقے سے ʋˈɪɖɪoː بنانا سکھاؤں گی
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0041.wav|0|اب یہ دیکھیں یہ ساری امیجز میں نے ʤˈɛnəreːʈ کروائی ہیں اب ان میں سے جو مجھے پسند ہوگی ہم وہ ɖˈaːʊnloːɖ کریں گے
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01181.wav|1|ہر ایک کا آدھا دھڑ پتھر کا ہے ۔
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0011.wav|0|ایک kəmplˈiːʈ ʋˈɪɖɪoː بنانے کے لیے میں ʈˈoːʈəl پانچ ضروری sʈˈɛps کو fˈɔloː کرتی ہوں
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0063.wav|0|پھر میں əɡˈɛn ˈɛɖɪʈ والے ˈɔpʃən پہ جاؤں گی اور وہاں لکھوں گی kˈiː اور ʈˈɪk کر دوں گی
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01341.wav|1|hˈəm kˈəʋʋiːɖ کی دوسری lˈɛhɛr kˈeː əsərˈaːt pˈər ڈیٹا ʤˈəmaː کرنے کے lˈiːeː ˈeːk sˈərʋeː کر rˈəheː ہیں۔
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0057.wav|0|آپ ɖˈiːʈeːl سے یہ prˈɔmpʈ یہاں سے دیکھ سکتے ہیں اور ایرو پہ کلک کر دیں
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0010.wav|0|چلیے ʋˈɪɖɪoːz sʈˈaːrʈ کرتے ہیں ایسی ʋˈɪɖɪoː بنانے کے لیے آپ کو سب سے پہلے ایک اچھی sʈˈɔrɪ کی ضرورت ہے
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0056.wav|0|بلکل اسی طرح میں یہاں سے کچھ اور باقی کی بہترین ایمیجز کو بھی باری باری ɖˈaːʊnloːɖ کر لوں گی تاکہ ہمارے پاس ʋˈɪɖɪoː بنانے کے لیے اچھے آپشنز موجود ہوں
+data/3_training_lists/voice/wavs/_qZG68xJPag__0067.wav|0|ہماری ʋˈɪɖɪoː تو بن رہی ہے لیکن نیچے یہ والا sˈaːɪn آ گیا ہے اس کا مطلب یہ ہے کہ اب frˈiː krˈɛɖɪʈs ختم ہو چکے ہیں
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0021.wav|0|آپ اپنی ʋˈɪɖɪoːz میں کیا کیا چیز ایڈ کر سکتے ہیں تاکہ آپ کا ʧˈɛnəl اچھے طریقے سے گروہ کرے جیسے sʈˈaːrʈ کیسے کرنا ہے اور انڈ کیسے کرنا ہے تو
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0000.wav|0|jˈuːʈjuːb پر محنت کرنے کے بعد میں نے صرف jˈuːʈjuːb سے نہیں بلکہ spˈɔnsərʃɪp سے بھی اچھی خاصی ˈərnɪnɡ کی اتنی ˈərnɪnɡ تو میری jˈuːʈjuːb سے نہیں ہوئی جتنی ˈərnɪnɡ میں نے spˈɔnsərʃɪp سے کر لی کیونکہ میرے خیال میں spˈɔnsərʃɪp ایک ایسی چیز ہے
+data/3_training_lists/voice/wavs/od1gD9-brjk__0058.wav|0|آپ نے اس پہ پریس کر کے رکھنا ہے اور ɖˈaːʊnloːɖ ʋˈɪɖɪoː پہ کلک کر دینا ہے
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0019.wav|0|تھا ہمارا پہلا sʈˈɛp جو kəmplˈiːʈɪɖ ہو چکا ہے اب ہم چلتے ہیں اپنے اگلے sʈˈɛp کی طرف جس میں ہم
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0081.wav|0|بس میں flˈoː اے آئی کو اپنی یہی sˈeːm امیج دیتی ہوں اور وہ ہر بار مجھے تقریباً sˈeːm ʋˈɔɪs نکال کے دے دیتا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00754.wav|1|اوڈیشہ bˈʊrʤ ˈeːnɖ kˈənsʈərəkəʃən kaːrpoːreːʃˈən لمیٹڈ nˈeː سبالیا ˈɔr کمیرا گاؤں kˈeː qərˈiːb səroːbaːliːʤˈoːr pˈər ˈeːk pˈəl بنایا hˈɛ
+data/3_training_lists/voice/wavs/od1gD9-brjk__0009.wav|0|اب آپ نے یہاں اوپر اپنی جی mˈeːl آئی ڈی پہ کلک کرنا ہے اور پھر آپ نے نیچے جا کر sˈaːɪn ˈaːʊʈ کر دینا ہے جب آپ sˈaːɪn ˈaːʊʈ کریں گے تو آپ کے سامنے ایک نیا پیج آئے گا جہاں لکھا ہوگا ٹرائیٹ ناؤ
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0034.wav|0|اب آپ خود سوچیں اگر میں کوئی pˈeːɖ ʈˈuːl استعمال کر رہی تو مجھے یہ sˈaːɪn کبھی شو ہی نہ ہوتا میں جتنی مرضی چاہتی ʋˈɪɖɪoːz بنا لیتی
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0065.wav|0|لیکن ایسا نہیں ہے آپ یہاں دیکھ سکتے ہیں کہ میرا fˈərsʈ اور tʰˈərɖ sʈˈɛp kəmplˈiːʈ ہیں یعنی مجھے jˈuːʈjuːb کی طرف سے کوئی مسئلہ نہیں آیا تھا
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0022.wav|0|یہ تھی میری fˈərsʈ pˈeːmənʈ کی ʤˈərnɪ جو میں نے آپ لوگوں کے ساتھ ʃˈeːr کی اب یہاں پر کچھ اہم باتیں ہیں جو میں آپ کے ساتھ ʃˈeːr کر دوں
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0094.wav|0|اَسّلامُ علیکم maːɪ jˈuːʈjuːb fˈɛmɪlɪ کیسے ہیں آپ سب آج کی اس ʋˈɪɖɪoː میں میں آپ کو سکھانے والی ہوں کہ آپ بالکل میری طرح کا ایک شاندار اے آئی ˈɛʋəʈaːr کیسے تیار کر سکتے ہیں
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0058.wav|0|آپ یہاں سے دیکھ سکتے ہیں تو لیں جی آپ کی امیجز ʤˈɛnəreːʈɪɖ ہو چکی ہیں اب
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0062.wav|0|آپ ڈزنی پکسر sʈˈaːɪl بھی لکھ سکتے ہیں اور ایرو پہ کلک کر دینا ہے تو یہ امیجز نکالنا شروع کر دے گا اور یہ دیکھیں یہ والی امیجز ʤˈɛnəreːʈɪɖ کی ہیں مجھے یہ والی امیج پسند آئی ہے یہ باقیوں سے بہتر ہے
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0056.wav|0|ˈəploːɖ mˈiːɖiːə پہ کلک کرنا ہے اور ɡˈɛlərɪ سے اپنی امیج سیلیکٹ کر لینی ہے اب یہ امیج یہاں ɪmpˈɔrʈɪɖ ہو جائے گی
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0053.wav|0|میں ان تمام امیجز کو باری باری ɖˈaːʊnloːɖ کرلوں گی بلکل اسی طرح آپ بھی اپنی sʈˈɔrɪ کے حساب سے ساری امیجز ʤˈɛnəreːʈ کر سکتے ہیں تو لیجئے اب ہماری ساری امیجز ɖˈaːʊnloːɖ ہو کر یہاں آ چکی ہیں اب
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01378.wav|1|گاؤں کی زمین زرخیز ہے ۔
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0017.wav|0|لیکن میں یہاں ˈɪmɪʤ ʈə ʋˈɪɖɪoː پر کلک کروں گی تو آپ لوگوں کے سامنے اس طرح کا ˈɪnʈərfeːs آ جائے گا اب میں یہاں ɪmpˈɔrʈ ˈɪmɪʤ پر کلک کروں گی
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02781.wav|1|سری سری روی شنکر، اور سدھ گرو جگّی واسودیو جیسے روحانی رہنماؤں نے بھی اس کھیل کی حمایت میں بات کی۔
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0049.wav|0|چاہتی ہوں آپ ʋˈɪɖɪoːz بنانے پر fˈoːkəs کریں اور اس چیز پر fˈoːkəs کریں کہ ہم lˈɔnɡ ʈˈaːɪm تک کیسے ˈərnɪnɡ کر سکتے ہیں اس
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0047.wav|0|ہمارے kˈɛrɪkʈər ʤˈɛnəreːʈ ہو چکے ہیں اب nˈiːʃ plˈəs کے نشان پر klˈɪk kˈɛrən تو آپ کے ساتھ mˈoːbaːɪl کی ɡˈɛlərɪ ˈoːpən ہو جائے گی
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02186.wav|1|آپ کو ˈaːiː ʈˈiː کٹوتی سرٹیفیکیٹ bʰˈiː moːsˈoːl ہوگا۔
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0071.wav|0|ہم کچھ ایسے طریقے استعمال کریں گے جن سے ہم frˈiː میں ʋˈɪɖɪoːz بنا سکتے ہیں خیر آپ نے اوپر plˈəs پر کلک کرنا ہے پھر ˈəploːɖ mˈiːɖiːə پر کلک کر کے ɡˈɛlərɪ سے اپنی امیج سیلیکٹ کر لینی ہے اب امیج یہاں ɪmpˈɔrʈɪɖ ہو جائے گی
+data/3_training_lists/voice/wavs/_qZG68xJPag__0068.wav|0|اور آپ اس آئی ڈی سے مزید ʋˈɪɖɪoːz نہیں بنا سکتے کم سے کم چوبیس گھنٹے تک آپ یہاں سے اور ʋˈɪɖɪoː نہیں بنا پائیں گے اب میں آپ کو اس کا ایک زبردست səlˈuːʃən بتاؤں گی لیکن پہلے ہم اپنی ʋˈɪɖɪoː دیکھ لیتے ہیں جو ابھی بنی ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_03388.wav|1|اکبر ایک نائب ریاست، بیرم خان، کے ماتحت تخت نشین ہوا، جس نے ہندوستان میں مغلیہ سلطنت کو مستحکم کرنے میں مدد کی۔
+data/3_training_lists/voice/wavs/od1gD9-brjk__0057.wav|0|ہم نے اپنی امیج کو یہاں rˈɛfrəns امیج کے طور پر لگا لینا ہے اور نیچے اپنا ʋˈɪɖɪoː prˈɔmpʈ لکھنا ہے یہ بہت آسان ہے بس آپ نے کہنا ہے اینی میٹ دس امیج اور ایرو پہ کلک کر دینا ہے آپ کی ʋˈɪɖɪoː بننا شروع ہو جائے گی اور یہ دیکھیں آپ کی ʋˈɪɖɪoː تیار ہو چکی ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01526.wav|1|ˈoːə! ˈɪs سے mˈʊʤʰeː jˈaːd ˈaːjaː کہ hˈəmeːɴ سرقہ چیک کرنا hˈoːɡaː
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0016.wav|0|اور میں prˈɔmpʈ میں لکھتی ہوں کہ مجھے jˈuːʈjuːb کے لیے ایک تھامنیل بنانا ہے جس میں sˈeːm یہی گرل ہو
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00875.wav|1|ہمیش ریشمیا کی موسیقی میں ایک خصوصی گانا بھی مرکزی جوڑی پر فلمایا گیا۔
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0045.wav|0|آپ کی ʋˈɪɖɪoːz دیکھیں گے پھر آپ کا واش ʈˈaːɪm صرف آٹھ تھاؤزن نہیں رہے گا اس سے بھی زیادہ آئے گا
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02341.wav|1|آپ کے ساتھ کام کرنے کا منتظر ہوں۔
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00922.wav|1|اتر پردیش پولیس نے بی جے ۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00875.wav|1|ہمیش ریشمیا کی موسیقی mˈeːɴ ˈeːk xʊsˈuːsiː ɡˈaːnaː بھی مرکزی جوڑی پر فلمایا گیا۔
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0033.wav|0|اب بہت سے لوگ مجھ سے پوچھ رہے تھے کہ یہ sˈaːɪn کیوں آتا ہے تو اس کا مطلب یہ ہوتا ہے کہ آپ کے frˈiː krˈɛɖɪʈs ختم ہو چکے ہیں اور اب آپ اس آئی ڈی پر مزید ʋˈɪɖɪoːz نہیں بنا سکتے
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0073.wav|0|ورنہ اگر غلطی سے ˈəploːɖ کرتے ہوئے ہی pˈəblɪk ہو جائے تو مسئلہ بن سکتا ہے یہاں آپ نے ʈˈɛɡz لکھنے ہیں ʧˈɛʈ جی پی ٹی پہ جانا ہے اس سے ʈˈɛɡz لکھوانے ہیں اور
+data/3_training_lists/voice/wavs/od1gD9-brjk__0054.wav|0|لیکن میں یہاں ایک بات klˈiːər کر دوں کہ یہ ایک pˈeːɖ ʈˈuːl ہے اصل میں یہ میری پہلی spˈɔnsərʃɪp ʋˈɪɖɪoː تھی اسی لیے میں نے یہ ʈˈuːl آپ کے ساتھ ʃˈeːr کیا
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0049.wav|0|اب ہماری مزید امیجز ʤˈɛnəreːʈ ہونا شروع ہو جائیں گی اب یہاں کچھ اس ʈˈaːɪp کی امیج ہیں لیکن مجھے یہ امیجز اتنی خاص پسند نہیں آئیں گے تو میں دوبارہ ری یوز prˈɔmpʈ کروں گی
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01206.wav|1|ٹھیک ہے، اس کی فراہمی میں ہمیں ایک مہینہ لگے گا۔
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0001.wav|0|اگر آپ بھی jˈuːʈjuːb پر اپنا ʧˈɛnəl mˈɔnɪʈaːɪz کروانا چاہتے ہیں تو یہ بات آپ کے لیے جاننا بہت ضروری ہے
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0068.wav|0|باری آتی ہے اس کے سب سے pˈaːʊərfəl fˈiːʧər کی جو کہ ہے اے آئی ʧˈɛʈ اس
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0083.wav|0|اب آپ لوگوں نے ان سارے klˈɪps کا وولیم بڑھا دینا ہے سب کا اب آپ نے پورا klˈɪp دیکھنا ہے اور جہاں سے آپ کو ایکسٹرا لگے یا ٹھیک نہ لگے وہاں سے کٹ کر دیں اس طرح آپ کی ʋˈɪɖɪoː کی ˈɛɖɪʈɪnɡ بھی ہو جائے گی
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0055.wav|0|ایسا بالکل نہ کریں ایک nˈiːʃ سیلیکٹ کریں اور کم از کم تین مہینے تک اس پر کام کریں تب جا کر jˈuːʈjuːb کو بھی سمجھ آئے گی کہ آپ کا ʧˈɛnəl کس ʈˈɔpɪk پر ہے
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0051.wav|0|اب مجھے fˈaːɪnəlɪ یہ ایمیج پسند آئی ہے تو میں اس پر prˈɛs کروں گی ʃˈeːr پر دو بار کلک کروں گی اور ɖˈaːʊnloːɖ ایمیج پر کلک کر دوں گی یہ دیکھیں یہ ایمیجز بھی ɡˈɛlərɪ میں آ چکی ہیں
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0037.wav|0|تو یہاں ɡˈərl کے پیچھے ایک bˈɛkɡraːʊnɖ لگ جائے گا پھر آپ نے ʤˈɛnəreːʈ پر کلک کر دینا ہے تو آپ کے ʈˈɔkɪnɡ ˈɛʋəʈaːr کی ʋˈɪɖɪoː بننا شروع ہو جائے گی
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0025.wav|0|لیکن یہاں میں ʋˈɪɖɪoː جنریشن والے fˈiːʧər پر کلک کروں گی اب آپ کے سامنے اس طرح کا ˈɪnʈərfeːs آ جائے گا یہاں آپ نے sʈˈaːrʈ ایمیج پر کلک کرنا ہے اور اپنی ایمیج سیلیکٹ کر کے ˈoːpən پر کلک کر دینا ہے
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0035.wav|0|ہیں یہاں سے ʋˈɔɪs ʧˈuːz کرنی ہے اور یہاں آپ جو ˈɛɖ کروانا چاہتے ہیں اور اگر ʧˈeːnʤ بھی کروانا چاہتے ہیں تو یہاں لکھ سکتے ہیں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02103.wav|1|اس میں دوران مہم لگنے والی چھوٹی یا بڑی چوٹ بھی شامل ہے۔
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00799.wav|1|شہزادے کے dˈɪl mˈeːɴ lˈɛhɛr آئی xˈətmə
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02318.wav|1|کیا تم اس کے لیے دستیاب رہو گے؟
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00275.wav|1|ہاں، lˈeːkɪn ˈaːp نے nəhˈiːn کہا تھا kˈeː ˈələɡ الگ ڈائریکٹ ٹیکس hˈoːteː ہیں؟
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0049.wav|0|نے سب سے پہلے ایک بچے کا kˈɛrɪkʈər خود ہی ʤˈɛnəreːʈ کر دیا مطلب مجھے کہنا ہی نہیں پڑا
+data/3_training_lists/voice/wavs/_qZG68xJPag__0019.wav|0|اس کے بعد میں یہاں pˈərsənəl یوز پہ کلک کروں گی پھر یہاں سے ʈˈɛks ʈə spˈiːʧ پہ کلک کر کے نیچے kənʈˈɪnjuː کر دوں گی اب یہاں پہ آپ کے سامنے بہت سارے پیکیجز شو ہوں گے لیکن آپ نے گھبرانا نہیں ہے ہم یہ ʈˈuːl پیسوں سے نہیں خریدیں گے کیونکہ ہم نے تو frˈiː میں کام کرنا ہے
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0045.wav|0|اب یہاں پہ یہ ساری sˈɛʈɪnɡz لکھی ہوئی ہیں جیسے ʤˈɛnrəl ، ʧˈɛnəl ،
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02323.wav|1|kjˈaː تم نے اس قلعے kˈeː bˈaːreː mˈeːɴ sˈʊnaː hˈɛ
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0024.wav|0|اب ہم چلتے ہیں اگلے sʈˈɛp کی طرف اس میں میں آپ لوگوں کو اے آئی ˈɛʋəʈaːr بنانا سکھاؤں گی
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01295.wav|1|ˈɪs لیے pərsˈaːd nˈeː ənɡrˈeːz حکومت kˈoː ˈeːk میمورنڈم پیش kjˈaː ۔
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0032.wav|0|یہ بولنا غلط نہیں ہے لیکن sʈˈaːrʈ میں نہ بولا کریں بس جو آپ کا ʈˈɔpɪk ہے fˈoːkəs اس پر رکھیں کیونکہ لوگ آپ کے ʧˈɛnəl پر وہ ʈˈɔpɪk ہی دیکھنے آئے ہیں
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0063.wav|0|تو خیر یہ تھی jˈuːʈjuːb کی njˈuː مونیٹائزیشن pˈɔlɪsɪ سے ریلیٹڈ مکمل ʋˈɪɖɪoː اگر آپ کو یہ ʋˈɪɖɪoː hˈɛlpfəl لگی ہو اور اس سے کچھ نیا سیکھنے کو ملا ہو
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0005.wav|0|اسی لیے بنا رہی ہوں بس آپ سب محتاط رہیے گا امید ہے میری بات سمجھ آ گئی ہوگی لیکن سب سے پہلے آپ یہ ʋˈɪɖɪoːz دیکھیں
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0075.wav|0|اور اللہ کا شکر ہے کہ میرے əkˈaːʊnʈ پہ ɖɪsˈeːbəl کا مسئلہ نہیں آیا صرف آرزی طور پر səspˈɛnɖ ہوا تھا کیونکہ ɖɪsˈeːbəl والا مسئلہ بہت مشکل سے سولو ہوتا ہے
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0020.wav|0|جس نے شاید آپ سے بہتر طریقے سے وہی چیز ایکسپلین کی ہو اس
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0016.wav|0|ہر تین مہینے بعد ʈˈaːrɡɪʈ پورا کرنا ایک بہت مشکل اور ذہنی ʈˈɛnʃən والا کام ہے اس لئے میرا آپ سب کو یہی مشورہ ہے کہ آپ ʃˈɔrʈs پر اپنا وقت ضائع نہ کریں
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0036.wav|0|لیکن اصل مقصد ہوتا ہے مونیٹائزیشن کے بعد ˈərnɪnɡ کرنا چلیں فرض کریں آپ سب کا ʧˈɛnəl ان پانچ مہینوں میں mˈɔnɪʈaːɪzɖ ہو گیا لیکن آپ لمبے عرصے تک ˈərnɪnɡ نہیں کر سکتے اگر آپ کی بس دو تین ʋˈɪɖɪoːz ہی ʋˈaːɪərəl ہوئی تھی
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0037.wav|0|اسی لئے میں نے اس پہ چھوٹا سا لکھوایا تھا تاکہ əʤˈəsʈ ہو جائے اور پھر sˈeːʋ کر دینا ہے اب آپ کا ʧˈɛnəl بن چکا ہے آپ یہاں دیکھ سکتے ہیں لیکن ابھی tʰˈərɖ sʈˈɛp باقی ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01792.wav|1|ہیلو، ˈaːp kˈiː بات bʰˈaːiː چنگ بھوٹیا فٹ bˈaːl اسکولز کے hˈɛlp لائن نمبر pˈər hˈoː رہی hˈɛ
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0067.wav|0|اب یہ تیسرا دو مہینے بعد خود ɪnˈeːbəl ہو جاتا ہے آپ نے بس ˈɛksɛs fˈiːʧərz پہ klˈɪk کرنا ہے اور bˈɪlɖ hˈɪsʈərɪ ɛz juː ɡrˈoː پہ klˈɪk کرنا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02087.wav|1|یہ حیرت انگیز معلوم ہوتا ہے۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02219.wav|1|مارکس نے اس ملک kˈiː əʤmˈaːliː taːrˈiːx بیان کی اور و ہاں پھو ʈˈəneː والی ʤˈənɡ کی ˈoː ʤˈoː ہات اور ان کے کردار پر سے پردہ اٹھایا xˈətmə
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0032.wav|0|اب آپ نے اپنے prˈɔmpʈ میں یہ لکھنا ہے کہ جو تھامنیل میں نے sˈɛprəʈlɪ میں دیا ہے وہ تھامنیل شو کرو سائٹ پہ اور ایرو پہ کلک کر دینا ہے
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0008.wav|0|اور مجھ سے ʋɛrɪfɪkˈeːʃən کے لیے کچھ ɖˈɔkjuːmənʈs مانگے میں نے اپنے شناختی kˈaːrɖ کی pˈɪkʧər دی اور میری ʋɛrɪfɪkˈeːʃən ہونا شروع ہو گئی
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01392.wav|1|اس علاقہ میں مقیم ترک قبیلوں کا قومی رنگ ہوا کرتا تھا سبز لمحات سے مراد اسلام کی وہ امن پسند صدیاں ہو سکتی ہے۔
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0071.wav|0|میں نے کوشش کی تھی ایڈ چلانے کی لیکن میں جسٹ ٹیسٹ کر رہی تھی کہ کیا rɪzˈəlʈ آتا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01785.wav|1|مقابلے عام tˈɔr پر جمعہ کو rˈəkʰeː ʤˈaːteː hˈeːɴ
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_03240.wav|1|ˈaːp کا سلسلہ ٔحدیث ʃˈaːh عبد العزیز mˈəhədəs dˈɛhlʋiː سے mˈɪltaː hˈɛ xˈətmə
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0051.wav|0|وہاں آپ کو کوئی lˈɔnɡ prˈɛs کریں اب اس fˈaːɪl پر lˈɔnɡ prˈɛs کریں نام کے آخر میں جو بھی ایکسٹینشن لکھی ہوئی ہے اسے ہٹا کر صرف ڈاٹ جے پی یا ڈاٹ پین جی لکھ دیں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01690.wav|1|əɡˈər ˈaːp چاہیں tˈoː bˈɪlkʊl کر سکتے hˈeːɴ məɡˈər bˈəseːɴ معمول کے mʊtˈaːbɪq ʧˈəleːɴ ɡˈiː
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0036.wav|0|اور پھر kənˈɛkʈər پر کلک کر دینا ہے اور یہاں سے اوکے دبا دینا اب یہ kənˈɛkʈɪɖ ہونا شروع ہو چکا ہے اور یہ دیکھیں ہمارا وی پین kənˈɛkʈɪɖ ہو گیا
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01131.wav|1|aːdˈaːb! ʈˈiː ˈeːn ایچ ایس pˈiː سے آکاش بات کر rˈəhaː ہوں۔
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0049.wav|0|تو وہ یو ایس اے بھی sɪlˈɛkʈ کر سکتا ہے لیکن بہتر یہی ہے کہ آپ جس kˈənʈrɪ سے ہیں وہی sɪlˈɛkʈ کریں میں پاکستان سے ہوں تو میں یہاں پاکستان ہی sɪlˈɛkʈ کروں گی
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0042.wav|0|اب یہاں پر کلک کر کے آپ یہاں سے کوئی بھی lˈɛnɡʋɪʤ ʧˈuːz کر سکتے ہیں ɡrˈiːk ، hˈɪnɖɪ ، ʤɛpənˈiːz ، kˈɛnəɖə میں
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0080.wav|0|اگر کوئی بات سمجھ نہ آئی ہو تو آپ kˈɔmɛnʈ میں پوچھ سکتے ہیں میں لازمی جواب دوں گی اگر آپ نے ʧˈɛnəl səbskrˈaːɪb نہیں کیا تو ضرور səbskrˈaːɪb کر لیں
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0044.wav|0|تھوڑا سا انتظار کیا کریں krˈɛɖɪʈs لازمی rɪfrˈɛʃʈ ہو جاتے ہیں یہ میرا اپنا pˈərsənəl ɪkspˈiːərɪəns ہے
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0107.wav|0|بہت دھیان سے دیکھنا اور پڑھنا ہے اور ہاں بہت سے لوگوں کا یہ سوال تھا کہ flˈoː اے آئی صرف ˈɪnɡlɪʃ ʋˈɔɪs ʤˈɛnəreːʈ کرتا ہے وہ اردو نہیں بولتا
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01154.wav|1|تارکین وطن کارکنوں کو اس اسکیم میں درج کروانے کے لیے لیبر ڈیپارٹمنٹ سے ریکویسٹ لیٹر لینا ضروری ہے۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01048.wav|1|ان کی پہلی کتاب شکستہ زندگی انیس سو پنچاس میں دو جلدوں میں شائع ہوئی یہ کتاب بشیر اینڈ سنز کراچی نے شائع کی تھی ۔
+data/3_training_lists/voice/wavs/_qZG68xJPag__0078.wav|0|plˈəs کے sˈaːɪn پہ جا کر ˈəploːɖ mˈiːɖiːə کریں اور ɡˈɛlərɪ سے اپنی fˈɔrtʰ امیج سیلیکٹ کر لیں جیسے ہی امیج lˈoːɖɪɖ ہو اسے پریس کر کے رکھیں اور ایڈ ʈə prˈɔmpʈ کر دیں اب
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01240.wav|1|یوں آج تک یہ معمہ ہی ہے کہ غازی کی تباہی کے اصل اسباب کیا تھے ۔
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0081.wav|0|یہاں سے ہم نے سارے کام پہلے ہی کر لیے تھے اب آپ نے یہاں آنا ہے جہاں لکھا ہے lˈɪnks یہاں آپ نے آپ کے جو sˈoːʃəl lˈɪnks ہیں جیسے fˈeːsbʊk ہے تو آپ نے یہاں لکھنا ہے fˈeːsbʊk اور آگے یو آر ایل پہ
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0023.wav|0|پھر ان سب ʋˈɪɖɪoːz کو کسی ˈɛɖɪʈɪnɡ ʈˈuːl میں جوڑ لیں اس طرح آپ ایک لمبی ʋˈɪɖɪoː تیار کر سکتے ہیں اور مختلف ʈˈuːlz کو ملا کر ایک ہی دن میں کافی زیادہ کام کیا جا سکتا ہے اب
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0034.wav|0|لیکن آگے بڑھنے سے پہلے میں آپ لوگوں کو ایک ʈˈuːl کے بارے میں بتانے والی ہوں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00670.wav|1|یہ سب بہت مزیدار لگتا ہے۔
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0027.wav|0|کلک کرنے کے بعد آپ کے سامنے اس طرح کا ˈɪnʈərfeːs آ جائے گا اب آپ نے کسی بھی جی mˈeːl آئی ڈی سے لوگن کر لینا ہے اس کے بعد آپ کے سامنے اس طرح کا ˈɪnʈərfeːs آ جائے گا آپ نے ان دونوں bˈɔksɪz پہ ٹک کرنا ہے اور نیکسٹ پہ کلک کر دینا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00527.wav|1|ʋəziːrˈaːɪliː نے meːrˈəʈʰ kˈeː باغپت پارلیمانی hˈəlqeː کے کنونی گاؤں mˈeːɴ
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0029.wav|0|شاید اسی لیے میرے ایڈسنس میں ایشو آیا ہے اور مجھے وہ ساری باتیں یاد آگئیں کہ مجھے تو پہلے ایک ˈiː mˈeːl بھی آئی تھی
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0025.wav|0|تو سب سے پہلے آپ نے hˈoːm skrˈiːn پر آ کر اے آئی ˈɛʋəʈaːr اگلے پر کلک کرنا ہے تو آپ کے سامنے اس طرح کا ˈɪnʈərfeːs آ جائے گا
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02755.wav|1|آخرکارمجبورآپ کوپاکستان کے لیے رخت سفرباندھنا پڑا ۔
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0050.wav|0|دیکھیں اس نے خود ایک kˈɛrɪkʈər ʤˈɛnəreːʈ کیا ہے تاکہ kˈɛrɪkʈər kənsˈɪsʈənʈ رہے ʧˈeːnʤ نہ ہو اور اب یہ باقی کی ˈɪmɪʤɪz بھی ʤˈɛnəreːʈ کروا رہا ہے
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0044.wav|0|نے یہ والی امیج ʤˈɛnəreːʈ کی ہے جس میں یہ ساری fˈɛmɪlɪ رات کے وقت سو رہی ہے اب
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0074.wav|0|اَسّلامُ علیکم میری jˈuːʈjuːb fˈɛmɪlɪ کیسے ہیں آپ سب امید کرتی ہوں آپ سب خیریت سے ہوں گے تو آج میں آپ لوگوں کو بتاؤں گی کہ میں اپنی ʋˈɪɖɪoːz کیسے بناتی ہوں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01291.wav|1|مجھے ˈɪs ʋaːqˈaːeː kˈeː bˈaːreː میں بتانے kˈeː لیے ʃʊkrˈiːə
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0036.wav|0|اور اب اوکے پہ کلک کر دوں گی اب یہاں سے آپ نے ɡˈɛlərɪ پہ کلک کرنا ہے اور اب علاوہ پہ کلک کر دینا ہے تو آپ کے سامنے آپ کی ɡˈɛlərɪ ˈoːpən ہو جائے گی اب یہاں سے آپ نے
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0024.wav|0|بات کرتے ہیں اپنے تیسرے ʈˈuːl کی جس کا نام ہے ہٹ پاؤ ہٹ پاؤ میں آپ کو بہت سارے فیچرز مل جائیں گے
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01451.wav|1|کیا آپ نئے طلبہ کو بھی اسکالرشپ دیتے ہیں؟
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0064.wav|0|کیونکہ میں جانتی ہوں بہت سے لوگ یہی سوچ رہے ہوں گے کہ اے آئی ʧˈɛnəl ہے اس لیے مسئلہ آیا
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0001.wav|0|امید کرتی ہوں آپ سب خیریت سے ہوں گے میں
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0042.wav|0|prˈɔpər ʃˈɛɖjuːl بنائیں اور اس کے مطابق ʋˈɪɖɪoːz ˈəploːɖ کریں مثلاً اگر آپ ہفتے میں دو یا تین ʋˈɪɖɪoːz ˈəploːɖ کر سکتے ہیں تو اسی ʃˈɛɖjuːl کو کنسسٹنٹلی fˈɔloː کریں ضروری نہیں کہ آپ صرف کانٹنٹی کے لیے ہر روز ʋˈɪɖɪoː ˈəploːɖ کریں بولیٹی بھی meːnʈˈeːn کرنی ہے
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0023.wav|0|اب یہاں آپ نے lˈoːɡoː لگانا ہے یہاں آپ نے ʧˈɛnəl کا نام لکھنا ہے اور نیچے اپنا hˈɛnɖəl لکھنا ہے
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0008.wav|0|کیونکہ pˈɪn آنے میں کافی وقت لگ گیا میں نے کئی بار pˈɪn کے لیے اپلائی کیا لیکن پھر بھی کافی دنوں تک pˈɪn نہیں آیا
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00032.wav|1|میرا bʰˈiː jˈɛhiː xˈəjaːl ہے، kˈʊʧʰ dɪnˈoːn sˈeː
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00958.wav|1|کَلانَوربھارت کی ایک بستی جو پنجاب ریاست میں واقع ہے۔
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0048.wav|0|تو یہ آپ کے لیے امیجز نکالنا شروع کر دے گا
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0023.wav|0|ʋˈɪɖɪoː کا ریشو بھی سیلیکٹ کر لینا ہے اب اس ابایا والی امیج پر پریس کر کے رکھیں اور دو بار ایڈ ʈə prˈɔmpʈ پر کلک کرنا ہے یاد رکھیں دو بار پریس کرنا ہے تو یہ امیج یہاں rˈɛfrəns امیج کے طور پر ایڈ ہو جائے گی
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0017.wav|0|اور نہ ہی کبھی ری یوزڈ kˈɔnʈɛnʈ کا ایشو ملا یاد رکھیں jˈuːʈjuːb یہ کبھی نہیں کہتا کہ آپ اے آئی سے ʋˈɪɖɪoːz بنانا چھوڑ دیں
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0019.wav|0|کچھ ہی دیر میں یہ ɖˈaːʊnloːɖɪɖ ہو کر آپ کے mˈoːbaːɪl fˈoːn میں شو ہونے لگے گی
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0063.wav|0|اے آئی kˈɔnʈɛnʈ کی وجہ سے میری مونیٹائزیشن میں مسئلہ نہیں آیا تھا
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00132.wav|1|تو جنرل الیکٹیو کورس چھ کریڈٹ کے لیے ہے، ہے ناں؟
+data/3_training_lists/voice/wavs/k_aKhwNpVfE__0027.wav|0|rˈɛɖɪʃ ایک مدر کا kˈɛrɪkʈər ہوگا تو آپ نے یہاں prˈɔmpʈ لکھنا ہے مجھے rˈɛɖɪʃ کی ایک kˈɛrɪkʈər امیج نکال دو جیسے rˈɛɖɪʃ نے sˈɛriː پہنی ہو
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0058.wav|0|یہاں آپ لوگ اپنی ˈɪmɪʤ کو ˈɛɖɪʈ کر سکتے ہیں اب میں یہاں ɪmpˈɔrʈ ˈɪmɪʤ پر کلک کروں گی
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0013.wav|0|اب آپ نے اوپر plˈəs کے ˈaːɪkɔn پر کلک کرنا ہے اور پھر ˈəploːɖ mˈiːɖiːə پر جانا ہے یہاں تین ɖˈɔʈs پر کلک کر کے وہ fˈoːlɖər سیلیکٹ کر لیں جہاں آپ کا ˈɛʋəʈaːr پڑا ہے جیسے میرے تھامنیلز پر ایک گرل کا ˈɛʋəʈaːr ہوتا ہے میں نے یہ امیج سیلیکٹ کر لی ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00014.wav|1|مدورائی ہوائی اڈہ ریاست کا واحد کسٹم ہوائی اڈہ ہے۔
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01065.wav|1|ایک دم کو ٹھہر جا ۔
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0040.wav|0|ہم نے اسے ʋˈɪɖɪoː میں کنورٹ کروانا ہے تو یہاں ʋˈɪɖɪoː جنریشن پہ کلک کروں گی اب یہاں اپنی rˈɛfrəns امیج دوں گی
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0044.wav|0|ɖˈaːʊnloːɖ کرنے کا طریقہ یہ ہے کہ اس ایمیج کے اوپر پریس کر کے رکھیں پھر ʃˈeːr پر دو بار کلک کریں اور پھر سے پریس کر کے ɖˈaːʊnloːɖ ایمیج پر کلک کر دیں دیکھیں یہ ایمیج آپ کی ɡˈɛlərɪ میں چلی گئی ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00809.wav|1|قَصَابََہ ˈeːk qˈəsəm kˈaː roːmˈaːl hˈɛ جسے تزئین و aːrˈaːɪʃ کے lˈiːeː sˈər سے bˈaːndʰaː جاتا ہے۔
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0026.wav|0|اب ہم نے جانا ہے flˈoː اے آئی پہ اس کے لیے پہلے ɡˈuːɡəl پہ جائیں اور وہاں sˈərʧ کریں flˈoː اے آئی آپ کے سامنے کچھ ویب سائٹس آئیں گی لیکن جس پہ لکھا ہے ɡˈuːɡəl lˈɛbz آپ نے وہاں klˈɪk کرنا ہے
+data/3_training_lists/voice/wavs/od1gD9-brjk__0026.wav|0|جیسے مجھے یہ والا پسند آیا تھا تو اس کو ɖˈaːʊnloːɖ کرنے کے لیے نیچے تری ɖˈɔʈs پہ کلک کرنا ہے
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0005.wav|0|آج کل یہ ʋˈɪɖɪoːz jˈuːʈjuːb پر بہت زیادہ ʈrˈɛnɖ کر رہی ہیں اگر میں آپ کو اس کا prˈuːf دکھاؤں تو یہ دیکھیں اس
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0005.wav|0|ہر تھامنیل پر یہی دیکھنے کو ملتا ہے کہ اے آئی ʋˈɪɖɪoːz mˈɔnɪʈaːɪzɖ نہیں ہوتی میں
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0040.wav|0|اور اب میں نے یہ ایرو پہ کلک کر دینا ہے تو یہ آپ کا skrˈɪpʈ لکھنا شروع کر دے گا
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00482.wav|1|ʊnhˈoːn nˈeː dʊnˈiːaː میں ˈəmn ˈoː əmˈaːn ˈɔr tərˈəqiː keːlˈiːeː dˈʊaː kˈiː ۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01061.wav|1|تو حکومت ان نوجوانوں kˈoː آگے bˈəɽhaːnaː چاہتی hˈɛ جو ˈɪseː ایک keːriːˈər کے طور pˈər اختیار kˈərnaː چاہتے ہیں۔
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0021.wav|0|اور آواز کی سپیڈ اور تھوڑا بہت əʤˈəsʈ کر لیا کریں میرا تو بس یہی طریقہ تھا جس کی وجہ سے میرا ʧˈɛnəl mˈɔnɪʈaːɪzɖ ہوا
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01995.wav|1|لیکن میرا اندازہ ہے کہ تہوار کے دوران چیزوں میں لچک ہوتی ہے۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00021.wav|1|mˈʊʤʰeː bˈəriː طرح dˈəst lˈəɡ گئے ہیں۔
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0012.wav|0|اگر چار sˈɛkənɖz کی ʋˈɪɖɪoː بنائیں تو سیون krˈɛɖɪʈs لگتے ہیں اور آپ ایک جی mˈeːl آئی ڈی سے تقریباً چھے ʋˈɪɖɪoːz بنا سکتے ہیں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01684.wav|1|tˈoː hˈəmeːɴ ایک جوڑی kˈəpɽeː زائد لانے ہوں ɡˈeː
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0054.wav|0|jˈuːʈjuːb پہ دھیر ساری ʋˈɪɖɪoːz پڑی ہیں اور میں آپ سب کا بہت شکریہ ادا کرنا چاہتی ہوں آپ نے میری lˈaːsʈ ʋˈɪɖɪoː کو بہت شوق سے دیکھا اور
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_00800.wav|1|شراب کا dˈuːr ʧˈəlneː lˈəɡaː ۔
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0079.wav|0|اگر آپ لوگوں کے پاس زیادہ جی mˈeːl آئی ڈیز نہیں ہیں تو میں آپ کو fˈɔrs نہیں کروں گی کہ آپ لازمی الگ الگ آئی ڈیز بنائیں یہ بلکل آپ کی اپنی چوئس ہے اگر آپ بنانا چاہیں تو بنا سکتے ہیں اور اگر آپ کو ٹھیک نہیں لگتا تو
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0009.wav|0|یعنی آپ خود اندازہ لگا سکتے ہیں کہ اس وقت یہ kˈɛʈɪɡərɪ کتنی زیادہ ʈrˈɛnɖ میں ہے
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0084.wav|0|ɡˈuːɡəl پر sˈərʧ کریں flˈoː اے آئی اور جس ویب سائٹ پر ɡˈuːɡəl lˈɛbz لکھا ہو اس پر کلک کر دیں کہ
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0052.wav|0|اگر کوئی rˈiːəl brˈɛnɖ آپ کو spˈɔnsərʃɪp کے لیے ای mˈeːl کر رہا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00696.wav|1|سترہ ویں صدی کے دوسرے نصف میں پراگ کی آبادی پھر سے بڑھنے لگی۔
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0067.wav|0|ٹک پہ کلک کریں اور یہاں اسے əʤˈəsʈ کریں پھر sʈˈaːɪl والی جگہ پہ جا کے یہاں سے کوئی بھی fˈɔnʈ sʈˈaːɪl چوز کر سکتے ہیں جیسے میں یہ والا چوز کروں گی نیچے یہاں pˈɛləʈ پہ جائیں اور یہاں سے جو مرضی کلر چوز کریں میں یہ والا چوز کر رہی ہوں
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0003.wav|0|اس کے ذریعے کیسے ˈərnɪnɡ کر سکتے ہیں اور میں نے اپنی spˈɔnsərʃɪp سے کتنا پیسہ کمایا سب کچھ ʃˈeːr کروں گی
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0118.wav|0|بس یہی وہ طریقہ ہے جس سے میں اپنی lˈɔnɡ ʋˈɪɖɪoːz ɛnɖ ہوں اور امید ہے اب آپ سب کو اچھے سے سمجھ آ گیا ہوگا اگر ʋˈɪɖɪoː اچھی لگی ہو تو اسے لائک ضرور کیجئے گا اور ʧˈɛnəl کو səbskrˈaːɪb کر دیں اور ہاں ایک بہت ضروری بات میرا فلحال jˈuːʈjuːb پر صرف یہی ایک اوفیشل ʧˈɛnəl ہے اس
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01931.wav|1|ˈɪseː pˈɛhliː bˈaːr دو ہزار چودہ میں شام ˈɔr ərˈaːq کے dərmjˈaːn mˈeːɴ سرحدی رکاوٹوں kˈoː ختم kˈərneː ʋˈaːleː dˈaːɪʃ کے ərkˈaːn کی ʋəɖˈeːoː میں دیکھا گیا ۔
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00522.wav|1|وزیر اعلی یوگی آدتیہ ناتھ نے کل میرٹھ ، باغپت اور غازی آباد میں انتخابی ریلیوں کو خطاب کیا ۔
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0037.wav|0|تو یہ ایمیج بننا شروع ہو جائے گی اور یہ دیکھیں یہ ایمیج بنی ہے اب آپ نے یہاں کلک کر کے اسے ɖˈaːʊnloːɖ کر لینا ہے اب یہاں ایمیج ʈˈuː ایمیج پہ کلک کرنا ہے اور یہاں اپنا prˈɔmpʈ لکھنا ہے جس میں میں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01775.wav|1|ٹھیک ہے، ایسا ہے تو کیا ہم کبڈی کو شامل کر سکتے ہیں؟
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_03406.wav|1|bʰˈaːrtiː ودیاپیٹھ ɖˈeːməɖ juːniːʋˈərsɪʈiː کی اکائی kˈeː tˈɔr پر یہ کالج əsˈaːtzə kˈiː tˈərbiːət میں بیچلر ڈگری pˈeːʃ kˈərtaː ہے۔
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02402.wav|1|ˈɪseː بیع سلف یعنی ادھار kˈiː بیع bʰˈiː kˈɛhteː ہیں کہ مال مبیع ˈɪs میں ʊdʰˈaːr hˈoːtaː hˈɛ بیع سلم kˈaː sʊbˈuːt قرآن ʃərˈiːf سے bʰˈiː hˈɛ
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0071.wav|0|لیکن میں صرف jˈuːʈjuːb پہ ˈɛkʈɪʋ ہوں میرا فیلحال jˈuːʈjuːb کے علاوہ کوئی اور sˈoːʃəl lˈɪnk نہیں ہے تو میں یہاں پہ ʤˈəsʈ وہی والا اپنا ɖɪskrˈɪpʃən لکھوں گی جو میں نے سب سے پہلے ʧˈɛʈ جی پی سے لکھوایا تھا
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00094.wav|1|کچھ خاص نہیں، میں صرف ناقابل محصول آمدنی کے بارے میں مزید جاننا چاہتا ہوں۔
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0035.wav|0|گرل نے sˈeːm ɖrˈɛs کے کلر جیسا ہجاب کیا ہوا ہے لیکن گرل کے بال نظر نہ آئیں گرل کی skˈɪn smˈuːd ہو bjˈuːʈɪfəl ہو گرل سامنے دیکھ رہی ہے قریب سے fˈeːs شو کرو گرل نے lˈɪpsʈɪk لگائی ہوئی ہے لیکن skˈɪn smˈuːd ہو اور bjˈuːʈɪfəl ہو
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02896.wav|1|یہ شکل واضح tˈɔr pˈər لکڑی ˈɔr diːɡˈər pˈoːdoːɴ کے مواد mˈeːɴ moːʤˈuːd عمارتوں kˈiː pˈəər mˈeːɴ باز təxlˈiːq تھی۔
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0004.wav|0|امید کرتی ہوں آپ سب خیریت سے ہوں گے تو آج میں آپ لوگوں کو بتاؤں گی کہ میں اپنی ʋˈɪɖɪoːz کیسے بناتی ہوں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02441.wav|1|تمام طلبہ کو ایک سرگرمی ضرور منتخب کرنی ہوگی۔
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0079.wav|0|ʋˈɪɖɪoː کو لائک ضرور کیجئے گا اور kˈɔmɛnʈs میں مجھے ضرور بتائیے گا کہ آپ کو یہ ʈjuːʈˈɔrɪəl کیسا لگا
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0006.wav|0|اور سوچا کہ pˈeːmənʈ اپنے بھائی کے əkˈaːʊnʈ سے کرتی ہوں تاکہ میرے bˈɛnk əkˈaːʊnʈ میں کوئی ایشو نہ آئے اور نہ ہی میرے ایڈسنس میں کوئی ایشو آئے
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0034.wav|0|اب یہاں ہم نے skrˈɪpʈ لکھنا ہے جو ɡˈərl نے بولنا ہے اور یہاں سے آپ اپنی خود کی ʋˈɔɪs بھی rˈɛkɔrɖ کر سکتے
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0001.wav|0|کیونکہ بہت سے لوگوں نے سوال کیا کہ آپ لپ سنکنگ کیسے کرتی ہیں اور اتنی لمبی ʋˈɪɖɪoːz کیسے بناتی ہیں تو آج میں آپ لوگوں کو بتاؤں گی کہ میں نے flˈoː اے آئی سے frˈiː میں اپنا ˈɛʋəʈaːr کیسے بنایا اس
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0039.wav|0|کے بعد میں نے اسلامی pˈeːrənʈɪnɡ پر ʋˈɪɖɪoːz بنانا شروع کر دیں میں بچوں کی تربیت سے متعلق مختلف کتابوں سے معلومات لیتی تھی اور
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0010.wav|0|یہ ساری ʋˈɪɖɪoːz میں نے ایک ہی ʈˈuːl کی مدد سے بنائی ہیں تو چلیے بنا ʈˈaːɪm ʋˈeːsʈ کیے اپنی ʋˈɪɖɪoː sʈˈaːrʈ کرتے ہیں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01763.wav|1|بالکل آئیں آشیش، کیا کسی چیز کے بارے میں آپ مجھے سے بات کرنا چاہتے ہیں؟
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0059.wav|0|اگر آج کی ʋˈɪɖɪoː آپ کے لیے فائدہ مند رہی اور آپ نے اس سے کچھ نیا سیکھا تو plˈiːz ʋˈɪɖɪoː کو ایک لائک ضرور کریں اور اسے دوسروں کے ساتھ بھی ʃˈeːr کریں تاکہ وہ بھی اس سے فائدہ اٹھا سکیں اور
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0057.wav|0|کیونکہ اگر یہ غلطی سے بھی پیچھے ہو جائے تو جتنی بھی sˈɛʈɪnɡ ہم نے کی ہوتی ہے وہ rɪmˈuːʋ ہو جاتی ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_02759.wav|1|پہلے حیاتیاتی مواد کی مدد سے ایک صِنَاعِی سینتہیٹک سانچہ تیار کیا جاتا ہے ۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01750.wav|1|mˈeːɴ سمجھتا hˈuːn اگر اس dˈuːsreː کے sˈaːtʰ آپ اپنا rˈeːʈərən ٹکٹ بک کروالیں تو bɛhtˈər rˈəheː ɡˈaː
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0026.wav|0|اب چلتے ہیں اس بات کی طرف کہ اگر کسی کا ʧˈɛnəl ان پانچ مہینوں میں mˈɔnɪʈaːɪzɖ نہیں ہوتا تو وہ کیا کریں
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0011.wav|0|اور اوپر سے ʃˈɔrʈs پر pˈeːmənʈ بھی lˈɔnɡ ʋˈɪɖɪoːz کے مقابلے میں بہت کم ملتی ہے
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0036.wav|0|بلکہ لوگوں کو یہ بھی بتایا جاتا ہے کہ وہ اپنی زندگی کو کیسے بہتر بنا سکتے ہیں اپنی صبح کا آغاز کیسے کریں
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0014.wav|0|وہ بھی بلکل frˈiː میں یہاں میں آپ کو ایک بات بتا دوں کہ یہ ʈˈuːl pˈeːɖ ہے لیکن یہ کچھ frˈiː krˈɛɖɪʈs دیتا ہے جن کی مدد سے میں نے یہ ʋˈɪɖɪoːz تیار کی ہیں
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0033.wav|0|آپ کے سامنے یہاں بہت سارے وی پین آ جائیں گے تو آپ نے سب سے اوپر والا وی پین ɖˈaːʊnloːɖ نہیں کرنا بلکہ یہ دوسرے nˈəmbər والا ɖˈaːʊnloːɖ کرنا ہے جس پر لکھا ہے سوپر وی پین fˈaːsʈ وی پین prˈɔksɪ
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01237.wav|1|بعد mˈeːɴ حمودالرحمن کمیشن kˈoː ʋˈaːqjə kˈiː tɛhqˈiːqaːt kˈaː حکم dˈiːaː ɡˈəjaː ۔
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0008.wav|0|اس لئے آپ لوگوں کے پاس تقریباً پانچ مہینے باقی ہیں یعنی اگر آپ ان پانچ مہینوں میں دل لگا کر محنت کریں تو آپ اپنا ʧˈɛnəl پہلے ہی mˈɔnɪʈaːɪzɖ کروا سکتے ہیں تاکہ آپ کو بعد میں ɖˈəbəl ʈˈaːrɡɪʈ یعنی آٹھ ہزار گھنٹے پورے کرنے کی مشکل کا سامنا نہ کرنا پڑے اب ایک بہت ہی ضروری بات پر آتے ہیں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00269.wav|1|ہندوستان میں ٹیکس کا نظام آسانی اور سہولت کے لیے بنایا گیا ہے۔
+data/3_training_lists/voice/wavs/_qZG68xJPag__0088.wav|0|میری اپنی آواز نہیں ہے بلکہ flˈoː اے آئی کی آواز ہے باقی اگر کوئی بھی ڈاؤٹ ہو تو نیچے kˈɔmɛnʈ کر دیں اور
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0018.wav|0|یہاں آپ دیکھ سکتے ہیں اس نے آپ کو kˈɔnʈɛnʈ آئیڈیاز بھی دے دیئے ہیں یعنی آپ اپنی ʋˈɪɖɪoː کس کس ʈˈɔpɪk پر بنا سکتے
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0034.wav|0|میری ʋˈɪɖɪoːz کے جتنے بھی پیارے کیریکٹرز اور sˈiːnz ہوتے ہیں میں اسی ʈˈuːl سے تیار کرتی ہوں
+data/3_training_lists/voice/wavs/_JbW-piBSWM__0020.wav|0|جب میں نے اپنے bˈɛnk əkˈaːʊnʈ میں دیکھیں تو وہاں پچاس ہزار تھے کیونکہ کچھ پیسے jˈuːʈjuːb والوں نے ʈˈɛks کے کٹ کر لیے اور
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0008.wav|0|جب میں نے اپنا jˈuːʈjuːb ʧˈɛnəl شروع کیا تو مجھے بھی بہت سے لوگوں نے یہی بولا کہ تمہارا اے آئی kˈɔnʈɛnʈ mˈɔnɪʈaːɪzɖ نہیں ہوگا لیکن میں نے پھر بھی ʧˈɛnəl بنایا اور
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0045.wav|0|کچھ لوگوں نے یہ بھی سوال کیا کہ کیا وی پی این سے frˈiː krˈɛɖɪʈs مل جاتے ہیں تو
+data/3_training_lists/voice/wavs/Q3yVwjfDqms__0017.wav|0|دیر میں یہ آپ کی ʋˈɪɖɪoː تیار کر دے گا اور یہ دیکھیں اس نے ہماری ʋˈɪɖɪoː بھی تیار کر دی ہے اَسّلامُ علیکم دوستوں آپ سب کو جشن آزادی مبارک ہو
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_01460.wav|1|پامیر تاجکستان، کرغیزستان، افغانستان اور پاکستان میں پھیلا ہوا ہے ۔
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0042.wav|0|ریوز prˈɔmpʈ پر کلک کروں گی اور دوبارہ اس ایمیج پر جا کر ایڈ ʈə prˈɔmpʈ کروں گی تاکہ یہ مجھے اسی گرل کی مزید sˈeːm ایمیجز نکال کر دے اب
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0059.wav|0|گرل سامنے دیکھتے ہوئے کچھ کہہ رہی ہے گرل کی skˈɪn bjˈuːʈɪfəl ہو اور lˈɪpsʈɪk ɡlˈɔsɪ ہو skˈɪn ہلکی سی ɡlˈoːɪnɡ ہو اور skˈɪn smˈuːd ہو
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0007.wav|0|اور اگر آپ یکم fˈɛbruːərɪ سے پہلے پہلے اپنا ʧˈɛnəl mˈɔnɪʈaːɪzɖ کرنا چاہتے ہیں تو آپ کو چار ہزار گھنٹے ہی پورے کرنے ہوں گے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00344.wav|1|سید احمد شاہ بن سید صدرالدین شاہ رحمۃ اللہ علیہما، آپ خاندان ِ ساداتِ کے چشم و چراغ تھے۔
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0028.wav|0|kˈɛʈɪɡərɪ کا prˈuːf دینے کے لیے مجھے کسی اور ʧˈɛnəl کی ضرورت نہیں کیونکہ اس کا prˈuːf میرا اپنا ʧˈɛnəl ہے
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0002.wav|0|ʋˈɪɖɪoː میں میں آپ کو سب کچھ بتانے والی ہوں اب ظاہر سی بات ہے کہ میں آپ کو اپنے اصل ˈɛʋəʈaːr والا چہرہ تو نہیں دے سکتی
+data/3_training_lists/voice/wavs/od1gD9-brjk__0011.wav|0|آپ نے ان کو سائٹ پہ کرتے جانا ہے اور یہ دیکھیں یہاں لکھا ہوا ہے میوزک ہم نے اس پہ کام کرنا ہے تو نیچے ٹرائیٹ ناؤ پہ کلک کرنا ہے تو
+data/3_training_lists/voice/wavs/m8eWoJ_Zik4__0054.wav|0|یہاں دیکھیں ɖˈaːʊnloːɖɪnɡ لکھا ہوا نظر آ رہا ہے اور کچھ دیر میں آپ کی fˈaːɪl ɖˈaːʊnloːɖ ہو جائے گی میں یہاں ˈoːpən پہ klˈɪk کروں گی یہاں سے ˈɛksʈrɛkʈ پہ klˈɪk کروں گی ɖɪlˈiːʈ zˈɪp fˈaːɪl والے bˈɔks پہ ʈˈɪk کروں گی اور fˈɪnɪʃʈ پہ klˈɪk کر دوں گی
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0078.wav|0|لیکن آپ سب نے گھبرانا نہیں ہے ان چیزوں کا سامنا کریں گے تو ایک نیا ɪkspˈiːərɪəns ملے گا آپ کو ایشیوز سولف کرنا آئیں گے
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0062.wav|0|ہم نے اپنی lˈaːsʈ ایمیج میں tʰrˈiː کیریکٹرز لینے ہیں tʰˈərɖ kˈɛrɪkʈər ہوگا lˈɪʈəl گرل lˈɪʈəl گرل کا اسے بھی ˈɛɖ ʈə prˈɔmpʈ کر لیں اور یہ والا prˈɔmpʈ لکھوں گی تو یہ دیکھیں ہماری یہ ˈɪmɪʤɪz بھی ʤˈɛnəreːʈ ہو گئی ہیں
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0020.wav|0|پنٹرسٹ ɖˈaːʊnloːɖ ہونے کے بعد اب ہم نے اسے ˈoːpən کرنا ہے آپ کے سامنے کچھ اس طرح کا ˈɪnʈərfeːs آ جائے گا
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0035.wav|0|تو آپ نے پھر سے ɡˈuːɡəl پر جانا ہے اور وہاں sˈərʧ کرنا ہے flˈoː اے آئی آپ کے سامنے جو lˈɪnk آئے گا اس پہ klˈɪk کر کے اپنے کسی بھی əkˈaːʊnʈ سے lˈɔɡɪn کر لینا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_BOOK_01096.wav|1|اس لیے دب گئی ہے ۔
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0002.wav|0|تو آج میں آپ لوگوں کو بتاؤں گی کہ ایک jˈuːʈjuːb ʧˈɛnəl کیسے بناتے ہیں اس کی سیٹنگ کیسے کرتے ہیں اور سب کچھ ɖˈiːʈeːl میں بتاؤں گی
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02428.wav|1|ایک nəzmˈiːə kəhˈaːniː افسانہ یا غیر افسانہ ہوسکتی hˈɛ ˈɔr اس میں بہت سارے moːzuːˈaːt شامل ہوسکتے ہیں۔
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0022.wav|0|سب باتوں سے صاف پتا چلتا ہے کہ jˈuːʈjuːb پر اس وقت بہت زیادہ ʧˈɛnəlz بن چکے ہیں
+data/3_training_lists/voice/wavs/FWGYtU8ewuA__0050.wav|0|اب آپ نے یہاں kˈiːʋərɖz لکھنے ہیں جو آپ کے ʧˈɛnəl سے rɪlˈeːʈɪɖ ہیں یعنی جب کوئی آپ کا ʧˈɛnəl sˈərʧ کرے تو وہ sˈərʧ میں آئے
+data/3_training_lists/voice/wavs/65dQm2kAzXk__0077.wav|0|بہت سے بڑے بڑے kriːˈeːʈərz کا ʧˈɛnəl ڈیمونیٹائز ہو جاتا ہے بہت سے لوگوں کے ʧˈɛnəl پہ sʈrˈaːɪks آ جاتی ہیں اور بہت سے چھوٹے چھوٹے ایشیوز بھی درمیان میں آتے رہتے ہیں
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0075.wav|0|یہی sˈɪmpəl طریقہ تھا اس ʈˈaːɪp کی ایمیجز بنانے کا چلیں ایمیج تو ہماری rˈɛɖɪ ہو گئی اور امید ہے آپ سب کو ایمیج ʤˈɛnəreːʈ کرنا آ گیا ہوگا
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_01411.wav|1|آپ پہلے کہاں کام کرتی tʰˈiːɴ
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00865.wav|1|انہوں نے kˈəhaː کہ ʋˈaːiː ˈeːs آر کے doːrhʊkuːmˈət میں jˈeːh xɪdmˈaːt کافی موثر تھیں ۔
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0020.wav|0|یہاں اس نے کچھ آئیڈیاز دیئے ہیں اور bˈoːnəs کے طور پر بگنر kriːˈeːʈərz کے لیے sˈɪmpəl kˈɔnʈɛnʈ fˈɔrmjʊlə بھی بتایا ہے کہ
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0026.wav|0|اب میں یہاں ایرو کے نشان پر کلک کروں گی ʤˈɛnəreːʈ ہونا شروع ہو گئی ہے کچھ ʈˈaːɪm لگے گا اور امیجز سامنے آ جائیں گی
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00268.wav|1|ˈoːə nəhˈiːn ɪnkˈəm ٹیکس ɖaːɪrˈeːkʈ ʈˈeːks کا ˈeːk hˈɪsə hˈoːteː ہیں، لیکن دوسرے ٹیکس bʰˈiː hˈoːteː ہیں ʤˈoː ˈɪs اصطلاح کے tˈɛhɛt ˈaːteː ہیں۔
+data/3_training_lists/voice/wavs/i-j2I_T_sLc__0054.wav|0|کے علاوہ pˈeːmənʈ کی بات بھی klˈiːər ہوگی وہ یا تو آپ سے پوچھیں گے کہ آپ اس ʋˈɪɖɪoː کے کتنے چارجز لیں گے یا پھر وہ خود اپنا بجٹ بتا دیں گے
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0047.wav|0|آج کل لوگ کیا دیکھ رہے ہیں کیا sˈərʧ کر رہے ہیں پھر اس پر ʋˈɪɖɪoːz بنائیں اپنی ˈɛɖɪʈɪnɡ بہتر کریں
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00285.wav|1|اچھا tˈoː آپ دیکھیے، jˈeːh ɪfraːtˈeː زر کی وجہ sˈeː واقعی ضروری ہے۔
+data/3_training_lists/voice/wavs/8oZoZB_VWSs__0017.wav|0|سب سے پہلا sʈˈɛp ہے skrˈɪpʈ rˈaːɪʈɪnɡ یعنی آسان لفظوں میں کہیں تو پہلے یہ دیکھنا کہ مجھے ʋˈɪɖɪoː کس ʈˈɔpɪk پر بنانی ہے جیسے میرا ʧˈɛnəl اسلامک pˈeːrənʈɪnɡ پر ہے تو میں اس کے لیے الگ الگ bˈʊks یا کسی اچھے اسلامک رسالے سے ʋˈɪɖɪoː کے لیے məʈˈiːərɪəl ڈھونڈتی ہوں
+data/3_training_lists/voice/wavs/_6b9BwhfhJQ__0033.wav|0|اب آپ نے اس امیج پہ پریس کر کے رکھنا ہے دبائے رکھنا ہے اور یہاں سے ایڈ ʈə prˈɔmpʈ پہ کلک کرنا ہے یہ امیج یہاں rˈɛfrəns کے طور پہ لگ جائے گی اب ہم نے یہاں اپنا prˈɔmpʈ لکھنا ہے اور میں یہاں لکھوں گی کہ
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0041.wav|0|ʧˈɛnəl mˈɔnɪʈaːɪzɖ کروانے کے بعد آپ کیا کرتے ہیں یہ اصل بات ہے اگر میرا ʧˈɛnəl mˈɔnɪʈaːɪzɖ ہے لیکن میں کام کرنا چھوڑ دوں اور
+data/3_training_lists/voice/wavs/U-pZEdXvhvM__0004.wav|0|لیکن سب سے پہلے آپ ذرا یہ ʋˈɪɖɪoːz دیکھیں یہ آپ کا نماز کا ʧˈaːrʈ ہے اس میں پانچوں نمازوں کے خانے ہیں جب آپ نماز ادا کر لو تو ان خانوں میں ٹک کر دینا اس ہفتے کے انڈ پر میں آپ کو ایک انام بھی دوں گی
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0040.wav|0|لیکن پھر بھی اے آئی ɔʈəmˈeːʃən کی مدد سے گھر بیٹھے jˈuːʈjuːb پر کام کرنا اور ˈərnɪnɡ کرنا چاہتی ہیں اور
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0047.wav|0|وی پین kənˈɛkʈɪɖ کرنے کے بعد اب میں دوبارہ flˈoː اے آئی پہ واپس آؤں گی اور ان fˈeːlɖ ہوئی امیجز میں سے کسی ایک امیج پہ پریس کر کے رکھوں گی تو آپ کے سامنے پھر سے کچھ آپشنز آ جائیں گے
+data/3_training_lists/voice/wavs/0nqRad6tEPE__0027.wav|0|میں جانتی ہوں آپ سب بہت پریشان ہو رہے ہوں گے کہ ہم سے تو چار ہزار گھنٹے پورے نہیں ہوتے تھے ہم آٹھ ہزار گھنٹے کیسے پورے کریں گے
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0021.wav|0|چلتے ہیں اپنی اگلی kˈɛʈɪɡərɪ کی طرف جو ہے ˈɪnɡlɪʃ lˈərnɪnɡ
+data/3_training_lists/voice/wavs/_qZG68xJPag__0057.wav|0|اب آپ نے اوپر یہاں prˈoːfaːɪl پہ کلک کرنا ہے یہ دیکھیں اس آئی ڈی پہ مجھے آج کے لیے ففٹی frˈiː krˈɛɖɪʈs ملے ہیں یعنی میں ان ففٹی krˈɛɖɪʈs میں ہی رہ کر ʋˈɪɖɪoː بنا سکتی ہوں خیر
+data/3_training_lists/voice/wavs/1f8wFSUCvWg__0016.wav|0|ہیں اس nˈiːʃ کی ایک اور خاص بات یہ ہے کہ اس میں ʋˈɔʧ ʈˈaːɪm بھی کافی اچھا ملتا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00804.wav|1|شیکھر جی کا تذکرہ پارشواناتھ کریت میں بھی ملتا ہے، جو پارشوا کی بارہویں صدی کی سوانح عمری ہے۔
+data/3_training_lists/voice/wavs/6VnHH69a3CM__0069.wav|0|پر klˈɪk کریں تو آپ کو الگ الگ ʋˈɛbsaːɪʈs پر جانے کی ضرورت نہیں پڑتی یہاں ɖrˈɔp ɖˈaːʊn میں آپ دیکھ سکتے ہیں کہ
+data/3_training_lists/voice/wavs/lhEiA1vyAY4__0017.wav|0|فر ایکزامپل اگر آپ کی ʋˈɪɖɪoː آٹھ mˈɪnɪʈs کی ہے لیکن کوئی شخص آپ کی ʋˈɪɖɪoː کو شروع کے صرف ایک mˈɪnɪʈ تک دیکھتا ہے اور پھر چھوڑ دیتا ہے تو اس سے آپ کی ایوریج ʋjˈuː ɖjɔrˈeːʃən کم ہوگی اور اگر زیادہ تر لوگ آپ کی ʋˈɪɖɪoː کو شروع میں ہی چھوڑ دیں تو
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02584.wav|1|ʤənˈaːb میں یہاں دیکھ rˈəhaː ہوں kˈeː ˈɪs حوالے سے ˈaːp kˈoː کئی ای میلز بھیجی ɡˈəiː hˈeːɴ
+data/3_training_lists/voice/wavs/QtsdIKxsPd8__0052.wav|0|پھر fˈaːɪl کو سیف کر دیں وہ فوراں ایک nˈɔrməl امیج میں تبدیل ہو جائے گی اور آپ کی mˈoːbaːɪl ɡˈɛlərɪ میں بھی نظر آنے لگے گی
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00190.wav|1|kjˈaː ˈeːsaː kˈoːiː کھلاڑی جسے mˈeːɴ ʤˈaːntaː ہوں ʤˈoː ˈɪs ایوارڈ کا وصول kʊnˈəndə ہے؟
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_00091.wav|1|بہت sˈiː چیزیں hˈeːɴ ʤˈoː qˈaːbɪl محصول آمدنی کے tˈɛhɛt نہیں آتی hˈeːɴ
+data/3_training_lists/rasa_female/wavs/URD_F_NEWS_00344.wav|1|ناگپور میں بایس تا پنچیس نومبر کے دوران اناسی ویں انڈین روڈ کانگریس کی سالانہ کانفرنس کا انعقادکیا گیا ہے۔
+data/3_training_lists/voice/wavs/mX3TtpT--OA__0070.wav|0|کچھ ہی دیر میں ایمیج lˈoːɖɪɖ ہو جائے گی اب اس ایمیج پر پریس کر کے رکھیں اور دوبارہ ˈɛɖ ʈə prˈɔmpʈ کر دیں تاکہ یہ ہماری rˈɛfrəns ایمیج بن جائے
+data/3_training_lists/voice/wavs/Q9wb0ZFS_6Q__0055.wav|0|آپ نے یہاں سے ˈɪkspɔrʈ پر کلک کرنا ہے اور پھر سے ˈɪkspɔrʈ پر کلک کرنا ہے تو آپ کی sˈaːʊnɖ ˈɪkspɔrʈ ہونے لگے گی اس طرح آپ نے اپنی sˈaːʊnɖ کو ˈɪkspɔrʈ کر لینا ہے
+data/3_training_lists/rasa_female/wavs/URD_F_WIKI_00264.wav|1|dˈuːsriː طرف محمد mʊxtˈaːr السلامی بین الاقوامی اسلامی فقہ اکادمی، جدہ کے رکن ˈɔr الهيئة الشرعية العالمية للزكاة کے سربراہ تھے۔
+data/3_training_lists/rasa_female/wavs/URD_F_CONV_02043.wav|1|جی hˈaːɴ کیا میں ˈaːp kˈaː نام جان sˈəktaː hˈuːn

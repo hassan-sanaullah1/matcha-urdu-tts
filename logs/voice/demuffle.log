@@ -1,0 +1,11 @@
+dm8: ref mahwash, 60 clips fit / 22 test
+[matcha_torch] missing=[] unexpected=['spk_cond.emb_t.weight', 'spk_cond.emb_mu.weight']
+[matcha_torch] missing=[] unexpected=['spk_cond.emb_t.weight', 'spk_cond.emb_mu.weight']
+[matcha_torch] missing=[] unexpected=['spk_cond.emb_t.weight', 'spk_cond.emb_mu.weight']
+[matcha_torch] missing=[] unexpected=['spk_cond.emb_t.weight', 'spk_cond.emb_mu.weight']
+[matcha_torch] missing=[] unexpected=['spk_cond.emb_t.weight', 'spk_cond.emb_mu.weight']
+[matcha_torch] missing=[] unexpected=['spk_cond.emb_t.weight', 'spk_cond.emb_mu.weight']
+[matcha_torch] missing=[] unexpected=['spk_cond.emb_t.weight', 'spk_cond.emb_mu.weight']
+fit error by iteration (mean |dB|): [0.218, 0.114, 0.07, 0.049, 0.038]
+TEST half mean |band-shape gap| dB, before -> after: [0.914, 0.773]
+-> /home/ubuntu/Desktop/kaani/pk-r16-lullaby-r5p2-recipe/checkpoints/edits/dm8/model.ckpt

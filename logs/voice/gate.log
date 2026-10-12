@@ -1,0 +1,82 @@
+[NeMo W 2026-10-01 05:38:07 nemo_logging:405] If you intend to do training or fine-tuning, please call the ModelPT.setup_training_data() method and provide a valid configuration file to setup the train data loader.
+    Train config : 
+    manifest_filepath: /manifests/combined_fisher_swbd_voxceleb12_librispeech/train.json
+    sample_rate: 16000
+    labels: null
+    batch_size: 64
+    shuffle: true
+    is_tarred: false
+    tarred_audio_filepaths: null
+    tarred_shard_strategy: scatter
+    augmentor:
+      noise:
+        manifest_path: /manifests/noise/rir_noise_manifest.json
+        prob: 0.5
+        min_snr_db: 0
+        max_snr_db: 15
+      speed:
+        prob: 0.5
+        sr: 16000
+        resample_type: kaiser_fast
+        min_speed_rate: 0.95
+        max_speed_rate: 1.05
+    num_workers: 15
+    pin_memory: true
+    
+[NeMo W 2026-10-01 05:38:07 nemo_logging:405] If you intend to do validation, please call the ModelPT.setup_validation_data() or ModelPT.setup_multiple_validation_data() method and provide a valid configuration file to setup the validation data loader(s). 
+    Validation config : 
+    manifest_filepath: /manifests/combined_fisher_swbd_voxceleb12_librispeech/dev.json
+    sample_rate: 16000
+    labels: null
+    batch_size: 128
+    shuffle: false
+    num_workers: 15
+    pin_memory: true
+    
+[NeMo I 2026-10-01 05:38:07 nemo_logging:393] PADDING: 16
+[NeMo I 2026-10-01 05:38:08 nemo_logging:393] Model EncDecSpeakerLabelModel was successfully restored from /home/ubuntu/.cache/huggingface/hub/models--nvidia--speakerverification_en_titanet_large/snapshots/0dc382f40121a5fbd34db10a2bb04d826c2be6a8/speakerverification_en_titanet_large.nemo.
+manifest: 864 clips, 1.74 h
+  urdu 100/864
+  urdu 200/864
+  urdu 300/864
+  urdu 400/864
+  urdu 500/864
+  urdu 600/864
+  urdu 700/864
+  urdu 800/864
+{
+ "clips": 864,
+ "hours": 1.74,
+ "kept_clips": 782,
+ "kept_hours": 1.57,
+ "kept_train_hours": 1.53,
+ "dropped_clips": 82,
+ "dropped_hours": 0.16,
+ "drop_reasons": {
+  "urdu_cer": 35,
+  "promoted": 36,
+  "voice": 15
+ },
+ "drop_reason_alone": {
+  "urdu_cer": 31,
+  "promoted": 36,
+  "voice": 11
+ },
+ "anam_urdu_cer_line": {
+  "n": 391,
+  "p50": 0.07462686567164178,
+  "p90": 0.375,
+  "p95": 0.9
+ },
+ "urdu_cer": {
+  "n_scored": 864,
+  "p50": 0.038461538461538464,
+  "p90": 0.10325491459877541
+ },
+ "spk_sim": {
+  "p5": 0.76615,
+  "p50": 0.876,
+  "min": 0.56
+ },
+ "kept_english_share": 0.138
+}

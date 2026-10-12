@@ -1,0 +1,145 @@
+# Every name in ../mari_energies_knowledge_base.md, grouped. Format: group|name
+people|Faheem Haider
+people|Lt. Gen. Anwar Ali Hyder
+people|Syed Bakhtiyar Kazmi
+people|Syed Shahzad Nabi
+people|Hamed Yaqoob Sheikh
+people|Zafar Abbas
+people|Ahmed Hayat Lak
+people|Muhammad Aamir Salim
+people|Abid Niaz Hasan
+people|Seema Adil
+people|Ayla Majid
+people|Nabeel Rasheed
+people|Brig Sumair Ashraf Sheikh
+people|Lt Gen Ishfaq Nadeem Ahmad
+people|Lt Gen Nadeem Ahmed
+people|Lt Gen Raza Muhammad Khan
+people|Lt. Gen Mushtaq Hussain
+people|Lt Gen Imtiaz Shaheen
+people|Lt Gen Muhammad Afzal Janjua
+people|Lt Gen Khalid Nawaz Malik
+people|Lt Gen Ghulam Muhammad Malik
+people|Lt Gen Hamid Niaz
+people|Maj Gen Mehmood Aslam Hayat
+people|Abdullah Asif
+places|Islamabad
+places|Karachi
+places|Lahore
+places|Quetta
+places|Peshawar
+places|Rawalpindi
+places|Sukkur
+places|Daharki
+places|Ghotki
+places|Sindh
+places|Balochistan
+places|Khyber Pakhtunkhwa
+places|Waziristan
+places|Bannu Cantt
+places|Daud Khel
+places|Sujawal
+places|Kehkashan, Clifton
+places|Model Town
+places|Blue Area, Jinnah Avenue
+places|F-9 Park
+places|Zarghun
+places|Mach
+places|Hazoor Bakhsh
+places|Bijjar Chowk
+places|Aligarh
+places|Abu Dhabi
+places|Indus Basin
+places|Makran Basin
+fields|Mari Gas Field
+fields|Shewa
+fields|Spinwam-1
+fields|Soho-1
+fields|Shawal-1
+fields|Maiwand X-1
+fields|Hilal-1
+fields|Iqbal-1
+fields|Bhitai-6
+fields|Mari Ghazij
+fields|Pateji X-1
+fields|Jhim East X-1
+fields|Samanasuk
+fields|Kawagarh
+fields|Hangu
+fields|Lockhart
+fields|Lower Goru
+fields|Dughan
+fields|Rani Kot
+fields|Mughal Kot
+fields|Sui Main Limestone
+fields|Sachal Gas Processing Complex
+fields|Zarghun South
+companies|Mari Energies
+companies|Mari Petroleum Company Limited
+companies|Mari Minerals
+companies|Mari Technologies
+companies|Mari Services
+companies|Sky47
+companies|GEM Energy
+companies|Fauji Foundation
+companies|Fauji Fertilizer Company
+companies|Engro Fertilizer
+companies|Fatima Fertilizer
+companies|Pak Arab Refinery
+companies|Attock Refinery
+companies|Pakistan Refinery Limited
+companies|National Refinery Limited
+companies|Sui Southern Gas Company
+companies|Sui Northern Gas Pipelines
+companies|Oil & Gas Development Company
+companies|Ghani Chemical Industries
+companies|Paramount Ventures
+companies|Capital Smart Technologies
+companies|Orient Petroleum
+companies|Pakistan International Oil
+companies|Ammuri Minerals
+companies|Tuzgi Minerals
+companies|Reko Diq Mining Company
+companies|Planetive
+companies|Huawei
+companies|A.F. Ferguson & Co.
+companies|Corplink (Pvt) Limited
+companies|Barrister Panni Law Associates
+companies|Hub Power Company
+companies|Askari Bank
+banks|MCB Bank
+banks|Meezan Bank
+banks|United Bank Limited
+banks|Standard Chartered
+banks|Allied Bank
+banks|Al Baraka
+banks|Bank Alfalah
+banks|The Bank of Punjab
+banks|BankIslami
+banks|Dubai Islamic Bank
+banks|Faysal Bank
+banks|HBL
+banks|Habib Metropolitan Bank
+banks|JS Bank
+education|Imperial College London
+education|UET Lahore
+education|NED University
+education|IBA Karachi
+education|IBA Sukkur
+education|SOAS
+education|UCLA
+education|University of Dundee
+education|London Business School
+education|University of Michigan
+education|Foundation University
+education|Mari Model High School
+education|Noor-e-Sehar School
+programs|SEED Program
+programs|Roshan Mustaqbil Program
+programs|Mari Kissan Dost Program
+programs|Mari Gharonda Project
+programs|Mari Mobile Dastarkhawn
+programs|EZShifa
+programs|Sehat Umeed
+programs|MariEnergies Azadi Cup
+programs|Vision 2030

@@ -1,0 +1,3857 @@
+[
+ {
+  "id": "gen_en_000",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Good morning! How can I help you today?",
+  "unseen": []
+ },
+ {
+  "id": "gen_en_001",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Please wait a moment while I look that up for you.",
+  "unseen": [
+   "moment",
+   "while"
+  ]
+ },
+ {
+  "id": "gen_en_002",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "The weather in Islamabad will be sunny with a light breeze this afternoon.",
+  "unseen": [
+   "weather",
+   "sunny",
+   "light",
+   "breeze",
+   "afternoon"
+  ]
+ },
+ {
+  "id": "gen_en_003",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "You can reset your password from the settings page on your phone.",
+  "unseen": [
+   "reset",
+   "settings",
+   "page"
+  ]
+ },
+ {
+  "id": "gen_en_004",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Our office is closed on public holidays, but the helpline is open around the clock.",
+  "unseen": [
+   "office",
+   "closed",
+   "holidays",
+   "helpline",
+   "open",
+   "clock"
+  ]
+ },
+ {
+  "id": "gen_en_005",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Drinking enough water every day is one of the simplest ways to stay healthy.",
+  "unseen": [
+   "Drinking",
+   "enough",
+   "water",
+   "day",
+   "simplest",
+   "stay",
+   "healthy"
+  ]
+ },
+ {
+  "id": "gen_en_006",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "The train to Lahore leaves at nine in the morning and takes about four hours.",
+  "unseen": [
+   "train",
+   "Lahore",
+   "leaves",
+   "nine",
+   "takes"
+  ]
+ },
+ {
+  "id": "gen_en_007",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "If the screen freezes, hold the power button for ten seconds and restart the device.",
+  "unseen": [
+   "screen",
+   "freezes",
+   "button",
+   "seconds",
+   "restart",
+   "device"
+  ]
+ },
+ {
+  "id": "gen_en_008",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Thank you for your patience. Your request has been submitted successfully.",
+  "unseen": [
+   "patience",
+   "request",
+   "been"
+  ]
+ },
+ {
+  "id": "gen_en_009",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "The museum has a new exhibition on the history of the Indus Valley civilisation.",
+  "unseen": [
+   "museum",
+   "exhibition",
+   "history",
+   "Indus",
+   "Valley",
+   "civilisation"
+  ]
+ },
+ {
+  "id": "gen_en_010",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "I'm sorry, I didn't quite catch that. Could you please repeat your question?",
+  "unseen": [
+   "catch",
+   "Could",
+   "repeat",
+   "question"
+  ]
+ },
+ {
+  "id": "gen_en_011",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Electric vehicles are becoming more popular because fuel prices keep rising.",
+  "unseen": [
+   "Electric",
+   "vehicles",
+   "becoming",
+   "popular",
+   "rising"
+  ]
+ },
+ {
+  "id": "gen_en_012",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "The doctor recommended a balanced diet, regular exercise and at least seven hours of sleep.",
+  "unseen": [
+   "doctor",
+   "recommended",
+   "balanced",
+   "diet",
+   "regular",
+   "exercise",
+   "sleep"
+  ]
+ },
+ {
+  "id": "gen_en_013",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Cricket fans across the country celebrated after the team won the final.",
+  "unseen": [
+   "Cricket",
+   "fans",
+   "across",
+   "celebrated",
+   "won",
+   "final"
+  ]
+ },
+ {
+  "id": "gen_en_014",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Artificial intelligence can help companies analyse large amounts of data quickly.",
+  "unseen": [
+   "Artificial",
+   "intelligence",
+   "analyse",
+   "large",
+   "amounts"
+  ]
+ },
+ {
+  "id": "gen_en_015",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Please keep your ticket with you until you leave the building.",
+  "unseen": [
+   "ticket",
+   "until"
+  ]
+ },
+ {
+  "id": "gen_en_016",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Solar panels convert sunlight directly into electricity without any moving parts.",
+  "unseen": [
+   "Solar",
+   "panels",
+   "sunlight",
+   "into",
+   "electricity",
+   "moving",
+   "parts"
+  ]
+ },
+ {
+  "id": "gen_en_017",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "The library allows members to borrow up to five books at a time.",
+  "unseen": [
+   "library",
+   "allows",
+   "borrow"
+  ]
+ },
+ {
+  "id": "gen_en_018",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Heavy rain is expected in the northern areas, so travellers should check road conditions.",
+  "unseen": [
+   "Heavy",
+   "rain",
+   "northern",
+   "travellers",
+   "check",
+   "road"
+  ]
+ },
+ {
+  "id": "gen_en_019",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Would you like me to send these details to your email address?",
+  "unseen": [
+   "send",
+   "email"
+  ]
+ },
+ {
+  "id": "gen_en_020",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Remote work has changed how many people think about their careers.",
+  "unseen": [
+   "Remote",
+   "changed",
+   "careers"
+  ]
+ },
+ {
+  "id": "gen_en_021",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "The conference will focus on climate change, water security and sustainable agriculture.",
+  "unseen": [
+   "conference",
+   "water",
+   "agriculture"
+  ]
+ },
+ {
+  "id": "gen_en_022",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Your appointment has been confirmed for Thursday afternoon.",
+  "unseen": [
+   "appointment",
+   "been",
+   "confirmed",
+   "Thursday",
+   "afternoon"
+  ]
+ },
+ {
+  "id": "gen_en_023",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Recycling paper, plastic and glass helps reduce waste in our cities.",
+  "unseen": [
+   "Recycling",
+   "paper",
+   "plastic",
+   "glass",
+   "helps",
+   "reduce"
+  ]
+ },
+ {
+  "id": "gen_en_024",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "The new smartphone has a larger battery and a much better camera.",
+  "unseen": [
+   "smartphone",
+   "larger",
+   "battery",
+   "camera"
+  ]
+ },
+ {
+  "id": "gen_en_025",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Children should be encouraged to read books outside the school curriculum.",
+  "unseen": [
+   "Children",
+   "encouraged",
+   "outside",
+   "curriculum"
+  ]
+ },
+ {
+  "id": "gen_en_026",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "This building has wheelchair access and lifts on every floor.",
+  "unseen": [
+   "wheelchair",
+   "lifts",
+   "floor"
+  ]
+ },
+ {
+  "id": "gen_en_027",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "The company announced record profits despite a difficult economic year.",
+  "unseen": [
+   "announced",
+   "profits",
+   "despite",
+   "difficult"
+  ]
+ },
+ {
+  "id": "gen_en_028",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Please switch off your mobile phone during the presentation.",
+  "unseen": [
+   "off",
+   "mobile",
+   "during",
+   "presentation"
+  ]
+ },
+ {
+  "id": "gen_en_029",
+  "cat": "gen_en",
+  "lang": "en",
+  "text": "Is there anything else I can help you with before you go?",
+  "unseen": [
+   "anything",
+   "else"
+  ]
+ },
+ {
+  "id": "gen_rare_000",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is popularize.",
+  "unseen": [
+   "word",
+   "day",
+   "popularize"
+  ]
+ },
+ {
+  "id": "gen_rare_001",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is rededicating.",
+  "unseen": [
+   "word",
+   "day",
+   "rededicating"
+  ]
+ },
+ {
+  "id": "gen_rare_002",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is baseline.",
+  "unseen": [
+   "word",
+   "day",
+   "baseline"
+  ]
+ },
+ {
+  "id": "gen_rare_003",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is incessant.",
+  "unseen": [
+   "word",
+   "day",
+   "incessant"
+  ]
+ },
+ {
+  "id": "gen_rare_004",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is swallows.",
+  "unseen": [
+   "word",
+   "day",
+   "swallows"
+  ]
+ },
+ {
+  "id": "gen_rare_005",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is spiraled.",
+  "unseen": [
+   "word",
+   "day",
+   "spiraled"
+  ]
+ },
+ {
+  "id": "gen_rare_006",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is psychoanalyzed.",
+  "unseen": [
+   "word",
+   "day",
+   "psychoanalyzed"
+  ]
+ },
+ {
+  "id": "gen_rare_007",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is magnifier.",
+  "unseen": [
+   "word",
+   "day",
+   "magnifier"
+  ]
+ },
+ {
+  "id": "gen_rare_008",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is smokehouse.",
+  "unseen": [
+   "word",
+   "day",
+   "smokehouse"
+  ]
+ },
+ {
+  "id": "gen_rare_009",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is overture.",
+  "unseen": [
+   "word",
+   "day",
+   "overture"
+  ]
+ },
+ {
+  "id": "gen_rare_010",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is geldings.",
+  "unseen": [
+   "word",
+   "day",
+   "geldings"
+  ]
+ },
+ {
+  "id": "gen_rare_011",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is succinctest.",
+  "unseen": [
+   "word",
+   "day",
+   "succinctest"
+  ]
+ },
+ {
+  "id": "gen_rare_012",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is designation.",
+  "unseen": [
+   "word",
+   "day",
+   "designation"
+  ]
+ },
+ {
+  "id": "gen_rare_013",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is itinerants.",
+  "unseen": [
+   "word",
+   "day",
+   "itinerants"
+  ]
+ },
+ {
+  "id": "gen_rare_014",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is desperados.",
+  "unseen": [
+   "word",
+   "day",
+   "desperados"
+  ]
+ },
+ {
+  "id": "gen_rare_015",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is communicative.",
+  "unseen": [
+   "word",
+   "day",
+   "communicative"
+  ]
+ },
+ {
+  "id": "gen_rare_016",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is identifies.",
+  "unseen": [
+   "word",
+   "day",
+   "identifies"
+  ]
+ },
+ {
+  "id": "gen_rare_017",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is transitted.",
+  "unseen": [
+   "word",
+   "day",
+   "transitted"
+  ]
+ },
+ {
+  "id": "gen_rare_018",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is disarray.",
+  "unseen": [
+   "word",
+   "day",
+   "disarray"
+  ]
+ },
+ {
+  "id": "gen_rare_019",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is matriculates.",
+  "unseen": [
+   "word",
+   "day",
+   "matriculates"
+  ]
+ },
+ {
+  "id": "gen_rare_020",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is concentric.",
+  "unseen": [
+   "word",
+   "day",
+   "concentric"
+  ]
+ },
+ {
+  "id": "gen_rare_021",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is cavalryman.",
+  "unseen": [
+   "word",
+   "day",
+   "cavalryman"
+  ]
+ },
+ {
+  "id": "gen_rare_022",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is mulching.",
+  "unseen": [
+   "word",
+   "day",
+   "mulching"
+  ]
+ },
+ {
+  "id": "gen_rare_023",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is sketchier.",
+  "unseen": [
+   "word",
+   "day",
+   "sketchier"
+  ]
+ },
+ {
+  "id": "gen_rare_024",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is vacuously.",
+  "unseen": [
+   "word",
+   "day",
+   "vacuously"
+  ]
+ },
+ {
+  "id": "gen_rare_025",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is conductive.",
+  "unseen": [
+   "word",
+   "day",
+   "conductive"
+  ]
+ },
+ {
+  "id": "gen_rare_026",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is overcasts.",
+  "unseen": [
+   "word",
+   "day",
+   "overcasts"
+  ]
+ },
+ {
+  "id": "gen_rare_027",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is researched.",
+  "unseen": [
+   "word",
+   "day",
+   "researched"
+  ]
+ },
+ {
+  "id": "gen_rare_028",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is microorganism.",
+  "unseen": [
+   "word",
+   "day",
+   "microorganism"
+  ]
+ },
+ {
+  "id": "gen_rare_029",
+  "cat": "gen_rare",
+  "lang": "en",
+  "text": "The word of the day is flurried.",
+  "unseen": [
+   "word",
+   "day",
+   "flurried"
+  ]
+ },
+ {
+  "id": "gen_ur_000",
+  "cat": "gen_ur",
+  "lang": "ur",
+  "text": "السلام علیکم! میں آپ کی کیا مدد کر سکتی ہوں؟",
+  "unseen": []
+ },
+ {
+  "id": "gen_ur_001",
+  "cat": "gen_ur",
+  "lang": "ur",
+  "text": "براہ کرم تھوڑا انتظار کریں، میں آپ کے لیے معلومات تلاش کر رہی ہوں۔",
+  "unseen": []
+ },
+ {
+  "id": "gen_ur_002",
+  "cat": "gen_ur",
+  "lang": "ur",
+  "text": "آج اسلام آباد میں موسم خوشگوار رہے گا اور ہلکی ہوا چلے گی۔",
+  "unseen": []
+ },
+ {
+  "id": "gen_ur_003",
+  "cat": "gen_ur",
+  "lang": "ur",
+  "text": "ہمارا دفتر صبح نو بجے سے شام پانچ بجے تک کھلا رہتا ہے۔",
+  "unseen": []
+ },
+ {
+  "id": "gen_ur_004",
+  "cat": "gen_ur",
+  "lang": "ur",
+  "text": "آپ کی درخواست کامیابی سے جمع ہو گئی ہے، شکریہ۔",
+  "unseen": []
+ },
+ {
+  "id": "gen_ur_005",
+  "cat": "gen_ur",
+  "lang": "ur",
+  "text": "بچوں کو روزانہ کتابیں پڑھنے کی عادت ڈالنی چاہیے۔",
+  "unseen": []
+ },
+ {
+  "id": "gen_ur_006",
+  "cat": "gen_ur",
+  "lang": "ur",
+  "text": "پانی کی بچت ہم سب کی ذمہ داری ہے۔",
+  "unseen": []
+ },
+ {
+  "id": "gen_ur_007",
+  "cat": "gen_ur",
+  "lang": "ur",
+  "text": "لاہور سے کراچی جانے والی ٹرین صبح روانہ ہوتی ہے۔",
+  "unseen": []
+ },
+ {
+  "id": "gen_ur_008",
+  "cat": "gen_ur",
+  "lang": "ur",
+  "text": "معاف کیجیے، میں آپ کی بات ٹھیک سے سن نہیں سکی، کیا آپ دوبارہ بتا سکتے ہیں؟",
+  "unseen": []
+ },
+ {
+  "id": "gen_ur_009",
+  "cat": "gen_ur",
+  "lang": "ur",
+  "text": "کیا میں آپ کی کسی اور چیز میں مدد کر سکتی ہوں؟",
+  "unseen": []
+ },
+ {
+  "id": "gen_cs_000",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "آپ اپنا password settings میں جا کر reset کر سکتے ہیں۔",
+  "unseen": [
+   "settings",
+   "reset"
+  ]
+ },
+ {
+  "id": "gen_cs_001",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "ہماری helpline چوبیس گھنٹے available ہے، آپ کسی بھی وقت call کر سکتے ہیں۔",
+  "unseen": [
+   "helpline",
+   "available"
+  ]
+ },
+ {
+  "id": "gen_cs_002",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "اگر آپ کا internet slow ہے تو پہلے router کو restart کریں۔",
+  "unseen": [
+   "internet",
+   "router",
+   "restart"
+  ]
+ },
+ {
+  "id": "gen_cs_003",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "آپ کی appointment Thursday کو confirm ہو گئی ہے۔",
+  "unseen": [
+   "appointment",
+   "Thursday",
+   "confirm"
+  ]
+ },
+ {
+  "id": "gen_cs_004",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "یہ building wheelchair friendly ہے اور ہر floor پر lift موجود ہے۔",
+  "unseen": [
+   "wheelchair",
+   "floor",
+   "lift"
+  ]
+ },
+ {
+  "id": "gen_cs_005",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "آج کل electric vehicles کافی popular ہو رہی ہیں کیونکہ petrol مہنگا ہو گیا ہے۔",
+  "unseen": [
+   "electric",
+   "vehicles",
+   "popular",
+   "petrol"
+  ]
+ },
+ {
+  "id": "gen_cs_006",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "آپ کی request successfully submit ہو گئی ہے، ہماری team جلد رابطہ کرے گی۔",
+  "unseen": [
+   "request",
+   "submit"
+  ]
+ },
+ {
+  "id": "gen_cs_007",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "Doctor نے balanced diet اور regular exercise کا مشورہ دیا ہے۔",
+  "unseen": [
+   "Doctor",
+   "balanced",
+   "diet",
+   "regular",
+   "exercise"
+  ]
+ },
+ {
+  "id": "gen_cs_008",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "Solar panels سورج کی روشنی کو directly بجلی میں convert کرتے ہیں۔",
+  "unseen": [
+   "Solar",
+   "panels"
+  ]
+ },
+ {
+  "id": "gen_cs_009",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "کیا میں یہ details آپ کے email پر بھیج دوں؟",
+  "unseen": [
+   "email"
+  ]
+ },
+ {
+  "id": "gen_cs_010",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "Presentation کے دوران اپنا mobile phone silent پر رکھیں۔",
+  "unseen": [
+   "Presentation",
+   "mobile",
+   "silent"
+  ]
+ },
+ {
+  "id": "gen_cs_011",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "Artificial intelligence سے companies بہت تیزی سے data analyse کر سکتی ہیں۔",
+  "unseen": [
+   "Artificial",
+   "intelligence",
+   "analyse"
+  ]
+ },
+ {
+  "id": "gen_cs_012",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "آپ کا complaint number ہماری system میں register ہو گیا ہے۔",
+  "unseen": [
+   "complaint",
+   "register"
+  ]
+ },
+ {
+  "id": "gen_cs_013",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "Museum میں Indus Valley civilisation پر ایک نئی exhibition لگی ہے۔",
+  "unseen": [
+   "Museum",
+   "Indus",
+   "Valley",
+   "civilisation",
+   "exhibition"
+  ]
+ },
+ {
+  "id": "gen_cs_014",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "Heavy rain کی وجہ سے northern areas کی roads بند ہو سکتی ہیں۔",
+  "unseen": [
+   "Heavy",
+   "rain",
+   "northern",
+   "roads"
+  ]
+ },
+ {
+  "id": "gen_cs_015",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "آپ online form fill کر کے اپنی application track کر سکتے ہیں۔",
+  "unseen": [
+   "application"
+  ]
+ },
+ {
+  "id": "gen_cs_016",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "یہ offer صرف اس مہینے کے آخر تک valid ہے۔",
+  "unseen": [
+   "valid"
+  ]
+ },
+ {
+  "id": "gen_cs_017",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "آپ کا parcel dispatch ہو چکا ہے اور دو دن میں deliver ہو جائے گا۔",
+  "unseen": [
+   "parcel",
+   "dispatch",
+   "deliver"
+  ]
+ },
+ {
+  "id": "gen_cs_018",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "Meeting کا agenda آپ کو email کر دیا گیا ہے۔",
+  "unseen": [
+   "agenda",
+   "email"
+  ]
+ },
+ {
+  "id": "gen_cs_019",
+  "cat": "gen_cs",
+  "lang": "cs",
+  "text": "شکریہ! آپ کا feedback ہمارے لیے بہت important ہے۔",
+  "unseen": []
+ },
+ {
+  "id": "mari_en_000",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "Mari Energies is an integrated Pakistani energy company and the largest company in Pakistan by market capitalization.",
+  "unseen": [
+   "Mari",
+   "integrated",
+   "largest",
+   "capitalization"
+  ]
+ },
+ {
+  "id": "mari_en_001",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "The company supplies feed gas to all major fertilizer plants in the country.",
+  "unseen": [
+   "supplies",
+   "feed",
+   "fertilizer",
+   "plants"
+  ]
+ },
+ {
+  "id": "mari_en_002",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "Mari Energies was formerly known as Mari Petroleum Company Limited, or MPCL.",
+  "unseen": [
+   "Mari",
+   "formerly",
+   "known",
+   "Mari",
+   "Petroleum",
+   "MPCL"
+  ]
+ },
+ {
+  "id": "mari_en_003",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "The company is listed on the Pakistan Stock Exchange under the symbol MARI.",
+  "unseen": [
+   "under",
+   "symbol",
+   "MARI"
+  ]
+ },
+ {
+  "id": "mari_en_004",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "Its long term credit rating is triple A.",
+  "unseen": [
+   "Its",
+   "rating",
+   "triple"
+  ]
+ },
+ {
+  "id": "mari_en_005",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "The Mari gas field is located in Daharki, in the Ghotki district of Sindh.",
+  "unseen": [
+   "Mari",
+   "located",
+   "Daharki",
+   "Ghotki",
+   "district",
+   "Sindh"
+  ]
+ },
+ {
+  "id": "mari_en_006",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "Mari Energies is diversifying into critical minerals and technology.",
+  "unseen": [
+   "Mari",
+   "diversifying",
+   "into",
+   "minerals",
+   "technology"
+  ]
+ },
+ {
+  "id": "mari_en_007",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "For a live share price, please check the PSX website.",
+  "unseen": [
+   "live",
+   "check",
+   "PSX"
+  ]
+ },
+ {
+  "id": "mari_en_008",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "The company follows strict health, safety and environment standards.",
+  "unseen": [
+   "follows",
+   "strict",
+   "environment",
+   "standards"
+  ]
+ },
+ {
+  "id": "mari_en_009",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "Our corporate social responsibility programmes focus on education and healthcare.",
+  "unseen": [
+   "corporate",
+   "social",
+   "responsibility",
+   "programmes",
+   "healthcare"
+  ]
+ },
+ {
+  "id": "mari_en_010",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "The head office is in Islamabad.",
+  "unseen": [
+   "head",
+   "office"
+  ]
+ },
+ {
+  "id": "mari_en_011",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "Mari Technologies is a wholly owned subsidiary focused on large scale data and technology projects.",
+  "unseen": [
+   "Mari",
+   "Technologies",
+   "wholly",
+   "owned",
+   "subsidiary",
+   "focused",
+   "large",
+   "scale",
+   "technology",
+   "projects"
+  ]
+ },
+ {
+  "id": "mari_en_012",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "The company has exploration interests across onshore and offshore blocks.",
+  "unseen": [
+   "exploration",
+   "interests",
+   "across",
+   "onshore",
+   "offshore",
+   "blocks"
+  ]
+ },
+ {
+  "id": "mari_en_013",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "Graduate trainee programmes are announced on the careers page.",
+  "unseen": [
+   "trainee",
+   "programmes",
+   "announced",
+   "careers",
+   "page"
+  ]
+ },
+ {
+  "id": "mari_en_014",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "Mari Energies works with several banks, including Meezan Bank and HBL.",
+  "unseen": [
+   "Mari",
+   "works",
+   "several",
+   "Meezan"
+  ]
+ },
+ {
+  "id": "mari_en_015",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "The company reports its results for each financial year.",
+  "unseen": [
+   "its"
+  ]
+ },
+ {
+  "id": "mari_en_016",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "Gas production is measured in million standard cubic feet per day.",
+  "unseen": [
+   "production",
+   "measured",
+   "cubic",
+   "feet",
+   "day"
+  ]
+ },
+ {
+  "id": "mari_en_017",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "Suppliers must comply with the company's anti-corruption policy.",
+  "unseen": [
+   "Suppliers",
+   "must",
+   "comply",
+   "anti",
+   "corruption"
+  ]
+ },
+ {
+  "id": "mari_en_018",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "Tree plantation drives are part of the company's environmental commitments.",
+  "unseen": [
+   "Tree",
+   "plantation",
+   "drives",
+   "environmental",
+   "commitments"
+  ]
+ },
+ {
+  "id": "mari_en_019",
+  "cat": "mari_en",
+  "lang": "en",
+  "text": "You can contact the company through its official website.",
+  "unseen": [
+   "contact",
+   "its",
+   "official"
+  ]
+ },
+ {
+  "id": "mari_cs_000",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "Mari Energies پاکستان کی سب سے بڑی کمپنی ہے market capitalization کے لحاظ سے۔",
+  "unseen": [
+   "Mari",
+   "capitalization"
+  ]
+ },
+ {
+  "id": "mari_cs_001",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "یہ کمپنی ملک کے تمام بڑے fertilizer plants کو gas فراہم کرتی ہے۔",
+  "unseen": [
+   "fertilizer",
+   "plants"
+  ]
+ },
+ {
+  "id": "mari_cs_002",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "Mari Energies کا پرانا نام Mari Petroleum Company Limited تھا۔",
+  "unseen": [
+   "Mari",
+   "Mari",
+   "Petroleum"
+  ]
+ },
+ {
+  "id": "mari_cs_003",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "کمپنی Pakistan Stock Exchange پر MARI کے symbol سے listed ہے۔",
+  "unseen": [
+   "MARI",
+   "symbol"
+  ]
+ },
+ {
+  "id": "mari_cs_004",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "ماڑی gas field ڈہرکی، ضلع گھوٹکی، سندھ میں واقع ہے۔",
+  "unseen": []
+ },
+ {
+  "id": "mari_cs_005",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "کمپنی اب critical minerals اور technology میں بھی کام کر رہی ہے۔",
+  "unseen": [
+   "minerals",
+   "technology"
+  ]
+ },
+ {
+  "id": "mari_cs_006",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "Live share price کے لیے براہ کرم PSX کی website دیکھیں۔",
+  "unseen": [
+   "Live",
+   "PSX"
+  ]
+ },
+ {
+  "id": "mari_cs_007",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "کمپنی کا head office اسلام آباد میں ہے۔",
+  "unseen": [
+   "head",
+   "office"
+  ]
+ },
+ {
+  "id": "mari_cs_008",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "Mari Technologies کمپنی کا ایک مکمل ملکیتی subsidiary ہے۔",
+  "unseen": [
+   "Mari",
+   "Technologies",
+   "subsidiary"
+  ]
+ },
+ {
+  "id": "mari_cs_009",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "کمپنی education اور healthcare کے لیے CSR programmes چلاتی ہے۔",
+  "unseen": [
+   "healthcare",
+   "CSR",
+   "programmes"
+  ]
+ },
+ {
+  "id": "mari_cs_010",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "Graduate trainee programme کا اعلان careers page پر کیا جاتا ہے۔",
+  "unseen": [
+   "trainee",
+   "programme",
+   "careers",
+   "page"
+  ]
+ },
+ {
+  "id": "mari_cs_011",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "کمپنی کی long term credit rating triple A ہے۔",
+  "unseen": [
+   "rating",
+   "triple"
+  ]
+ },
+ {
+  "id": "mari_cs_012",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "Suppliers کو کمپنی کی anti-corruption policy پر عمل کرنا ہوتا ہے۔",
+  "unseen": [
+   "Suppliers",
+   "anti",
+   "corruption"
+  ]
+ },
+ {
+  "id": "mari_cs_013",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "کمپنی کی ESG reporting ہر سال شائع ہوتی ہے۔",
+  "unseen": [
+   "ESG",
+   "reporting"
+  ]
+ },
+ {
+  "id": "mari_cs_014",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "آپ کمپنی سے official website کے ذریعے رابطہ کر سکتے ہیں۔",
+  "unseen": [
+   "official"
+  ]
+ },
+ {
+  "id": "mari_cs_015",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "ماڑی انرجیز کے پاس onshore اور offshore دونوں blocks میں exploration interests ہیں۔",
+  "unseen": [
+   "onshore",
+   "offshore",
+   "blocks",
+   "exploration",
+   "interests"
+  ]
+ },
+ {
+  "id": "mari_cs_016",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "Gas production کو MMSCFD میں ناپا جاتا ہے۔",
+  "unseen": [
+   "production",
+   "MMSCFD"
+  ]
+ },
+ {
+  "id": "mari_cs_017",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "کمپنی HSE standards پر سختی سے عمل کرتی ہے۔",
+  "unseen": [
+   "HSE",
+   "standards"
+  ]
+ },
+ {
+  "id": "mari_cs_018",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "Tree plantation drives کمپنی کے environmental commitments کا حصہ ہیں۔",
+  "unseen": [
+   "Tree",
+   "plantation",
+   "drives",
+   "environmental",
+   "commitments"
+  ]
+ },
+ {
+  "id": "mari_cs_019",
+  "cat": "mari_cs",
+  "lang": "cs",
+  "text": "کمپنی ہر financial year کے نتائج شائع کرتی ہے۔",
+  "unseen": []
+ },
+ {
+  "id": "acr_kb_000",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the AAA section for details.",
+  "unseen": [
+   "check",
+   "AAA"
+  ]
+ },
+ {
+  "id": "acr_kb_001",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the AAPG section for details.",
+  "unseen": [
+   "check",
+   "AAPG"
+  ]
+ },
+ {
+  "id": "acr_kb_002",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the ACCA section for details.",
+  "unseen": [
+   "check",
+   "ACCA"
+  ]
+ },
+ {
+  "id": "acr_kb_003",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the AGM section for details.",
+  "unseen": [
+   "check",
+   "AGM"
+  ]
+ },
+ {
+  "id": "acr_kb_004",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the AI section for details.",
+  "unseen": [
+   "check"
+  ]
+ },
+ {
+  "id": "acr_kb_005",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the ANSI section for details.",
+  "unseen": [
+   "check",
+   "ANSI"
+  ]
+ },
+ {
+  "id": "acr_kb_006",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the API section for details.",
+  "unseen": [
+   "check",
+   "API"
+  ]
+ },
+ {
+  "id": "acr_kb_007",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the APIs section for details.",
+  "unseen": [
+   "check",
+   "APIs"
+  ]
+ },
+ {
+  "id": "acr_kb_008",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the ARL section for details.",
+  "unseen": [
+   "check",
+   "ARL"
+  ]
+ },
+ {
+  "id": "acr_kb_009",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the ASU section for details.",
+  "unseen": [
+   "check",
+   "ASU"
+  ]
+ },
+ {
+  "id": "acr_kb_010",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the BBLs section for details.",
+  "unseen": [
+   "check",
+   "BBLs"
+  ]
+ },
+ {
+  "id": "acr_kb_011",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the BCCAD section for details.",
+  "unseen": [
+   "check",
+   "BCCAD"
+  ]
+ },
+ {
+  "id": "acr_kb_012",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the BG section for details.",
+  "unseen": [
+   "check",
+   "BG"
+  ]
+ },
+ {
+  "id": "acr_kb_013",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the BI section for details.",
+  "unseen": [
+   "check",
+   "BI"
+  ]
+ },
+ {
+  "id": "acr_kb_014",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the BOEPD section for details.",
+  "unseen": [
+   "check",
+   "BOEPD"
+  ]
+ },
+ {
+  "id": "acr_kb_015",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the BOPD section for details.",
+  "unseen": [
+   "check",
+   "BOPD"
+  ]
+ },
+ {
+  "id": "acr_kb_016",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the BS section for details.",
+  "unseen": [
+   "check",
+   "BS"
+  ]
+ },
+ {
+  "id": "acr_kb_017",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the BSCF section for details.",
+  "unseen": [
+   "check",
+   "BSCF"
+  ]
+ },
+ {
+  "id": "acr_kb_018",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the BTEX section for details.",
+  "unseen": [
+   "check",
+   "BTEX"
+  ]
+ },
+ {
+  "id": "acr_kb_019",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the CA section for details.",
+  "unseen": [
+   "check",
+   "CA"
+  ]
+ },
+ {
+  "id": "acr_kb_020",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the CBS section for details.",
+  "unseen": [
+   "check",
+   "CBS"
+  ]
+ },
+ {
+  "id": "acr_kb_021",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the CD section for details.",
+  "unseen": [
+   "check",
+   "CD"
+  ]
+ },
+ {
+  "id": "acr_kb_022",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the CDRS section for details.",
+  "unseen": [
+   "check",
+   "CDRS"
+  ]
+ },
+ {
+  "id": "acr_kb_023",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the CDS section for details.",
+  "unseen": [
+   "check",
+   "CDS"
+  ]
+ },
+ {
+  "id": "acr_kb_024",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the CEO section for details.",
+  "unseen": [
+   "check"
+  ]
+ },
+ {
+  "id": "acr_kb_025",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the CF section for details.",
+  "unseen": [
+   "check",
+   "CF"
+  ]
+ },
+ {
+  "id": "acr_kb_026",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the CFO section for details.",
+  "unseen": [
+   "check",
+   "CFO"
+  ]
+ },
+ {
+  "id": "acr_kb_027",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the CI section for details.",
+  "unseen": [
+   "check",
+   "CI"
+  ]
+ },
+ {
+  "id": "acr_kb_028",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the CNS section for details.",
+  "unseen": [
+   "check",
+   "CNS"
+  ]
+ },
+ {
+  "id": "acr_kb_029",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the COO section for details.",
+  "unseen": [
+   "check",
+   "COO"
+  ]
+ },
+ {
+  "id": "acr_kb_030",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the CPU section for details.",
+  "unseen": [
+   "check",
+   "CPU"
+  ]
+ },
+ {
+  "id": "acr_kb_031",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the CSR section for details.",
+  "unseen": [
+   "check",
+   "CSR"
+  ]
+ },
+ {
+  "id": "acr_kb_032",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the D&P section for details.",
+  "unseen": [
+   "check",
+   "D",
+   "P"
+  ]
+ },
+ {
+  "id": "acr_kb_033",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the D&PL section for details.",
+  "unseen": [
+   "check",
+   "D",
+   "PL"
+  ]
+ },
+ {
+  "id": "acr_kb_034",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the DAE section for details.",
+  "unseen": [
+   "check",
+   "DAE"
+  ]
+ },
+ {
+  "id": "acr_kb_035",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the DAPs section for details.",
+  "unseen": [
+   "check",
+   "DAPs"
+  ]
+ },
+ {
+  "id": "acr_kb_036",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the DIB section for details.",
+  "unseen": [
+   "check",
+   "DIB"
+  ]
+ },
+ {
+  "id": "acr_kb_037",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the DSRA section for details.",
+  "unseen": [
+   "check",
+   "DSRA"
+  ]
+ },
+ {
+  "id": "acr_kb_038",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the DWP section for details.",
+  "unseen": [
+   "check",
+   "DWP"
+  ]
+ },
+ {
+  "id": "acr_kb_039",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the E&P section for details.",
+  "unseen": [
+   "check",
+   "E",
+   "P"
+  ]
+ },
+ {
+  "id": "acr_kb_040",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the EAGE section for details.",
+  "unseen": [
+   "check",
+   "EAGE"
+  ]
+ },
+ {
+  "id": "acr_kb_041",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the EBITDA section for details.",
+  "unseen": [
+   "check",
+   "EBITDA"
+  ]
+ },
+ {
+  "id": "acr_kb_042",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the ECS section for details.",
+  "unseen": [
+   "check",
+   "ECS"
+  ]
+ },
+ {
+  "id": "acr_kb_043",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the EFL section for details.",
+  "unseen": [
+   "check",
+   "EFL"
+  ]
+ },
+ {
+  "id": "acr_kb_044",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the EGM section for details.",
+  "unseen": [
+   "check",
+   "EGM"
+  ]
+ },
+ {
+  "id": "acr_kb_045",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the EMS section for details.",
+  "unseen": [
+   "check",
+   "EMS"
+  ]
+ },
+ {
+  "id": "acr_kb_046",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the EPF section for details.",
+  "unseen": [
+   "check",
+   "EPF"
+  ]
+ },
+ {
+  "id": "acr_kb_047",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the EPS section for details.",
+  "unseen": [
+   "check",
+   "EPS"
+  ]
+ },
+ {
+  "id": "acr_kb_048",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the ERP section for details.",
+  "unseen": [
+   "check",
+   "ERP"
+  ]
+ },
+ {
+  "id": "acr_kb_049",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the ESG section for details.",
+  "unseen": [
+   "check",
+   "ESG"
+  ]
+ },
+ {
+  "id": "acr_kb_050",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the FCCL section for details.",
+  "unseen": [
+   "check",
+   "FCCL"
+  ]
+ },
+ {
+  "id": "acr_kb_051",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the FDP section for details.",
+  "unseen": [
+   "check",
+   "FDP"
+  ]
+ },
+ {
+  "id": "acr_kb_052",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the FFBL section for details.",
+  "unseen": [
+   "check",
+   "FFBL"
+  ]
+ },
+ {
+  "id": "acr_kb_053",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the FFC section for details.",
+  "unseen": [
+   "check",
+   "FFC"
+  ]
+ },
+ {
+  "id": "acr_kb_054",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the FFCL section for details.",
+  "unseen": [
+   "check",
+   "FFCL"
+  ]
+ },
+ {
+  "id": "acr_kb_055",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the FONGROW section for details.",
+  "unseen": [
+   "check",
+   "FONGROW"
+  ]
+ },
+ {
+  "id": "acr_kb_056",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the FPCDL section for details.",
+  "unseen": [
+   "check",
+   "FPCDL"
+  ]
+ },
+ {
+  "id": "acr_kb_057",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the FY section for details.",
+  "unseen": [
+   "check",
+   "FY"
+  ]
+ },
+ {
+  "id": "acr_kb_058",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the GEM section for details.",
+  "unseen": [
+   "check",
+   "GEM"
+  ]
+ },
+ {
+  "id": "acr_kb_059",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the GHG section for details.",
+  "unseen": [
+   "check",
+   "GHG"
+  ]
+ },
+ {
+  "id": "acr_kb_060",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the GHPL section for details.",
+  "unseen": [
+   "check",
+   "GHPL"
+  ]
+ },
+ {
+  "id": "acr_kb_061",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the GJ section for details.",
+  "unseen": [
+   "check",
+   "GJ"
+  ]
+ },
+ {
+  "id": "acr_kb_062",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the GPU section for details.",
+  "unseen": [
+   "check",
+   "GPU"
+  ]
+ },
+ {
+  "id": "acr_kb_063",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the GRI section for details.",
+  "unseen": [
+   "check",
+   "GRI"
+  ]
+ },
+ {
+  "id": "acr_kb_064",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the GST section for details.",
+  "unseen": [
+   "check",
+   "GST"
+  ]
+ },
+ {
+  "id": "acr_kb_065",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the HBL section for details.",
+  "unseen": [
+   "check"
+  ]
+ },
+ {
+  "id": "acr_kb_066",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the HCS section for details.",
+  "unseen": [
+   "check",
+   "HCS"
+  ]
+ },
+ {
+  "id": "acr_kb_067",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the HI section for details.",
+  "unseen": [
+   "check",
+   "HI"
+  ]
+ },
+ {
+  "id": "acr_kb_068",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the HR section for details.",
+  "unseen": [
+   "check",
+   "HR"
+  ]
+ },
+ {
+  "id": "acr_kb_069",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the HR&R section for details.",
+  "unseen": [
+   "check",
+   "HR",
+   "R"
+  ]
+ },
+ {
+  "id": "acr_kb_070",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the HRL section for details.",
+  "unseen": [
+   "check",
+   "HRL"
+  ]
+ },
+ {
+  "id": "acr_kb_071",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the HSE section for details.",
+  "unseen": [
+   "check",
+   "HSE"
+  ]
+ },
+ {
+  "id": "acr_kb_072",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the IASB section for details.",
+  "unseen": [
+   "check",
+   "IASB"
+  ]
+ },
+ {
+  "id": "acr_kb_073",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the IBA section for details.",
+  "unseen": [
+   "check",
+   "IBA"
+  ]
+ },
+ {
+  "id": "acr_kb_074",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the ICAP section for details.",
+  "unseen": [
+   "check",
+   "ICAP"
+  ]
+ },
+ {
+  "id": "acr_kb_075",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the ICCI section for details.",
+  "unseen": [
+   "check",
+   "ICCI"
+  ]
+ },
+ {
+  "id": "acr_kb_076",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the IFRS section for details.",
+  "unseen": [
+   "check",
+   "IFRS"
+  ]
+ },
+ {
+  "id": "acr_kb_077",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the IOGP section for details.",
+  "unseen": [
+   "check",
+   "IOGP"
+  ]
+ },
+ {
+  "id": "acr_kb_078",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the IP section for details.",
+  "unseen": [
+   "check",
+   "IP"
+  ]
+ },
+ {
+  "id": "acr_kb_079",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the IPSEC section for details.",
+  "unseen": [
+   "check",
+   "IPSEC"
+  ]
+ },
+ {
+  "id": "acr_kb_080",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the ISO section for details.",
+  "unseen": [
+   "check",
+   "ISO"
+  ]
+ },
+ {
+  "id": "acr_kb_081",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the JS section for details.",
+  "unseen": [
+   "check",
+   "JS"
+  ]
+ },
+ {
+  "id": "acr_kb_082",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the JV section for details.",
+  "unseen": [
+   "check",
+   "JV"
+  ]
+ },
+ {
+  "id": "acr_kb_083",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the KBOEPD section for details.",
+  "unseen": [
+   "check",
+   "KBOEPD"
+  ]
+ },
+ {
+  "id": "acr_kb_084",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the KP section for details.",
+  "unseen": [
+   "check",
+   "KP"
+  ]
+ },
+ {
+  "id": "acr_kb_085",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the KPMG section for details.",
+  "unseen": [
+   "check",
+   "KPMG"
+  ]
+ },
+ {
+  "id": "acr_kb_086",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the LEAs section for details.",
+  "unseen": [
+   "check",
+   "LEAs"
+  ]
+ },
+ {
+  "id": "acr_kb_087",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the LLB section for details.",
+  "unseen": [
+   "check",
+   "LLB"
+  ]
+ },
+ {
+  "id": "acr_kb_088",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the LLMs section for details.",
+  "unseen": [
+   "check",
+   "LLMs"
+  ]
+ },
+ {
+  "id": "acr_kb_089",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the LNG section for details.",
+  "unseen": [
+   "check",
+   "LNG"
+  ]
+ },
+ {
+  "id": "acr_kb_090",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the LUMS section for details.",
+  "unseen": [
+   "check"
+  ]
+ },
+ {
+  "id": "acr_kb_091",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MANAGEMENT section for details.",
+  "unseen": [
+   "check"
+  ]
+ },
+ {
+  "id": "acr_kb_092",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MAP section for details.",
+  "unseen": [
+   "check",
+   "MAP"
+  ]
+ },
+ {
+  "id": "acr_kb_093",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MARI section for details.",
+  "unseen": [
+   "check",
+   "MARI"
+  ]
+ },
+ {
+  "id": "acr_kb_094",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MBA section for details.",
+  "unseen": [
+   "check",
+   "MBA"
+  ]
+ },
+ {
+  "id": "acr_kb_095",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MCB section for details.",
+  "unseen": [
+   "check",
+   "MCB"
+  ]
+ },
+ {
+  "id": "acr_kb_096",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MCC section for details.",
+  "unseen": [
+   "check",
+   "MCC"
+  ]
+ },
+ {
+  "id": "acr_kb_097",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MD section for details.",
+  "unseen": [
+   "check",
+   "MD"
+  ]
+ },
+ {
+  "id": "acr_kb_098",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MDB section for details.",
+  "unseen": [
+   "check",
+   "MDB"
+  ]
+ },
+ {
+  "id": "acr_kb_099",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MHUs section for details.",
+  "unseen": [
+   "check",
+   "MHUs"
+  ]
+ },
+ {
+  "id": "acr_kb_100",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MKDP section for details.",
+  "unseen": [
+   "check",
+   "MKDP"
+  ]
+ },
+ {
+  "id": "acr_kb_101",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MKS section for details.",
+  "unseen": [
+   "check",
+   "MKS"
+  ]
+ },
+ {
+  "id": "acr_kb_102",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the ML section for details.",
+  "unseen": [
+   "check",
+   "ML"
+  ]
+ },
+ {
+  "id": "acr_kb_103",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MMBOE section for details.",
+  "unseen": [
+   "check",
+   "MMBOE"
+  ]
+ },
+ {
+  "id": "acr_kb_104",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MMSCF section for details.",
+  "unseen": [
+   "check",
+   "MMSCF"
+  ]
+ },
+ {
+  "id": "acr_kb_105",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MMSCFD section for details.",
+  "unseen": [
+   "check",
+   "MMSCFD"
+  ]
+ },
+ {
+  "id": "acr_kb_106",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MPCL section for details.",
+  "unseen": [
+   "check",
+   "MPCL"
+  ]
+ },
+ {
+  "id": "acr_kb_107",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MSPC section for details.",
+  "unseen": [
+   "check",
+   "MSPC"
+  ]
+ },
+ {
+  "id": "acr_kb_108",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MSU section for details.",
+  "unseen": [
+   "check",
+   "MSU"
+  ]
+ },
+ {
+  "id": "acr_kb_109",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the MT section for details.",
+  "unseen": [
+   "check",
+   "MT"
+  ]
+ },
+ {
+  "id": "acr_kb_110",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the NAT section for details.",
+  "unseen": [
+   "check",
+   "NAT"
+  ]
+ },
+ {
+  "id": "acr_kb_111",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the NED section for details.",
+  "unseen": [
+   "check",
+   "NED"
+  ]
+ },
+ {
+  "id": "acr_kb_112",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the NIT section for details.",
+  "unseen": [
+   "check",
+   "NIT"
+  ]
+ },
+ {
+  "id": "acr_kb_113",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the NOC section for details.",
+  "unseen": [
+   "check",
+   "NOC"
+  ]
+ },
+ {
+  "id": "acr_kb_114",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the NPU section for details.",
+  "unseen": [
+   "check",
+   "NPU"
+  ]
+ },
+ {
+  "id": "acr_kb_115",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the NPUs section for details.",
+  "unseen": [
+   "check",
+   "NPUs"
+  ]
+ },
+ {
+  "id": "acr_kb_116",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the NTN section for details.",
+  "unseen": [
+   "check",
+   "NTN"
+  ]
+ },
+ {
+  "id": "acr_kb_117",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the NVIDIA section for details.",
+  "unseen": [
+   "check",
+   "NVIDIA"
+  ]
+ },
+ {
+  "id": "acr_kb_118",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the O&M section for details.",
+  "unseen": [
+   "check",
+   "O"
+  ]
+ },
+ {
+  "id": "acr_kb_119",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the OCR section for details.",
+  "unseen": [
+   "check",
+   "OCR"
+  ]
+ },
+ {
+  "id": "acr_kb_120",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the OGDC section for details.",
+  "unseen": [
+   "check",
+   "OGDC"
+  ]
+ },
+ {
+  "id": "acr_kb_121",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the OGDCL section for details.",
+  "unseen": [
+   "check",
+   "OGDCL"
+  ]
+ },
+ {
+  "id": "acr_kb_122",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the OMV section for details.",
+  "unseen": [
+   "check",
+   "OMV"
+  ]
+ },
+ {
+  "id": "acr_kb_123",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the ONLY section for details.",
+  "unseen": [
+   "check",
+   "ONLY"
+  ]
+ },
+ {
+  "id": "acr_kb_124",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the PAPG section for details.",
+  "unseen": [
+   "check",
+   "PAPG"
+  ]
+ },
+ {
+  "id": "acr_kb_125",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the PARCO section for details.",
+  "unseen": [
+   "check",
+   "PARCO"
+  ]
+ },
+ {
+  "id": "acr_kb_126",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the PAS section for details.",
+  "unseen": [
+   "check",
+   "PAS"
+  ]
+ },
+ {
+  "id": "acr_kb_127",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the PEF section for details.",
+  "unseen": [
+   "check",
+   "PEF"
+  ]
+ },
+ {
+  "id": "acr_kb_128",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the PIP section for details.",
+  "unseen": [
+   "check",
+   "PIP"
+  ]
+ },
+ {
+  "id": "acr_kb_129",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the PKR section for details.",
+  "unseen": [
+   "check",
+   "PKR"
+  ]
+ },
+ {
+  "id": "acr_kb_130",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the PKT section for details.",
+  "unseen": [
+   "check",
+   "PKT"
+  ]
+ },
+ {
+  "id": "acr_kb_131",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the PPEPCA section for details.",
+  "unseen": [
+   "check",
+   "PPEPCA"
+  ]
+ },
+ {
+  "id": "acr_kb_132",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the PPL section for details.",
+  "unseen": [
+   "check",
+   "PPL"
+  ]
+ },
+ {
+  "id": "acr_kb_133",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the PQ section for details.",
+  "unseen": [
+   "check",
+   "PQ"
+  ]
+ },
+ {
+  "id": "acr_kb_134",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the PSO section for details.",
+  "unseen": [
+   "check",
+   "PSO"
+  ]
+ },
+ {
+  "id": "acr_kb_135",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the PSPP section for details.",
+  "unseen": [
+   "check",
+   "PSPP"
+  ]
+ },
+ {
+  "id": "acr_kb_136",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the PSX section for details.",
+  "unseen": [
+   "check",
+   "PSX"
+  ]
+ },
+ {
+  "id": "acr_kb_137",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the QA section for details.",
+  "unseen": [
+   "check",
+   "QA"
+  ]
+ },
+ {
+  "id": "acr_kb_138",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the RAG section for details.",
+  "unseen": [
+   "check",
+   "RAG"
+  ]
+ },
+ {
+  "id": "acr_kb_139",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the RDS section for details.",
+  "unseen": [
+   "check",
+   "RDS"
+  ]
+ },
+ {
+  "id": "acr_kb_140",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the REE section for details.",
+  "unseen": [
+   "check",
+   "REE"
+  ]
+ },
+ {
+  "id": "acr_kb_141",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the REEs section for details.",
+  "unseen": [
+   "check",
+   "REEs"
+  ]
+ },
+ {
+  "id": "acr_kb_142",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the RO section for details.",
+  "unseen": [
+   "check",
+   "RO"
+  ]
+ },
+ {
+  "id": "acr_kb_143",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the RPO section for details.",
+  "unseen": [
+   "check",
+   "RPO"
+  ]
+ },
+ {
+  "id": "acr_kb_144",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the RTO section for details.",
+  "unseen": [
+   "check",
+   "RTO"
+  ]
+ },
+ {
+  "id": "acr_kb_145",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SAP section for details.",
+  "unseen": [
+   "check",
+   "SAP"
+  ]
+ },
+ {
+  "id": "acr_kb_146",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SASB section for details.",
+  "unseen": [
+   "check",
+   "SASB"
+  ]
+ },
+ {
+  "id": "acr_kb_147",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SCM section for details.",
+  "unseen": [
+   "check",
+   "SCM"
+  ]
+ },
+ {
+  "id": "acr_kb_148",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SDGs section for details.",
+  "unseen": [
+   "check",
+   "SDGs"
+  ]
+ },
+ {
+  "id": "acr_kb_149",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SECP section for details.",
+  "unseen": [
+   "check",
+   "SECP"
+  ]
+ },
+ {
+  "id": "acr_kb_150",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SEED section for details.",
+  "unseen": [
+   "check",
+   "SEED"
+  ]
+ },
+ {
+  "id": "acr_kb_151",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SEG section for details.",
+  "unseen": [
+   "check",
+   "SEG"
+  ]
+ },
+ {
+  "id": "acr_kb_152",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SENIOR section for details.",
+  "unseen": [
+   "check",
+   "SENIOR"
+  ]
+ },
+ {
+  "id": "acr_kb_153",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SGPC section for details.",
+  "unseen": [
+   "check",
+   "SGPC"
+  ]
+ },
+ {
+  "id": "acr_kb_154",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SGPF section for details.",
+  "unseen": [
+   "check",
+   "SGPF"
+  ]
+ },
+ {
+  "id": "acr_kb_155",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SLA section for details.",
+  "unseen": [
+   "check",
+   "SLA"
+  ]
+ },
+ {
+  "id": "acr_kb_156",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SLAs section for details.",
+  "unseen": [
+   "check",
+   "SLAs"
+  ]
+ },
+ {
+  "id": "acr_kb_157",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SMART section for details.",
+  "unseen": [
+   "check",
+   "SMART"
+  ]
+ },
+ {
+  "id": "acr_kb_158",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SNGPL section for details.",
+  "unseen": [
+   "check",
+   "SNGPL"
+  ]
+ },
+ {
+  "id": "acr_kb_159",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SOAS section for details.",
+  "unseen": [
+   "check",
+   "SOAS"
+  ]
+ },
+ {
+  "id": "acr_kb_160",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SOC section for details.",
+  "unseen": [
+   "check",
+   "SOC"
+  ]
+ },
+ {
+  "id": "acr_kb_161",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SPE section for details.",
+  "unseen": [
+   "check",
+   "SPE"
+  ]
+ },
+ {
+  "id": "acr_kb_162",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SQL section for details.",
+  "unseen": [
+   "check",
+   "SQL"
+  ]
+ },
+ {
+  "id": "acr_kb_163",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SSGC section for details.",
+  "unseen": [
+   "check",
+   "SSGC"
+  ]
+ },
+ {
+  "id": "acr_kb_164",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the SSGCL section for details.",
+  "unseen": [
+   "check",
+   "SSGCL"
+  ]
+ },
+ {
+  "id": "acr_kb_165",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the TB section for details.",
+  "unseen": [
+   "check",
+   "TB"
+  ]
+ },
+ {
+  "id": "acr_kb_166",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the TCF section for details.",
+  "unseen": [
+   "check",
+   "TCF"
+  ]
+ },
+ {
+  "id": "acr_kb_167",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the UAE section for details.",
+  "unseen": [
+   "check",
+   "UAE"
+  ]
+ },
+ {
+  "id": "acr_kb_168",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the UBL section for details.",
+  "unseen": [
+   "check",
+   "UBL"
+  ]
+ },
+ {
+  "id": "acr_kb_169",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the UCLA section for details.",
+  "unseen": [
+   "check",
+   "UCLA"
+  ]
+ },
+ {
+  "id": "acr_kb_170",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the UET section for details.",
+  "unseen": [
+   "check",
+   "UET"
+  ]
+ },
+ {
+  "id": "acr_kb_171",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the UK section for details.",
+  "unseen": [
+   "check",
+   "UK"
+  ]
+ },
+ {
+  "id": "acr_kb_172",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the UN section for details.",
+  "unseen": [
+   "check",
+   "UN"
+  ]
+ },
+ {
+  "id": "acr_kb_173",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the UNGC section for details.",
+  "unseen": [
+   "check",
+   "UNGC"
+  ]
+ },
+ {
+  "id": "acr_kb_174",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the US section for details.",
+  "unseen": [
+   "check"
+  ]
+ },
+ {
+  "id": "acr_kb_175",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the USA section for details.",
+  "unseen": [
+   "check",
+   "USA"
+  ]
+ },
+ {
+  "id": "acr_kb_176",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the USD section for details.",
+  "unseen": [
+   "check",
+   "USD"
+  ]
+ },
+ {
+  "id": "acr_kb_177",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the VDI section for details.",
+  "unseen": [
+   "check",
+   "VDI"
+  ]
+ },
+ {
+  "id": "acr_kb_178",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the VPN section for details.",
+  "unseen": [
+   "check",
+   "VPN"
+  ]
+ },
+ {
+  "id": "acr_kb_179",
+  "cat": "acr_kb",
+  "lang": "en",
+  "text": "Please check the WEF section for details.",
+  "unseen": [
+   "check",
+   "WEF"
+  ]
+ },
+ {
+  "id": "acr_gen_000",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the NASA section for details.",
+  "unseen": [
+   "check",
+   "NASA"
+  ]
+ },
+ {
+  "id": "acr_gen_001",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the UNICEF section for details.",
+  "unseen": [
+   "check",
+   "UNICEF"
+  ]
+ },
+ {
+  "id": "acr_gen_002",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the GPS section for details.",
+  "unseen": [
+   "check",
+   "GPS"
+  ]
+ },
+ {
+  "id": "acr_gen_003",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the USB section for details.",
+  "unseen": [
+   "check",
+   "USB"
+  ]
+ },
+ {
+  "id": "acr_gen_004",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the HTML section for details.",
+  "unseen": [
+   "check",
+   "HTML"
+  ]
+ },
+ {
+  "id": "acr_gen_005",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the PDF section for details.",
+  "unseen": [
+   "check",
+   "PDF"
+  ]
+ },
+ {
+  "id": "acr_gen_006",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the ATM section for details.",
+  "unseen": [
+   "check"
+  ]
+ },
+ {
+  "id": "acr_gen_007",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the SMS section for details.",
+  "unseen": [
+   "check",
+   "SMS"
+  ]
+ },
+ {
+  "id": "acr_gen_008",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the CNIC section for details.",
+  "unseen": [
+   "check",
+   "CNIC"
+  ]
+ },
+ {
+  "id": "acr_gen_009",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the NTN section for details.",
+  "unseen": [
+   "check",
+   "NTN"
+  ]
+ },
+ {
+  "id": "acr_gen_010",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the GST section for details.",
+  "unseen": [
+   "check",
+   "GST"
+  ]
+ },
+ {
+  "id": "acr_gen_011",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the VAT section for details.",
+  "unseen": [
+   "check",
+   "VAT"
+  ]
+ },
+ {
+  "id": "acr_gen_012",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the CEO section for details.",
+  "unseen": [
+   "check"
+  ]
+ },
+ {
+  "id": "acr_gen_013",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the CFO section for details.",
+  "unseen": [
+   "check",
+   "CFO"
+  ]
+ },
+ {
+  "id": "acr_gen_014",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the HR section for details.",
+  "unseen": [
+   "check",
+   "HR"
+  ]
+ },
+ {
+  "id": "acr_gen_015",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the IT section for details.",
+  "unseen": [
+   "check"
+  ]
+ },
+ {
+  "id": "acr_gen_016",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the AI section for details.",
+  "unseen": [
+   "check"
+  ]
+ },
+ {
+  "id": "acr_gen_017",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the UN section for details.",
+  "unseen": [
+   "check",
+   "UN"
+  ]
+ },
+ {
+  "id": "acr_gen_018",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the WHO section for details.",
+  "unseen": [
+   "check"
+  ]
+ },
+ {
+  "id": "acr_gen_019",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the IMF section for details.",
+  "unseen": [
+   "check"
+  ]
+ },
+ {
+  "id": "acr_gen_020",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the GDP section for details.",
+  "unseen": [
+   "check",
+   "GDP"
+  ]
+ },
+ {
+  "id": "acr_gen_021",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the KYC section for details.",
+  "unseen": [
+   "check"
+  ]
+ },
+ {
+  "id": "acr_gen_022",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the OTP section for details.",
+  "unseen": [
+   "check",
+   "OTP"
+  ]
+ },
+ {
+  "id": "acr_gen_023",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the PIN section for details.",
+  "unseen": [
+   "check",
+   "PIN"
+  ]
+ },
+ {
+  "id": "acr_gen_024",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the SIM section for details.",
+  "unseen": [
+   "check",
+   "SIM"
+  ]
+ },
+ {
+  "id": "acr_gen_025",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the Wi-Fi section for details.",
+  "unseen": [
+   "check",
+   "Wi",
+   "Fi"
+  ]
+ },
+ {
+  "id": "acr_gen_026",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the LED section for details.",
+  "unseen": [
+   "check",
+   "LED"
+  ]
+ },
+ {
+  "id": "acr_gen_027",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the LCD section for details.",
+  "unseen": [
+   "check",
+   "LCD"
+  ]
+ },
+ {
+  "id": "acr_gen_028",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the DNA section for details.",
+  "unseen": [
+   "check",
+   "DNA"
+  ]
+ },
+ {
+  "id": "acr_gen_029",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the BBC section for details.",
+  "unseen": [
+   "check",
+   "BBC"
+  ]
+ },
+ {
+  "id": "acr_gen_030",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the CNN section for details.",
+  "unseen": [
+   "check",
+   "CNN"
+  ]
+ },
+ {
+  "id": "acr_gen_031",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the FIFA section for details.",
+  "unseen": [
+   "check",
+   "FIFA"
+  ]
+ },
+ {
+  "id": "acr_gen_032",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the ICC section for details.",
+  "unseen": [
+   "check",
+   "ICC"
+  ]
+ },
+ {
+  "id": "acr_gen_033",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the PCB section for details.",
+  "unseen": [
+   "check",
+   "PCB"
+  ]
+ },
+ {
+  "id": "acr_gen_034",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the PTA section for details.",
+  "unseen": [
+   "check",
+   "PTA"
+  ]
+ },
+ {
+  "id": "acr_gen_035",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the NEPRA section for details.",
+  "unseen": [
+   "check",
+   "NEPRA"
+  ]
+ },
+ {
+  "id": "acr_gen_036",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the SECP section for details.",
+  "unseen": [
+   "check",
+   "SECP"
+  ]
+ },
+ {
+  "id": "acr_gen_037",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the HEC section for details.",
+  "unseen": [
+   "check",
+   "HEC"
+  ]
+ },
+ {
+  "id": "acr_gen_038",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the FBR section for details.",
+  "unseen": [
+   "check",
+   "FBR"
+  ]
+ },
+ {
+  "id": "acr_gen_039",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the NADRA section for details.",
+  "unseen": [
+   "check",
+   "NADRA"
+  ]
+ },
+ {
+  "id": "acr_gen_040",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the WAPDA section for details.",
+  "unseen": [
+   "check",
+   "WAPDA"
+  ]
+ },
+ {
+  "id": "acr_gen_041",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the PIA section for details.",
+  "unseen": [
+   "check",
+   "PIA"
+  ]
+ },
+ {
+  "id": "acr_gen_042",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the PSO section for details.",
+  "unseen": [
+   "check",
+   "PSO"
+  ]
+ },
+ {
+  "id": "acr_gen_043",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the SBP section for details.",
+  "unseen": [
+   "check",
+   "SBP"
+  ]
+ },
+ {
+  "id": "acr_gen_044",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the LNG section for details.",
+  "unseen": [
+   "check",
+   "LNG"
+  ]
+ },
+ {
+  "id": "acr_gen_045",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the CNG section for details.",
+  "unseen": [
+   "check",
+   "CNG"
+  ]
+ },
+ {
+  "id": "acr_gen_046",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the LPG section for details.",
+  "unseen": [
+   "check",
+   "LPG"
+  ]
+ },
+ {
+  "id": "acr_gen_047",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the EV section for details.",
+  "unseen": [
+   "check",
+   "EV"
+  ]
+ },
+ {
+  "id": "acr_gen_048",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the MBA section for details.",
+  "unseen": [
+   "check",
+   "MBA"
+  ]
+ },
+ {
+  "id": "acr_gen_049",
+  "cat": "acr_gen",
+  "lang": "en",
+  "text": "Please check the PhD section for details.",
+  "unseen": [
+   "check",
+   "PhD"
+  ]
+ },
+ {
+  "id": "hard_000",
+  "cat": "hard",
+  "lang": "en",
+  "text": "The share price closed at PKR 651.65, down 0.42% for the day.",
+  "unseen": [
+   "closed",
+   "PKR",
+   "day"
+  ]
+ },
+ {
+  "id": "hard_001",
+  "cat": "hard",
+  "lang": "en",
+  "text": "Please call +92 51 111 410 410 or email info@marienergies.com.pk.",
+  "unseen": [
+   "email",
+   "info",
+   "marienergies",
+   "com",
+   "pk"
+  ]
+ },
+ {
+  "id": "hard_002",
+  "cat": "hard",
+  "lang": "en",
+  "text": "The meeting is at 10:30 am on 28 July 2026.",
+  "unseen": [
+   "July"
+  ]
+ },
+ {
+  "id": "hard_003",
+  "cat": "hard",
+  "lang": "en",
+  "text": "Revenue grew by 12.5% to Rs. 383 billion in FY2024-25.",
+  "unseen": [
+   "Revenue",
+   "grew",
+   "Rs",
+   "billion",
+   "FY"
+  ]
+ },
+ {
+  "id": "hard_004",
+  "cat": "hard",
+  "lang": "en",
+  "text": "Phase III of the project covers 155,756 sq km.",
+  "unseen": [
+   "III",
+   "covers",
+   "sq",
+   "km"
+  ]
+ },
+ {
+  "id": "hard_005",
+  "cat": "hard",
+  "lang": "en",
+  "text": "The National Tax Number is 1414673-8.",
+  "unseen": []
+ },
+ {
+  "id": "hard_006",
+  "cat": "hard",
+  "lang": "cs",
+  "text": "آج کی meeting دوپہر 2:30 پر ہے۔",
+  "unseen": []
+ },
+ {
+  "id": "hard_007",
+  "cat": "hard",
+  "lang": "cs",
+  "text": "اس کی قیمت PKR 5,500 ہے۔",
+  "unseen": [
+   "PKR"
+  ]
+ },
+ {
+  "id": "hard_008",
+  "cat": "hard",
+  "lang": "en",
+  "text": "Visit www.psx.com.pk for the latest KSE-100 index.",
+  "unseen": [
+   "www",
+   "psx",
+   "com",
+   "pk",
+   "latest",
+   "KSE"
+  ]
+ },
+ {
+  "id": "hard_009",
+  "cat": "hard",
+  "lang": "en",
+  "text": "The plant produces 36 MMSCFD of gas and 7 BOPD of condensate.",
+  "unseen": [
+   "plant",
+   "produces",
+   "MMSCFD",
+   "BOPD",
+   "condensate"
+  ]
+ },
+ {
+  "id": "hard_010",
+  "cat": "hard",
+  "lang": "en",
+  "text": "Our 3rd quarterly report will be published on 15th October.",
+  "unseen": [
+   "rd",
+   "quarterly",
+   "published",
+   "th",
+   "October"
+  ]
+ },
+ {
+  "id": "hard_011",
+  "cat": "hard",
+  "lang": "en",
+  "text": "The E&P sector added 2.81x more value than expected.",
+  "unseen": [
+   "E",
+   "P",
+   "added"
+  ]
+ }
+]

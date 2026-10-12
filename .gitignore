@@ -1,0 +1,18 @@
+# Raw and derived audio datasets -- too large for git, and either redistributable from their
+# original source or rebuildable from the small list/metadata files that ARE committed.
+# See README.md ("Setup" / "Fine-tune on your own dataset") and data/README.md for how to
+# re-fetch or rebuild each one. None of these are needed to USE the shipped checkpoints
+# (speak.py, demo/, evaluation) -- only to re-gate or retrain from scratch.
+/data/1_source/voice/wav/
+/data/1_source/rasa/*.parquet
+/data/3_training_lists/*/wavs/
+
+# Pretrained weights downloaded from Hugging Face -- not ours to redistribute, and the
+# originals are public. Fetch with src/fetch_pretrained.py (see README: Setup).
+/models/base/matcha_urdu.ckpt
+/models/vocoder/pytorch_model.bin
+
+# Python / editor noise
+__pycache__/
+*.pyc
+.DS_Store

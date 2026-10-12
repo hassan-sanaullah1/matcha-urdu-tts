@@ -1,0 +1,33 @@
+# Kiosk test answers, written the way the RAG chatbot answers from ../mari_energies_knowledge_base.md:
+# a visitor's question, then an LLM-style answer grounded in the retrieved passage (code-switched Urdu mostly,
+# some English-only, some with the markdown an LLM adds). Every fact is from the knowledge base.
+# Format: category|question|answer
+names|MariEnergies کے CEO کون ہیں؟|MariEnergies کے CEO اور Managing Director جناب **Faheem Haider** ہیں۔ وہ August 2020 سے کمپنی کی قیادت کر رہے ہیں، اور انہوں نے Imperial College London سے Petroleum Engineering میں Master's کیا ہے۔
+names|بورڈ کا Chairman کون ہے؟|بورڈ کے Chairman Lt. Gen. Anwar Ali Hyder (Retd) ہیں۔ وہ Fauji Foundation کے MD اور CEO بھی ہیں، اور Fauji Group of Companies کے Chairman ہیں۔
+names|Who is the CFO of MariEnergies?|The Chief Financial Officer of MariEnergies is Mr. Nabeel Rasheed. He was previously Director Finance & Control for an SPE, and has held financial roles across Asia, Africa and Europe.
+names|Audit Committee میں کون کون ہے؟|Audit Committee کے Chairman جناب Abid Niaz Hasan ہیں۔ اس کے members میں Hamed Yaqoob Sheikh، Syed Bakhtiyar Kazmi اور Ahmed Hayat Lak شامل ہیں۔ یہ committee financial reporting، internal controls اور risk management دیکھتی ہے۔
+names|ESG Committee کی سربراہ کون ہیں؟|ESG Committee کی Chairperson محترمہ Seema Adil ہیں۔ وہ Pakistan Refinery Limited کی سابق Deputy Managing Director ہیں اور انہوں نے تیس سال Shell Pakistan میں کام کیا۔
+names|بورڈ میں OGDCL کی نمائندگی کون کرتا ہے؟|بورڈ پر OGDCL کی نمائندگی دو directors کرتے ہیں: Ahmed Hayat Lak، جو OGDCL کے MD/CEO ہیں، اور Muhammad Aamir Salim، جو OGDCL میں Executive Director (Petroserv) ہیں۔
+names|Company Secretary کون ہیں؟|کمپنی کے Company Secretary Brig Sumair Ashraf Sheikh (Retd) ہیں۔ Technical Committee کے Chairman جناب Syed Shahzad Nabi ہیں۔
+places|آپ کا field office کہاں ہے؟|ہمارا field office ڈہرکی، ضلع گھوٹکی، سندھ میں ہے، جہاں Mari Gas Field واقع ہے۔ Field operations کا head office بھی یہی ہے۔
+places|Head office کا address کیا ہے؟|ہمارا head office 21 Mauve Area، 3rd Road، G-10/4، اسلام آباد میں ہے۔ آپ ہم سے (+92) 51-111 410 410 پر رابطہ کر سکتے ہیں۔
+places|کیا آپ کے اور offices بھی ہیں؟|جی ہاں۔ کراچی آفس D-87، Block 4، Kehkashan، Clifton میں ہے، Quetta آفس Airport Road پر ہے، اور KP کا آفس Bannu Cantt میں ہے۔
+places|Waziristan میں کیا ہو رہا ہے؟|Waziristan Block میں Shewa discovery سے production 23 March 2025 کو شروع ہوئی۔ SNGPL نے Shewa سے Daud Khel تک 230 km لمبی، 18-inch pipeline مکمل کی، اور Spinwam-1 well میں بھی بہت اچھے flow rates ملے ہیں۔
+places|Sujawal Block میں کیا ملا؟|Sujawal Block کے Soho-1 well سے 9 May 2025 کو gas ملی، جس کا initial flow 36 MMSCFD تھا۔ یہ اس علاقے میں Massive Sands سے پہلی gas discovery ہے۔
+acronyms|MariEnergies کا پرانا نام کیا تھا؟|کمپنی کا پرانا نام Mari Petroleum Company Limited یعنی MPCL تھا۔ 2025 میں اسے MariEnergies کا نام دیا گیا، اور یہ PSX پر MARI کے symbol سے listed ہے۔
+acronyms|کمپنی کے shareholders کون ہیں؟|Major shareholders یہ ہیں:\n- Fauji Foundation: 40%\n- Government of Pakistan: 20%\n- OGDCL: 20%\n- General Public: 20%
+acronyms|آپ کے customers کون ہیں؟|ہمارے بڑے customers زیادہ تر fertilizer، refinery اور gas utility sectors سے ہیں، جیسے FFC، EFL، FFCL اور FPCDL۔ کمپنی ملک کے تمام بڑے fertilizer plants کو feed gas فراہم کرتی ہے۔
+acronyms|What reporting standards do you follow?|Our financial statements are prepared under IFRS, as issued by the IASB, and the Companies Act 2017. For sustainability we report against GRI 11, SASB, Ipieca, API and IOGP, plus IFRS S1 and S2.
+acronyms|Sky47 Cloud کیا services دیتا ہے؟|Sky47 Cloud پر IaaS، PaaS، Storage as a Service اور DRaaS جیسی services دستیاب ہیں۔ یہ Huawei Cloud Stack یعنی HCS پر بنا ہے، اور اس کا uptime SLA 99.95% ہے۔
+acronyms|Sky47 AI کیا ہے؟|Sky47 AI پاکستان کا سب سے بڑا Cloud AI Farm چلاتا ہے۔ اس میں Huawei Ascend NPU اور NVIDIA GPU clusters استعمال ہوتے ہیں، جن پر LLMs، RAG، Vision AI اور OCR جیسی services چلتی ہیں۔
+acronyms|SMART well کیا ہے؟|Bhitai-6 well، جو Mari D&PL میں ہے، پاکستان کا پہلا SMART well ہے۔ اس میں remotely operated flow control valves ہیں، جن سے بغیر well intervention کے real-time monitoring ہو سکتی ہے۔
+acronyms|GEM Energy کیا کرتی ہے؟|GEM Energy، MariEnergies اور Ghani Chemical Industries کا joint venture ہے۔ یہ Sachal Gas Processing Complex یعنی SGPC کے قریب flare gas سے LNG اور food-grade CO2 تیار کرے گی۔
+numbers|کمپنی کی credit rating کیا ہے؟|MariEnergies کی credit rating long term AAA اور short term A1 ہے۔
+numbers|پچھلے سال کا profit کتنا تھا؟|FY2024-25 میں net sales PKR 177.10 billion اور profit for the year PKR 65.14 billion رہا۔ Earnings per share PKR 54.25 تھی۔
+numbers|Key ratios کیا ہیں؟|FY2024-25 میں EBITDA margin 55.12%، return on equity 26.23% اور current ratio 2.81x رہا۔ Dividend yield 7.20% تھی۔
+numbers|Mari Ghazij CF-B1 سے کیا ملا؟|Mari Ghazij CF-B1 well سے 16 October 2025 کو oil اور gas ملی۔ Initial testing میں 305 BOPD oil اور 3 MMSCFD gas ریکارڈ ہوئی۔
+numbers|What is your production capacity?|As at June 30, 2025, our production capacity was 127 KBOEPD, and our reserves and resources stood at 952 MMBOE. The reserves-to-production ratio is about 20 years.
+mixed|Huawei کے ساتھ partnership کب ہوئی؟|Sky47 نے Huawei کے ساتھ partnership September 2025 میں 2nd Pakistan-China B2B Conference میں کی۔ December 2025 میں Islamabad campus پر Huawei data center containers energize ہوئے، اور Cloud AI Farm کو DWP یعنی Digital World Pakistan کے ساتھ مل کر بنایا گیا۔
+mixed|Sky47 کو corporate guarantee کیوں دی گئی؟|MariEnergies نے Sky47 کی project financing کے لیے PKR 8.3 billion کی corporate guarantee دی، جو 20 June 2025 کی EGM میں منظور ہوئی۔
+mixed|Vision 2030 کیا ہے؟|Vision 2030 کمپنی کا growth roadmap ہے، جس کے تین pillars ہیں: core business کو مضبوط کرنا، Oil & Gas سے آگے diversify کرنا، اور national ESG leader بننا۔ اسی کے تحت Mari Minerals اور Sky47 بنائے گئے۔
+mixed|Mari Minerals کیا کرتی ہے؟|Mari Minerals (Pvt) Limited 2023 میں بنی، اور یہ copper، gold اور REE یعنی rare earth elements کی mining پر کام کرتی ہے۔ Ammuri Minerals اور Tuzgi Minerals بھی اسی سے جڑی کمپنیاں ہیں۔

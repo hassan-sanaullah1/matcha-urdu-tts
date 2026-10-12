@@ -1,0 +1,40 @@
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0006092.wav|امید ہے اب تک آپ کے ذہن سے یہ بات آہستہ آہستہ تھوڑی تھوڑی کر کے نکل چکی ہوگی کہ سائیکلوجیکل ʈˈɛsʈs کسی mɪsʈˈɪriːəs چیز کا نام ہے اور ان میں کسی طرح کی پورا سراریت ہے
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0007244.wav|کیونکہ عام طور پر عام لوگ یا عام شہری کہہ لیجئے جن کا نفسیات سے کوئی تعلق نہیں ان کو ایسا ہی محسوس ہوتا ہے ان کو لگتا ہے کہ ٹیسٹ میں کوئی ایسی چیز ہے اور
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0008424.wav|ٹیسٹ دینے والا کسی ایسی جادوی قوت کا یا جادوی علم کا مالک ہے جس سے وہ اس کی شخصیت اور اس کے چھپے ہوئے خیالات کے بارے میں جان لے گا
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0009490.wav|لیکن سائیکلوجیکل ٹیسٹس ہونے کے ناتے آپ کو معلوم ہو چکا ہے کہ ʈˈɛsʈ کوئی پرسرار میسٹیریس یا میڈیکل چیز نہیں ہے
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0010408.wav|اس میں بہت kˈeːrfəliː طریقے سے یہ سوچا جاتا ہے کہ ہم نے اگر کسی کریکٹریسٹک کو یا ʋˈɛrɪəbəl کو میجر کرنا ہے تو اس کو ہم کس طرح سے mˈɛʒər کریں گے ہمارا
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0011592.wav|مقصد کیا ہے اوبجیکٹیفز کیا ہیں اس کو mˈɛʒər کرنے کے لیے ہمیں کس مکین ʋˈɛrɪəbəlz کو اس میں شامل کرنا چاہیے ان ویریبلز کی میجرمنٹ کے لیے یا اسیسمنٹ کے لیے کس طرح کے سوالات
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0012790.wav|پوچھنے چاہیے ان سوالات کا انیلیسز ہم sʈəʈˈɪsʈɪkəl طریقے سے کیسے کر سکتے ہیں اور ہم نے بہت سے ایسے sʈəʈˈɪsʈɪkəl میتھڈز دیکھے جو کہ ʈˈɛsʈɪnɡ میں استعمال کیے جاتے ہیں
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0017880.wav|نامز ہم نے کہا تھا کہ وہ sʈˈɛnɖərɖz ہیں جو کسی ایک sˈɛmpəl سے حاصل کیے جاتے ہیں
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0028118.wav|ہم اس کا اندازہ اور اس کی انٹرپیٹیشن اسی حوالے سے کرتے ہیں کہ اس کے skˈoːr میں اور سیمپل کے skˈoːr میں کیا فرق ہے اور کیا kˈaːmən اگر kˈaːmən ہے تو اس کو ایک nˈoːrməl pərfˈoːrməns
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0035876.wav|ɖəmˈeːn نوم کے مقابلے میں ٹیسٹ کے اندر پایا جانے والا ایک ایلیمنٹ ہے آپ ٹیسٹ کو اس نظریے سے بناتے ہیں کہ ایک خاص طرح کے
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0037782.wav|کمانڈ کیسی ہے اور اس کی prəfˈɪʃənsiː کیسی ہے
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0040422.wav|ریفرنسڈ ʈˈɛsʈs کے نام سے بات کریں گے لیکن
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0044822.wav|اوبجیکٹیوز کے حوالے سے یعنی اس طرح کا ʈˈɛsʈ کچھ اوبجیکٹیوز کو ذہن میں رکھتے ہوئے بنایا جاتا ہے اور اوبجیکٹیوز کا تعلق اس بات سے ہے کہ کسی شخص کو خاص طرح کے kˈaːnʈɛnʈ میں یا
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0046596.wav|جس کا مطلب یہ ہوا کہ ہم کسی بھی شخص کے ʈˈɛsʈ skˈoːr کو کسی nˈoːrm کے ساتھ کمپیئر نہیں کر رہے ہوں گے بلکہ ہم یہ دیکھ رہے ہوں گے کہ اس شخص کو جس ٹاسک کے لیے ٹیسٹ بنایا گیا تھا اس میں
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0047768.wav|کتنی ماسٹری حاصل ہے یا جس علم کو حاصل کرنے کے لیے اس کی جانچ کے لیے ٹیسٹ بنایا تھا اس میں اس کو کتنا عبور حاصل ہے اور یہ کسی lˈɛnɡʋɪʤ کے بارے میں بھی ہو سکتا ہے
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0048936.wav|ارثمیٹک کے بارے میں بھی ہو سکتا ہے کسی mˈɛnjuːəl skˈɪl کے حوالے سے بھی
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0052510.wav|کس ʈˈərmz میں ہمارے سامنے آئے گا یا کس صورت میں یہ سکور ہم حاصل کریں گے تو ہم دیکھتے ہیں کہ یہ مختلف طریقے سے کیا جا سکتا ہے ٹوٹل skˈoːr تو ہمارے سامنے آتا ہے لیکن یہ سکور
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0054894.wav|dɛʈ deː kɛn kaːmpriːhˈɛnɖ ɪʈ kɛn ˈɔlsoː biː ɛksprˈɛsʈ ɪn ʈˈərmz əʋdə ʧˈɛnsɪz əʋə pˈərsənz əʧˈiːʋɪnɡ ə ɖˈɛzɪɡneːʈɪɖ pərfˈoːrməns lˈɛʋəl ɔn ən ɛksʈˈərnəl kraːɪʈˈiːərɪən
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0057184.wav|کتنی اچھی طرح سے pərfˈoːrm کر سکتا ہے یا ʈˈɛsʈ ʈˈeːkər کی ʋoːkˈɛbjʊlɛriː کتنی اچھی ہے وہ کتنا پڑھ سکتا ہے کس حد تک الفاظ پر اس کو عبور حاصل ہے
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0058262.wav|یا یہ کہ کسی hˈaːɪər kˈoːrs کے لیے کسی hˈaːɪər lˈɛʋəl əʋ nˈaːlɪʤ کے لیے اب تک اس کے پاس کتنی kəmˈɛnɖ اور prəfˈɪʃənsiː موجود ہے
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0061716.wav|گے nˈaːʊ huː ɖɪʈˈərmɪnz ʋəʈ kˈaːnʈɛnʈ ʋɪl biː ɪnklˈuːɖɪɖ ɪndə ʈˈɛsʈ
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0065779.wav|چنانچہ اگر کوئی mˈɛɖɪkəl skˈuːl ہے یا mˈɛɖɪkəl kˈaːlɪʤ ہے تو وہ mˈɛsʈər دیکھے گا mˈɛɖɪkəl سے rɪlˈeːʈɪɖ شعبے میں یا اگر کسی ɛnʤɪnˈɪrɪnɡ کی شعبے میں یہ ʈˈɛsʈ بنایا گیا تو اس میں شاید ہم اس کی spˈɛʃəl
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0066971.wav|rˈiːzənɪnɡ اور əbˈɪləʈiː کو mɛtʰɪmˈɛʈɪkəl əbˈɪləʈiː کو mˈɛʒər کرنے والے ˈaːɪʈəmz شامل کریں گے
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0067695.wav|لیکن بار بار یہ چیز ہمارے ذہن میں موجود رہنی چاہیے کہ اس ʈˈɛsʈ کی ɪnʈərprɪʈˈeːʃən اور اس کے skˈoːrz کسی nˈoːrm کے حوالے سے mˈiːnɪnɡfəl نہیں ہے
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0068771.wav|اس کے نتائج یا اس کے skˈoːrz کو ہم اس حوالے سے دیکھتے ہیں کہ کسی شخص کی ذاتی prəfˈɪʃənsiː کیا ہے
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0069533.wav|دوسروں سے kəmpˈeːr کر کے اس کا کوئی ہمیں خاص مطلب حاصل نہیں ہوتا بنیادی مقصد یہ ہے کہ کوئی شخص خود کس حد تک skˈɪl کا مالک ہے یا نہیں sˈoː پہلی بات تو یہ ہے
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0070729.wav|prˈɛzəns ɔr ˈɛbsəns əʋdə skˈɪl ɛnɖ ʈə dɪ ɛksʈˈɛnʈ əʋdə mˈɛsʈəriː əʋdə skˈɪl آپ کو کوئی کام آتا ہے یا نہیں آتا اور اگر آتا ہے تو کس حد تک آتا ہے یہ چیز
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0071929.wav|ɪməʈˈɪriːəl ہے یہ چیز بلکل ɪrˈɛlɪʋənʈ ہے کہ دوسرے لوگ اس کو کس طرح سے سیکھتے ہیں یا سیکھ چکے ہیں nˈoːrm rˈɛfrəns ʈˈɛsʈs əsˈɛs ɛnɖ ɖɪskrˈaːɪb
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0074219.wav|kɛn ɖˈuː nˈoːrm rˈɛfrəns ʈˈɛsʈs میں ہم نے یہ دیکھا تھا کہ کوئی شخص
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0074731.wav|پچھلی سیکھی ہوئی چیزوں کے بارے میں کتنا əʧˈiːʋ کر چکا ہے اور اس کی əʧˈiːʋmənʈ
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0075295.wav|مانی رکھتی ہے صرف اس وقت جب ہم اس کا
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0078049.wav|نہیں ہے ɪn ˈədər ʋˈərɖz ʋiː kɛn sˈeː dɛʈdə nˈoːrm rˈɛfrəns ʈˈɛsʈ fˈoːkəs əpaːn pərfˈoːrməns
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0078943.wav|ʋˈɛrɛz ɖəmˈeːn rˈɛfrəns ʈˈɛsʈ deː fˈoːkəs ɔndɪ əbˈɪləʈiː oːr pəʈˈɛnʃəl یعنی کوئی شخص کیا کر سکتا ہے یا کیا کرنے کی صلاحیت اس میں موجود ہے
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0082723.wav|مثال کے طور پہ اگر کسی چار سال کے بچے کو آپ نے پانچ کی
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0085033.wav|اور اسی طرح سے ɪf juː hɛʋ ʈə rɪpˈɛr ən ɪlˈɛkʈrɪkəl kənˈɛkʃən
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0085497.wav|ʋəʈ ʋʊɖ juː prɪfˈər ɪndə ʈɛknˈɪʃən
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0085805.wav|ˈeː ۔ ʋˈɛdər hiː nˈoːz haːʊ ʈə ɖˈuː ɪʈ oːr bˈiː ۔ haːʊ ɡˈʊɖ hiː ɪz oːr haːʊ bˈɛɖ hiː ɪz ɪn kəmpˈɛrɪsən ʈʊ ˈədər pˈiːpəl یہ
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0086976.wav|دو sɪʧuːˈeːʃənz ایسی ہیں جس میں آپ دیکھ سکتے ہیں کہ ہاں
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0088592.wav|rˈɛfrəns ʈˈɛsʈ کو ہم mˈɛsʈəriː ʈˈɛsʈ بھی کہتے ہیں اس سے بھی وہی مراد ہے کہ کسی شخص کو کسی kˈaːnʈɛnʈ پر یا کسی ˈɛriːə əʋ nˈaːlɪʤ پر یا کسی skˈɪl پر کتنی mˈɛsʈəriː
+data/4_eval/shahed_ref/wavs/bx6JHj9XxqQ_0089728.wav|حاصل ہے اور mˈɛsʈəriː سے مراد وہی ہے əbhˈoːr یا kəmˈɛnɖ

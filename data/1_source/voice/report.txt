@@ -1,0 +1,39 @@
+Urdu/English YouTube -> Matcha-TTS dataset build report
+
+urls_total: 21
+downloads_ok: 21
+downloads_failed: 0
+sources_transcribed: 21
+total_source_audio_seconds: 11454.13732426304
+candidate_segments_total: 1522
+accepted_segments: 864
+rejected_segments: 285
+rejection_reasons: {'edge_not_silent': 136, 'implausible_speaking_rate': 71, 'residual_background': 28, 'too_short': 19, 'multi_speaker_or_overlap': 59, 'low_avg_confidence': 7, 'not_target_speaker': 20, 'too_long': 3, 'reasr_mismatch': 2}
+total_accepted_hours: 1.738
+avg_segment_duration_seconds: 7.242
+min_segment_duration_seconds: 2.055
+max_segment_duration_seconds: 15.276
+train_segments: 838
+val_segments: 26
+val_fraction_actual: 0.0301
+split: {'mode': 'source_level', 'val_sources': ['-gI_ALIlkR8'], 'val_segments': 26, 'leakage_risk': 'none - no recording appears in both splits'}
+segments_needing_review: 373
+human_review: {}
+human_promoted_segments: 0
+autoresolve: {'held_unresolved': 363, 'released': 36, 'released_seconds': 4.9, 'clips_using_tier1': 25, 'held_trim_edge_not_silent': 1, 'clips_using_tier2': 11, 'held_digits_remain': 9}
+autoresolve_tier4_would_release: {'clips': 70, 'minutes': 8.1}
+autoresolve_vote_thresholds: {'reasr_similarity': 0.9518072289156626, 'ctc_similarity': 0.8671328671328671}
+auto_promoted_segments: 36
+numbers_rewritten: 32
+review_reasons: {'codeswitch_uncertain': 144, 'low_min_word_confidence': 36, 'ctc_disagreement': 152, 'reasr_partial_mismatch': 26, 'inconsistent_codeswitch_token': 53, 'unknown_english_words': 9, 'digits_not_in_model_vocab': 37, 'high_background_level': 1}
+segments_with_speaker_check_unavailable: 0
+segments_with_ctc_check_unavailable: 0
+segments_with_ctc_check_not_applicable: 0
+clips_containing_english: 724
+clips_containing_english_pct: 83.8
+distinct_english_words: 404
+top_english_words: [('video', 245), ('videos', 136), ('prompt', 91), ('youtube', 89), ('channel', 88), ('generate', 80), ('flow', 44), ('download', 43), ('tool', 35), ('google', 30), ('character', 30), ('upload', 29), ('account', 28), ('male', 28), ('monetized', 28), ('search', 28), ('gallery', 28), ('free', 27), ('credits', 23), ('gemini', 21), ('open', 20), ('click', 20), ('payment', 19), ('to', 19), ('editing', 19)]
+codeswitch_tokens_settled_english: 254
+codeswitch_tokens_settled_urdu: 758
+codeswitch_tokens_ambiguous: 10
+failed_sources: []

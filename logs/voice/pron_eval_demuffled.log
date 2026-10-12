@@ -1,0 +1,76 @@
+[matcha_torch] missing=[] unexpected=['spk_cond.emb_t.weight', 'spk_cond.emb_mu.weight']
+  200/1165
+  400/1165
+  600/1165
+  800/1165
+  1000/1165
+ NeMo-text-processing :: INFO     :: Post processing graph was restored from /home/ubuntu/Desktop/kaani/urdu-phones/data/nemo_cache/en_tn_post_processing.far.
+ NeMo-text-processing :: INFO     :: ClassifyFst.fst was restored from /home/ubuntu/Desktop/kaani/urdu-phones/data/nemo_cache/en_tn_True_deterministic_cased__tokenize.far.
+ NeMo-text-processing :: INFO     :: VerbalizeFinalFst graph was restored from /home/ubuntu/Desktop/kaani/urdu-phones/data/nemo_cache/en_tn_True_deterministic_verbalizer.far.
+ NeMo-text-processing :: INFO     :: Skipping post-processing of Total Workforce (as at thirtieth June twenty twenty five): one thousand seven hundred and sixty (one thousand six hundred and sixty male; one hundred female) for ','
+ NeMo-text-processing :: INFO     :: Skipping post-processing of Impact: one, zero zero zero plus farmers benefited; one hundred women farmers included; seven thousand seven hundred fields digitally mapped; one hundred twenty plus local jobs created; one hundred and forty eight women trained in farming and literacy. for '+'
+ NeMo-text-processing :: INFO     :: Skipping post-processing of with Paramount Ventures at thirty percent and Capital Smart Technologies at ten percent) that delivers for '%'
+ NeMo-text-processing :: INFO     :: Skipping post-processing of holds a fifty one percent equity stake, in joint venture with Ghani Chemical Industries Limited. for '%'
+ NeMo-text-processing :: INFO     :: Skipping post-processing of Leases: fifteen leases covering one thousand five hundred and forty two square kilometres. for ','
+ NeMo-text-processing :: INFO     :: Skipping post-processing of Gas (MMSCF): Country output one million fifty three thousand two hundred and ten; for ','
+ NeMo-text-processing :: INFO     :: Skipping post-processing of share three hundred twenty two thousand nine hundred and seventy three (thirty one percent), as Total Production Operator. for '%'
+ NeMo-text-processing :: INFO     :: Skipping post-processing of The platform is built on Huawei Cloud Stack (HCS), offers pay-as-you-go and allocation-based pricing, and carries a ninety nine point nine five percent uptime SLA. for '%'
+ NeMo-text-processing :: INFO     :: Skipping post-processing of Country output twenty two million seven hundred seventy eight thousand eight hundred and fifty six; for ','
+ NeMo-text-processing :: INFO     :: Skipping post-processing of share six hundred sixty one thousand one hundred and sixty seven (two point nine percent), as Total Production Operator. for '%'
+{
+ "kb_word": {
+  "words": 1905,
+  "pass_rate": 0.762,
+  "mean_d": 0.167,
+  "not_located": 0,
+  "unseen_pass_rate": 0.761,
+  "unseen_words": 1491
+ },
+ "kb_acr": {
+  "words": 180,
+  "pass_rate": 0.744,
+  "mean_d": 0.164,
+  "not_located": 0,
+  "unseen_pass_rate": 0.753,
+  "unseen_words": 174
+ },
+ "kb_sent": {
+  "words": 722,
+  "pass_rate": 0.735,
+  "mean_d": 0.163,
+  "not_located": 33,
+  "unseen_pass_rate": 0.775,
+  "unseen_words": 387
+ },
+ "pair": {
+  "words": 126,
+  "pass_rate": 0.659,
+  "mean_d": 0.19,
+  "not_located": 0,
+  "unseen_pass_rate": 0.682,
+  "unseen_words": 85,
+  "pair_accuracy": 0.738
+ },
+ "gen_word": {
+  "words": 261,
+  "pass_rate": 0.755,
+  "mean_d": 0.173,
+  "not_located": 0,
+  "unseen_pass_rate": 0.75,
+  "unseen_words": 220
+ },
+ "gen_acr": {
+  "words": 50,
+  "pass_rate": 0.84,
+  "mean_d": 0.128,
+  "not_located": 0,
+  "unseen_pass_rate": 0.837,
+  "unseen_words": 43
+ }
+}
+kb_word   n= 1905 pass 74.3% -> 76.2%   mean d change -0.012 [-0.019, -0.005]  (primary)
+kb_acr    n=  180 pass 75.6% -> 74.4%   mean d change -0.011 [-0.032, +0.011]  (primary)
+kb_sent   n=  694 pass 71.5% -> 73.9%   mean d change -0.012 [-0.023, -0.002]  (primary)
+pair      n=  126 pass 68.3% -> 65.9%   mean d change -0.003 [-0.046, +0.041]  (guard)
+gen_word  n=  261 pass 67.4% -> 75.5%   mean d change -0.026 [-0.045, -0.008]  (guard)
+gen_acr   n=   50 pass 82.0% -> 84.0%   mean d change -0.036 [-0.078, +0.003]  (guard)

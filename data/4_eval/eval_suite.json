@@ -1,0 +1,814 @@
+{
+ "urdu_parity": {
+  "desc": "60 held-out base-voice Urdu sentences: CER parity with the base checkpoint",
+  "items": [
+   {
+    "id": "urdu_parity_00",
+    "text": "یہ وہ راستہ ہے جس پر ہم دونوں آگے بڑھ سکتے ہیں۔"
+   },
+   {
+    "id": "urdu_parity_01",
+    "text": "تم نے کبھی کہا تھا کہ خاندان کی تعریف کریں تو وہ ہمارے اندر محبت کی زبان بن جاتی ہے۔"
+   },
+   {
+    "id": "urdu_parity_02",
+    "text": "یہ سوالات ہمیں اپنی وحدت کے مفہوم کی طرف لے جاتے ہیں اور بتاتے ہیں کہ حصہ داری خاندان کی طاقت ہے۔"
+   },
+   {
+    "id": "urdu_parity_03",
+    "text": "تم ہمیشہ اپنے خاندان کی فلاح کے لئے عملی اقدامات کی ہمت دکھاتی رہی ہو۔"
+   },
+   {
+    "id": "urdu_parity_04",
+    "text": "کیا تم چاہتی ہو کہ ہم اپنی زندگی کی ہر روزمرہ میں خاندان کی قدر کو مرکزی رکھیں؟"
+   },
+   {
+    "id": "urdu_parity_05",
+    "text": "ہم مل کر ایک منصوبہ بنائیں تاکہ خاندان کی قدر کو ہمیشہ پروان چڑھایا جائے۔"
+   },
+   {
+    "id": "urdu_parity_06",
+    "text": "ہماری محبت کا رشتہ چاہے کتنے ہی مصائب کا سامنا کرے، مگر خاندان کی قدر اسے ہمیشہ بلند رکھے گی۔"
+   },
+   {
+    "id": "urdu_parity_07",
+    "text": "اور ہاں، اگر کبھی لمحہ ایسا آئے کہ ہمارے دلوں پر کوئی بھاری بوجھ بیٹھے تو یاد رکھنا کہ ہم دونوں مل کر اسے کم کرنے کی صلاحیت رکھتے ہیں۔"
+   },
+   {
+    "id": "urdu_parity_08",
+    "text": "یہ بھی ضروری ہے کہ ہم اپنے بچوں کی باتوں میں غیر متوقع موڑ نہ ڈالیں؛ یعنی جب وہ کچھ کہنا چاہیں تو انہیں موقع دیں؛ جب وہ گھبرا جائیں تو ہم آرام دہ انداز میں انہیں واپس لائیں۔"
+   },
+   {
+    "id": "urdu_parity_09",
+    "text": "ہم ایک دوسرے کی خوبیوں کو تسلیم کرتے ہیں، مگر بچوں کی دنیا میں بھی ان کی قدر بڑھاتے ہیں۔"
+   },
+   {
+    "id": "urdu_parity_10",
+    "text": "جب ہم بامعنی حدود کی بات کرتے ہیں تو یہ حدود نہ پابندیاں محسوس ہوتی ہیں نہ جبر۔"
+   },
+   {
+    "id": "urdu_parity_11",
+    "text": "جب ہم ایک دوسرے کے ساتھ مل کر ان حدود کی تشریح کرتے ہیں تو بچہ سمجھتا ہے کہ یہ خاندان کی فضا کی حفاظت ہیں۔"
+   },
+   {
+    "id": "urdu_parity_12",
+    "text": "یہ سارا عمل ہمارے رشتے کی گہرائی کو بڑھاتا ہے اور بچہ کو اعتماد دیتا ہے کہ وہ بھی اپنی آواز بلند کر سکتا ہے۔"
+   },
+   {
+    "id": "urdu_parity_13",
+    "text": "اگر ہم اپنی زبان کی گرمائش برقرار رکھتے ہیں تو توازن بار بار تازہ ہوتا ہے۔"
+   },
+   {
+    "id": "urdu_parity_14",
+    "text": "اس سے رشتوں میں عزت بڑھتی ہے، کیونکہ ہم اپنی واضح پیراڈائم کی مدد سے دوسروں کے لئے ایک واضح راستہ بنا دیتے ہیں۔"
+   },
+   {
+    "id": "urdu_parity_15",
+    "text": "صحت کی حفاظت ہمارے تعلق کی پائیداری کے لئے بنیادی ستون ہے۔"
+   },
+   {
+    "id": "urdu_parity_16",
+    "text": "ہر صبح اٹھتے ہی میری تمنا یہی ہوتی ہے کہ ہم اپنے دن کی شروعات خوشحالی کے ساتھ کریں۔"
+   },
+   {
+    "id": "urdu_parity_17",
+    "text": "یہ راستہ کبھی سیدھا نہیں ہوتا، کبھی گلیاں موڑ دیتی ہیں مگر ہم ہمت نہیں ہارتے۔"
+   },
+   {
+    "id": "urdu_parity_18",
+    "text": "مثلاً مالی فیصلوں میں دو طرفہ آراء کی اہمیت، گھریلو حصے کی تقسیم، اور والدین کی ملاقاتوں کی پلاننگ کی ذمہ داریاں کس کی ہوں گی۔"
+   },
+   {
+    "id": "urdu_parity_19",
+    "text": "ہم نے سیکھ لیا ہے کہ زیادہ تر بڑے فیصلوں میں صبر، ہمت اور مشترکہ فہم ہی کامیابی کی کنجیاں ہیں۔"
+   },
+   {
+    "id": "urdu_parity_20",
+    "text": "اور جہاں خاموشی اور بات چیت دونوں کے بیچ ایک مناسب توازن بنائے۔"
+   },
+   {
+    "id": "urdu_parity_21",
+    "text": "مجھے معلوم ہے کہ تو نے بھی یہی محسوس کیا ہوگا کہ فاصلوں کی گرمی کو کم کرنے کا بہترین طریقہ یہی ہے کہ ہم ہنسیوں اور یادوں کی تصویریں باقاعدہ بانٹیں۔"
+   },
+   {
+    "id": "urdu_parity_22",
+    "text": "ہم بانٹتے ہیں کہ کس طرح ہمارے گھروں کی روایات ہمارے تعلقات کی راہنمائی کرتی ہیں اور کیسے ہم اپنی محبت کو ہر دن نئے رنگ دیتے ہیں۔"
+   },
+   {
+    "id": "urdu_parity_23",
+    "text": "ہم اپنی باتوں میں زندگی کی چھوٹی خوشیوں کو نہیں بھولتے۔"
+   },
+   {
+    "id": "urdu_parity_24",
+    "text": "یہی راستہ ہمیں دکھاتا ہے کہ محبت کی اصل زبان کیا ہوتی ہے۔"
+   },
+   {
+    "id": "urdu_parity_25",
+    "text": "کیونکہ ہم دونوں نے اپنے خاندانوں کی محبت کو اپنے اندر زندہ رکھا ہے، اس لیے ہم سیدھے اور سادہ طریقے سے رابطہ رکھتے ہیں، تاکہ ہم کبھی نہ کہیں کہ ہم دیر سے یاد آئے ہیں۔"
+   },
+   {
+    "id": "urdu_parity_26",
+    "text": "ہم دونوں مل کر ایک روایتی گھر کا نقشہ بنائیں، جس میں ہر کونے میں ایک روایت کا وجود ہو۔"
+   },
+   {
+    "id": "urdu_parity_27",
+    "text": "جب دو خاندان کی روایات ملتی ہیں تو بعض دفعہ اختلافات سامنے آتے ہیں، مگر اگر ہم محبت کی روشنی میں ان کا حل نکالیں تو وہ اختلافات بھی ہمیں قریب تر لے آتے ہیں۔"
+   },
+   {
+    "id": "urdu_parity_28",
+    "text": "ہم ہر مہمان کو بتائیں کہ یہ روایات کیوں اہم ہیں، ان کی تاریخ کیا ہے، اور ہم انہیں کس طرح زندہ رکھنا چاہتے ہیں۔"
+   },
+   {
+    "id": "urdu_parity_29",
+    "text": "ایسا ایک خاندان ہمیں دکھائے گا کہ روایات کی حفاظت صرف ماضی کی یاد نہیں، بلکہ مستقبل کی رہنمائی بھی ہے۔"
+   },
+   {
+    "id": "urdu_parity_30",
+    "text": "ایسی صورتوں میں ہم کو کیا کرنا چاہیے؟"
+   },
+   {
+    "id": "urdu_parity_31",
+    "text": "وہی ہمارے بیچ محبت کی مہر بن جاتی ہے۔"
+   },
+   {
+    "id": "urdu_parity_32",
+    "text": "وہ کہتے ہیں کہ ہم ہر لمحے بچے کی خوشی، حفاظت اور ذہنی صحت کو ترجیح دیں، تاکہ وہ خود اعتمادی کے ساتھ آگے بڑھے۔"
+   },
+   {
+    "id": "urdu_parity_33",
+    "text": "اس طرح بچے کو واضح تشویق ملتی ہے کہ عمل کی قدر حقیقتاً پہلا معیار ہے، نتیجہ بعد میں آتا ہے۔"
+   },
+   {
+    "id": "urdu_parity_34",
+    "text": "یہ کام نہ صرف بچے کی خود اعتمادی کو بڑھاتا ہے بلکہ وہ سمجھتا ہے کہ خاندان ایک ٹیم ہے اور ہر رکن کی خدمت سے ٹیم مضبوط ہوتی ہے۔"
+   },
+   {
+    "id": "urdu_parity_35",
+    "text": "ایسا کرنے سے بچے کی توجہ کی پکاوٹ بنتی ہے اور وہ اپنے کام پر مکمل دھیان لگا سکتا ہے۔"
+   },
+   {
+    "id": "urdu_parity_36",
+    "text": "مگر تنہائی کا احساس کم نہیں ہوتا؛ وہ جب اُٹھتا ہے تو مجھے تمہارے ہاتھ کی نرمی کی شدت یاد آتی ہے،"
+   },
+   {
+    "id": "urdu_parity_37",
+    "text": "اگر ممکن ہو تو ہم خاندان کی روایات کو اپنے دوستیوں تک بھی پھیلائیں؛ مثلاً بہن بھائیوں کی مشترکہ ملاقات یا بزرگوں کی خرافات پر ہنسی مذاق۔"
+   },
+   {
+    "id": "urdu_parity_38",
+    "text": "ہم نے بجٹ کا تصور سامنے رکھا مشترکہ کھاتے میں رکھے جانے والے پیسے اور ہر مہینے کی ذاتی روایات۔"
+   },
+   {
+    "id": "urdu_parity_39",
+    "text": "ہمارا تصور تھا کہ مستقبل میں ہم اپنے اپنے گھروں میں رہیں تو وہی محبت، وہی احترام، وہی خلوص برقرار رہے۔"
+   },
+   {
+    "id": "urdu_parity_40",
+    "text": "ہم نے ان کی آغوش سے سیکھا کہ کس طرح صبر، تحمل، اور عزت کی زبان کو برقرار رکھنا چاہیئے۔"
+   },
+   {
+    "id": "urdu_parity_41",
+    "text": "کیا تم سمجھتی ہو کہ ہم اس زبان کو ہمیشہ برقرار رکھ پائیں؟"
+   },
+   {
+    "id": "urdu_parity_42",
+    "text": "تمہاری حفاظت میرے لئے سب سے بڑی خوشی ہے، کیا تم بھی یہی خواہش رکھتی ہو؟"
+   },
+   {
+    "id": "urdu_parity_43",
+    "text": "ہم دونوں کی محنت کا نتیجہ یہ ہوا کہ ہم نے اپنی دنیا کی آزادی کو حفاظت دی، مگر والدین کی موجودگی کو کبھی کم محسوس نہ ہونے دیا۔"
+   },
+   {
+    "id": "urdu_parity_44",
+    "text": "یا پھر ہر مہمان کو اپنے بچپن کی کوئی پسندیدہ یادسنانے کا موقع دیا جائے۔"
+   },
+   {
+    "id": "urdu_parity_45",
+    "text": "تمہارے ساتھ یہ سوچ کر مجھے وہ حقیقی خوشی ملتی ہے جس کا ہمیں انتظار ہوتا ہے جب ہم اپنے خاندان کی تقاریب کو ایک دوسرے کی محبت کے رنگ میں رنگ دیں۔"
+   },
+   {
+    "id": "urdu_parity_46",
+    "text": "میں جانتا ہوں کہ کھانے کی میز پر بیٹھ کر گفتگو کرنا صرف پیٹ بھرنا نہیں ہوتا بلکہ ذہنوں کو تقویت دینا ہوتا ہے۔"
+   },
+   {
+    "id": "urdu_parity_47",
+    "text": "ہم انہیں بتاتے ہیں کہ اگر وہ کوئی بات یا خیال لے کر آئیں تو ہم وہاں موجود ہوں گے اگر وہ خوش ہیں تو ہم خوشی میں شریک ہوں، اگر وہ اداس ہیں تو ہم ان کے جذبات کو سمجھنے کی کوشش کریں۔"
+   },
+   {
+    "id": "urdu_parity_48",
+    "text": "اس سے وہ اعتماد سیکھتے ہیں کہ کون سی باتیں شیئر کرنی ہیں اور کن باتوں کو اپنے اندر رکھنے سے بہتر ہے۔"
+   },
+   {
+    "id": "urdu_parity_49",
+    "text": "ہم سوچتے ہیں کہ کیا ہماری مسکراہٹ اور محبت اس سفر کو آسان بنا سکتے ہیں؟"
+   },
+   {
+    "id": "urdu_parity_50",
+    "text": "ہم وہ گھر بنائیں جس میں اولین ترجیح بچوں کی صحت مند شخصیت کی تشکیل ہو، جس میں ان کی دلچسپیوں کو پھیلانے کی آزادی ہو مگر ساتھ ہی انہیں ذمہ داری کی سیکھ بھی دی جائے۔"
+   },
+   {
+    "id": "urdu_parity_51",
+    "text": "نہ میں نے تمہیں تکلیف دینا چاہی، نہ میری خواہش تھی کہ تمہیں کم معلومات ملیں یا پھر تمہیں میرے علاوہ کسی جانب سے اطمینان ہو۔"
+   },
+   {
+    "id": "urdu_parity_52",
+    "text": "اگر کوئی خواہش ہے یا کوئی حد متعین کرنی ہے تو اسے دو طرفہ احترام کے ساتھ بیان کریں۔"
+   },
+   {
+    "id": "urdu_parity_53",
+    "text": "یہی میری آج کی صریح خواہش ہے۔"
+   },
+   {
+    "id": "urdu_parity_54",
+    "text": "اگر ہم ایک دوسرے کی سچائیوں کی قدر کرتے ہیں، تو ہم اپنے رشتے کو ایسی راہ پر لے جائیں گے جہاں محبت کی خوشبو ہر سمت پھیلے گی۔"
+   },
+   {
+    "id": "urdu_parity_55",
+    "text": "ہم ایک دوسرے کی قربت کو ایسے محسوس کریں گے کہ ہر جھڑپ یا جھمیلے کے باوجود ہم قریب رہیں گے،"
+   },
+   {
+    "id": "urdu_parity_56",
+    "text": "میں تم سے کہتا ہوں کہ زندگی کی اصل تعلیم وہ نہیں جو کتابوں میں لکھی ہوتی ہے بلکہ وہ تجربات ہیں جو بڑوں نے اپنی آنکھوں سے دیکھے اور دل میں بسائے رکھے۔"
+   },
+   {
+    "id": "urdu_parity_57",
+    "text": "ہمیں سکھایا گیا کہ سادگی اور صبر ہی وہ دو مددگار ہیں جن کی مدد سے ہم اپنے خوابوں کی سمت روشن رکھ سکتے ہیں، چاہے حالات کیسے بھی کیوں نہ ہوں۔"
+   },
+   {
+    "id": "urdu_parity_58",
+    "text": "میں چاہتا ہوں کہ تم اپنے دل کی گہرائیوں میں یہ بات رکھو، کیونکہ یہی بات ہمیں ایک دوسرے کے قریب رکھے گی۔"
+   },
+   {
+    "id": "urdu_parity_59",
+    "text": "یہی وہ مستقبل ہے جس کی طرف ہم بڑھ رہے ہیں، ایک ایسا منظرنامہ جس میں بزرگوں کی تعلیمات ہماری راہنمائی کرتے ہیں۔"
+   }
+  ]
+ },
+ "urdu_rare": {
+  "desc": "Urdu with rare sounds (غ ق خ ژ ظ ض, aspirates, nasals)",
+  "items": [
+   {
+    "id": "urdu_rare_00",
+    "text": "غلطی ماننا کمزوری نہیں بلکہ ہمت کی نشانی ہے۔"
+   },
+   {
+    "id": "urdu_rare_01",
+    "text": "قانون سب کے لیے برابر ہونا چاہیے، چاہے کوئی امیر ہو یا غریب۔"
+   },
+   {
+    "id": "urdu_rare_02",
+    "text": "خوشی کی خبر یہ ہے کہ قرض کی آخری قسط ادا ہو چکی ہے۔"
+   },
+   {
+    "id": "urdu_rare_03",
+    "text": "ژالہ باری کی وجہ سے گندم کی فصل کو شدید نقصان پہنچا۔"
+   },
+   {
+    "id": "urdu_rare_04",
+    "text": "ظاہر ہے کہ اس فیصلے پر غور و فکر کی ضرورت ہے۔"
+   },
+   {
+    "id": "urdu_rare_05",
+    "text": "ضروری کاغذات جمع کروانے کی آخری تاریخ جمعرات ہے۔"
+   },
+   {
+    "id": "urdu_rare_06",
+    "text": "بھائی نے گھبراہٹ میں دروازہ زور سے کھٹکھٹایا۔"
+   },
+   {
+    "id": "urdu_rare_07",
+    "text": "دھوپ میں کھڑے رہنے سے اسے چکر آنے لگے۔"
+   },
+   {
+    "id": "urdu_rare_08",
+    "text": "ٹھنڈی ہوا چلی تو بچوں نے کھڑکیاں کھول دیں۔"
+   },
+   {
+    "id": "urdu_rare_09",
+    "text": "ڈھائی گھنٹے کے انتظار کے بعد گاڑی پہنچی۔"
+   },
+   {
+    "id": "urdu_rare_10",
+    "text": "اُس نے آہستہ سے کہا کہ وہ کل نہیں آ سکے گی۔"
+   },
+   {
+    "id": "urdu_rare_11",
+    "text": "غیر ملکی سرمایہ کاری میں اضافہ معیشت کے لیے خوش آئند ہے۔"
+   }
+  ]
+ },
+ "ur_word": {
+  "desc": "Urdu sentence + one English word",
+  "items": [
+   {
+    "id": "ur_word_00",
+    "text": "آپ کا account کامیابی سے بن گیا ہے۔"
+   },
+   {
+    "id": "ur_word_01",
+    "text": "براہ کرم اپنا CNIC نمبر درج کریں۔"
+   },
+   {
+    "id": "ur_word_02",
+    "text": "کل صبح آپ کی appointment دس بجے ہے۔"
+   },
+   {
+    "id": "ur_word_03",
+    "text": "اس مہینے آپ کا bill پچھلے مہینے سے کم آیا ہے۔"
+   },
+   {
+    "id": "ur_word_04",
+    "text": "میں آپ کو ایک link بھیج رہی ہوں، اسے کھول لیں۔"
+   },
+   {
+    "id": "ur_word_05",
+    "text": "آپ کی درخواست ابھی review میں ہے۔"
+   },
+   {
+    "id": "ur_word_06",
+    "text": "یہ سہولت صرف mobile app پر دستیاب ہے۔"
+   },
+   {
+    "id": "ur_word_07",
+    "text": "آپ اپنا password کسی کے ساتھ share نہ کریں۔"
+   },
+   {
+    "id": "ur_word_08",
+    "text": "ہمارے دفتر کا address میں نے آپ کو message کر دیا ہے۔"
+   },
+   {
+    "id": "ur_word_09",
+    "text": "آج کا weather کافی خوشگوار رہے گا۔"
+   },
+   {
+    "id": "ur_word_10",
+    "text": "اس رپورٹ میں کچھ data ابھی باقی ہے۔"
+   },
+   {
+    "id": "ur_word_11",
+    "text": "کیا آپ اپنی booking cancel کرنا چاہتی ہیں؟"
+   }
+  ]
+ },
+ "ur_phrase": {
+  "desc": "Urdu sentence + English phrase",
+  "items": [
+   {
+    "id": "ur_phrase_00",
+    "text": "اگر آپ چاہیں تو میں آپ کو step by step guide کر سکتی ہوں۔"
+   },
+   {
+    "id": "ur_phrase_01",
+    "text": "ہماری customer support team چوبیس گھنٹے دستیاب ہے۔"
+   },
+   {
+    "id": "ur_phrase_02",
+    "text": "آپ کی shipment ابھی out for delivery ہے اور آج شام تک پہنچ جائے گی۔"
+   },
+   {
+    "id": "ur_phrase_03",
+    "text": "یہ offer صرف limited time کے لیے ہے، اس لیے جلدی کریں۔"
+   },
+   {
+    "id": "ur_phrase_04",
+    "text": "میں نے آپ کی request forward کر دی ہے to the relevant department۔"
+   },
+   {
+    "id": "ur_phrase_05",
+    "text": "آپ اپنا فیڈبیک ہمیں کسی بھی وقت online form کے ذریعے بھیج سکتے ہیں۔"
+   },
+   {
+    "id": "ur_phrase_06",
+    "text": "اس سال کمپنی کی overall performance کافی بہتر رہی ہے۔"
+   },
+   {
+    "id": "ur_phrase_07",
+    "text": "آپ settings میں جا کر two factor authentication on کر لیں۔"
+   },
+   {
+    "id": "ur_phrase_08",
+    "text": "ڈاکٹر نے کہا ہے کہ روزانہ کم از کم thirty minutes walk ضرور کریں۔"
+   },
+   {
+    "id": "ur_phrase_09",
+    "text": "یہ مسئلہ ہمارے technical team کے notice میں لے آیا گیا ہے۔"
+   },
+   {
+    "id": "ur_phrase_10",
+    "text": "آپ کی monthly installment automatically deduct ہو جائے گی۔"
+   },
+   {
+    "id": "ur_phrase_11",
+    "text": "آخر میں بس اتنا کہوں گی کہ better late than never۔"
+   }
+  ]
+ },
+ "pure_en": {
+  "desc": "Full English sentence, general",
+  "items": [
+   {
+    "id": "pure_en_00",
+    "text": "Thank you for calling. How may I help you today?"
+   },
+   {
+    "id": "pure_en_01",
+    "text": "Your request has been received and will be processed within two working days."
+   },
+   {
+    "id": "pure_en_02",
+    "text": "Please make sure your documents are clear and complete before you submit them."
+   },
+   {
+    "id": "pure_en_03",
+    "text": "The weather is expected to remain hot and humid for the rest of the week."
+   },
+   {
+    "id": "pure_en_04",
+    "text": "I'm sorry, I didn't quite catch that. Could you please repeat your question?"
+   },
+   {
+    "id": "pure_en_05",
+    "text": "Our office remains closed on Sundays and public holidays."
+   },
+   {
+    "id": "pure_en_06",
+    "text": "Regular exercise and a balanced diet are essential for a healthy lifestyle."
+   },
+   {
+    "id": "pure_en_07",
+    "text": "The development of renewable energy is crucial for a sustainable future."
+   },
+   {
+    "id": "pure_en_08",
+    "text": "You can track the status of your complaint through our website at any time."
+   },
+   {
+    "id": "pure_en_09",
+    "text": "Interest rates have remained unchanged for the third consecutive quarter."
+   },
+   {
+    "id": "pure_en_10",
+    "text": "This thoroughly researched report provides a preliminary analysis of the market."
+   },
+   {
+    "id": "pure_en_11",
+    "text": "Is there anything else I can help you with?"
+   }
+  ]
+ },
+ "en_names": {
+  "desc": "English + Pakistani names and places",
+  "items": [
+   {
+    "id": "en_names_00",
+    "text": "Our head office is located in Islamabad, with regional offices in Karachi and Lahore."
+   },
+   {
+    "id": "en_names_01",
+    "text": "The flight from Peshawar to Quetta has been delayed by two hours."
+   },
+   {
+    "id": "en_names_02",
+    "text": "Dr. Ayesha Siddiqui will be joining the session from Faisalabad."
+   },
+   {
+    "id": "en_names_03",
+    "text": "Please contact Mr. Muhammad Usman Qureshi in the accounts department."
+   },
+   {
+    "id": "en_names_04",
+    "text": "The conference will be held at the Pearl Continental hotel in Rawalpindi."
+   },
+   {
+    "id": "en_names_05",
+    "text": "Shaukat Khanum Memorial Cancer Hospital has opened a new diagnostic centre in Multan."
+   },
+   {
+    "id": "en_names_06",
+    "text": "Mehwish Hayat and Fawad Khan attended the premiere in Karachi."
+   },
+   {
+    "id": "en_names_07",
+    "text": "The monsoon rains have caused flooding in parts of Sindh and southern Punjab."
+   },
+   {
+    "id": "en_names_08",
+    "text": "Students from LUMS, NUST and Quaid-i-Azam University took part in the competition."
+   },
+   {
+    "id": "en_names_09",
+    "text": "The Karakoram Highway connects Gilgit-Baltistan with the rest of the country."
+   },
+   {
+    "id": "en_names_10",
+    "text": "Allama Iqbal International Airport handles most of the traffic in Lahore."
+   },
+   {
+    "id": "en_names_11",
+    "text": "Hazrat Data Ganj Bakhsh's shrine attracts thousands of visitors every Thursday."
+   }
+  ]
+ },
+ "en_business": {
+  "desc": "English technical/business with Pakistani companies",
+  "items": [
+   {
+    "id": "en_business_00",
+    "text": "Mari Energies operates the Mari Gas Field near Daharki in Sindh."
+   },
+   {
+    "id": "en_business_01",
+    "text": "The Pakistan Stock Exchange closed higher today, led by gains in OGDCL and PPL."
+   },
+   {
+    "id": "en_business_02",
+    "text": "Engro Fertilizers reported a twelve percent increase in its quarterly profit."
+   },
+   {
+    "id": "en_business_03",
+    "text": "The State Bank of Pakistan kept the policy rate unchanged at its latest meeting."
+   },
+   {
+    "id": "en_business_04",
+    "text": "Habib Bank Limited has launched a new digital banking platform for small businesses."
+   },
+   {
+    "id": "en_business_05",
+    "text": "Mari Energies holds exploration interests in the Waziristan and Sujawal blocks."
+   },
+   {
+    "id": "en_business_06",
+    "text": "Sui Northern Gas Pipelines announced scheduled maintenance in Gujranwala and Sialkot."
+   },
+   {
+    "id": "en_business_07",
+    "text": "The joint venture with Pakistan Petroleum Limited focuses on the Zarghun South field."
+   },
+   {
+    "id": "en_business_08",
+    "text": "WAPDA is expected to complete the Dasu hydropower project by twenty twenty-seven."
+   },
+   {
+    "id": "en_business_09",
+    "text": "Jazz and Telenor Microfinance Bank are expanding mobile wallet services across Balochistan."
+   },
+   {
+    "id": "en_business_10",
+    "text": "The SECP has issued new guidelines for listed companies regarding ESG disclosures."
+   },
+   {
+    "id": "en_business_11",
+    "text": "K-Electric has requested NEPRA to approve a revised tariff for Karachi consumers."
+   }
+  ]
+ },
+ "dense": {
+  "desc": "Dense multi-switch mixed sentences",
+  "items": [
+   {
+    "id": "dense_00",
+    "text": "Actually، آج کی meeting postpone ہو گئی ہے، so please اپنا schedule check کر لیں۔"
+   },
+   {
+    "id": "dense_01",
+    "text": "میں نے Ali کو بتایا کہ report ready ہے but ابھی final approval باقی ہے۔"
+   },
+   {
+    "id": "dense_02",
+    "text": "آپ basically یہ سمجھ لیں کہ interest rate جتنا زیادہ ہوگا، loan اتنا expensive ہوگا۔"
+   },
+   {
+    "id": "dense_03",
+    "text": "Sorry for the delay، system میں کچھ issue تھا جو اب resolve ہو گیا ہے۔"
+   },
+   {
+    "id": "dense_04",
+    "text": "اگر آپ Lahore سے Islamabad جا رہے ہیں تو motorway best option ہے، it takes around four hours۔"
+   },
+   {
+    "id": "dense_05",
+    "text": "Honestly speaking، یہ plan اچھا ہے لیکن budget تھوڑا tight ہے۔"
+   },
+   {
+    "id": "dense_06",
+    "text": "آپ کا OTP expire ہو گیا ہے، please دوبارہ request کریں اور جلدی enter کریں۔"
+   },
+   {
+    "id": "dense_07",
+    "text": "Mari Energies کی annual report میں production figures کافی encouraging ہیں۔"
+   },
+   {
+    "id": "dense_08",
+    "text": "Doctor صاحب نے کہا hydration بہت important ہے، especially گرمیوں میں۔"
+   },
+   {
+    "id": "dense_09",
+    "text": "So the bottom line یہ ہے کہ ہمیں team کو motivate رکھنا ہوگا۔"
+   },
+   {
+    "id": "dense_10",
+    "text": "آپ Karachi branch میں visit کریں یا online apply کریں، both options available ہیں۔"
+   },
+   {
+    "id": "dense_11",
+    "text": "کل Pakistan اور England کا match ہے، and everyone is really excited۔"
+   }
+  ]
+ },
+ "en_led": {
+  "desc": "English-led sentence with Urdu words/phrases",
+  "items": [
+   {
+    "id": "en_led_00",
+    "text": "The main reason is کہ لوگوں کو awareness نہیں ہے۔"
+   },
+   {
+    "id": "en_led_01",
+    "text": "Please note that یہ سہولت صرف رجسٹرڈ صارفین کے لیے ہے۔"
+   },
+   {
+    "id": "en_led_02",
+    "text": "We will get back to you جتنی جلدی ممکن ہو۔"
+   },
+   {
+    "id": "en_led_03",
+    "text": "Your payment has been received، شکریہ۔"
+   },
+   {
+    "id": "en_led_04",
+    "text": "The results will be announced اگلے ہفتے، inshallah۔"
+   },
+   {
+    "id": "en_led_05",
+    "text": "I completely understand آپ کی پریشانی، let me check this for you۔"
+   },
+   {
+    "id": "en_led_06",
+    "text": "This is a very important point، اس کو غور سے سنیں۔"
+   },
+   {
+    "id": "en_led_07",
+    "text": "For more details آپ ہماری ویب سائٹ دیکھ سکتے ہیں۔"
+   },
+   {
+    "id": "en_led_08",
+    "text": "The government has announced a relief package for کسان اور چھوٹے کاروبار۔"
+   },
+   {
+    "id": "en_led_09",
+    "text": "Let me explain it with an example، مثال کے طور پر ایک دکاندار کو لیں۔"
+   },
+   {
+    "id": "en_led_10",
+    "text": "The deadline is Friday، اس کے بعد کوئی درخواست قبول نہیں ہوگی۔"
+   },
+   {
+    "id": "en_led_11",
+    "text": "Mashallah، your application looks complete and well prepared۔"
+   }
+  ]
+ },
+ "numbers": {
+  "desc": "Numbers, acronyms, abbreviations, codes",
+  "items": [
+   {
+    "id": "numbers_00",
+    "text": "آپ کا بقایا بل 4,750 روپے ہے جو 15 تاریخ تک جمع کروانا ہے۔"
+   },
+   {
+    "id": "numbers_01",
+    "text": "Mari Energies produced 580 MMSCFD of gas in FY2024-25."
+   },
+   {
+    "id": "numbers_02",
+    "text": "برائے مہربانی 0300-1234567 پر رابطہ کریں۔"
+   },
+   {
+    "id": "numbers_03",
+    "text": "The meeting is scheduled for 10:30 AM on 3rd March."
+   },
+   {
+    "id": "numbers_04",
+    "text": "GDP growth is projected at 3.2% for the next fiscal year."
+   },
+   {
+    "id": "numbers_05",
+    "text": "آپ کی flight PK-303 شام 7 بج کر 45 منٹ پر روانہ ہوگی۔"
+   },
+   {
+    "id": "numbers_06",
+    "text": "Please visit www.pakistan.gov.pk for the latest updates."
+   },
+   {
+    "id": "numbers_07",
+    "text": "The CEO and CFO will address the AGM via video link."
+   },
+   {
+    "id": "numbers_08",
+    "text": "اس سال 1,25,000 طلباء نے میٹرک کا امتحان دیا۔"
+   },
+   {
+    "id": "numbers_09",
+    "text": "The PSX-100 index gained 1,245 points to close at 78,560."
+   },
+   {
+    "id": "numbers_10",
+    "text": "آپ کا complaint number CMP-2025-0147 ہے۔"
+   },
+   {
+    "id": "numbers_11",
+    "text": "UNICEF and WHO have launched a polio campaign in KP."
+   }
+  ]
+ },
+ "chatbot": {
+  "desc": "Assistant-style replies",
+  "items": [
+   {
+    "id": "chatbot_00",
+    "text": "السلام علیکم! میں آپ کی کیا مدد کر سکتی ہوں؟"
+   },
+   {
+    "id": "chatbot_01",
+    "text": "Hello! I'm your virtual assistant. آپ اردو یا English، جس میں چاہیں بات کر سکتے ہیں۔"
+   },
+   {
+    "id": "chatbot_02",
+    "text": "جی بالکل، میں آپ کو اس بارے میں تفصیل سے بتاتی ہوں۔"
+   },
+   {
+    "id": "chatbot_03",
+    "text": "Mari Energies Pakistan کی ایک بڑی energy company ہے جو gas اور oil کی exploration کرتی ہے۔"
+   },
+   {
+    "id": "chatbot_04",
+    "text": "I'm afraid I don't have that information right now، لیکن آپ ہماری helpline پر رابطہ کر سکتے ہیں۔"
+   },
+   {
+    "id": "chatbot_05",
+    "text": "آپ کا سوال بہت اچھا ہے۔ Let me explain it in simple words۔"
+   },
+   {
+    "id": "chatbot_06",
+    "text": "کیا میں آپ کی کسی اور چیز میں مدد کر سکتی ہوں؟"
+   },
+   {
+    "id": "chatbot_07",
+    "text": "Thank you for your patience. آپ کا مسئلہ حل ہو گیا ہے۔"
+   },
+   {
+    "id": "chatbot_08",
+    "text": "معذرت، مجھے آپ کی بات سمجھ نہیں آئی۔ Could you please say that again?"
+   },
+   {
+    "id": "chatbot_09",
+    "text": "آج کراچی میں درجہ حرارت 36 degrees رہنے کا امکان ہے۔"
+   },
+   {
+    "id": "chatbot_10",
+    "text": "آپ کی شکایت درج کر لی گئی ہے، اور ہماری team جلد آپ سے رابطہ کرے گی۔"
+   },
+   {
+    "id": "chatbot_11",
+    "text": "خدا حافظ، آپ کا دن اچھا گزرے! Have a great day!"
+   }
+  ]
+ },
+ "journey": {
+  "desc": "Journey paragraphs: Urdu -> English -> mixed -> English+names -> Urdu",
+  "items": [
+   {
+    "id": "journey_00",
+    "text": "السلام علیکم، میں آپ کی ڈیجیٹل معاون ہوں۔ Today I'll give you a short overview of our services. ہماری سب سے مقبول service online bill payment ہے۔ For example, customers in Lahore and Multan can pay through Jazz Cash or Easypaisa. اگر آپ کو کوئی مشکل ہو تو ہم سے رابطہ کریں۔"
+   },
+   {
+    "id": "journey_01",
+    "text": "آج ہم پاکستان کی معیشت کے بارے میں بات کریں گے۔ Inflation has slowed down over the last six months. لیکن عام آدمی کے لیے مہنگائی اب بھی ایک بڑا challenge ہے۔ The State Bank of Pakistan in Karachi expects further improvement next year. امید ہے حالات بہتر ہوں گے۔"
+   },
+   {
+    "id": "journey_02",
+    "text": "Mari Energies کے بارے میں آپ نے پوچھا تھا۔ Mari Energies is one of the largest companies listed on the Pakistan Stock Exchange. اس کا سب سے اہم gas field ڈہرکی کے قریب ہے۔ The company also operates in Waziristan and Balochistan. مزید معلومات کے لیے ویب سائٹ دیکھیں۔"
+   },
+   {
+    "id": "journey_03",
+    "text": "صحت مند زندگی کے لیے نیند بہت ضروری ہے۔ Doctors recommend seven to eight hours of sleep every night. لیکن اکثر لوگ رات دیر تک mobile استعمال کرتے رہتے ہیں۔ Dr. Sana Tariq from Aga Khan University says screens affect our sleep cycle. اس لیے سونے سے پہلے فون دور رکھیں۔"
+   },
+   {
+    "id": "journey_04",
+    "text": "آپ کی درخواست موصول ہو گئی ہے۔ Your reference number is two, four, seven, nine. ہماری ٹیم تین دن کے اندر آپ کو call کرے گی۔ If you are in Peshawar, you can also visit our office on University Road. شکریہ، اللہ حافظ۔"
+   },
+   {
+    "id": "journey_05",
+    "text": "تعلیم ہر بچے کا بنیادی حق ہے۔ According to recent surveys, millions of children are still out of school. حکومت نے اس مسئلے کے حل کے لیے کئی programs شروع کیے ہیں۔ Organizations like The Citizens Foundation and Taleemabad are working in Sindh and Punjab. ہم سب کو اپنا کردار ادا کرنا ہوگا۔"
+   },
+   {
+    "id": "journey_06",
+    "text": "کل موسم کافی خراب رہنے کا امکان ہے۔ Heavy rain is expected in Islamabad, Rawalpindi and Murree. برائے مہربانی غیر ضروری سفر سے گریز کریں۔ The National Disaster Management Authority has issued an alert for Gilgit-Baltistan. اپنا اور اپنے گھر والوں کا خیال رکھیں۔"
+   },
+   {
+    "id": "journey_07",
+    "text": "اگر آپ پہلی بار investment کرنا چاہتے ہیں تو چھوٹی رقم سے شروع کریں۔ Mutual funds are a good option for beginners. آپ Meezan Bank یا HBL کی کسی بھی branch سے معلومات لے سکتے ہیں۔ Remember, every investment carries some risk. سوچ سمجھ کر فیصلہ کریں۔"
+   }
+  ]
+ }
+}

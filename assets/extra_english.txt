@@ -1,0 +1,124 @@
+# Extra English vocabulary for the unknown-word CHECK only.
+#
+# One token per line, lowercase. Lines starting with # are ignored.
+# After editing, re-run with --force-verify (or --force-merge, which clears
+# the cache too).
+#
+# WHY THIS FILE EXISTS
+# --------------------
+# verify._unknown_latin_words flags Latin tokens that are not in a system
+# dictionary, because unrecognisable Latin is usually a mistranscription -
+# it is what caught "sheddingding" (for "load shedding") and "simth". But a
+# dictionary cannot know PSX tickers, crypto exchanges or finance jargon, so
+# real words were being flagged and their clips held out of training.
+#
+# WHAT THIS FILE DOES *NOT* DO
+# ----------------------------
+# It is read only by the verification check - never by code-switch
+# restoration (see codeswitch.load_english_lexicon). A short or vowel-poor
+# entry here would otherwise become eligible to OVERWRITE Urdu script via a
+# consonant-skeleton match, silently rewriting transcripts. Recognising a
+# word and rewriting a word are kept separate on purpose.
+#
+# WHAT TO PUT HERE
+# ----------------
+# Only words you are confident were really said. Every token added is one the
+# check can no longer catch, so adding a mistranscription here permanently
+# blinds the pipeline to it. Anything you are unsure of: leave it out and let
+# the clip go to review, where you can listen to it.
+#
+# Possessives resolve automatically ("ogdc" here also accepts "ogdc's"), as
+# do plurals - no need to list both.
+
+# --- PSX tickers and Pakistani companies/institutions ---
+ogdc
+ssgc
+ffbl
+fccl
+netsol
+secp
+psx
+habib
+alfala
+
+# --- crypto / fintech / tech ---
+binance
+usdt
+chatgpt
+xiaomi
+investify
+crypto
+forex
+
+# --- finance and economics vocabulary ---
+pibs
+t-bills
+amcs
+nocs
+tfcs
+rlng
+buyback
+buybacks
+payout
+payouts
+rollover
+repurchase
+tranche
+reinvestment
+outflow
+outflows
+disinflation
+expansionary
+macroeconomic
+fomo
+
+# --- sectors and general English the dictionary missed ---
+telecom
+pharma
+agro
+hydro
+gigawatts
+sustainability
+affordability
+impactful
+underway
+youtubers
+quintillion
+fertiliser
+don'ts
+
+# --- people named in the corpus ---
+buffett
+changpeng
+
+# --- second pass: further real terms found in review ---
+gainers
+illiquid
+incentivize
+repo
+reits
+omcs
+dfi
+micro
+contractionary
+consumerist
+unconsolidated
+recirculating
+gamification
+fatf
+marshlands
+profiler
+ex-ceo
+non-scientific
+munger
+
+# --- names spoken in the corpus ---
+mashal
+altaf
+hamad
+fatma
+mizan
+
+# NOT listed, deliberately - these look like ASR errors, so they stay flagged
+# and go to review where a human can hear them:
+#   ojdc  psxdps  hcla  ppso  pias  comparitiveness  exponentiality  reinject
