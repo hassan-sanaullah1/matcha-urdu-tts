@@ -17,6 +17,12 @@ The voice is **Matcha-TTS fine-tuned from the Urdu base model
 The shipped checkpoint is `checkpoints/voice_demuffled/model.ckpt` (8,000 steps, then a de-muffle weight edit).
 It was copied out of `~/Desktop/kaani` (26 rounds of experiments) and depends on none of it.
 
+**Serving it to the MARI kiosk:** `server/` is an HTTP server that speaks both the male and the female voice
+from one checkpoint, and the kiosk has been wired to it. Start with
+[MARI_KIOSK_CONTEXT.md](MARI_KIOSK_CONTEXT.md) — how the two sides run, talk and are switched between the local
+and the paid voice — then [server/MARI_INTEGRATION.md](server/MARI_INTEGRATION.md) (run and configure) and
+[server/MARI_CHANGES.md](server/MARI_CHANGES.md) (what was changed in the kiosk repo, and how to revert it).
+
 ## Quick start — speak
 
 ```bash

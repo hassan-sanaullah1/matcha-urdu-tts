@@ -12,6 +12,10 @@
 /models/base/matcha_urdu.ckpt
 /models/vocoder/pytorch_model.bin
 
+# The kiosk's own .env, kept in server/mari_backup_*/ so its TTS wiring can be reverted
+# (see server/MARI_CHANGES.md). It holds live API keys: keep it on disk, out of history.
+server/mari_backup_*/.env
+
 # Python / editor noise
 __pycache__/
 *.pyc

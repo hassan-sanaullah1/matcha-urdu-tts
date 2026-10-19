@@ -1,0 +1,105 @@
+# The presenters the kiosk can show.
+#
+# Everything that differs between them lives here. No code outside personas.py reads
+# a presenter id, so adding a third presenter means adding a table below (and an avatar
+# profile in frontend/components/avatar/) rather than finding every `if male` branch.
+#
+# What belongs here: facts about the character and measurements taken against its rig.
+# What does NOT: deployment settings. Voice IDs are named here but their values come
+# from the environment (server/config.py), because they differ per deployment and the
+# Uplift ones are account-specific.
+#
+# The `id` of each table is the value the browser sends as `avatar` on the WebSocket
+# and must match a profile id in the frontend.
+
+[female]
+display_name = "Maryam"
+# Urdu marks gender on verbs, so this picks the agreement pass applied to replies
+# (server/agent/reply_fixes.py) and the gendered UI copy.
+grammatical_gender = "f"
+
+# Which engines may speak this persona's Urdu, best first. Matcha-TTS is a female
+# voice, so only she can use it; it falls back to Uplift by itself when the local
+# server is down.
+urdu_engines = ["matcha", "uplift"]
+
+# Voice id per engine and language, as the name of the setting that holds it.
+[female.voices]
+"uplift:ur" = "UPLIFT_VOICE"
+"uplift:en" = "UPLIFT_VOICE_EN"
+"kokoro:en" = "VOICE_EN"
+
+# Audio2Face tuning, sent with every clip. Empty means the NIM's own defaults, which
+# were measured as correct for this rig and are the reference the male values below
+# were fitted against.
+[female.a2f]
+face_params = {}
+blendshape_multipliers = {}
+
+
+[male]
+display_name = "Hamza"
+grammatical_gender = "m"
+# Uplift only: Matcha-TTS is a female voice.
+urdu_engines = ["uplift"]
+
+[male.voices]
+# One Uplift voice covers both languages; there is no separate male English id.
+"uplift:ur" = "UPLIFT_VOICE_MALE"
+"uplift:en" = "UPLIFT_VOICE_MALE"
+"kokoro:en" = "VOICE_EN_MALE"
+
+# Viewers found this rig's mouth unnatural. scripts/lipsync_audit.py measures it on
+# real speech against the female rig as the reference, using the same anatomical
+# vertices on both (the heads share a UV layout). His lip shapes are sculpted
+# differently from hers: the lip-parting ones (mouthLowerDown/UpperUp) much weaker, the
+# spreading ones (stretch/smile/dimple) stronger, rollLower about half and a different
+# shape. On the NIM defaults his lips pressed into each other in 20% of frames (hers 5%)
+# and spread sideways far more.
+#
+# The multipliers below are the audit's `fit`: a bounded least-squares solve that makes
+# his whole lip outline follow hers frame by frame, weighted towards m/b/p closures,
+# the f/v lower-lip tuck and rounding, with left/right pairs sharing one value (separate
+# ones came out lopsided) and lip roll/press capped at 1.1x (above that the pressing
+# comes back). Measured through the live NIM, outline distance from hers in % of mouth
+# width, m/b/p 1.22, f/v 1.56, oo 1.66, ee 0.93, ah 1.13; lip overlap 5.8% (hers 5.0%),
+# m/b/p sealed 90%. "oo" is the floor: his pucker/funnel sculpts cannot get closer.
+#
+# Re-run the audit (record, then fit) after any re-export of this model. Gains, teeth
+# offsets and shape transfer were all tried instead and rejected on screen.
+[male.a2f]
+# FaceParameters.float_params, camelCase. lipOpenOffset (NIM default -0.02) sets how
+# closed the lips sit; +0.04 is what stops the pressing (the fit tried -0.02 to +0.08).
+face_params = { lipOpenOffset = 0.04 }
+
+# BlendShapeParameters.bs_weight_multipliers, PascalCase ARKit names. A value here
+# REPLACES the NIM's default for that shape; unlisted shapes keep theirs. JawOpen's
+# default is 3.0, every other mouth shape's 1.0.
+[male.a2f.blendshape_multipliers]
+JawOpen = 2.17
+JawForward = 0.87
+JawLeft = 0.66
+JawRight = 0.66
+MouthClose = 0.55
+MouthFunnel = 0.74
+MouthPucker = 0.9
+MouthLeft = 1.29
+MouthRight = 1.29
+MouthSmileLeft = 1.5
+MouthSmileRight = 1.5
+MouthFrownLeft = 0.4
+MouthFrownRight = 0.4
+MouthDimpleLeft = 0.65
+MouthDimpleRight = 0.65
+MouthStretchLeft = 0.4
+MouthStretchRight = 0.4
+MouthRollLower = 1.1
+MouthRollUpper = 1.1
+MouthShrugLower = 0.74
+MouthShrugUpper = 0.73
+MouthPressLeft = 1.1
+MouthPressRight = 1.1
+MouthLowerDownLeft = 1.0
+MouthLowerDownRight = 1.0
+MouthUpperUpLeft = 1.11
+MouthUpperUpRight = 1.11

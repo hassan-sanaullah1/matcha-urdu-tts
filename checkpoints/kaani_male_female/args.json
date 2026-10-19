@@ -1,0 +1,22 @@
+{
+ "tag": "male_v2_asis",
+ "init": "/home/ubuntu/Desktop/kaani/pk-r16-lullaby-r5p2-recipe/checkpoints/r16_lullaby/step=007999.ckpt",
+ "data": "/home/ubuntu/Desktop/kaani/pk-r29-kaani-male-voice/data/uplift_lists",
+ "support": "/home/ubuntu/Desktop/kaani/pk-r16-lullaby-r5p2-recipe/data/lullaby_build/train.txt",
+ "steps": 4000,
+ "bs": 8,
+ "accum": 2,
+ "lr": 0.0001,
+ "out_size": 344,
+ "ckpt_every": 1000,
+ "workers": 4,
+ "target_weight": 0.7,
+ "spk_lr_mult": 10.0,
+ "no_row_b": true,
+ "freeze_text": true,
+ "train_duration": false,
+ "freeze_mu": true,
+ "warm_start": "/home/ubuntu/Desktop/kaani/pk-r16-lullaby-r5p2-recipe/checkpoints/r16_lullaby/step=007999.ckpt",
+ "rows_target": 166,
+ "rows_support": 71
+}

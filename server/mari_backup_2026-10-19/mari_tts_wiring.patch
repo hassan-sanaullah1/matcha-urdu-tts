@@ -1,0 +1,2042 @@
+diff --git a/.env.example b/.env.example
+index 0504dff..1168eba 100644
+--- a/.env.example
++++ b/.env.example
+@@ -45,15 +45,28 @@ APP_UPLIFT_SPEED=0.9
+ # unhurried assistant, but re-listen at each step — the curve is not monotonic.
+ APP_UPLIFT_SPEED_EN=0.98
+ 
+-# ── TTS — local Matcha-TTS voice for the FEMALE presenter's Urdu (off by default) ──
+-# "matcha" sends her Urdu sentences to the local server in kaani/kisok-integrated-tts
+-# (start it with its run_server.sh, or set MARI_MATCHA_TTS_DIR for ./mari.sh). The male
+-# presenter's Urdu and all English stay on the voices above. Default: uplift.
++# ── TTS — local Matcha-TTS Urdu voices (off by default) ──
++# "matcha" sends Urdu sentences to a local TTS server instead of Uplift. It serves one
++# voice per presenter, named in each request, so either or both presenters can use it.
++# All English stays on the voices above. Default: uplift.
++#
++#   APP_UR_TTS            the default engine for every presenter: uplift | matcha
++#   APP_UR_TTS_<ID>       overrides it for one presenter (the ids in server/personas.toml)
++#
++# both local:        APP_UR_TTS=matcha
++# both paid:         APP_UR_TTS=uplift
++# female local only: APP_UR_TTS=matcha  + APP_UR_TTS_MALE=uplift
++# male local only:   APP_UR_TTS=matcha  + APP_UR_TTS_FEMALE=uplift
+ # APP_UR_TTS=matcha
++# APP_UR_TTS_FEMALE=uplift
++# APP_UR_TTS_MALE=uplift
++# The server's address. 127.0.0.1 when this backend runs on the host; for a backend in
++# Docker use the host's bridge address (172.17.0.1), and bind the server to it.
+ # APP_MATCHA_TTS_URL=http://127.0.0.1:8030
+ # 1.0 is the model's own pace; clamped to 0.6–1.5.
+ # APP_MATCHA_SPEED=1.0
+-# 1 (default): a sentence the local server can't render is spoken by Uplift instead.
++# 1 (default): a sentence the local server can't render is spoken by Uplift instead, in
++# that presenter's own Uplift voice.
+ # APP_MATCHA_FALLBACK=1
+ 
+ # ── English ─────────────────────────────────────────────────────────
+diff --git a/server/app.py b/server/app.py
+index cf37566..2c0ac8f 100644
+--- a/server/app.py
++++ b/server/app.py
+@@ -25,7 +25,7 @@ from .agent.policy import failure_reply, fallback_reply
+ from .agent.responder import respond
+ from .agent.session import VoiceSession
+ from .logging_setup import configure_logging, is_quiet, new_request_id, request_id
+-from .personas import get_persona
++from .personas import all_personas, get_persona, tts_engine
+ from .prompts import get_prompts
+ 
+ configure_logging()
+@@ -67,9 +67,13 @@ async def log_request(
+ async def _startup() -> None:
+     get_prompts()  # a missing prompt file stops startup here
+     asyncio.create_task(providers.warm("en"))
+-    if config.UR_TTS == "matcha":
+-        # Only checks the local TTS server; Soniox has nothing to preload.
+-        asyncio.create_task(providers.warm("ur"))
++    # Only checks the local TTS server; Soniox has nothing to preload. Warmed as the
++    # first presenter routed to it, which is not always the default presenter.
++    local_ur = next(
++        (p.id for p in all_personas().values() if tts_engine("ur", p) == "matcha"), None
++    )
++    if local_ur is not None:
++        asyncio.create_task(providers.warm("ur", local_ur))
+     asyncio.create_task(avatar.warm())
+     # Minutes on a cold container; turns are answered from the core brief meanwhile.
+     asyncio.create_task(rag.startup())
+diff --git a/server/config.py b/server/config.py
+index 749436b..dcc2b5a 100644
+--- a/server/config.py
++++ b/server/config.py
+@@ -100,9 +100,10 @@ try:
+ except ValueError:
+     UPLIFT_SPEED_EN = 0.98
+ 
+-# ── Urdu TTS for the female presenter: "uplift" (default) or "matcha", a local
+-#    server (kaani/kisok-integrated-tts) reached over HTTP only. Matcha-TTS is a female
+-#    voice, so the male presenter's Urdu stays on Uplift either way. ──
++# ── Urdu TTS: "uplift" (default) or "matcha", a local server reached over HTTP only,
++#    which serves a voice per presenter. APP_UR_TTS is the default for every presenter
++#    and APP_UR_TTS_<PRESENTER> overrides it for one, so a deployment can run one
++#    presenter locally and the other on Uplift. ──
+ UR_TTS = env("APP_UR_TTS", "uplift")
+ MATCHA_URL = env("APP_MATCHA_TTS_URL", "http://127.0.0.1:8030").rstrip("/")
+ # 1.0 is the model's own pace; the server clamps to 0.6–1.5 too.
+@@ -113,6 +114,16 @@ except ValueError:
+ # A sentence the local server can't render goes to Uplift rather than being silent.
+ MATCHA_FALLBACK = env("APP_MATCHA_FALLBACK", "1").lower() not in ("0", "false", "no", "off")
+ 
++
++def ur_tts_for(persona_id: str) -> str:
++    """Which Urdu engine this presenter prefers: APP_UR_TTS_<PRESENTER>, else APP_UR_TTS.
++
++    Read per call rather than at import, and keyed by the presenter id from
++    personas.toml, so no presenter is named in this file. personas.tts_engine() still
++    has the last word: a presenter that does not list the engine keeps its own.
++    """
++    return env(f"APP_UR_TTS_{persona_id.upper()}", UR_TTS)
++
+ # ── English STT/TTS. Urdu uses Soniox, and Uplift or Matcha-TTS (UR_TTS). English TTS
+ #    defaults to Uplift because no Kokoro instance is deployed; set
+ #    APP_EN_TTS=local|remote when one is. ──
+@@ -226,7 +237,7 @@ async def _ur_tts_status() -> dict:
+         }
+         for persona in all_personas().values()
+     }
+-    if UR_TTS != "matcha":
++    if not any(p["provider"] == "matcha" for p in per_persona.values()):
+         return per_persona
+     import httpx
+ 
+diff --git a/server/personas.py b/server/personas.py
+index e2cb084..d250822 100644
+--- a/server/personas.py
++++ b/server/personas.py
+@@ -62,9 +62,9 @@ class Persona:
+     def urdu_engine(self, configured: str) -> str:
+         """Which engine actually speaks this persona's Urdu.
+ 
+-        ``configured`` is the deployment's preference (APP_UR_TTS). A persona that
+-        cannot use it — Matcha-TTS is a female voice — falls back to its own first
+-        supported engine rather than being silent.
++        ``configured`` is the deployment's preference for this presenter. A persona that
++        does not list it falls back to its own first supported engine rather than being
++        silent.
+         """
+         if configured in self.urdu_engines:
+             return configured
+@@ -112,14 +112,14 @@ def default_persona() -> Persona:
+ def tts_engine(lang: str, persona: Persona) -> str:
+     """Which engine speaks this language for this presenter.
+ 
+-    Urdu is the interesting case: the deployment's preference (APP_UR_TTS) only applies
+-    if the persona supports it, because Matcha-TTS is a female voice.
++    Urdu is the interesting case: the preference is per presenter (config.ur_tts_for),
++    and it only applies if the persona lists that engine.
+ 
+     Here rather than in providers/tts.py so that config.tts_ready() can ask the same
+     question without the bottom layer importing the adapter layer.
+     """
+     if lang == "ur":
+-        return persona.urdu_engine(config.UR_TTS)
++        return persona.urdu_engine(config.ur_tts_for(persona.id))
+     return config.EN_TTS
+ 
+ 
+diff --git a/server/personas.toml b/server/personas.toml
+index 9abe3c5..53073c7 100644
+--- a/server/personas.toml
++++ b/server/personas.toml
+@@ -18,9 +18,8 @@ display_name = "Maryam"
+ # (server/agent/reply_fixes.py) and the gendered UI copy.
+ grammatical_gender = "f"
+ 
+-# Which engines may speak this persona's Urdu, best first. Matcha-TTS is a female
+-# voice, so only she can use it; it falls back to Uplift by itself when the local
+-# server is down.
++# Which engines may speak this persona's Urdu, best first. Matcha-TTS serves a voice
++# per presenter; it falls back to Uplift by itself when the local server is down.
+ urdu_engines = ["matcha", "uplift"]
+ 
+ # Voice id per engine and language, as the name of the setting that holds it.
+@@ -40,8 +39,7 @@ blendshape_multipliers = {}
+ [male]
+ display_name = "Hamza"
+ grammatical_gender = "m"
+-# Uplift only: Matcha-TTS is a female voice.
+-urdu_engines = ["uplift"]
++urdu_engines = ["matcha", "uplift"]
+ 
+ [male.voices]
+ # One Uplift voice covers both languages; there is no separate male English id.
+diff --git a/server/providers/__init__.py b/server/providers/__init__.py
+index 99507c0..1d8e0be 100644
+--- a/server/providers/__init__.py
++++ b/server/providers/__init__.py
+@@ -45,10 +45,12 @@ __all__ = [
+ ]
+ 
+ 
+-async def warm(lang: str = "en") -> None:
++async def warm(lang: str = "en", avatar: str | None = None) -> None:
+     """Preload local-model adapters (Whisper/Kokoro) in the background so the first
+     turn in that language isn't slowed by model load, and check the Matcha-TTS server is
+-    up. No-op for remote adapters."""
++    up. No-op for remote adapters.
++
++    ``avatar`` picks whose TTS adapter to warm; the default presenter's when None."""
+     import asyncio
+ 
+     stt_provider = get_stt_provider(lang)
+@@ -57,7 +59,7 @@ async def warm(lang: str = "en") -> None:
+             await asyncio.to_thread(stt_provider.warm)
+         except Exception:
+             pass
+-    tts_provider = get_tts_provider(lang)
++    tts_provider = get_tts_provider(lang, avatar)
+     if hasattr(tts_provider, "warm"):
+         try:
+             await asyncio.to_thread(tts_provider.warm)
+diff --git a/server/providers/tts.py b/server/providers/tts.py
+index 22e4c69..9ca7a6b 100644
+--- a/server/providers/tts.py
++++ b/server/providers/tts.py
+@@ -86,20 +86,32 @@ def _matcha_client() -> httpx.AsyncClient:
+ 
+ 
+ class MatchaTTS(TTSProvider):
+-    """A local Matcha-TTS server (kaani/kisok-integrated-tts): Urdu with English mixed
+-    in, 16-bit mono 22050 Hz WAV. Reached over HTTP only; its env is separate from ours.
++    """A local Matcha-TTS server (APP_MATCHA_TTS_URL): Urdu with English mixed in,
++    16-bit mono 22050 Hz WAV. Reached over HTTP only; its env is separate from ours.
++
++    It serves one voice per presenter, named in each request by the server's own voice
++    aliases: f for the feminine presenter's voice, m for the other.
+ 
+     It gets the reply sentence as the responder wrote it, English still in Latin script.
+-    When the server is down or fails, the sentence goes to Uplift (APP_MATCHA_FALLBACK).
++    When the server is down or fails, the sentence goes to Uplift (APP_MATCHA_FALLBACK),
++    in this presenter's own Uplift voice.
+     """
+ 
+     wants_spoken_form = False
+     engine = "matcha"
+     lang = "ur"
+ 
+-    def __init__(self, base: str = "", client: httpx.AsyncClient | None = None):
++    def __init__(
++        self,
++        base: str = "",
++        client: httpx.AsyncClient | None = None,
++        voice: str = "f",
++        uplift_voice: str = "",
++    ):
+         self.base = (base or config.MATCHA_URL).rstrip("/")
+         self._client = client
++        self.voice = voice
++        self._uplift_voice = uplift_voice
+         self._uplift: UpliftTTS | None = None
+ 
+     async def synthesize(self, text: str) -> tuple[bytes, str]:
+@@ -109,7 +121,8 @@ class MatchaTTS(TTSProvider):
+         client = self._client or _matcha_client()
+         try:
+             r = await client.post(
+-                f"{self.base}/v1/tts", json={"text": text, "speed": config.MATCHA_SPEED}
++                f"{self.base}/v1/tts",
++                json={"text": text, "speed": config.MATCHA_SPEED, "voice": self.voice},
+             )
+         except httpx.TransportError as exc:
+             if not config.MATCHA_FALLBACK:
+@@ -133,10 +146,13 @@ class MatchaTTS(TTSProvider):
+ 
+         logger.warning("Matcha-TTS failed (%s), speaking this sentence with Uplift", reason)
+         if self._uplift is None:
+-            # Only a persona that lists matcha reaches this adapter, so its own Uplift
+-            # Urdu voice is the right stand-in.
+-            persona = next(p for p in all_personas().values() if "matcha" in p.urdu_engines)
+-            self._uplift = UpliftTTS(voice=persona.voice("ur", "uplift"))
++            # This presenter's own Uplift Urdu voice, passed in by get_tts_provider, so a
++            # presenter never falls back into another one's voice.
++            voice = self._uplift_voice
++            if not voice:
++                persona = next(p for p in all_personas().values() if "matcha" in p.urdu_engines)
++                voice = persona.voice("ur", "uplift")
++            self._uplift = UpliftTTS(voice=voice)
+         # speech.speak skipped normalization for this adapter; Uplift needs it.
+         return await self._uplift.synthesize(normalize_for_tts(text, "ur", "uplift"))
+ 
+@@ -258,7 +274,11 @@ def get_tts_provider(lang: str, avatar: str | None = None) -> TTSProvider:
+     key = f"{lang}:{engine}:{persona.id}"
+     if key not in _tts_cache:
+         if engine == "matcha":
+-            _tts_cache[key] = MatchaTTS()
++            _tts_cache[key] = MatchaTTS(
++                # The server's voice aliases, read off the Persona rather than its id.
++                voice=("f" if persona.is_feminine else "m"),
++                uplift_voice=persona.voice(lang, "uplift"),
++            )
+         elif engine == "uplift":
+             _tts_cache[key] = UpliftTTS(voice=persona.voice(lang, "uplift"), lang=lang)
+         else:
+diff --git a/tests/fixtures/golden.json b/tests/fixtures/golden.json
+index ff386e7..0b6a9fa 100644
+--- a/tests/fixtures/golden.json
++++ b/tests/fixtures/golden.json
+@@ -24509,8 +24509,11 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -24518,8 +24521,11 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -24527,8 +24533,11 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "done",
+@@ -24562,7 +24571,32 @@
+      "kind": "tts",
+      "payload": {
+       "text": "وعلیکم السلام، میں مریم ہوں، Mari Energies کی نمائندہ۔",
+-      "speed": 1.0
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "ہم نے 1954 میں ڈہرکی میں Mari Gas Field دریافت کیا تھا۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "Sky47 کے کلاؤڈ انفرا اسٹرکچر میں Huawei Ascend NPU کلسٹرز استعمال ہوتے ہیں؟",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "مزید معلومات کے لیے marienergies.com.pk دیکھیں۔",
++      "speed": 1.0,
++      "voice": "f"
+      }
+     }
+    ]
+@@ -24580,8 +24614,11 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -24589,8 +24626,11 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -24598,12 +24638,15 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "done",
+-     "spoken": false
++     "spoken": true
+     }
+    ],
+    "net": [
+@@ -24640,6 +24683,30 @@
+        "enable_thinking": false
+       }
+      }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "میں بتا سکتا ہوں کہ PKR 65.14bn منافع ہوا، اور کمپنی کی سبسڈیری Mari Minerals کاپر اور گولڈ پر کام کرتی ہے۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "MD/CEO Faheem Haider ہیں…",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "میتھین مٹیگیشن GEM Energy کا کام ہے۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
+     }
+    ]
+   },
+@@ -24656,8 +24723,11 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -24665,8 +24735,11 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -24674,8 +24747,11 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -24683,12 +24759,15 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "done",
+-     "spoken": false
++     "spoken": true
+     }
+    ],
+    "net": [
+@@ -24713,6 +24792,38 @@
+        "enable_thinking": false
+       }
+      }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "السلام علیکم، میں مریم ہوں، Mari Energies کی نمائندہ۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "ہم نے 1954 میں ڈہرکی میں Mari Gas Field دریافت کیا تھا۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "Sky47 کے کلاؤڈ انفرا اسٹرکچر میں Huawei Ascend NPU کلسٹرز استعمال ہوتے ہیں؟",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "مزید معلومات کے لیے marienergies.com.pk دیکھیں۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
+     }
+    ]
+   },
+@@ -24729,8 +24840,11 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -24738,8 +24852,11 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -24747,8 +24864,11 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -24756,12 +24876,15 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "done",
+-     "spoken": false
++     "spoken": true
+     }
+    ],
+    "net": [
+@@ -24830,6 +24953,38 @@
+        "enable_thinking": false
+       }
+      }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "میں نے آپ کی بات سن لی، لیکن لینگویج ماڈل تک رسائی نہیں، اس لیے ابھی Mari Energies کی معلومات سے جواب نہیں دے سکتی۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "یہی تفصیل marienergies.",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "com.",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "pk پر موجود ہے۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
+     }
+    ]
+   },
+@@ -24846,8 +25001,11 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -24855,8 +25013,11 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -24864,12 +25025,15 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "done",
+-     "spoken": false
++     "spoken": true
+     }
+    ],
+    "net": [
+@@ -24894,6 +25058,30 @@
+        "enable_thinking": false
+       }
+      }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "وعلیکم السلام، میں مریم ہوں، Mari Energies کی نمائندہ۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "ہم نے 1954 میں ڈہرکی میں Mari Gas Field دریافت کیا تھا۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "Sky47",
++      "speed": 1.0,
++      "voice": "f"
++     }
+     }
+    ]
+   },
+@@ -24910,8 +25098,11 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -24919,8 +25110,11 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -24928,8 +25122,11 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -24937,12 +25134,15 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "done",
+-     "spoken": false
++     "spoken": true
+     }
+    ],
+    "net": [
+@@ -25011,6 +25211,38 @@
+        "enable_thinking": false
+       }
+      }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "میں نے آپ کی بات سن لی، لیکن لینگویج ماڈل تک رسائی نہیں، اس لیے ابھی Mari Energies کی معلومات سے جواب نہیں دے سکتی۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "یہی تفصیل marienergies.",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "com.",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "pk پر موجود ہے۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
+     }
+    ]
+   },
+@@ -25027,15 +25259,27 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "done",
+-     "spoken": false
++     "spoken": true
+     }
+    ],
+-   "net": []
++   "net": [
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "معاف کیجیے، میں سن نہیں سکی۔ ذرا دوبارہ کہیے گا؟",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    }
++   ]
+   },
+   "ws/ur/female/empty_silent": {
+    "socket": [
+@@ -25059,8 +25303,11 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -25068,8 +25315,11 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -25077,8 +25327,11 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -25086,12 +25339,15 @@
+      "demo": false
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "done",
+-     "spoken": false
++     "spoken": true
+     }
+    ],
+    "net": [
+@@ -25116,6 +25372,38 @@
+        "enable_thinking": false
+       }
+      }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "السلام علیکم، میں مریم ہوں، Mari Energies کی نمائندہ۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "ہم نے 1954 میں ڈہرکی میں Mari Gas Field دریافت کیا تھا۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "Sky47 کے کلاؤڈ انفرا اسٹرکچر میں Huawei Ascend NPU کلسٹرز استعمال ہوتے ہیں؟",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "مزید معلومات کے لیے marienergies.com.pk دیکھیں۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
+     }
+    ]
+   },
+@@ -25235,7 +25523,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25247,7 +25535,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25259,7 +25547,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25271,7 +25559,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25307,37 +25595,33 @@
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "وعلیکم السلام، میں مریم ہوں، ماڑی Energies کا نمائندہ۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "وعلیکم السلام، میں مریم ہوں، Mari Energies کا نمائندہ۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "ہم نے انیس سو چون میں ڈھرکی میں ماڑی Gas Field دریافت کیا تھا۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "ہم نے 1954 میں ڈہرکی میں Mari Gas Field دریافت کیا تھا۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "Sky Forty Seven کے Cloud infrastructure میں ہواوے Ascend این پی یو klusturz استعمال ہوتے ہیں؟",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "Sky47 کے کلاؤڈ انفرا اسٹرکچر میں Huawei Ascend NPU کلسٹرز استعمال ہوتے ہیں؟",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "مزید معلومات کے لیے ماڑی Energies ڈاٹ کام ڈاٹ پی کے دیکھیں۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "مزید معلومات کے لیے marienergies.com.pk دیکھیں۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     }
+    ]
+@@ -25356,7 +25640,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25368,7 +25652,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25380,7 +25664,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25428,28 +25712,25 @@
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "میں بتا سکتا ہوں کہ 65.14 بلین روپے منافع ہوا، اور کمپنی کی سب سِڈی ری ماڑی Minerals copper اور gold پر کام کرتی ہے۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "میں بتا سکتا ہوں کہ PKR 65.14bn منافع ہوا، اور کمپنی کی سبسڈیری Mari Minerals کاپر اور گولڈ پر کام کرتی ہے۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "ایم ڈی اور سی ای او فہیم حیدر ہیں…",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "MD/CEO Faheem Haider ہیں…",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "methayn mitigation جیم Energy کا کام ہے۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "میتھین مٹیگیشن GEM Energy کا کام ہے۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     }
+    ]
+@@ -25468,7 +25749,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25480,7 +25761,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25492,7 +25773,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25504,7 +25785,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25540,37 +25821,33 @@
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "السلام علیکم، میں مریم ہوں، ماڑی Energies کا نمائندہ۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "السلام علیکم، میں مریم ہوں، Mari Energies کا نمائندہ۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "ہم نے انیس سو چون میں ڈھرکی میں ماڑی Gas Field دریافت کیا تھا۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "ہم نے 1954 میں ڈہرکی میں Mari Gas Field دریافت کیا تھا۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "Sky Forty Seven کے Cloud infrastructure میں ہواوے Ascend این پی یو klusturz استعمال ہوتے ہیں؟",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "Sky47 کے کلاؤڈ انفرا اسٹرکچر میں Huawei Ascend NPU کلسٹرز استعمال ہوتے ہیں؟",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "مزید معلومات کے لیے ماڑی Energies ڈاٹ کام ڈاٹ پی کے دیکھیں۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "مزید معلومات کے لیے marienergies.com.pk دیکھیں۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     }
+    ]
+@@ -25589,7 +25866,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25601,7 +25878,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25613,7 +25890,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25625,7 +25902,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25705,37 +25982,33 @@
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "میں نے آپ کی بات سن لی، لیکن لینگویج ماڈل تک رسائی نہیں، اس لیے ابھی ماڑی Energies کی معلومات سے جواب نہیں دے سکتا۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "میں نے آپ کی بات سن لی، لیکن لینگویج ماڈل تک رسائی نہیں، اس لیے ابھی Mari Energies کی معلومات سے جواب نہیں دے سکتا۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+       "text": "یہی تفصیل marienergies.",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+       "text": "com.",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+       "text": "pk پر موجود ہے۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "speed": 1.0,
++      "voice": "m"
+      }
+     }
+    ]
+@@ -25754,7 +26027,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25766,7 +26039,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25778,7 +26051,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25814,28 +26087,25 @@
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "وعلیکم السلام، میں مریم ہوں، ماڑی Energies کا نمائندہ۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "وعلیکم السلام، میں مریم ہوں، Mari Energies کا نمائندہ۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "ہم نے انیس سو چون میں ڈھرکی میں ماڑی Gas Field دریافت کیا تھا۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "ہم نے 1954 میں ڈہرکی میں Mari Gas Field دریافت کیا تھا۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "Sky Forty Seven",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "Sky47",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     }
+    ]
+@@ -25854,7 +26124,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25866,7 +26136,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25878,7 +26148,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25890,7 +26160,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -25970,37 +26240,33 @@
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "میں نے آپ کی بات سن لی، لیکن لینگویج ماڈل تک رسائی نہیں، اس لیے ابھی ماڑی Energies کی معلومات سے جواب نہیں دے سکتا۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "میں نے آپ کی بات سن لی، لیکن لینگویج ماڈل تک رسائی نہیں، اس لیے ابھی Mari Energies کی معلومات سے جواب نہیں دے سکتا۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+       "text": "یہی تفصیل marienergies.",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+       "text": "com.",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+       "text": "pk پر موجود ہے۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "speed": 1.0,
++      "voice": "m"
+      }
+     }
+    ]
+@@ -26019,7 +26285,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -26033,10 +26299,9 @@
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+       "text": "معاف کیجیے، میں سن نہیں سکا۔ ذرا دوبارہ کہیے گا؟",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "speed": 1.0,
++      "voice": "m"
+      }
+     }
+    ]
+@@ -26064,7 +26329,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -26076,7 +26341,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -26088,7 +26353,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -26100,7 +26365,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -26136,37 +26401,33 @@
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "السلام علیکم، میں مریم ہوں، ماڑی Energies کا نمائندہ۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "السلام علیکم، میں مریم ہوں، Mari Energies کا نمائندہ۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "ہم نے انیس سو چون میں ڈھرکی میں ماڑی Gas Field دریافت کیا تھا۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "ہم نے 1954 میں ڈہرکی میں Mari Gas Field دریافت کیا تھا۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "Sky Forty Seven کے Cloud infrastructure میں ہواوے Ascend این پی یو klusturz استعمال ہوتے ہیں؟",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "Sky47 کے کلاؤڈ انفرا اسٹرکچر میں Huawei Ascend NPU کلسٹرز استعمال ہوتے ہیں؟",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "مزید معلومات کے لیے ماڑی Energies ڈاٹ کام ڈاٹ پی کے دیکھیں۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "مزید معلومات کے لیے marienergies.com.pk دیکھیں۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     }
+    ]
+@@ -26484,8 +26745,11 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -26493,8 +26757,11 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -26502,8 +26769,11 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -26511,15 +26781,51 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "done",
+-     "spoken": false
++     "spoken": true
+     }
+    ],
+-   "net": []
++   "net": [
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "میں نے آپ کی بات سن لی، لیکن لینگویج ماڈل تک رسائی نہیں، اس لیے ابھی Mari Energies کی معلومات سے جواب نہیں دے سکتی۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "یہی تفصیل marienergies.",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "com.",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "pk پر موجود ہے۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    }
++   ]
+   },
+   "ws/ur/male/demo": {
+    "socket": [
+@@ -26535,7 +26841,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -26547,7 +26853,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -26559,7 +26865,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -26571,7 +26877,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -26585,37 +26891,33 @@
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "میں نے آپ کی بات سن لی، لیکن لینگویج ماڈل تک رسائی نہیں، اس لیے ابھی ماڑی Energies کی معلومات سے جواب نہیں دے سکتا۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "میں نے آپ کی بات سن لی، لیکن لینگویج ماڈل تک رسائی نہیں، اس لیے ابھی Mari Energies کی معلومات سے جواب نہیں دے سکتا۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+       "text": "یہی تفصیل marienergies.",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+       "text": "com.",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+       "text": "pk پر موجود ہے۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "speed": 1.0,
++      "voice": "m"
+      }
+     }
+    ]
+@@ -26747,8 +27049,11 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -26756,8 +27061,11 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -26765,8 +27073,11 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "reply",
+@@ -26774,15 +27085,51 @@
+      "demo": true
+     },
+     {
+-     "type": "warn",
+-     "message": "tts: '_Client' object has no attribute 'is_closed'"
++     "type": "tts",
++     "mime": "audio/wav"
++    },
++    {
++     "bytes": 7
+     },
+     {
+      "type": "done",
+-     "spoken": false
++     "spoken": true
+     }
+    ],
+-   "net": []
++   "net": [
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "Assalamualaikum میں Maryam ہوں، اور میں Mari Energies کی ایک representative ہوں۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "Sky47، جو Mari Energies کا Data Center اور AI کلاؤڈ Infrastructure Vertical ہے، پاکستان کا سب سے بڑا کلاؤڈ AI Farm چلاتا ہے۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "یہ Huawei Ascend NPU clusters کی مدد سے GPU-as-a-Service فراہم کرتا ہے۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    },
++    {
++     "kind": "tts",
++     "payload": {
++      "text": "اس میں liquid-cooled racks استعمال ہوتے ہیں جو فی rack پچاس Kilo Watts تک handle کر سکتے ہیں۔",
++      "speed": 1.0,
++      "voice": "f"
++     }
++    }
++   ]
+   },
+   "ws/ur/male/pitch": {
+    "socket": [
+@@ -26798,7 +27145,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -26810,7 +27157,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -26822,7 +27169,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -26834,7 +27181,7 @@
+     },
+     {
+      "type": "tts",
+-     "mime": "audio/mpeg"
++     "mime": "audio/wav"
+     },
+     {
+      "bytes": 7
+@@ -26848,37 +27195,33 @@
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "السلام علیکم میں حمزہ ہوں، اور میں ماڑی Energies کا ایک representative ہوں۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "Assalamualaikum میں Hamza ہوں، اور میں Mari Energies کا ایک representative ہوں۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "Sky Forty Seven، جو ماڑی Energies کا Data Center اور اے آئی Cloud Infrastructure vertical ہے، پاکستان کا سب سے بڑا Cloud اے آئی Farm چلاتا ہے۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "Sky47، جو Mari Energies کا Data Center اور AI کلاؤڈ Infrastructure Vertical ہے، پاکستان کا سب سے بڑا کلاؤڈ AI Farm چلاتا ہے۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "یہ ہواوے Ascend این پی یو klusturz کی مدد سے جی پی یو-as-a-Service فراہم کرتا ہے۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "یہ Huawei Ascend NPU clusters کی مدد سے GPU-as-a-Service فراہم کرتا ہے۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     },
+     {
+      "kind": "tts",
+      "payload": {
+-      "voiceId": "v_8eelc901v6",
+-      "text": "اس میں likwid koold racks استعمال ہوتے ہیں جو فی rack پچاس کلو واٹ تک handle کر سکتے ہیں۔",
+-      "speed": 0.9,
+-      "outputFormat": "MP3_22050_32"
++      "text": "اس میں liquid-cooled racks استعمال ہوتے ہیں جو فی rack پچاس Kilo Watts تک handle کر سکتے ہیں۔",
++      "speed": 1.0,
++      "voice": "m"
+      }
+     }
+    ]
+diff --git a/tests/golden_harness.py b/tests/golden_harness.py
+index 359849b..9542681 100644
+--- a/tests/golden_harness.py
++++ b/tests/golden_harness.py
+@@ -176,6 +176,10 @@ class FakeNet:
+                 return False
+ 
+         class _Client:
++            # The Matcha-TTS adapter keeps one client and re-opens it only if it was
++            # closed, so every call after the first one reads this.
++            is_closed = False
++
+             def __init__(self, *args, **kwargs):
+                 pass
+ 
+diff --git a/tests/test_env_example.py b/tests/test_env_example.py
+index abc44b0..61d166e 100644
+--- a/tests/test_env_example.py
++++ b/tests/test_env_example.py
+@@ -37,6 +37,17 @@ def _settings_config_reads() -> set[str]:
+     )
+ 
+ 
++def _per_presenter_settings() -> set[str]:
++    """`APP_UR_TTS_<PRESENTER>`, built by config.ur_tts_for() from the presenter ids.
++
++    The key is assembled at call time, so the regex above cannot find it in config.py;
++    taking the ids from personas.toml keeps the pair in step with the presenters.
++    """
++    from server.personas import persona_ids
++
++    return {f"APP_UR_TTS_{persona_id.upper()}" for persona_id in persona_ids()}
++
++
+ def _rag_setting_names() -> set[str]:
+     """Every `MARI_RAG_*` key, from the RagSettings field names."""
+     from server.rag.settings import RagSettings
+@@ -80,7 +91,12 @@ def test_documented_retrieval_settings_are_real() -> None:
+ 
+ def test_no_documented_setting_is_dead() -> None:
+     """A key in the file that nothing reads sends people to configure the wrong thing."""
+-    known = _settings_config_reads() | _rag_setting_names() | NOT_FOR_DEPLOYMENTS
++    known = (
++        _settings_config_reads()
++        | _per_presenter_settings()
++        | _rag_setting_names()
++        | NOT_FOR_DEPLOYMENTS
++    )
+     dead = sorted(
+         key for key in _declared_in_example() - known if key.startswith(("APP_", "MARI_"))
+     )
+diff --git a/tests/test_matcha_tts.py b/tests/test_matcha_tts.py
+index f1c9066..72965c6 100644
+--- a/tests/test_matcha_tts.py
++++ b/tests/test_matcha_tts.py
+@@ -1,10 +1,10 @@
+-"""The local Matcha-TTS voice for the female presenter's Urdu, and synthesis ahead
+-of playback.
++"""The local Matcha-TTS voices for Urdu, and synthesis ahead of playback.
+ 
+-Matcha-TTS is a female voice, so APP_UR_TTS=matcha moves only the female presenter's Urdu
+-off Uplift. Its server has its own normalizer, so the reply goes to it as the responder
+-wrote it; Uplift's spoken forms would make it worse. When the server is down, the
+-sentence is spoken by Uplift instead of being lost.
++Matcha-TTS serves a voice per presenter, so APP_UR_TTS=matcha moves both presenters'
++Urdu off Uplift, and APP_UR_TTS_<PRESENTER> moves just one. Its server has its own
++normalizer, so the reply goes to it as the responder wrote it; Uplift's spoken forms
++would make it worse. When the server is down, the sentence is spoken by Uplift instead
++of being lost, in that presenter's own Uplift voice.
+ 
+ The turn renders each sentence's audio as soon as the responder yields it, but the
+ browser must still get reply → tts → bytes for one sentence before the next begins.
+@@ -64,24 +64,33 @@ def test_by_default_urdu_stays_on_uplift(avatar_id: str) -> None:
+     assert C.tts_ready("ur", avatar_id)
+ 
+ 
+-def test_matcha_speaks_the_female_presenters_urdu(monkeypatch) -> None:
++@pytest.mark.parametrize(
++    ("avatar_id", "voice", "uplift_voice_setting"),
++    [("female", "f", "UPLIFT_VOICE"), ("male", "m", "UPLIFT_VOICE_MALE")],
++)
++def test_matcha_speaks_each_presenters_urdu_in_its_own_voice(
++    monkeypatch, avatar_id: str, voice: str, uplift_voice_setting: str
++) -> None:
++    """Each presenter gets its own local voice, and its own Uplift voice to fall back to."""
+     monkeypatch.setattr(C, "UR_TTS", "matcha")
+-    provider = get_tts_provider("ur", "female")
++    provider = get_tts_provider("ur", avatar_id)
+     assert isinstance(provider, MatchaTTS)
+-    assert get_tts_provider("ur", "female") is provider
++    assert provider.voice == voice
++    assert provider._uplift_voice == getattr(C, uplift_voice_setting)
++    assert get_tts_provider("ur", avatar_id) is provider
+     # Ready without an Uplift key: the server answers or the adapter falls back.
+     monkeypatch.setattr(C, "UPLIFT_KEY", "")
+-    assert C.tts_ready("ur", "female")
++    assert C.tts_ready("ur", avatar_id)
+ 
+ 
+-def test_the_male_presenter_keeps_uplift(monkeypatch) -> None:
+-    """Matcha-TTS is a female voice."""
++def test_one_presenter_can_stay_on_uplift(monkeypatch) -> None:
++    """APP_UR_TTS_<PRESENTER> overrides APP_UR_TTS for that presenter only."""
+     monkeypatch.setattr(C, "UR_TTS", "matcha")
+-    provider = get_tts_provider("ur", "male")
+-    assert isinstance(provider, UpliftTTS)
+-    assert provider.voice == C.UPLIFT_VOICE_MALE
+-    monkeypatch.setattr(C, "UPLIFT_KEY", "")
+-    assert not C.tts_ready("ur", "male")
++    monkeypatch.setitem(C.ENV, "APP_UR_TTS_MALE", "uplift")
++    male = get_tts_provider("ur", "male")
++    assert isinstance(male, UpliftTTS)
++    assert male.voice == C.UPLIFT_VOICE_MALE
++    assert isinstance(get_tts_provider("ur", "female"), MatchaTTS)
+ 
+ 
+ @pytest.mark.parametrize("avatar_id", ["female", "male"])
+@@ -121,7 +130,7 @@ def test_returns_the_servers_wav(monkeypatch) -> None:
+ 
+     assert asyncio.run(_matcha(handler).synthesize(SENTENCE)) == (WAV, "audio/wav")
+     assert str(seen[0].url) == "http://matcha.test/v1/tts"
+-    assert json.loads(seen[0].content) == {"text": SENTENCE, "speed": 1.1}
++    assert json.loads(seen[0].content) == {"text": SENTENCE, "speed": 1.1, "voice": "f"}
+ 
+ 
+ def test_empty_text_makes_no_request() -> None:
+diff --git a/tests/test_personas_are_data.py b/tests/test_personas_are_data.py
+index 57f5b65..15cd414 100644
+--- a/tests/test_personas_are_data.py
++++ b/tests/test_personas_are_data.py
+@@ -86,12 +86,15 @@ def test_default_presenter_is_the_first_in_the_file() -> None:
+     assert default_persona().id == persona_ids()[0]
+ 
+ 
+-def test_matcha_is_offered_only_to_a_feminine_presenter() -> None:
+-    """Matcha-TTS is a female voice; a male presenter routed to it would sound wrong."""
++def test_a_matcha_presenter_can_still_fall_back_to_uplift() -> None:
++    """Matcha-TTS serves a voice per presenter, but its server is local and may be down,
++    so every presenter routed to it needs an Uplift Urdu voice of its own to fall back
++    on — otherwise a sentence would be lost rather than merely spoken by the paid voice.
++    """
+     for persona in all_personas().values():
+         if "matcha" in persona.urdu_engines:
+-            assert persona.is_feminine, (
+-                f"{persona.id} lists matcha but is not feminine — it is a female voice"
++            assert persona.voice("ur", "uplift"), (
++                f"{persona.id} lists matcha but has no uplift:ur voice to fall back to"
+             )
+ 
+ 
