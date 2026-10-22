@@ -1,0 +1,21 @@
+{
+ "tag": "voice_enfix",
+ "data": "data/3_training_lists/voice_enfix",
+ "steps": 8000,
+ "bs": 8,
+ "accum": 2,
+ "lr": 0.0001,
+ "out_size": 344,
+ "ckpt_every": 2000,
+ "workers": 4,
+ "support": "data/3_training_lists/rasa_female/train.txt",
+ "support2": "",
+ "support2_share": 0.5,
+ "target_weight": 0.7,
+ "no_row_b": true,
+ "seed_table": "v2",
+ "noise_channel": false,
+ "mask_pauses": false,
+ "spk_lr_mult": 10.0,
+ "base": "AhsanTalal/urdu-matcha-tts/matcha_urdu.ckpt"
+}

@@ -32,6 +32,7 @@ import paths  # noqa: E402  -- kiosk-tts/src/paths.py: every location + the impo
 import argparse
 import functools
 import re
+import threading
 import unicodedata
 
 _URDU = re.compile(r"[؀-ۿݐ-ݿ]")
@@ -47,6 +48,8 @@ PK_PHONES = {
     "fauji": "fˈɔʤiː", "salim": "səlˈiːm", "saleem": "səlˈiːm", "sumair": "sʊmˈeːr", "bannu": "bənnˈuː",
     "clifton": "klˈɪfʈən", "khel": "xˈeːl", "daud": "dˈaːʊd", "spinwam": "spˈiːnʋaːm", "sujawal": "sʊʤˈaːʋəl",
     "bhitai": "bʰɪʈˈaːiː", "huawei": "hˈuːaːʋeː", "general": "ʤˈɛnrəl",
+    # "-cy"/"-ship" on chairman: not dictionary words, so espeak would guess at them.
+    "chairmancy": "ʧˈeːrmənsiː", "chairmanship": "ʧˈeːrmənʃɪp",
 }
 # The front end's mixed-case pattern (PhD, MSc) also matched ANY 2-4 capitals, so NASA, FIFA, NATO, OPEC and
 # headings like ONLY were spelled before the word list was consulted. Mixed case now needs a lowercase letter;
@@ -71,6 +74,21 @@ def frontend():
     for k in ("secp", "hec", "kse"):
         fe.PHONE_OVERRIDE.pop(k, None)
     return fe
+
+
+_ctx = threading.local()
+
+
+def sentence_is_urdu(t):
+    """Urdu-ness of the sentence as it ARRIVED, not as it looks now.
+
+    Several passes insert Urdu script themselves -- ranks_and_codes spells an acronym in Urdu letter
+    names, the gazetteer rewrites Pakistani names -- so a later pass re-deriving this from the text
+    would call an English sentence Urdu and read "the Companies Act, 2017" as "دو ہزار سترہ".
+    normalize() fixes the verdict once; called on its own (the tests do), this falls back to the text.
+    """
+    v = getattr(_ctx, "urdu", None)
+    return is_urdu(t) if v is None else v
 
 
 def is_urdu(text):
@@ -122,15 +140,63 @@ def web(t):
 _AMOUNT = r"(\d[\d,]*(?:\.\d+)?)(\s*(?:million|billion|trillion|thousand|lakh|crore|mn|bn))?"
 
 
+_UR_SCALE = {"million": "ملین", "mn": "ملین", "billion": "ارب", "bn": "ارب", "بلین": "ارب",
+             "trillion": "کھرب", "thousand": "ہزار", "lakh": "لاکھ", "crore": "کروڑ"}
+_UR_CURRENCY = r"(?:روپے|روپیہ|روپئے|ڈالرز|ڈالر)"
+
+
+def _ur_amount(num, scale):
+    """An amount in an Urdu sentence, said in Urdu (user's call, 1 Oct): 65bn -> پینسٹھ ارب, 5.2 -> پانچ اعشاریہ دو.
+    Marked, so frontend.prepare swaps the numerals for phones (urdu_numbers.WORD_PH)."""
+    from urdu_numbers import ONES, POINT, int_to_urdu, mark
+    whole, _, frac = num.replace(",", "").partition(".")
+    words = int_to_urdu(int(whole or "0"))
+    if frac:
+        words += f" {POINT} " + " ".join(ONES[int(d)] for d in frac)
+    scale = (scale or "").strip()
+    return mark(words + (" " + _UR_SCALE.get(scale.lower(), scale) if scale else ""))
+
+
 def money(t):
-    ur = is_urdu(t)
-    rupees, dollars = ("روپے", "ڈالر") if ur else ("rupees", "dollars")
-    t = re.sub(r"\b(?:PKR|Rs\.?|Rs)\s?" + _AMOUNT, lambda m: f"{m.group(1)}{m.group(2) or ''} {rupees}", t)
-    t = re.sub(_AMOUNT + r"\s?(?:PKR|rupees?)\b", lambda m: f"{m.group(1)}{m.group(2) or ''} {rupees}", t)
-    t = re.sub(r"(?:\bUSD\s?|\bUS\$\s?)" + _AMOUNT, lambda m: f"{m.group(1)}{m.group(2) or ''} {dollars}", t)
-    if ur:                                                          # English sentences keep $ for NeMo
-        t = re.sub(r"\$\s?" + _AMOUNT, lambda m: f"{m.group(1)}{m.group(2) or ''} {dollars}", t)
-    return t
+    ur = sentence_is_urdu(t)
+    if ur:
+        say = lambda m, cur: f"{_ur_amount(m.group(1), m.group(2))} {cur}"
+        t = re.sub(r"\b(?:PKR|Rs\.?|Rs)\s?" + _AMOUNT, lambda m: say(m, "روپے"), t)
+        t = re.sub(_AMOUNT + r"\s?(?:PKR|rupees?)\b", lambda m: say(m, "روپے"), t)
+        t = re.sub(r"(?:\bUSD\s?|\bUS\$\s?|\$\s?)" + _AMOUNT, lambda m: say(m, "ڈالر"), t)
+        t = re.sub(_AMOUNT + r"\s?(?:USD|dollars?)\b", lambda m: say(m, "ڈالر"), t)
+        # an amount already followed by an Urdu currency word (45.2 ارب روپے) or a scale word alone (150 billion)
+        t = re.sub(r"(?<![\d.,])" + _AMOUNT + r"(?=\s?" + _UR_CURRENCY + ")", lambda m: _ur_amount(m.group(1), m.group(2)), t)
+        return re.sub(r"(?<![\d.,])(\d[\d,]*(?:\.\d+)?)(\s*(?:million|billion|trillion|mn|bn|ملین|بلین|ٹریلین|ارب|کھرب|کروڑ))"
+                      r"(?![A-Za-z؀-ۿ])", lambda m: _ur_amount(m.group(1), m.group(2)), t)
+    t = re.sub(r"\b(?:PKR|Rs\.?|Rs)\s?" + _AMOUNT, lambda m: f"{m.group(1)}{m.group(2) or ''} rupees", t)
+    t = re.sub(_AMOUNT + r"\s?(?:PKR|rupees?)\b", lambda m: f"{m.group(1)}{m.group(2) or ''} rupees", t)
+    t = re.sub(r"(?:\bUSD\s?|\bUS\$\s?)" + _AMOUNT, lambda m: f"{m.group(1)}{m.group(2) or ''} dollars", t)
+    return t                                                        # English sentences keep $ for NeMo
+
+
+def urdu_year(n):
+    """1954 -> انیس سو چوون (how a year is said, not ایک ہزار نو سو چوون); 2025 -> دو ہزار پچیس.
+    Marked for the phone swap, like every other numeral -- see urdu_numbers.WORD_PH."""
+    from urdu_numbers import ONES, int_to_urdu, mark
+    if n >= 2000:
+        return mark(int_to_urdu(n))
+    return mark(ONES[n // 100] + " سو" + (" " + ONES[n % 100] if n % 100 else ""))
+
+
+def urdu_years(t):
+    """In a sentence with Urdu script every year is said in Urdu (user's call, 1 Oct), also when English words are
+    mixed in. A four-digit number from 1800 to 2099 with no comma, decimal, % or unit after it counts as a year;
+    2024-25 is both years. Dates with an English month name were already spelled out by dates()."""
+    from urdu_numbers import ONES, mark
+    if not sentence_is_urdu(t):
+        return t
+    yr = r"(?:18|19|20)\d\d"
+    t = re.sub(rf"(?<![\w.,/:\-])({yr})-(\d\d|{yr})(?![\w.,%\-])",
+               lambda m: urdu_year(int(m.group(1))) + " "
+               + (urdu_year(int(m.group(2))) if len(m.group(2)) == 4 else mark(ONES[int(m.group(2))])), t)
+    return re.sub(rf"(?<![\w.,/:\-+])({yr})(?![\w%\-]|[.,]\d|\s*(?:%|{_URDU_NUM_WORD}|{_UR_CURRENCY}|فیصد))",
+                  lambda m: urdu_year(int(m.group(1))), t)
 
 
 UNITS = {
@@ -144,36 +210,105 @@ _UNIT = re.compile(r"(\d)\s?(" + "|".join(re.escape(u) for u in sorted(UNITS, ke
 
 
 def units(t):
-    t = re.sub(r"(\d(?:[\d.,]*\d)?)x\b", r"\1 times", t)                    # 2.81x -> 2.81 times
+    # 2.81x -> "2.81 گنا" in an Urdu sentence; the unit names below stay English, which is how
+    # MMSCFD, BOPD and kilowatts are said here.
+    times = " گنا" if sentence_is_urdu(t) else " times"
+    t = re.sub(r"(\d(?:[\d.,]*\d)?)x\b", lambda m: m.group(1) + times, t)
     t = re.sub(r"\b\d+(?:\.\d+){2,}\b",                                       # 2.1.3 -> 2 point 1 point 3
                lambda m: " point ".join(m.group(0).split(".")), t)
     return _UNIT.sub(lambda m: f"{m.group(1)} {UNITS[m.group(2).lower()]}", t)
 
 
+# A postcode is anchored to a city or an explicit label: a bare five-digit run is more often a
+# standard number or a quantity (44000 barrels), so it is not read digit by digit on its own.
+_PC_CITY = (r"(?:اسلام آباد|کراچی|لاہور|کوئٹہ|پشاور|راولپنڈی|ملتان|فیصل آباد|حیدرآباد|سکھر|بنوں"
+            r"|Islamabad|Karachi|Lahore|Quetta|Peshawar|Rawalpindi|Multan|Faisalabad|Hyderabad|Sukkur|Bannu)")
+_POSTCODE = re.compile(r"((?:" + _PC_CITY + r")\s*[،,\u2013\u2014-]\s*"
+                       r"|(?:postal|post|zip)\s*code\s*:?\s*|(?:پوسٹل|ڈاک)\s*کوڈ\s*:?\s*)(\d{5})\b", re.I)
+# A box or extension number is an identifier too, not a count of boxes.
+_BOX = re.compile(r"\b(P\.?\s?O\.?\s*Box|Ext(?:ension)?\.?|باکس|ایکسٹینشن)\s*:?\s*(\d{2,6})\b", re.I)
+
+
 def identifiers(t):
-    """Phone numbers, NTN and registration numbers are read digit by digit, never as one big number."""
+    """Phone numbers, NTN, registration, postcode, box and extension numbers are read digit by digit,
+    never as one big number. The leading "+" of a dialling code is dropped rather than spoken (it was
+    said "جمع", and "plus" before that); every digit after it is still read."""
     def spaced(m):
-        s = m.group(0)
-        digits = re.sub(r"\D", "", s)
-        return (" plus " if s.startswith("+") else " ") + " ".join(digits) + " "
-    t = re.sub(r"(?<![\d.,])\+?\d{1,4}(?:[\- ]\d{2,}){2,}(?![\d.,])", spaced, t)   # +92 51 111 410 410
+        digits = re.sub(r"\D", "", m.group(0))
+        return " " + " ".join(digits) + " "
+    t = re.sub(r"(?<![\d.,])\+?\d{1,4}(?:[\- ]\d{2,}){2,}(?![\d.])(?!,\d)", spaced, t)   # +92 51 111 410 410
     year_range = re.compile(r"^(?:19|20)\d\d-(?:\d\d|(?:19|20)\d\d)$")          # 2024-25, 2020-2021
-    t = re.sub(r"(?<![\d.,])\d+(?:-\d+)+(?![\d.,%])(?!\s*(?:to|سے)\b)",            # 1414673-8, 07-01-2710
+    t = re.sub(r"(?<![\d.,])\d+(?:-\d+)+(?![\d.%])(?!,\d)(?!\s*(?:to|سے)\b)",            # 1414673-8, 07-01-2710
                lambda m: spaced(m) if sum(c.isdigit() for c in m.group(0)) >= 6
                and not year_range.match(m.group(0)) else m.group(0), t)
-    t = re.sub(r"(?<![\d.,])(?:0\d{5,}|\d{9,})(?![\d.,])", spaced, t)              # 00012471, 111410410
+    # 00012471, 111410410, and the 7-8 digit local numbers that share a dialling code earlier in the
+    # line ("Tel (+92) 81 2821052, 2864085, 2839790"). A run that long is an identifier unless a scale,
+    # currency or unit word follows it, which is what tells 2821052 from a quantity.
+    t = re.sub(r"(?<![\d.,])(?:0\d{5,}|\d{7,})(?![\d.])(?!,\d)"
+               r"(?!\s*(?:" + _URDU_NUM_WORD + r"|" + _UR_CURRENCY + r"|million|billion|trillion|thousand"
+               r"|mn|bn|MT|BOPD|BOEPD|MMSCFD|MMBOE|KBOEPD))", spaced, t)
+    t = _POSTCODE.sub(lambda m: m.group(1) + " " + " ".join(m.group(2)) + " ", t)
+    t = _BOX.sub(lambda m: m.group(1) + " " + " ".join(m.group(2)) + " ", t)
     return re.sub(r"\s{2,}", " ", t)
 
 
+# Urdu ordinals 1-10; above that the cardinal plus واں.
+_URDU_ORDINAL = {1: "پہلا", 2: "دوسرا", 3: "تیسرا", 4: "چوتھا", 5: "پانچواں",
+                 6: "چھٹا", 7: "ساتواں", 8: "آٹھواں", 9: "نواں", 10: "دسواں"}
+
+
+def fiscal_year_label(t):
+    """FY2024-25 -> "مالی سال 2024-25". Without this the token is a letter+number code, so its digits were
+    read in English while the tail year was read in Urdu ("ایف وائی twenty twenty four پچیس"). Leaving the
+    digits here lets ranges() juxtapose them and urdu_years() read them as years. Runs before ranges()."""
+    if not sentence_is_urdu(t):
+        return t                           # an English sentence keeps "FY" as the code it is
+    t = re.sub(r"\bFY\s?(\d{2,4})\s*[-\u2013]\s*(\d{2,4})\b", r"مالی سال \1 \2", t)
+    return re.sub(r"\bFY\s?(?=\d)", "مالی سال ", t)
+
+
+def ranges(t):
+    """A hyphen or "to" BETWEEN TWO NUMBERS is a range -- not a minus sign, and not the English word "two".
+
+    urdu_numbers reads a leading "-" as منفی, so "gas 30-36 MMSCFD" was read "thirty MINUS thirty six"
+    (57 hyphen ranges in the knowledge base), and "100 to 115" was read with the English "to", which comes
+    out as ʈˈuː and is heard as "two" -- "one hundred two one hundred fifteen". Both now read سے.
+
+    A fiscal or calendar year range is juxtaposed instead, which is how it is said: FY24-25 -> "چوبیس پچیس".
+    Runs after identifiers(), so NTN/registration/GST numbers are already spaced out digit by digit and
+    their hyphens are gone; letter-hyphen-number codes (G-10, Block-28, Bhitai-6) have a letter before the
+    hyphen and are left to ranks_and_codes().
+    """
+    if not sentence_is_urdu(t):
+        return t                           # an English sentence keeps "10-15" and "2020-21"
+    t = re.sub(r"\b(FY\s?)(\d{2,4})\s*[-\u2013]\s*(\d{2,4})\b", r"\1\2 \3", t)
+    t = re.sub(r"(?<![\d.,\-])((?:19|20)\d{2})\s*[-\u2013]\s*(\d{2}|(?:19|20)\d{2})(?![\d.,\-])",
+               r"\1 \2", t)
+    t = re.sub(r"(?<![\d.,\-])(\d[\d,]*(?:\.\d+)?)\s*[-\u2013]\s*(\d[\d,]*(?:\.\d+)?)(?![\d.,\-])",
+               r"\1 سے \2", t)
+    return re.sub(r"(?<=\d)\s+to\s+(?=\d)", " سے ", t)
+
+
+def ordinals(t):
+    """2nd -> دوسرا. They were read as the English "second": dates() only rewrites an ordinal that sits in
+    front of a month name, so a standalone one ("2nd quarter") fell through to the English span."""
+    if not sentence_is_urdu(t):
+        return t                           # pk_gazetteer reads "3rd March" as "third March"
+
+    def one(m):
+        n = int(m.group(1))
+        return _URDU_ORDINAL.get(n) or (_words(n) + "واں")
+    return re.sub(r"\b(\d{1,3})(?:st|nd|rd|th)\b", one, t)
+
 def urdu_times(t):
-    if not is_urdu(t):
+    if not sentence_is_urdu(t):
         return t
     frontend()                                  # loads frontend.py (and through it urdu_numbers)
-    from urdu_numbers import number_to_urdu
+    from urdu_numbers import mark, number_to_urdu
     def one(m):
         h, mnt = int(m.group(1)), int(m.group(2))
-        return number_to_urdu(str(h)) + " بجے" if mnt == 0 else \
-            f"{number_to_urdu(str(h))} بج کر {number_to_urdu(str(mnt))} منٹ"
+        return mark(number_to_urdu(str(h))) + " بجے" if mnt == 0 else \
+            f"{mark(number_to_urdu(str(h)))} بج کر {mark(number_to_urdu(str(mnt)))} منٹ"
     return re.sub(r"\b(\d{1,2}):(\d{2})\b", one, t)
 
 
@@ -235,18 +370,42 @@ _MONTHS = "January|February|March|April|May|June|July|August|September|October|N
 _MONTH_LIST = _MONTHS.split("|")
 
 
+# Numbers are read in Urdu (user's call, 19 Oct). The three reasons they used to be English are
+# documented below -- mixed_numbers (English for within-sentence consistency), decimals ("اعشاریہ"
+# came out as "acharia") and standards (ISO codes). The "acharia" problem no longer applies:
+# urdu_numbers spells all 100 numerals, اعشاریہ and منفی as phones, so the short vowels are heard.
+# Set URDU_NUMBERS = False to get the old English reading back.
+URDU_NUMBERS = True
+
+
 def _words(n, **kw):
+    """The one place text_norm turns a number into words. to='ordinal'/'year' are ignored in Urdu: Urdu dates
+    use the cardinal ("سولہ اکتوبر", not an ordinal) and a year is read as a plain number."""
+    if URDU_NUMBERS:
+        frontend()                                  # loads urdu_numbers through frontend.py
+        from urdu_numbers import mark, number_to_urdu
+        return mark(number_to_urdu(str(int(n))))
+    return _en_words(n, **kw)
+
+
+def _en_words(n, **kw):
+    """Always English, whatever URDU_NUMBERS says: the digits inside a letter+number code are read in
+    English ("Bhitai six", "Block four", "ISO nine thousand and one"), which is how they are said."""
     from num2words import num2words
     return num2words(n, **kw).replace("-", " ").replace(",", "")
 
 
 def dates(t):
     """23 March 2025 / March 23, 2025 -> "twenty third March twenty twenty five": said without "the ... of"."""
+    # Per sentence, not per number: an English sentence keeps the English date, and mixing the two
+    # readings inside one sentence is exactly what mixed_numbers() was written to stop.
+    w = _words if (URDU_NUMBERS and sentence_is_urdu(t)) else _en_words
+
     def dm(m):
-        return f"{_words(int(m.group(1)), to='ordinal')} {m.group(3)}" + (f" {_words(int(m.group(4)), to='year')}" if m.group(4) else "")
+        return f"{w(int(m.group(1)), to='ordinal')} {m.group(3)}" + (f" {w(int(m.group(4)), to='year')}" if m.group(4) else "")
 
     def md(m):
-        return f"{_words(int(m.group(2)), to='ordinal')} {m.group(1)}" + (f" {_words(int(m.group(4)), to='year')}" if m.group(4) else "")
+        return f"{w(int(m.group(2)), to='ordinal')} {m.group(1)}" + (f" {w(int(m.group(4)), to='year')}" if m.group(4) else "")
     # numeric dates first, day first as written in Pakistan: 05/04/2024, 24/6/2025, 2025-03-23 -> "5 April 2024"
     def slash(m):
         d, mo, y = int(m.group(1)), int(m.group(2)), m.group(3)
@@ -260,9 +419,12 @@ def dates(t):
 
 def decimals(t):
     """55.12 -> "fifty five point one two" in English: the Urdu reading's "اعشاریہ" came out as "acharia"."""
+    if URDU_NUMBERS and sentence_is_urdu(t):
+        # urdu_numbers.expand_numbers reads the decimal in Urdu, اعشاریہ spelled as phones.
+        return t
     def w(m):
         whole, frac = m.group(1).replace(",", ""), m.group(2)
-        return f"{_words(int(whole))} point {' '.join(_words(int(d)) for d in frac)}"
+        return f"{_en_words(int(whole))} point {' '.join(_en_words(int(d)) for d in frac)}"
     return re.sub(r"(?<![\d.])(\d{1,3}(?:,\d{3})*|\d+)\.(\d+)(?![\d.])", w, t)
 
 
@@ -282,16 +444,16 @@ def ranks_and_codes(t):
     t = re.sub(r"\b([A-Z]{1,5})aaS\b", lambda m: _spell(m.group(1) + "AAS"), t)
     # a name joined to its number (Bhitai-6, Spinwam-1, Block-28, KSE-100) is said in English, and the hyphen is not a
     # minus sign; same for Block / Well / Phase / Tier numbers
-    t = re.sub(r"(?<=[A-Za-z\u0600-\u06FF])-(\d{1,3})\b", lambda m: " " + _words(int(m.group(1))), t)
-    return re.sub(r"\b(Block|Well|Phase|Tier)\s+(\d{1,3})\b", lambda m: f"{m.group(1)} {_words(int(m.group(2)))}", t)
+    t = re.sub(r"(?<=[A-Za-z\u0600-\u06FF])-(\d{1,3})\b", lambda m: " " + _en_words(int(m.group(1))), t)
+    return re.sub(r"\b(Block|Well|Phase|Tier)\s+(\d{1,3})\b", lambda m: f"{m.group(1)} {_en_words(int(m.group(2)))}", t)
 
 
 def standards(t):
     """ISO 9001:2015, ISO 45001:2018, IEC 62443 -> the code's number and year in English words ("ISO nine thousand
     and one twenty fifteen"); the colon was read as a pause and the numbers in Urdu inside Urdu sentences."""
     def one(m):
-        out = f"{m.group(1)} {_words(int(m.group(2)))}"
-        return out + (f" {_words(int(m.group(3)), to='year')}" if m.group(3) else "")
+        out = f"{m.group(1)} {_en_words(int(m.group(2)))}"
+        return out + (f" {_en_words(int(m.group(3)), to='year')}" if m.group(3) else "")
     return re.sub(r"\b(ISO|IEC|OHSAS|IATF|EN)\s?(\d{3,5})(?::((?:19|20)\d{2}))?\b", one, t)
 
 
@@ -302,8 +464,8 @@ def mixed_numbers(t):
     """In a sentence that mixes Urdu and English, every number is said in English (years as years): the reader used
     to pick Urdu or English per number from its neighbours, so one sentence said "sixty percent" and "تیس فیصد".
     Pure Urdu sentences keep Urdu numbers, and so does a number followed by an Urdu scale or time word (2 لاکھ)."""
-    if not (is_urdu(t) and re.search(r"[A-Za-z]{2}", t)):
-        return t
+    if URDU_NUMBERS or not (sentence_is_urdu(t) and re.search(r"[A-Za-z]{2}", t)):
+        return t                                # the digits reach urdu_numbers.expand_numbers instead
 
     def one(m):
         num, suffix = m.group(1), m.group(2) or ""
@@ -324,8 +486,16 @@ def phone_parens(t):
 
 def normalize(text):
     t = unicodedata.normalize("NFC", str(text))
+    _ctx.urdu = is_urdu(t)                          # judged once, before any pass can rewrite it
+    try:
+        return _normalize(t)
+    finally:
+        _ctx.urdu = None
+
+
+def _normalize(t):
     for step in (strip_markup, greeting, web, dates, standards, money, units, decimals, phone_parens, identifiers,
-                 urdu_times, ranks_and_codes, mixed_numbers, acronyms,
+                 fiscal_year_label, ranges, ordinals, urdu_times, ranks_and_codes, urdu_years, mixed_numbers, acronyms,
                  split_camel, abbreviations_without_period):
         t = step(t)
     return re.sub(r"[ \t]{2,}", " ", t).strip()
@@ -333,12 +503,14 @@ def normalize(text):
 
 # (input, must appear in normalize() output, must NOT appear)
 TESTS = [
-    ("Seema Adil 24/06/2022 کو join ہوئیں", "twenty fourth June twenty twenty two", "/"),
-    ("اور w.e.f. 24/6/2025 دوبارہ منتخب ہوئیں۔", "with effect from twenty fourth June", "w.e.f"),
-    ("Mari Ghazij سے 16/10/2025 کو oil ملا", "sixteenth October twenty twenty five", "16/10"),
+    # Urdu dates take the cardinal, not an ordinal: "سولہ اکتوبر", never "سولہواں".
+    ("Seema Adil 24/06/2022 کو join ہوئیں", "چوبیس June دو ہزار بائیس", "/"),
+    ("اور w.e.f. 24/6/2025 دوبارہ منتخب ہوئیں۔", "with effect from چوبیس June", "w.e.f"),
+    ("Mari Ghazij سے 16/10/2025 کو oil ملا", "سولہ October دو ہزار پچیس", "16/10"),
     ("ISO 9001:2015 اور ISO 45001:2018 کے مطابق", "ISO nine thousand and one twenty fifteen", ":"),
-    ("Sky47 میں 60% stake ہے، جبکہ Paramount کے پاس 30% ہے۔", "thirty percent", "%"),
-    ("GHG emissions 1,680,500 MT رہیں (2024: 1,608,492 MT)", "twenty twenty four", "1,608"),
+    # The digits and the % survive normalize(); urdu_numbers reads them ("تیس فیصد") in prepare.
+    ("Sky47 میں 60% stake ہے، جبکہ Paramount کے پاس 30% ہے۔", "30%", "thirty"),
+    ("GHG emissions 1,680,500 MT رہیں (2024: 1,608,492 MT)", "دو ہزار چوبیس", "twenty twenty four"),
     ("مجھے مہینے کے 2 لاکھ کمانے ہیں، honestly", "2 لاکھ", None),
     ("اس سال 30 فیصد اضافہ ہوا۔", "30 فیصد", "thirty"),
     ("The meeting is on 3rd March.", "third March", "3rd"),
@@ -349,7 +521,7 @@ TESTS = [
     ("Bhitai-6 well", "Bhitai six", "-6"),
     ("production began on 23 March 2025", "twenty third March twenty twenty five", "the"),
     ("As at June 30, 2025", "thirtieth June twenty twenty five", "of"),
-    ("EBITDA margin 55.12% رہا", "fifty five point one two", "55.12"),
+    ("EBITDA margin 55.12% رہا", "55.12%", "fifty five"),
     ("Sky47 Cloud offers DRaaS", "ڈی آر اے اے ایس", "DRaaS"),
     ("Block-28 and Block 4", "Block twenty eight and Block four", "Block 4"),
     ("Check your **ETF** balance.", "ETF", "**"),
@@ -358,12 +530,13 @@ TESTS = [
     ("See www.psx.com.pk", "w w w dot psx dot com dot pk", "www."),
     ("The share price is PKR 651.65 today.", "six hundred and fifty one point six five rupees", "PKR"),
     ("Profit was Rs. 5 billion", "5 billion rupees", "Rs"),
-    ("آج شیئر کی قیمت PKR 651.65 ہے", "fifty one point six five روپے", "PKR"),
+    ("آج شیئر کی قیمت PKR 651.65 ہے", "چھ سو اکاون اعشاریہ چھ پانچ روپے", "PKR"),
     ("Revenue of USD 2.5 million", "two point five million dollars", "USD"),
-    ("اس کی قیمت $5 ہے", "5 ڈالر", "$"),
+    ("اس کی قیمت $5 ہے", "پانچ ڈالر", "$"),
     ("The block covers 155,756 sq km", "square kilometres", "sq km"),
     ("a 50MW solar plant", "50 megawatts", "MW"),
-    ("Call +92 51 111 410 410 now", "plus 9 2 5 1 1 1 1 4 1 0 4 1 0", "+92"),
+    # The "+" is dropped, not spoken: it was "جمع", and "plus" before that.
+    ("Call +92 51 111 410 410 now", "9 2 5 1 1 1 1 4 1 0 4 1 0", "plus"),
     ("NTN: 1414673-8", "1 4 1 4 6 7 3 8", "1414673-8"),
     ("Registration Number: 00012471", "0 0 0 1 2 4 7 1", "00012471"),
     ("growth of 10-15 percent", "10-15", "1 0"),
@@ -416,8 +589,9 @@ PREPARED_TESTS = [
 def run_tests():
     import pk_gazetteer
     bad = 0
+    from urdu_numbers import MARK
     for src, must, must_not in TESTS:
-        out = normalize(src)
+        out = normalize(src).replace(MARK, "")       # the marker is plumbing; it never reaches the model
         ok = must in out and (not must_not or must_not not in out)
         bad += not ok
         print(f"{'PASS' if ok else 'FAIL'} {src!r} -> {out!r}")

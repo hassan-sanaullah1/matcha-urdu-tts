@@ -1,0 +1,51 @@
+{
+ "kb_word": {
+  "words": 1905,
+  "pass_rate": 0.778,
+  "mean_d": 0.159,
+  "not_located": 0,
+  "unseen_pass_rate": 0.783,
+  "unseen_words": 1491
+ },
+ "kb_acr": {
+  "words": 180,
+  "pass_rate": 0.717,
+  "mean_d": 0.187,
+  "not_located": 0,
+  "unseen_pass_rate": 0.724,
+  "unseen_words": 174
+ },
+ "kb_sent": {
+  "words": 722,
+  "pass_rate": 0.734,
+  "mean_d": 0.161,
+  "not_located": 33,
+  "unseen_pass_rate": 0.773,
+  "unseen_words": 387
+ },
+ "pair": {
+  "words": 126,
+  "pass_rate": 0.706,
+  "mean_d": 0.141,
+  "not_located": 0,
+  "unseen_pass_rate": 0.741,
+  "unseen_words": 85,
+  "pair_accuracy": 0.786
+ },
+ "gen_word": {
+  "words": 261,
+  "pass_rate": 0.782,
+  "mean_d": 0.146,
+  "not_located": 0,
+  "unseen_pass_rate": 0.773,
+  "unseen_words": 220
+ },
+ "gen_acr": {
+  "words": 50,
+  "pass_rate": 0.8,
+  "mean_d": 0.143,
+  "not_located": 0,
+  "unseen_pass_rate": 0.814,
+  "unseen_words": 43
+ }
+}

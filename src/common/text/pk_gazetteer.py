@@ -118,12 +118,29 @@ _RX = re.compile(r"(?<![A-Za-z'])(" + "|".join(re.escape(k) for k in sorted(TABL
 _ORDINAL = re.compile(r"\b(\d{1,4})(st|nd|rd|th)\b", re.I)
 
 
+# The mirror of TABLE: an Urdu spelling whose sounds are hidden -> the Latin key the English
+# router already says correctly. Urdu does not write the short vowel of "-man", so چیئرمین was
+# read "chairmeen"; Latin "Chairman" already gives ʧˈeːrmən. Same mechanism as text_norm.PK_PHONES
+# (سجاول -> "Sajawal"), and the place to add any other word that is heard wrong.
+# A borrowed English suffix is written joined to the stem, so the plain-word rule below could not
+# see it: چیئرمینسی was left whole and its سی came out as a stray "see" before the next word.
+_UR_EXACT_TO = {"چیئرمین": "Chairman", "چیئر مین": "Chairman", "چیئرپرسن": "Chairperson",
+                "چیئرمینسی": "chairmancy", "چیئرمین سی": "chairmancy",
+                "چیئرمینشپ": "chairmanship", "چیئرمین شپ": "chairmanship",
+                "چیئرمینز": "Chairmans", "چیئرپرسنز": "Chairpersons"}
+# Bounded by non-Urdu on both sides, so a match inside a longer Urdu word is not rewritten.
+_UR_EXACT = re.compile(r"(?<![؀-ۿ])(" + "|".join(
+    sorted((re.escape(k) for k in _UR_EXACT_TO), key=len, reverse=True)) + r")(?![؀-ۿ])")
+
+
 def apply(text):
     """Latin Pakistani names -> Urdu script. Possessive 's is kept as English ("Bakhsh's" stays).
-    Also English ordinals: "3rd March" -> "third March" (NeMo read it as "three rd")."""
+    Also English ordinals: "3rd March" -> "third March" (NeMo read it as "three rd"), and the few
+    Urdu spellings that hide their vowels (_UR_EXACT_TO) back to Latin."""
     from num2words import num2words
     text = unicodedata.normalize("NFC", str(text))
     text = _ORDINAL.sub(lambda m: num2words(int(m.group(1)), to="ordinal"), text)
+    text = _UR_EXACT.sub(lambda m: _UR_EXACT_TO[m.group(0)], text)
     return _RX.sub(lambda m: TABLE[m.group(0).lower()], text)
 
 
@@ -237,7 +254,10 @@ def prepare_pk(text, letters="ur"):
     """
     import text_norm
     _phones()
-    return _frontend().prepare(apply(text_norm.normalize(text)), letters=letters)
+    # The Urdu verdict is taken here, on the text as it arrived: apply() below rewrites Pakistani
+    # names into Urdu script, which would make every English sentence look like an Urdu one.
+    urdu = text_norm.is_urdu(text)
+    return _frontend().prepare(apply(text_norm.normalize(text)), letters=letters, urdu=urdu)
 
 
 # (input, substring that MUST appear in the gazetteer output, substring that must NOT appear)
@@ -300,10 +320,32 @@ PHONE_TESTS = [
     ("Sehat Umeed Referral Program", "صحت امید", "jˈuːmiːɖ"),
     ("Gen Z is online", "ʤˈɛn", "ʤˈɛnrəl"),                # a bare "Gen" before Z is a generation, not a rank
     ("Bhitai-6 well، Mari D&PL میں ہے", "bʰɪʈˈaːiː sˈɪks", "منفی"),  # well names: English number, no "minus"
-    ("ہم سے (+92) 51-111 410 410 پر رابطہ کریں", "plˈəs", "بانوے"),
+    # Digit by digit, in Urdu, and the "+" is silent (it used to be "plus", then "جمع").
+    ("ہم سے (+92) 51-111 410 410 پر رابطہ کریں", "nˈɔ dˈoː pˈaːnʧ ˈeːk", "plˈəs"),
     ("PSX and IMF", "پی ایس ایکس", None),               # real initialisms still spelled
     ("She has a PhD", "پی ایچ ڈی", None),
     ("IFRS 16", "آئی ایف آر ایس", None),
+    # The Urdu spelling hides the vowel of "-man", so this was read "chairmeen".
+    ("چیئرمین انور علی حیدر ہیں۔", "ʧˈeːrmən", "چیئرمین"),
+    ("ESG کمیٹی کی چیئرپرسن سیما عادل ہیں۔", "ʧˈeːrpərsən", "چیئرپرسن"),
+    # A joined English suffix: the سی of چیئرمینسی was heard as a stray "see" before the name.
+    ("Audit Committee کی چیئرمینسی Abid Niaz Hasan کرتے ہیں۔", "ʧˈeːrmənsiː", "چیئرمین"),
+    # ── numbers are read in Urdu ──────────────────────────────────────────
+    ("اس سال 30 فیصد اضافہ ہوا۔", "tˈiːs", "thirty"),
+    ("کمپنی کا revenue PKR 65bn تھا۔", "pɛnsˈəʈʰ ˈərəb", "bˈɪljən"),
+    ("خالص منافع 65.14 بلین روپے رہا۔", "ɛʃˈaːrɪjaː", "pˈɔɪnʈ"),
+    ("گیس فیلڈ 1954 میں دریافت ہوا۔", "ʊnnˈiːs sˈɔ ʧəʋʋˈən", "həzˈaːr"),
+    ("ملازمین کی تعداد 1,760 ہے۔", "ˈeːk həzˈaːr sˈaːt sˈɔ sˈaːʈʰ", "sˈɛʋən"),
+    # A hyphen between two numbers is a range, not منفی and not the English "to" (heard as "two").
+    ("gas 30-36 MMSCFD رہی", "tˈiːs سے ʧʰəttˈiːs", "mˈənfiː"),
+    ("2 + 2 برابر 4 ہے", "dˈoː dˈoː", "جمع"),
+    # identifiers: digit by digit
+    ("ہمارا NTN 1414673-8 ہے۔", "ˈeːk ʧˈaːr ˈeːk ʧˈaːr", "lˈaːkʰ"),
+    ("اسلام آباد – 44000 میں دفتر ہے۔", "ʧˈaːr ʧˈaːr sˈɪfər sˈɪfər sˈɪfər", "həzˈaːr"),
+    # ...but a bare five-digit quantity is still a quantity
+    ("پیداوار 44000 بیرل رہی۔", "ʧəʋaːlˈiːs həzˈaːr", "sˈɪfər sˈɪfər"),
+    # a letter+number code keeps its English reading
+    ("Bhitai-6 well، Mari G-10/4 میں ہے", "bʰɪʈˈaːiː sˈɪks", "ʧʰˈeː"),
 ]
 
 

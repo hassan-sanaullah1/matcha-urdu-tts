@@ -1,0 +1,33 @@
+{
+ "base": {
+  "cer_urdu_parity": 0.009,
+  "cer_urdu_rare": 0.0257,
+  "sim_shahed": 0.745,
+  "sim_rasa": 0.581,
+  "voice_margin": 0.164
+ },
+ "voice_demuffled@": {
+  "cer_urdu_parity": 0.0133,
+  "cer_urdu_rare": 0.034,
+  "en_hit_pure_en": 0.985,
+  "en_hit_en_names": 0.91,
+  "en_hit_en_business": 0.818,
+  "sim_shahed": 0.813,
+  "sim_rasa": 0.932,
+  "voice_margin": -0.119
+ },
+ "voice_enfix_demuffled@": {
+  "cer_urdu_parity": 0.0138,
+  "cer_urdu_rare": 0.0286,
+  "en_hit_pure_en": 1.0,
+  "en_hit_en_names": 0.89,
+  "en_hit_en_business": 0.853,
+  "sim_shahed": 0.819,
+  "sim_rasa": 0.938,
+  "voice_margin": -0.119
+ },
+ "real_shahed": {
+  "sim_shahed": 0.986,
+  "sim_rasa": 0.897
+ }
+}

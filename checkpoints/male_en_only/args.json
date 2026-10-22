@@ -1,0 +1,21 @@
+{
+ "tag": "male_en_only",
+ "data": "data/3_training_lists/male_en_only",
+ "steps": 6000,
+ "bs": 8,
+ "accum": 2,
+ "lr": 0.0001,
+ "out_size": 344,
+ "ckpt_every": 2000,
+ "workers": 4,
+ "support": "",
+ "support2": "",
+ "support2_share": 0.5,
+ "target_weight": 0.0,
+ "no_row_b": true,
+ "seed_table": "v2",
+ "noise_channel": false,
+ "mask_pauses": false,
+ "spk_lr_mult": 10.0,
+ "base": "AhsanTalal/urdu-matcha-tts/matcha_urdu.ckpt"
+}

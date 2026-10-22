@@ -361,8 +361,17 @@ def _span_pieces(span, letters):
     return pieces
 
 
-def prepare(text, letters="ph", epenthesis=False):
-    """-> the exact string the model tokenises (same contract as tts.prepare)."""
+def prepare(text, letters="ph", epenthesis=False, urdu=None):
+    """-> the exact string the model tokenises (same contract as tts.prepare).
+
+    `urdu`: whether to read numbers in Urdu. Pass the verdict for the ORIGINAL sentence, as
+    pk_gazetteer.prepare_pk does -- by the time text reaches here the gazetteer has rewritten every
+    Pakistani name into Urdu script ("Mari Energies" -> "ماڑی انرجیز"), so judging it from this text
+    would call an English sentence Urdu and read "Fauji Foundation (40%)" as "چالیس فیصد".
+    None means judge from the text, which is right only when nothing has rewritten it yet.
+    """
+    import text_norm
+    import urdu_numbers as un
     from urdu_numbers import expand_numbers
     from urdu_text_norm import normalize_for_tts
     if letters not in ("ur", "ph"):
@@ -372,16 +381,34 @@ def prepare(text, letters="ph", epenthesis=False):
     text = drop_parenthetical_gloss(text)
     text = expand_abbreviations(text)
     text = roman_urdu_guard(text)
+    # expand_codes FIRST, so the digits inside a letter+number code (FY2024-25, Sky47, 2P) are claimed
+    # in English before the Urdu pass can reach them -- that is what keeps a code read as a code.
     text = expand_codes(text)
-    text = english_numbers(text)
-    text = expand_numbers(text)
+    if text_norm.is_urdu(text) if urdu is None else urdu:
+        # Then Urdu, BEFORE english_numbers: NeMo verbalises any digit that sits near a Latin word, and
+        # with Mari's replies almost always carrying one ("revenue", "MMSCFD", "PKR") it used to claim
+        # every number in the sentence. After expand_numbers no digit is left for it to take.
+        text = expand_numbers(text)
+        text = english_numbers(text)
+    else:
+        text = english_numbers(text)                # a Latin-only sentence keeps the English reading
+        text = expand_numbers(text)
 
-    pieces, last = [], 0
-    for m in _SPAN.finditer(text):
-        pieces.append(("ur", text[last:m.start()]))
-        pieces.extend(_span_pieces(m.group(0), letters))
-        last = m.end()
-    pieces.append(("ur", text[last:]))
+    pieces = []
+    # Numerals arrive wrapped in urdu_numbers.MARK as Urdu script, so every rule above saw ordinary text.
+    # Here they become phones: the script does not write Urdu's short vowels, so the model ran the
+    # consonants together (پینسٹھ heard as "penst"). Marked spans skip the Latin-span router below, whose
+    # espeak path would otherwise spell the phones' ASCII letters out ("ns" -> "این ایس").
+    for i, part in enumerate(str(text).split(un.MARK)):
+        if i % 2:
+            pieces.append(("ph", " ".join(un.WORD_PH.get(w, w) for w in part.split())))
+            continue
+        last = 0
+        for m in _SPAN.finditer(part):
+            pieces.append(("ur", part[last:m.start()]))
+            pieces.extend(_span_pieces(m.group(0), letters))
+            last = m.end()
+        pieces.append(("ur", part[last:]))
 
     out = []
     for kind, seg in pieces:

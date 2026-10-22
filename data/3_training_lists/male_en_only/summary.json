@@ -1,0 +1,38 @@
+{
+ "alter": "none",
+ "gain": 3.522,
+ "clips_with_capped_gain": 967,
+ "held_out_video": "pkr34_male_en_only_heldout",
+ "clips": 967,
+ "train_clips": 890,
+ "train_hours": 1.13,
+ "val_rows": 130,
+ "test_rows": 24,
+ "dropped": {},
+ "class_share": {
+  "pure_en": 1.0
+ },
+ "by_queue": {
+  "accepted": 890
+ },
+ "rare_phones": {
+  "q": 4,
+  "ʔ": 0,
+  "ɣ": 22,
+  "ɽ": 32,
+  "pʰ": 0,
+  "bʰ": 0,
+  "dʰ": 17,
+  "ʈʰ": 0,
+  "ɖʰ": 0,
+  "kʰ": 12,
+  "ɡʰ": 17,
+  "ʧʰ": 1,
+  "ʤʰ": 0,
+  "ɽʰ": 0,
+  "lʰ": 0,
+  "mʰ": 0,
+  "nʰ": 0,
+  "ɴ": 0
+ }
+}

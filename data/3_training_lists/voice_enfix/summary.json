@@ -1,0 +1,37 @@
+{
+ "alter": "none",
+ "gain": 0.396,
+ "clips_with_capped_gain": 0,
+ "held_out_video": "voice_-gI_ALIlkR8",
+ "clips": 1679,
+ "train_clips": 1657,
+ "train_hours": 2.74,
+ "val_rows": 20,
+ "test_rows": 24,
+ "dropped": {},
+ "class_share": {
+  "mixed": 0.545,
+  "pure_ur": 0.014,
+  "pure_en": 0.441
+ },
+ "by_queue": {
+  "accepted": 1657
+ },
+ "rare_phones": {
+  "q": 46,
+  "ʔ": 0,
+  "ɣ": 25,
+  "ɽ": 70,
+  "pʰ": 1,
+  "dʰ": 18,
+  "ʈʰ": 14,
+  "ɖʰ": 3,
+  "ɡʰ": 24,
+  "ʧʰ": 80,
+  "ʤʰ": 61,
+  "ɽʰ": 0,
+  "lʰ": 0,
+  "mʰ": 0,
+  "nʰ": 0
+ }
+}

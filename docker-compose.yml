@@ -1,0 +1,27 @@
+name: kiosk-tts
+
+services:
+  matcha:
+    build: .
+    container_name: kiosk-tts-matcha
+    restart: unless-stopped
+    # CPU only, deliberately: this card already runs OmniVoice (English TTS) and Audio2Face
+    # (lip-sync), both on the GPU. Matcha is small enough to run acceptably on CPU and this frees
+    # it from competing with them for VRAM - see MARI_KIOSK_CONTEXT.md / the GPU-sharing notes in
+    # mari-tts-server's settings.env for why that contention matters on a 6 GB card.
+    environment:
+      KIOSK_TTS_DEFAULT_VOICE: ${KIOSK_TTS_DEFAULT_VOICE:-female}
+    volumes:
+      - ${MATCHA_VENV:-/home/ubuntu/Desktop/kaani/envs/venv}:/venv:ro
+      - .:/app:ro
+    ports:
+      # Published on all host interfaces (not 127.0.0.1-only) - the kiosk backend reaches this
+      # through its own Docker bridge gateway IP, not localhost. See .env's APP_MATCHA_TTS_URL.
+      - "${MATCHA_PORT:-8030}:8030"
+    healthcheck:
+      test: ["CMD", "/venv/bin/python3.12", "-c",
+             "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8030/healthz', timeout=5)"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 60s

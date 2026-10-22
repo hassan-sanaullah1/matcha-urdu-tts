@@ -1,0 +1,19 @@
+{
+ "name": "pkr34_en_fix",
+ "audio": "/home/ubuntu/Desktop/kaani/pk-r34-mari-phoneme-dataset/data/female",
+ "text": "/tmp/pkr34_en_fix_metadata.txt",
+ "sample_rate": 22050,
+ "metadata_rows": 897,
+ "clips": 897,
+ "hours": 1.21,
+ "kept_clips": 897,
+ "kept_hours": 1.21,
+ "kept_train_hours": 1.11,
+ "dropped": 0,
+ "drop_reasons": {},
+ "groups": 2,
+ "held_out_group": "pkr34_en_fix_heldout",
+ "held_out_clips": 72,
+ "english_word_share": 1.0,
+ "gated": false
+}

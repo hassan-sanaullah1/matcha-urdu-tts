@@ -1,0 +1,24 @@
+data/3_training_lists/male_en_only/wavs/male_01152.wav|ə smˈɔl krˈaːʊɖ ɡˈɛdərɖ nˈiːər sʊʤˈaːʋəl ʈə lˈʊk ɛʈ də rˈɔɪəl ۔
+data/3_training_lists/male_en_only/wavs/male_01152.wav|ə smˈɔl krˈaːʊɖ ɡˈɛdərɖ nˈiːər sʊʤˈaːʋəl ʈə lˈʊk ɛʈ də rˈɔɪəl xˈətmə
+data/3_training_lists/male_en_only/wavs/male_01124.wav|ə ʋˈɪzɪʈər ʈuː اسلام آباد ˈaːskʈ ə kʋˈɪk kʋˈɛsʧən əbaːʊʈ də kˈɛnʋəs niːər də ɡˈeːʈ ۔
+data/3_training_lists/male_en_only/wavs/male_01124.wav|ə ʋˈɪzɪʈər ʈuː ɪslˈaːm آباد ˈaːskʈ ə kʋˈɪk kʋˈɛsʧən əbaːʊʈ də kˈɛnʋəs niːər də ɡˈeːʈ xˈətmə
+data/3_training_lists/male_en_only/wavs/male_01165.wav|ə kʋˈaːɪəʈ ʋˈərʃən rˈɛsʈɪɖ əɡˈɛnsʈ də ʋˈɔl ɔʋdɪ ˈɔfɪs ˈɪn ماڑی fˈiːlɖ ۔
+data/3_training_lists/male_en_only/wavs/male_01165.wav|ə kʋˈaːɪəʈ ʋˈərʃən rˈɛsʈɪɖ əɡˈɛnsʈ də ʋˈɔl ɔʋdɪ ˈɔfɪs ˈɪn ماڑی fˈiːlɖ xˈətmə
+data/3_training_lists/male_en_only/wavs/male_01109.wav|fˈɛmɪlɪz ˈɪn راولپنڈی ʋər ɡrˈeːʈfəl fərdə bˈɛləʈ brˈɔʈ baːɪ də prˈoːɡrɛm ۔
+data/3_training_lists/male_en_only/wavs/male_01109.wav|fˈɛmɪlɪz ˈɪn raːʋˈəlpɪnɖiː ʋər ɡrˈeːʈfəl fərdə bˈɛləʈ brˈɔʈ baːɪ də prˈoːɡrɛm ۔
+data/3_training_lists/male_en_only/wavs/male_01112.wav|آئلا ماجد ˈaːskʈ də ɖrˈaːɪʋərz ʈə brˈɪnɡ də kˈʊʃən bˈɛk bɪfɔr nˈuːn ۔
+data/3_training_lists/male_en_only/wavs/male_01112.wav|ˈaːɪlaː mˈaːʤɪd ˈaːskʈ də ɖrˈaːɪʋərz ʈə brˈɪnɡ də kˈʊʃən bˈɛk bɪfɔr nˈuːn xˈətmə
+data/3_training_lists/male_en_only/wavs/male_01185.wav|də fˈiːlɖ ʈˈiːm rɪkˈɔrɖɪɖ də lˈaːɪbrərɪ kˈeːrfəlɪ bɪfɔr lˈiːʋɪnɡ də sˈaːɪʈ ˈɪn اسلام آباد۔
+data/3_training_lists/male_en_only/wavs/male_01185.wav|də fˈiːlɖ ʈˈiːm rɪkˈɔrɖɪɖ də lˈaːɪbrərɪ kˈeːrfəlɪ bɪfɔr lˈiːʋɪnɡ də sˈaːɪʈ ˈɪn ɪslˈaːm aːbˈaːd
+data/3_training_lists/male_en_only/wavs/male_01115.wav|sʈjˈuːɖənʈs ɛʈ də skˈuːl ˈɪn sʊʤˈaːʋəl lˈərnɖ əbaːʊʈ də fˈaːʊnʈɪn ɖjˈɔrɪnɡ klˈaːs ۔
+data/3_training_lists/male_en_only/wavs/male_01115.wav|sʈjˈuːɖənʈs ɛʈ də skˈuːl ˈɪn sʊʤˈaːʋəl lˈərnɖ əbaːʊʈ də fˈaːʊnʈɪn ɖjˈɔrɪnɡ klˈaːs xˈətmə
+data/3_training_lists/male_en_only/wavs/male_01161.wav|ə ʋˈɪzɪʈər ʈuː bənnˈuː ˈaːskʈ ə kʋˈɪk kʋˈɛsʧən əbaːʊʈ də fˈɛdər niːər də ɡˈeːʈ ۔
+data/3_training_lists/male_en_only/wavs/male_01161.wav|ə ʋˈɪzɪʈər ʈuː bənnˈuː ˈaːskʈ ə kʋˈɪk kʋˈɛsʧən əbaːʊʈ də fˈɛdər niːər də ɡˈeːʈ ۔
+data/3_training_lists/male_en_only/wavs/male_01110.wav|də kˈoːsʈlaːɪn sˈɛʈ kʋˈaːɪəʈlɪ ɔndə ʈˈeːbəl ʋˈaːɪl sʊmˈeːr اشرف شیخ fˈɪnɪʃʈ də rɪpˈɔrʈ ۔
+data/3_training_lists/male_en_only/wavs/male_01110.wav|də kˈoːsʈlaːɪn sˈɛʈ kʋˈaːɪəʈlɪ ɔndə ʈˈeːbəl ʋˈaːɪl sʊmˈeːr ˈəʃrəf شیخ fˈɪnɪʃʈ də rɪpˈɔrʈ ۔
+data/3_training_lists/male_en_only/wavs/male_01180.wav|də splˈɛʃɪz sˈɛʈ kʋˈaːɪəʈlɪ ɔndə ʈˈeːbəl ʋˈaːɪl انور علی حیدر fˈɪnɪʃʈ də rɪpˈɔrʈ ۔
+data/3_training_lists/male_en_only/wavs/male_01180.wav|də splˈɛʃɪz sˈɛʈ kʋˈaːɪəʈlɪ ɔndə ʈˈeːbəl ʋˈaːɪl ˈənʋər ˈəliː حیدر fˈɪnɪʃʈ də rɪpˈɔrʈ ۔
+data/3_training_lists/male_en_only/wavs/male_01134.wav|də bˈɔrɖ ɖɪskˈəsʈ də kˈɛbɪʤ bɪfɔr əprˈuːʋɪnɡ də njˈuː prˈɔʤɛkʈ ˈɪn sʊʤˈaːʋəl ۔
+data/3_training_lists/male_en_only/wavs/male_01134.wav|də bˈɔrɖ ɖɪskˈəsʈ də kˈɛbɪʤ bɪfɔr əprˈuːʋɪnɡ də njˈuː prˈɔʤɛkʈ ˈɪn sʊʤˈaːʋəl ۔
+data/3_training_lists/male_en_only/wavs/male_01107.wav|سیما عادل ˈaːskʈ də ɖrˈaːɪʋərz ʈə brˈɪnɡ də ʃˈoːlɖər bˈɛk bɪfɔr nˈuːn ۔
+data/3_training_lists/male_en_only/wavs/male_01107.wav|سیما ˈaːdəl ˈaːskʈ də ɖrˈaːɪʋərz ʈə brˈɪnɡ də ʃˈoːlɖər bˈɛk bɪfɔr nˈuːn ۔

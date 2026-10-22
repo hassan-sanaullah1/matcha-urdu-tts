@@ -1,0 +1,24 @@
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0040.wav|اور پھر mˈoːbaːɪl میں جو kˈoːɖ آتا ہے اس کو یہاں پر ˈɛnʈər کر دینا ہے آپ کا کام ہو گیا اب آپ دیکھ سکتے ہو یہاں پر لکھا ہوئے ʋiː aːr rɪʋjˈuːɪnɡ jɔr ɪnfərmˈeːʃən
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0040.wav|اور پھر mˈoːbaːɪl میں ʤˈoː kˈoːɖ آتا ہے ˈɪs kˈoː jˈəhaːɴ pˈər ˈɛnʈər kˈər dˈeːnaː ہے ˈaːp کا kˈaːm ہو ɡˈəjaː اب ˈaːp dˈeːkʰ sˈəkteː hˈoː jˈəhaːɴ پر لکھا ہوئے ʋiː aːr rɪʋjˈuːɪnɡ jɔr ɪnfərmˈeːʃən
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0021.wav|جس کے بعد ہمارے سامنے کچھ اس طرح کا pˈɔp اپ سامنے آئے گا جس میں تین آپشنز ہیں
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0021.wav|ʤˈɪs kˈeː بعد ہمارے سامنے کچھ ˈɪs tərˈəh کا pˈɔp ˈəp سامنے آئے گا ʤˈɪs میں تین آپشنز ہیں
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0042.wav|اس کے آگے prˈoːɡrɛs لکھا ہوا آ رہا ہے ɪn prˈoːɡrɛs تو
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0042.wav|ˈɪs کے آگے prˈoːɡrɛs لکھا hˈuːaː ˈaː رہا hˈɛ ɪn prˈoːɡrɛs tˈoː
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0002.wav|تو جیسا کہ آپ سب جانتے ہیں کہ ʧˈɛnəl کو mˈɔnɪʈaːɪz کرنے کے لیے آپ کو ایک ہزار səbskrˈaːɪbərz اور ایک سال کے اندر چار ہزار واش ʈˈaːɪm آورز
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0002.wav|تو ʤˈeːsaː kˈeː آپ sˈəb جانتے ہیں کہ ʧˈɛnəl کو mˈɔnɪʈaːɪz کرنے kˈeː لیے آپ کو ˈeːk ہزار səbskrˈaːɪbərz اور ایک sˈaːl کے اندر ʧˈaːr ہزار ʋˈaːʃ ʈˈaːɪm آورز
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0004.wav|لیکن وہ یہ نہیں جانتے کہ مونیٹائزیشن کے لیے اپلائے کیسے کرنا ہے تو
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0004.wav|lˈeːkɪn وہ یہ nəhˈiːn ʤˈaːnteː kˈeː moːniːʈaːɪzeːʃˈən کے lˈiːeː əplˈaːeː kˈeːseː کرنا ہے tˈoː
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0006.wav|جیسے ہی آپ اپلائی ناؤ کے bˈəʈən پر کلک کریں گے آپ کے سامنے یہ والا پیج ˈoːpən ہو جائے گا جس میں آپ کو مونیٹائزیشن کے sʈˈɛps نظر آئیں گے
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0006.wav|ʤˈeːseː ہی آپ əplˈaːiː nˈaːoː kˈeː bˈəʈən پر کلک kˈəreːɴ ɡˈeː آپ کے سامنے jˈeːh ʋˈaːlaː pˈeːʤ ˈoːpən hˈoː جائے گا ʤˈɪs میں آپ کو مونیٹائزیشن kˈeː sʈˈɛps نظر آئیں ɡˈeː
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0041.wav|یعنی ابھی جو آپ نے ɪnfərmˈeːʃən səbmˈɪʈ کی ہے اس کو rɪʋjˈuː کیا جا رہا ہے اب آپ دیکھ سکتے ہیں کہ ہمارا sˈɛkənɖ sʈˈɛp
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0041.wav|یعنی ˈəbʰiː جو آپ nˈeː ɪnfərmˈeːʃən səbmˈɪʈ kˈiː hˈɛ اس kˈoː rɪʋjˈuː kjˈaː جا رہا hˈɛ اب آپ dˈeːkʰ سکتے ہیں کہ həmˈaːraː sˈɛkənɖ sʈˈɛp
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0039.wav|پھر آپ کو fˈoːn nˈəmbər ʋˈɛrɪfaːɪ کرنے کے لیے دو ˈɔpʃənz دے گا ʈˈɛksʈ mˈɛsɪʤ ɛnɖ ʋˈɔɪs kˈɔl دونوں میں سے کسی ایک کو sɪlˈɛkʈ کر سکتے ہیں میں یہاں ʈˈɛksʈ mˈɛsɪʤ کو sɪlˈɛkʈ کر کے اس کو sˈɛnɖ کر دیتی ہوں
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0039.wav|پھر ˈaːp کو fˈoːn nˈəmbər ʋˈɛrɪfaːɪ kˈərneː کے لیے دو ˈɔpʃənz دے گا ʈˈɛksʈ mˈɛsɪʤ ɛnɖ ʋˈɔɪs kˈɔl dˈoːnoːɴ mˈeːɴ سے کسی ˈeːk کو sɪlˈɛkʈ کر سکتے ہیں mˈeːɴ یہاں ʈˈɛksʈ mˈɛsɪʤ کو sɪlˈɛkʈ کر کے اس kˈoː sˈɛnɖ kˈər دیتی hˈuːn
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0000.wav|haːʊ ʈə mˈɔnɪʈaːɪz آ jˈuːʈjuːb ʧˈɛnəl تو دنیا میں جتنے بھی یوٹیوبرز ہیں چاہے وہ کسی بھی ملک سے ہوں
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0000.wav|haːʊ ʈə mˈɔnɪʈaːɪz ˈaː jˈuːʈjuːb ʧˈɛnəl تو دنیا mˈeːɴ ʤˈɪtneː bʰˈiː یوٹیوبرز ہیں ʧˈaːheː ʋˈoː kˈɪsiː بھی ملک سے hˈuːn
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0031.wav|دیکھئے اس وقت بہت سارے jˈuːʈjuːb ʧˈɛnəlz hˈɛk ہوتے رہتے ہیں اس لئے میں یہی کہوں گی کہ ایڈسنس əkˈaːʊnʈ بنانے کے لئے آپ ایک frˈɛʃ ɛnɖ njˈuː جی mˈeːl aːɪɖˈiː بنائیں کسی اور جگہ پر jˈuːs نہ کریں اس
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0031.wav|دیکھئے اس وقت bˈəhʊt سارے jˈuːʈjuːb ʧˈɛnəlz hˈɛk ہوتے رہتے hˈeːɴ اس لئے mˈeːɴ jˈɛhiː کہوں گی کہ ایڈسنس əkˈaːʊnʈ bənˈaːneː کے لئے ˈaːp ایک frˈɛʃ ɛnɖ njˈuː جی mˈeːl aːɪɖˈiː bənˈaːeːɴ کسی اور جگہ pˈər jˈuːs نہ کریں ˈɪs
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0050.wav|پر جس کے نام سے بھی بنا رہے ہیں اس کی prˈɔpər ɪnfərmˈeːʃən دیں اس
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0050.wav|پر ʤˈɪs کے nˈaːm sˈeː bʰˈiː bˈənaː رہے ہیں ˈɪs کی prˈɔpər ɪnfərmˈeːʃən dˈeːɴ اس
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0043.wav|اس کا مطلب یہ ہے کہ یہ ənɖər rɪʋjˈuː چلا گیا ہے اب یہی پر لوگ پریشان ہو جاتے ہیں کہ آخر sˈɛkənɖ sʈˈɛp کب kəmplˈiːʈ ہوگا نہیں
+data/3_training_lists/voice_enfix/wavs/-gI_ALIlkR8__0043.wav|ˈɪs کا مطلب یہ hˈɛ کہ jˈeːh ənɖər rɪʋjˈuː ʧˈəlaː ɡˈəjaː ہے اب یہی پر لوگ pəriːʃˈaːn ہو جاتے ہیں کہ ˈaːxɪr sˈɛkənɖ sʈˈɛp کب kəmplˈiːʈ ہوگا نہیں

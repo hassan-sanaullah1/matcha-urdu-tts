@@ -1,0 +1,19 @@
+{
+ "name": "pkr34_male_en_only",
+ "audio": "/home/ubuntu/Desktop/kaani/pk-r34-mari-phoneme-dataset/data/male",
+ "text": "/tmp/pkr34_male_en_fix_metadata.txt",
+ "sample_rate": 22050,
+ "metadata_rows": 967,
+ "clips": 967,
+ "hours": 1.23,
+ "kept_clips": 967,
+ "kept_hours": 1.23,
+ "kept_train_hours": 1.13,
+ "dropped": 0,
+ "drop_reasons": {},
+ "groups": 2,
+ "held_out_group": "pkr34_male_en_only_heldout",
+ "held_out_clips": 77,
+ "english_word_share": 1.0,
+ "gated": false
+}
