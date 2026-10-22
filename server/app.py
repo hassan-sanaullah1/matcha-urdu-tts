@@ -1,5 +1,6 @@
-"""FastAPI TTS server for the Mari Interactive Kiosk -- the kaani male + female Urdu voices, one checkpoint,
-loaded once and kept warm. Speaks Urdu with English words/names/numbers mixed in (the kiosk's own text).
+"""FastAPI TTS server for the Mari Interactive Kiosk -- the kaani male + female Urdu voices, each its own
+checkpoint (see engine.py's docstring for why), both loaded once and kept warm. Speaks Urdu with English
+words/names/numbers mixed in (the kiosk's own text) -- English-only TTS is served separately, by mari-tts-server.
 
 It implements the contract Mari's built-in "matcha" TTS provider already expects, so Mari reaches it over
 HTTP with NO code changes for the FEMALE presenter (see MARI_INTEGRATION.md for the male presenter):
@@ -132,7 +133,7 @@ def main():
     a = ap.parse_args()
     t0 = time.time()
     import torch
-    print("loading the MatchaTTS male+female voice ...", flush=True)
+    print("loading the MatchaTTS male and female voices (separate checkpoints) ...", flush=True)
     TTS = engine.KaaniTTS(device=a.device, vocoder_device=a.vocoder_device)
     INFO.update({
         "voices": sorted(engine.VOICES),
@@ -141,7 +142,7 @@ def main():
         "device": TTS.device,
         "vocoder_device": a.vocoder_device,
         "warm_up_s": TTS.warm_up_s,
-        "checkpoint": os.path.relpath(TTS.ckpt, os.path.dirname(HERE)),
+        "checkpoint": {name: os.path.relpath(p, os.path.dirname(HERE)) for name, p in TTS.ckpts.items()},
         "cuda": torch.cuda.get_device_name(0) if torch.cuda.is_available() else None,
     })
     print(f"READY in {time.time() - t0:.1f} s  http://{a.host}:{a.port}  voices={sorted(engine.VOICES)} "

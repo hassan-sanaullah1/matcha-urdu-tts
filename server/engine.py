@@ -1,22 +1,35 @@
 """The kaani male+female voice, loaded once and kept warm: text -> 22050 Hz mono float32 audio, sentence by
-sentence. One checkpoint carries two speaker rows (Round 29 kb_male_v2_asis, step 3999):
+sentence. Urdu only (English TTS is served separately, by mari-tts-server).
 
-    speaker 0 = the MALE voice   (UpliftAI prime-time-anchor dataset)
-    speaker 1 = the FEMALE voice (the Lullaby narrator, carried into this checkpoint)
+TWO entirely separate checkpoints, one per gender -- NOT one shared dual-speaker checkpoint. The previous setup
+(one checkpoint, speaker 0 = male, speaker 1 = female, Round 29 kb_male_v2_asis step 3999) shared a backbone
+between both speaker rows; the female row could audibly pick up male-ish qualities from that shared backbone
+(the two voices are "close" by design, per the training note in checkpoints/kaani_male_female/args.json), which
+is the bleed this split removes:
 
-Rendering is exactly kiosk-tts/src/6_speak/speak.py (and byte-identical to pk-r29 src/infer.py for the same
-text + seed): split into sentences -> pk_gazetteer.prepare_pk -> tts.clean -> the chosen speaker row, 32 steps,
-temperature 0.35, seed = seed*100 + sentence index -> Vocos -> RMS/peak normalise -> sentences joined with
-0.3 s of silence.
+    MALE   = checkpoints/kaani_male_female/step=003999.ckpt, speaker row 0 (UpliftAI prime-time-anchor dataset).
+             Unchanged from before -- this checkpoint still exists and still carries a female row (id 1), but
+             this server now never asks it for that row, so the female voice can never come from here.
+    FEMALE = checkpoints/voice_demuffled/model.ckpt, speaker row 0 (her own training recipe's speaker 1 is
+             Rasa, a studio Urdu support voice -- not male, and this server never asks for that row either).
+             There is no male data anywhere in this checkpoint's lineage, so there is nothing for the male
+             voice to bleed from on this side. This is also the best Lullaby checkpoint on its own merits
+             (see docs/training_report.md Round 16): r5_p2 recipe, her own duration predictor timing,
+             de-muffled for clarity -- picked over the plain 8k and over a 6k variant.
+
+Rendering is exactly kiosk-tts/src/6_speak/speak.py for the same text + seed: split into sentences ->
+pk_gazetteer.prepare_pk -> tts.clean -> the voice's own model (+ its speaker row, for the male checkpoint
+only), 32 steps, temperature 0.35, seed = seed*100 + sentence index -> that voice's own Vocos -> RMS/peak
+normalise -> sentences joined with 0.3 s of silence.
 
 Latency:
-  - the checkpoint, Vocos, NeMo grammars, espeak and the CUDA kernels are loaded/warmed once, in __init__;
-  - both speaker rows share one loaded model (spk_cond holds a row per speaker), so switching voice is free;
+  - both checkpoints, their Vocos, NeMo grammars, espeak and the CUDA kernels are loaded/warmed once, in __init__;
+  - switching voice now means switching which loaded model is used (still ~free: both stay resident);
   - stream() yields each sentence as soon as it is rendered, so playback can start after the first one;
   - a sentence's reading and its audio are cached per (voice, text, speed, seed), so repeated kiosk lines cost ~0 ms.
 
     from engine import KaaniTTS
-    tts = KaaniTTS()                                 # ~10 s once: load + warm up both rows
+    tts = KaaniTTS()                                 # ~15 s once: load + warm up both checkpoints
     for part in tts.stream("پہلا جملہ۔ دوسرا جملہ۔", voice="male"):
         play(part["audio"])                          # float32 numpy at tts.SR
 """
@@ -41,11 +54,17 @@ import numpy as np
 import soundfile as sf
 import torch
 
-# The male+female checkpoint shipped with this server (see checkpoints/kaani_male_female/).
-CKPT = os.path.join(ROOT, "checkpoints", "kaani_male_female", "step=003999.ckpt")
+# One checkpoint per gender -- see the module docstring for why this is two files, not one shared checkpoint.
+VOICE_CKPTS = {
+    "male": os.path.join(ROOT, "checkpoints", "kaani_male_female", "step=003999.ckpt"),
+    "female": os.path.join(ROOT, "checkpoints", "voice_demuffled", "model.ckpt"),
+}
+# Speaker row to request from that voice's own checkpoint (her row 1 is Rasa support; his row 1 is her Lullaby
+# support -- this server never asks either checkpoint for its "other" row, so there is nothing to bleed from).
+VOICE_SPK = {"male": 0, "female": 0}
 
-# Speaker rows in the checkpoint. "male"/"female" are the names the server and Mari speak in.
-VOICES = {"male": 0, "female": 1}
+VOICES = {"male": "male", "female": "female"}          # name the server and Mari speak in -> itself (kept as a
+                                                         # dict so `sorted(engine.VOICES)` still works unchanged)
 DEFAULT_VOICE = os.environ.get("KIOSK_TTS_DEFAULT_VOICE", "female").strip().lower()
 
 SR = 22050
@@ -55,6 +74,18 @@ SPLIT = re.compile(r"(?<=[۔.!?؟])\s+|\n+")                  # the kiosk's sent
 ABBR_END = re.compile(r"(?:\b(?:Lt|Gen|Dr|Mr|Mrs|Ms|Col|Maj|Capt|Brig|Prof|Engr|Retd|No|Co|Inc|Ltd|Pvt|St|Jr|Sr|vs|Rs|"
                       r"approx|e\.g|i\.e)|(?<![A-Za-z])[A-Z])\.$")
 MAX_CHARS = 3000
+
+# A sentence-final nasal is swallowed: "وعلیکم السلام" came out "walaikum asalaa", in both voices. The
+# model only closes a word-final consonant when more speech follows it -- the same م is clean mid-sentence
+# (measured off the model's own alignment: energy over the م's frames is ~0.00 of the utterance's speech
+# level when it ends the input, 0.36-0.49 when a clause follows). Spelling cannot fix it: shadda, sukun, a
+# doubled م, a split-off م, and trailing ! ۔ , were all still ~0.0-0.16. So render with a throwaway clause
+# appended, then cut the audio back at the frame the alignment says that clause starts. The kiosk sends one
+# sentence per request (its own split_sentences), so the greeting always arrives as a whole utterance and
+# there is no following text to borrow.
+PAD_TEXT = " آپ کیسے ہیں"
+PAD_AFTER = re.compile(r"[من]\s*[!.۔?؟,،\"'\)]*$")      # last word ends in م or ن
+PAD_FADE_MS = 12                                                   # no click where the cut lands
 STEPS, TEMPERATURE = 32, 0.35
 WARM_UP = [
     "warm up.",
@@ -65,14 +96,14 @@ WARM_UP = [
 
 
 def resolve_voice(voice):
-    """Map a voice name (male/female, m/f, 0/1, or None) to a speaker row. Unknown -> the server default."""
+    """Map a voice name (male/female, m/f, 0/1, or None) to its canonical name. Unknown -> the server default."""
     if voice is None:
         voice = DEFAULT_VOICE
     v = str(voice).strip().lower()
     aliases = {"m": "male", "male": "male", "0": "male", "hamza": "male",
                "f": "female", "female": "female", "1": "female", "maryam": "female"}
     name = aliases.get(v, DEFAULT_VOICE if DEFAULT_VOICE in VOICES else "female")
-    return name, VOICES[name]
+    return name, name
 
 
 def split(text):
@@ -107,7 +138,7 @@ class KaaniTTS:
     SR = SR
     VOICES = VOICES
 
-    def __init__(self, ckpt=CKPT, device=None, vocoder_device="cpu", cache_size=256, warm=True):
+    def __init__(self, ckpts=None, device=None, vocoder_device="cpu", cache_size=256, warm=True):
         logging.disable(logging.WARNING)
         import matcha_torch
         import pk_gazetteer
@@ -115,25 +146,33 @@ class KaaniTTS:
         import tts
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         self.vocoder_device = vocoder_device
-        self.ckpt = ckpt
+        self.ckpts = dict(ckpts) if ckpts else dict(VOICE_CKPTS)
         self._tts, self._prep = tts, pk_gazetteer.prepare_pk
-        if not spk_cond.has_spk_cond(ckpt):
-            raise RuntimeError(f"{ckpt} has no speaker rows; this server needs the male+female checkpoint")
-        # Load the model once. load_for_inference attaches every speaker row; we pass spks explicitly per call,
-        # so the default row does not matter. matcha_torch caches the model, so _load returns the same object.
-        spk_cond.load_for_inference(ckpt, self.device, spk=0)
-        c = matcha_torch._load(ckpt, self.device)
-        self.model, self.vocos = c["model"], c["vocos"]
-        n_rows = self.model.spk_cond.emb_t.weight.shape[0]
-        if n_rows < 2:
-            raise RuntimeError(f"checkpoint has {n_rows} speaker row(s); need at least 2 (male=0, female=1)")
-        if self.vocoder_device != "cpu":                               # the wrapper hides backbone+head in a closure
-            for cell in type(self.vocos).decode.__closure__:
-                cell.cell_contents.to(self.vocoder_device)
+        self._models = {}                                               # name -> (model, vocos)
+        for name, ckpt in self.ckpts.items():
+            spk = VOICE_SPK[name]
+            has_spk = spk_cond.has_spk_cond(ckpt)
+            if spk is not None and not has_spk:
+                raise RuntimeError(f"{name}: {ckpt} has no speaker rows; expected speaker {spk}")
+            if spk is None and has_spk:
+                raise RuntimeError(f"{name}: {ckpt} unexpectedly has speaker rows; expected a single-speaker "
+                                    f"checkpoint so this voice cannot bleed from another speaker's row")
+            if spk is not None:
+                spk_cond.load_for_inference(ckpt, self.device, spk=spk)
+            c = matcha_torch._load(ckpt, self.device)
+            model, vocos = c["model"], c["vocos"]
+            if spk is not None:
+                n_rows = model.spk_cond.emb_t.weight.shape[0]
+                if n_rows <= spk:
+                    raise RuntimeError(f"{name}: checkpoint has {n_rows} speaker row(s); need row {spk}")
+            if self.vocoder_device != "cpu":                            # the wrapper hides backbone+head in a closure
+                for cell in type(vocos).decode.__closure__:
+                    cell.cell_contents.to(self.vocoder_device)
+            self._models[name] = (model, vocos)
         self.gap = np.zeros(int(GAP_S * SR), np.float32)
         self.lock = threading.Lock()                                   # one render at a time on the GPU
         self._reads = collections.OrderedDict()                        # sentence -> what the model reads
-        self._audio = collections.OrderedDict()                        # (read, spk, k, seed, speed) -> audio
+        self._audio = collections.OrderedDict()                        # (read, voice, k, seed, speed) -> audio
         self.cache_size = cache_size
         self.warm_up_s = 0.0
         if warm:
@@ -143,9 +182,9 @@ class KaaniTTS:
             for load in (frontend._roman_urdu, frontend._dictionary, frontend._nemo, names.english_words,
                          names.lexicon, names.classifier):         # lazy one-time tables (~0.6 s on first use)
                 load()
-            for spk in sorted(set(VOICES.values())):                  # warm every speaker row's CUDA path
+            for name in VOICES:                                      # warm every voice's own checkpoint/CUDA path
                 for k, s in enumerate(WARM_UP):
-                    self._render(s, spk, k, 1, 1.0, use_cache=False)
+                    self._render(s, name, k, 1, 1.0, use_cache=False)
             self.warm_up_s = round(time.time() - t0, 2)
 
     # ---- text -------------------------------------------------------------------------------------------
@@ -169,7 +208,23 @@ class KaaniTTS:
             cache.popitem(last=False)
 
     # ---- audio ------------------------------------------------------------------------------------------
-    def _render(self, sentence, spk, k, seed, speed, use_cache=True):
+    @staticmethod
+    def _drop_pad(w, attn, n_read, hop=256):
+        """Cut PAD_TEXT's audio off the end, at the frame the model's own alignment puts it.
+
+        encode() interleaves blanks (inter = blank, c0, blank, c1, ... ), so read character i is token
+        2i+1. Keeping the blank that follows the last real character keeps that consonant's release.
+        """
+        a = attn[0, 0].cpu().numpy()
+        keep = int(a[:(n_read - 1) * 2 + 3].sum()) * hop                # frames -> samples
+        if not 0 < keep < len(w):
+            return w
+        w = w[:keep].copy()
+        fade = min(int(PAD_FADE_MS / 1000 * SR), len(w))
+        w[-fade:] *= np.linspace(1.0, 0.0, fade, dtype="float32")
+        return w
+
+    def _render(self, sentence, voice_name, k, seed, speed, use_cache=True):
         """-> (audio or None, read, ms_text, ms_model, cached). Caller holds no lock; this takes it."""
         with self.lock:
             t0 = time.perf_counter()
@@ -177,18 +232,24 @@ class KaaniTTS:
             t1 = time.perf_counter()
             if not read:
                 return None, read, (t1 - t0) * 1000, 0.0, False
-            key = (read, spk, k, seed, speed)
+            key = (read, voice_name, k, seed, speed)
             if use_cache and key in self._audio:
                 self._audio.move_to_end(key)
                 return self._audio[key], read, (t1 - t0) * 1000, 0.0, True
-            inter = self._tts.encode(read)
+            model, vocos = self._models[voice_name]
+            spk = VOICE_SPK[voice_name]
+            pad = PAD_TEXT if PAD_AFTER.search(read) else ""          # see PAD_TEXT: saves a final م / ن
+            inter = self._tts.encode(read + pad)
             torch.manual_seed(seed * 100 + k)
+            kwargs = dict(n_timesteps=STEPS, temperature=TEMPERATURE, length_scale=1.0 / speed)
+            if spk is not None:                                       # only the multi-speaker (male) checkpoint
+                kwargs["spks"] = torch.full((1,), spk, dtype=torch.long, device=self.device)
             with torch.inference_mode():
-                o = self.model.synthesise(torch.tensor([inter], device=self.device),
-                                          torch.tensor([len(inter)], device=self.device),
-                                          n_timesteps=STEPS, temperature=TEMPERATURE, length_scale=1.0 / speed,
-                                          spks=torch.full((1,), spk, dtype=torch.long, device=self.device))
-                w = self.vocos.decode(o["mel"].to(self.vocoder_device)).cpu().numpy().squeeze().astype("float32")
+                o = model.synthesise(torch.tensor([inter], device=self.device),
+                                     torch.tensor([len(inter)], device=self.device), **kwargs)
+                w = vocos.decode(o["mel"].to(self.vocoder_device)).cpu().numpy().squeeze().astype("float32")
+            if pad:
+                w = self._drop_pad(w, o["attn"], len(read))
             audio = self._tts.normalize(w)
             if use_cache:
                 self._put(self._audio, key, audio)
@@ -197,10 +258,10 @@ class KaaniTTS:
     def stream(self, text, voice=None, speed=1.0, seed=1):
         """Yield one dict per sentence as soon as it is rendered:
         {index, text, read, audio (float32 or None), ms_text, ms_model, cached}."""
-        _, spk = resolve_voice(voice)
+        name, _ = resolve_voice(voice)
         speed = min(1.5, max(0.6, float(speed)))
         for k, s in enumerate(split(text)):
-            audio, read, ms_text, ms_model, cached = self._render(s, spk, k, int(seed), speed)
+            audio, read, ms_text, ms_model, cached = self._render(s, name, k, int(seed), speed)
             yield dict(index=k, text=s, read=read, audio=audio, ms_text=round(ms_text, 1),
                        ms_model=round(ms_model, 1), cached=cached)
 
